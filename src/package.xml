@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">    
-    <version>41.0</version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Dash_IOT</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account.Approval_Stock</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>Dash_Dashboards</members>
+        <members>Dash_Dashboards/Today_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Dash_APP_Page</members>
+        <members>Dash_Home_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Dash IOT User</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Dash_IOT_User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Dash_APP_Page</members>
+        <name>CustomTab</name>
+    </types>
+    <version>38.0</version>
 </Package>
