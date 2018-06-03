@@ -13,11 +13,6 @@
         <name>ConnectedApp</name>
     </types>
     <types>
-        <members>Dash_Dashboards</members>
-        <members>Dash_Dashboards/Today_Dashboard</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
         <members>Dash_APP_Page</members>
         <members>Dash_Home_Page</members>
         <name>FlexiPage</name>
