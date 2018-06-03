@@ -1,0 +1,167 @@
+<project name="Sample usage of Salesforce Ant tasks" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<property name="src.dir" value="../src"/>
+<property file="C:\Build\credentials\build_Dev.properties"/>
+
+    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+    <target name="validateClink" >
+      <!-- Upload the contents of the "mypkg" package -->
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" rollbackOnError="true" checkOnly="true"/>
+    </target>
+	
+	    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+     <target name="testDeployCode">
+      <!-- Upload the contents of the "codepkg" package, running all tests -->
+      <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" serverurl="${sfRetrieve.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" runAllTests="false" rollbackOnError="true" logType="Debugonly" checkOnly="true"/>
+    </target>
+	
+	    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+      <target name="deployCode" >
+    <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" serverurl="${sfRetrieve.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" runAllTests="false" rollbackOnError="true" logType="Debugonly"/>
+ </target>
+ 
+ 	    <!-- Test out deploy and retrieve verbs for package 'mypkg' and run all test classes
+      <target name="DeployCode" >
+    <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" serverurl="${sfRetrieve.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" runAllTests="true" testLevel="RunAllTestsInOrg" rollbackOnError="true" logType="Debugonly"/>
+ </target> -->
+	
+	
+ 	    <!-- Test out deploy and retrieve verbs for package 'mypkg' and run all test classes In Org
+      <target name="DeployCode" >
+    <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" serverurl="${sfRetrieve.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" testLevel="RunLocalTests" rollbackOnError="true" logType="Debugonly"/>
+ </target> -->
+	
+	
+	<!-- Test out deploy specified tests on branch
+	<target name="DeployCode">
+    <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" 
+        serverurl="${sfRetrieve.serverurl}" deployRoot="${src.dir}" rollbackOnError="true"
+        testLevel="RunSpecifiedTests" pollWaitMillis="40000">
+		<runTest>CA_CaseTriggerTest</runTest>
+		<runTest>LightningSelfRegisterControllerTest</runTest>
+		<runTest>CA_MyAccountEmailTemplateController_Test</runTest>
+		<runTest>LightningLoginFormControllerTest</runTest>
+		<runTest>CA_EntitlementTrigger_Test</runTest>
+		<runTest>CA_CreateInvoicePaymentMethod_Test</runTest>
+		<runTest>UserListTriggerHandlerTest</runTest>
+		<runTest>LiveAgentChatButtonTest</runTest>
+		<runTest>CA_CreateInvoicePaymentController_Test</runTest>
+		<runTest>LightningForgotPasswordControllerTest</runTest>
+		<runTest>CA_AgreementTriggerHelperTest</runTest>
+		<runTest>CA_MyAccountCustomersTriggerHelperTest</runTest>
+		<runTest>LiveAgentTranscriptTriggerTest</runTest>
+		<runTest>CA_CreatePaymentMethodControllerTest</runTest>
+		<runTest>CA_ARAccountWrapperTest</runTest>
+		<runTest>CA_MultiSelectPicklistTest</runTest>
+		<runTest>CA_MyAccountControllerTest</runTest>
+		<runTest>CA_DocuSignEnvelopeTriggerHelperTest</runTest>
+		<runTest>CA_CreateInvoicePaymentMethodContllTest</runTest>
+		<runTest>CA_GenerateZuoraPDFContentTest</runTest>
+		<runTest>CA_CaptureCommentsTest</runTest>
+		<runTest>CA_AgreementRelationshipsControllerTest</runTest>
+		<runTest>CA_AgreementDeleteControllerTest</runTest>
+		<runTest>CA_AffiliateAccountTriggerHelperTest</runTest>
+		<runTest>CA_AccountChangeRequest_Controller_Test</runTest>
+		<runTest>CA_OpportunityTrigger_Test</runTest>
+		<runTest>CA_LegalEntityTranslatorUtilityTest</runTest>
+		<runTest>CA_TypeAheadCategories_Controller_Test</runTest>
+		<runTest>CA_AccountTrigger_Test</runTest>
+		<runTest>CA_GoverningLawRuleUtilityTest</runTest>
+		<runTest>CA_AttachmentTrigger2HelperTest</runTest>
+		<runTest>TestCA_UserTrigger</runTest>
+		<runTest>CA_DocumentVersionTriggerHelperTest</runTest>
+		<runTest>VFPDFPageControllerTest</runTest>
+		<runTest>CA_EmailMessageTrigger_Test</runTest>
+		<runTest>LOG_LogMessageUtilityTest</runTest>
+		<runTest>CA_PicklistComponent_ControllerTest</runTest>
+		<runTest>CA_AccountWarning_Controller_Test</runTest>
+		<runTest>QuoteExtControllerTest</runTest>
+		<runTest>CA_EntitlementWarning_Controller_Test</runTest>
+		<runTest>CommunitiesLoginControllerTest</runTest>
+		<runTest>CA_CaptureNameTest</runTest>
+		<runTest>CA_Opportunity_DealAlertTest</runTest>
+		<runTest>CA_GenerateAttachmentControllerTest</runTest>
+		<runTest>CA_SendDocuSignExtnTest</runTest>
+		<runTest>ForgotPasswordControllerTest</runTest>
+		<runTest>CommunitiesSelfRegConfirmControllerTest</runTest>
+		<runTest>SiteLoginControllerTest</runTest>
+		<runTest>ChangePasswordControllerTest</runTest>
+		<runTest>CA_Attachmenttrgr_test</runTest>
+		<runTest>CA_CommonQuestions_ControllerTest</runTest>
+		<runTest>CA_BannerMessageControllerTest</runTest>
+		<runTest>CA_TaskTriggerTest</runTest>
+		<runTest>CA_MDGChangeRequestController_Test</runTest>
+		<runTest>CA_ZuoraComponentRegistrationTest</runTest>
+		<runTest>CommunitiesSelfRegControllerTest</runTest>
+		<runTest>MockHTTPResponseZuoraPDF</runTest>
+		<runTest>CA_OpportunitySplitTrigger_Test</runTest>
+		<runTest>CA_ContactContractAdmin_Controller_Test</runTest>
+		<runTest>CA_OpportunityTeamMemberTrigger_Test</runTest>
+		<runTest>CommunitiesLandingControllerTest</runTest>
+		<runTest>CreatePaymentMockHttpResponseGenerator</runTest>
+		<runTest>CA_RecalculateControllerTest</runTest>
+		<runTest>CA_NDAFromAccountControllerTest</runTest>
+		<runTest>CA_TestDataFactory</runTest>
+		<runTest>CA_DocumentGenerateHelperTest</runTest>
+		<runTest>CA_EntitlementProductTrigger_Test</runTest>
+		<runTest>CA_InternalSupportControllerTest</runTest>
+		<runTest>CA_MasterAgreementRequest_Contrlr_Test</runTest>
+		<runTest>CA_MockHttpResponseInvoiceCntll</runTest>
+		<runTest>CA_ZuoraComponentBackFunTest</runTest>
+		<runTest>PreChatFormControllerTest</runTest>
+		<runTest>CA_Schedule_ReCalculateQuoteTest</runTest>
+		<runTest>CA_QuotaAssignmentBatch_Test</runTest>
+		<runTest>SiteRegisterControllerTest</runTest>
+		<runTest>CA_MockHttpResponseGenerator</runTest>
+		<runTest>CA_WebServiceMockGenerator</runTest>
+		<runTest>MyProfilePageControllerTest</runTest>
+		<runTest>CA_TrialChangeProductWidget_Contrlr_Test</runTest>
+		<runTest>CA_OpenACase_ControllerTest</runTest>
+		<runTest>CA_ContentVersion_Test</runTest>
+		<runTest>CA_QuoteLineTriggerHelperTest</runTest>
+		<runTest>CA_ContentDocumentLinkTriggerTest</runTest>
+		<runTest>LOG_DeleteLogMessagesSchedulerTest</runTest>
+		<runTest>CA_QuoteDocumentTriggerHelperTest</runTest>
+		<runTest>CA_QuoteTriggerHelperTest</runTest>
+		<runTest>CA_ContractAmendExtnTest</runTest>
+		<runTest>CA_Schedule_AcceptRenewalQuotes_Test</runTest>
+		<runTest>CA_InvoiceTriggerHelper_Test</runTest>
+		<runTest>CA_QuoteAcceptExtensionTest</runTest>
+		<runTest>LOG_TestDataUtility</runTest>
+		<runTest>CA_SetTestData</runTest>
+		<runTest>CA_Schedule_UpdateQuoteDocStatus_Test</runTest>
+		<runTest>CA_CurrencyRatesSyncBatch_Test</runTest>
+		<runTest>CA_SubscriptionTriggerHelperTest</runTest>
+		<runTest>CA_RecordJobTriggerHelperTest</runTest>
+		<runTest>CA_S1_Account_Callout_Test</runTest>
+		<runTest>CA_Schedule_RenewalQuoteTest</runTest>
+		<runTest>CA_LookupComponent_Controller_Test</runTest>
+		<runTest>CA_Schedule_RenewalForecast_Test</runTest>
+		<runTest>CA_Schedule_Batch_Create_Leads_Ren_Test</runTest>
+		<runTest>CA_OpportunityLineItemTrigger_Test</runTest>
+		<runTest>CA_ScheduleUpdateOpportunity_Test</runTest>
+		<runTest>CA_S1_Contact_Callout_Test</runTest>
+		<runTest>CA_ContractTrigger_Test</runTest>
+		<runTest>CA_Batch_Create_Leads_RenewalCancel_Test</runTest>
+		<runTest>CA_CasePurgeBatchTest</runTest>
+		<runTest>CA_BatchUpdateContractonQuoteTest</runTest>
+		<runTest>CA_BatchUpdateOrderedonQuoteTest</runTest>
+		<runTest>CA_FileUploadControllerTest</runTest>
+		<runTest>CA_BatchProcessProductionSchedule_Test</runTest>
+		<runTest>CA_AccountDeactivationBatchTest</runTest>
+		<runTest>CA_AccountContactRelationTrigger_Test</runTest>
+		<runTest>CA_Opportunity_SendToOpenAir_Test</runTest>
+		<runTest>CA_OpportunitySplitControllerTest</runTest>
+		<runTest>CA_OrderTriggerHelperTest</runTest>
+		<runTest>CA_OrderItemTriggerTest</runTest>
+		<runTest>CA_GenerateRenewalPDF_Test</runTest>
+		<runTest>CA_Schedule_GenerateRenewalDocument_Test</runTest>
+		<runTest>CA_Batch_RenewalForecastTest</runTest>
+		<runTest>CA_Batch_GenerateRenewalDocument_Test</runTest>
+		<runTest>CA_Queueable_SendRenewalNotice_Test</runTest>
+		<runTest>CA_ARSelectorControllerTest</runTest>
+		<runTest>CA_Schedule_UpdateDocumentStatus_Test</runTest>
+		<runTest>CA_BackfileMultiplierTriggerHelperTest</runTest>
+		<runTest>CA_ClarivateEmailHeaderLogoCtrlTest</runTest>
+    </sf:deploy>
+	</target> -->
+	</project>
