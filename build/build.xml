@@ -15,7 +15,7 @@
     </target>
 	
 	    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
-      <target name="deployCode" >
+      <target name="DeployCode" >
     <sf:deploy username="${sfRetrieve.username}" password="${sfRetrieve.password}" serverurl="${sfRetrieve.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" runAllTests="false" rollbackOnError="true" logType="Debugonly"/>
  </target>
  
