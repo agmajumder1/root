@@ -12,6 +12,7 @@
         <members>*</members>
         <name>ConnectedApp</name>
     </types>
+    
     <types>
         <members>Dash_APP_Page</members>
         <members>Dash_Home_Page</members>
