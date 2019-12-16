@@ -1,6 +1,6 @@
 <project name="Sample usage of Salesforce Ant tasks" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 <property name="src.dir" value="../src"/>
-<property file="C:\Build\credentials\build_Dev.properties"/>
+<property file="C:\BuildTest\root\build\build.properties"/>
 
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target name="validateClink" >
