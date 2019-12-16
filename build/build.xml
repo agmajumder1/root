@@ -11,7 +11,7 @@
 	    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
      <target name="testDeployCode">
       <!-- Upload the contents of the "codepkg" package, running all tests -->
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${src.dir}" runAllTests="false" rollbackOnError="true" logType="Debugonly" checkOnly="true"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="${src.dir}" runAllTests="false" rollbackOnError="true" logType="Debugonly" checkOnly="true"/>
     </target>
 	
 	    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
