@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Assigned</masterLabel>
+        <translation><!-- Assigned --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Associate</masterLabel>
+        <translation>Asociado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Awaiting SPR Code Release</masterLabel>
+        <translation><!-- Awaiting SPR Code Release --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Build Out Released</masterLabel>
+        <translation><!-- Build Out Released --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Cancelado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled or Duplicate</masterLabel>
+        <translation>Cancelado o Duplicado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Cerrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complete</masterLabel>
+        <translation><!-- Complete --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complete—Impact</masterLabel>
+        <translation><!-- Complete—Impact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complete—No issues</masterLabel>
+        <translation><!-- Complete—No issues --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complete—Pending Quality Assurance</masterLabel>
+        <translation><!-- Complete—Pending Quality Assurance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Director Approved and Scheduled</masterLabel>
+        <translation><!-- Director Approved and Scheduled --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EMRB Approved</masterLabel>
+        <translation><!-- EMRB Approved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ENG - SPR Active</masterLabel>
+        <translation><!-- ENG - SPR Active --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated</masterLabel>
+        <translation>Escalado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated to Regulator</masterLabel>
+        <translation>Escalado al Regulador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Failed QA</masterLabel>
+        <translation><!-- Failed QA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hold</masterLabel>
+        <translation>Retener</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hold-Awaiting Hardware</masterLabel>
+        <translation>Retener - Esperar Hardware</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hold—Awaiting Information</masterLabel>
+        <translation><!-- Hold—Awaiting Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implementation Phase</masterLabel>
+        <translation><!-- Implementation Phase --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installed</masterLabel>
+        <translation><!-- Installed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investigation Closed</masterLabel>
+        <translation><!-- Investigation Closed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investigation Open</masterLabel>
+        <translation><!-- Investigation Open --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MRB Approved</masterLabel>
+        <translation><!-- MRB Approved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Nuevo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>No Problem Found</masterLabel>
+        <translation>No se ha encuentrado ningún problema</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open</masterLabel>
+        <translation><!-- Open --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Acknowledge</masterLabel>
+        <translation>Abierto - Reconocimiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - De-escalate</masterLabel>
+        <translation>Abierto - Desescalar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Dispatch</masterLabel>
+        <translation>Abierto - Envío</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Esc NE review</masterLabel>
+        <translation><!-- Open - Esc NE review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalate</masterLabel>
+        <translation>Abierto - Escalar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated</masterLabel>
+        <translation>Abierto - Escalado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated Field Terr Supp</masterLabel>
+        <translation><!-- Open - Escalated Field Terr Supp --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated to Call Center</masterLabel>
+        <translation><!-- Open - Escalated to Call Center --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated to NAP Provisioning</masterLabel>
+        <translation><!-- Open - Escalated to NAP Provisioning --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated to NOC</masterLabel>
+        <translation><!-- Open - Escalated to NOC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Escalated to PM</masterLabel>
+        <translation><!-- Open - Escalated to PM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Holding for Parts</masterLabel>
+        <translation><!-- Open - Holding for Parts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - In Progress</masterLabel>
+        <translation><!-- Open - In Progress --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Investigating</masterLabel>
+        <translation>Abierto - En Investigación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - On Site</masterLabel>
+        <translation><!-- Open - On Site --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - PAM Case</masterLabel>
+        <translation><!-- Open - PAM Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Pending NE</masterLabel>
+        <translation><!-- Open - Pending NE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Pending Release</masterLabel>
+        <translation>Abierto - Pendiente Liberación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Pending Tech Review</masterLabel>
+        <translation><!-- Open - Pending Tech Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Provisioning Processing</masterLabel>
+        <translation><!-- Open - Provisioning Processing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Reassigned</masterLabel>
+        <translation>Abierto - Reasignado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Repair</masterLabel>
+        <translation>Abierto - Reparacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Special Escalation</masterLabel>
+        <translation><!-- Open - Special Escalation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Suspension</masterLabel>
+        <translation><!-- Open - Suspension --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Troubleshooting</masterLabel>
+        <translation>Abierto - Solución de Problemas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Upgrade</masterLabel>
+        <translation>Abierto - Actualización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Web</masterLabel>
+        <translation>Abierto – Web</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open - Web Case</masterLabel>
+        <translation><!-- Open - Web Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open Escalated</masterLabel>
+        <translation><!-- Open Escalated --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open PSR</masterLabel>
+        <translation><!-- Open PSR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open Unassigned</masterLabel>
+        <translation><!-- Open Unassigned --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open Work in Progress</masterLabel>
+        <translation><!-- Open Work in Progress --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Operator Analysis</masterLabel>
+        <translation>Análisis del Operador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Operator Analysis - Escalated</masterLabel>
+        <translation>Análisis del Operador - Escalado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pend- NE Trblshoot</masterLabel>
+        <translation><!-- Pend- NE Trblshoot --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Callback</masterLabel>
+        <translation>Pendiente - Devolver llamada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Cancel</masterLabel>
+        <translation><!-- Pending - Cancel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Construction</masterLabel>
+        <translation><!-- Pending - Construction --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Customer Contact</masterLabel>
+        <translation><!-- Pending - Customer Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Customer Input</masterLabel>
+        <translation>Pendiente - Insumo del Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Engineering Action</masterLabel>
+        <translation>Pendiente - Acción de Ingeniería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Hughes Closure</masterLabel>
+        <translation><!-- Pending - Hughes Closure --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Install</masterLabel>
+        <translation><!-- Pending - Install --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - MOD</masterLabel>
+        <translation><!-- Pending - MOD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Monitoring</masterLabel>
+        <translation><!-- Pending - Monitoring --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - NAP</masterLabel>
+        <translation><!-- Pending - NAP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Provisioning Group</masterLabel>
+        <translation><!-- Pending - Provisioning Group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Service Provider Closure</masterLabel>
+        <translation><!-- Pending - Service Provider Closure --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Site Access</masterLabel>
+        <translation><!-- Pending - Site Access --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Vendor Meet</masterLabel>
+        <translation><!-- Pending - Vendor Meet --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending - Weather</masterLabel>
+        <translation>Pendiente por el Clima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Acceptance</masterLabel>
+        <translation>Pendiente Aceptación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Approval</masterLabel>
+        <translation>Pendiente Aprobación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Confirmation</masterLabel>
+        <translation>Confirmación pendiente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Customer Confirmation</masterLabel>
+        <translation><!-- Pending Customer Confirmation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Customer Input</masterLabel>
+        <translation>Pendiente - Insumo del Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Follow On Case</masterLabel>
+        <translation><!-- Pending Follow On Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Post Install Provisioning</masterLabel>
+        <translation><!-- Pending Post Install Provisioning --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Re-Activation</masterLabel>
+        <translation><!-- Pending Re-Activation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Resolution</masterLabel>
+        <translation>Pendiente Resolución</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending- OA</masterLabel>
+        <translation><!-- Pending- OA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Plan</masterLabel>
+        <translation><!-- Project Plan --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualified</masterLabel>
+        <translation><!-- Qualified --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Redirected to Third Party</masterLabel>
+        <translation>Traslado a operador competente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Resolved or Completed</masterLabel>
+        <translation>Resuelto o Completo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SPF Released</masterLabel>
+        <translation>SPF liberado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SPR Opened</masterLabel>
+        <translation><!-- SPR Opened --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Scheduled</masterLabel>
+        <translation>Agendado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Testing</masterLabel>
+        <translation>Pruebas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Troubleshooting</masterLabel>
+        <translation>Solución de Problemas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Upgrade Complete</masterLabel>
+        <translation>Actualización completa</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

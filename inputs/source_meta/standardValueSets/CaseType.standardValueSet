@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dealer</fullName>
+        <default>false</default>
+        <label>Dealer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Agent</fullName>
+        <default>false</default>
+        <label>Sales Agent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hughes Direct Dealer</fullName>
+        <default>false</default>
+        <label>Hughes Direct Dealer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Technical</fullName>
+        <default>false</default>
+        <label>Non-Technical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical</fullName>
+        <default>false</default>
+        <label>Technical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SP Truck Roll</fullName>
+        <default>false</default>
+        <label>SP Truck Roll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NAP Truck Roll</fullName>
+        <default>false</default>
+        <label>NAP Truck Roll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor Meet</fullName>
+        <default>false</default>
+        <label>Vendor Meet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Set Up</fullName>
+        <default>false</default>
+        <label>Set Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Request</fullName>
+        <default>false</default>
+        <label>Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approvals</fullName>
+        <default>false</default>
+        <label>Approvals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Forms</fullName>
+        <default>false</default>
+        <label>Forms</label>
+    </standardValue>
+</StandardValueSet>
