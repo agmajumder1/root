@@ -1,0 +1,61 @@
+Translation File,API Name,Error
+CaseStatus-es_CL.standardValueSetTranslation,Assigned,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Awaiting SPR Code Release,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Build Out Released,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Complete,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Complete—Impact,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Complete—No issues,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Complete—Pending Quality Assurance,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Director Approved and Scheduled,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,EMRB Approved,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,ENG - SPR Active,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Escalated to SIC,API name not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Failed QA,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Hold—Awaiting Information,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Implementation Phase,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Installed,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Investigation Closed,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Investigation Open,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,MRB Approved,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open Escalated,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Escalated Field Terr Supp,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Escalated to Call Center,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Escalated to NAP Provisioning,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Escalated to NOC,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Escalated to PM,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Esc NE review,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Holding for Parts,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - In Progress,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - On Site,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - PAM Case,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Pending NE,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Pending Tech Review,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Provisioning Processing,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open PSR,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Special Escalation,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Suspension,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open Unassigned,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open - Web Case,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Open Work in Progress,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Cancel,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Construction,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending Customer Confirmation,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Customer Contact,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending Follow On Case,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Hughes Closure,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Install,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - MOD,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Monitoring,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - NAP,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending- OA,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending Post Install Provisioning,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Provisioning Group,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending Re-Activation,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Service Provider Closure,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Site Access,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pending - Vendor Meet,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Pend- NE Trblshoot,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Project Plan,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,Qualified,Value commented/not found in translation file.
+CaseStatus-es_CL.standardValueSetTranslation,SPR Opened,Value commented/not found in translation file.

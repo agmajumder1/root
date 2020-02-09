@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Contains settings needed to interact with an external application or system interface via redirect, automated login or API.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Authorization_Header__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorization Header</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Authorization_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorization Value</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DisableRefresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Disable Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Tool_Type__c</fullName>
+        <description>Field to determine the Type of Tool like NAP Ticketing System, etc</description>
+        <externalId>false</externalId>
+        <label>Tool Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Interface_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Interface Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginId_Parameter__c</fullName>
+        <description>The parameter name for the default/provider group username while submitting the form</description>
+        <externalId>false</externalId>
+        <label>LoginId Parameter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginId__c</fullName>
+        <externalId>false</externalId>
+        <label>LoginId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Password_Parameter__c</fullName>
+        <description>This field is to store the parameter for default/provider group password while submitting the form</description>
+        <externalId>false</externalId>
+        <label>Password Parameter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Password__c</fullName>
+        <externalId>false</externalId>
+        <label>Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_processing_Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre-processing Class</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_template__c</fullName>
+        <externalId>false</externalId>
+        <label>URL template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Uses_Provider_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Uses Provider Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isAssetTool__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates if the url is for asset tool</description>
+        <externalId>false</externalId>
+        <label>isAssetTool</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isCSRTools__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field indicated if the custom setting is used in the CSR Tools Page</description>
+        <externalId>false</externalId>
+        <label>isCSRTools</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isGETMethod__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This variable defines, whether the form has to be posted using &apos;post&apos; method or &apos;get&apos; method</description>
+        <externalId>false</externalId>
+        <label>isGETMethod</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isGET__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is checked if any form parameters needs to be sent in URL</description>
+        <externalId>false</externalId>
+        <label>isGET</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isPOST__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isPOST</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isStaticURL__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isStaticURL</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>openInAccount360__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>openInAccount360</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>openInNewWindow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Flag to identify if an URL is to be opened in a new window/tab.</description>
+        <externalId>false</externalId>
+        <label>openInNewWindow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>HughesSvc_External Interface Setting</label>
+    <visibility>Public</visibility>
+</CustomObject>

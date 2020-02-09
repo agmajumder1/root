@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ExternalObjectExists__c</fullName>
+        <description>The value of this field will signify if the external object exists or not</description>
+        <externalId>false</externalId>
+        <label>ExternalObjectExists</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>SA_FSO_EXtObject</label>
+    <visibility>Public</visibility>
+</CustomObject>

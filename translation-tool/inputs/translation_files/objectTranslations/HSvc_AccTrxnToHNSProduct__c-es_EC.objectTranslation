@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transacción de Cuenta a Producto HNS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transacción de Cuenta a Productos HNS</value>
+    </caseValues>
+    <fields>
+        <label>Transacción de Cuenta</label>
+        <name>HSvc_AccountTransaction__c</name>
+        <relationshipLabel>Transacción de Cuenta a Productos HNS</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>HSvc_Description__c</name>
+    </fields>
+    <fields>
+        <label>Producto HNS</label>
+        <name>HSvc_HNSProduct__c</name>
+        <relationshipLabel>Transacción de Cuenta a Productos HNS</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Account Transaction To HNS Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de Transacción de Cuenta a Produc</nameFieldLabel>
+</CustomObjectTranslation>

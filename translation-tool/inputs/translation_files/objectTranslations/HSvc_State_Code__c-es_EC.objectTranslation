@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- State Code --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- State Code --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- HSvc_State_CodeSearchInput --></label>
+        <name>HSvc_State_CodeSearchInput</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HSvc_State_CodeSearchOutput --></label>
+        <name>HSvc_State_CodeSearchOutput</name>
+    </fieldSets>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Code Description(Chile) --></label>
+        <name>Hsvc_StateCodeDescriptionChile__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Code Description(Ecuador) --></label>
+        <name>Hsvc_StateCodeDescriptionEcuador__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Code Description(Panama) --></label>
+        <name>Hsvc_StateCodeDescriptionPanama__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Code Description(Peru) --></label>
+        <name>Hsvc_StateCodeDescriptionPeru__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <lookupFilter>
+            <errorMessage><!-- Only Products of Type Service can be selected --></errorMessage>
+        </lookupFilter>
+        <name>Product_Code__c</name>
+        <relationshipLabel>Códigos de Estado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descripción_ENUS Código de Estado</label>
+        <name>State_Code_Description_ENUS__c</name>
+    </fields>
+    <fields>
+        <label>Descripción_ESCO Código de Estado</label>
+        <name>State_Code_Description_ESCO__c</name>
+    </fields>
+    <fields>
+        <label>Descripción Código de Estado</label>
+        <name>State_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>is_Active__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>State Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- State Code --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Expiry Date cannot be set in past and cannot be less than the effective date --></errorMessage>
+        <name>ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter value in atleast One description field. --></errorMessage>
+        <name>StateCodeDescriptionNotBlank</name>
+    </validationRules>
+</CustomObjectTranslation>

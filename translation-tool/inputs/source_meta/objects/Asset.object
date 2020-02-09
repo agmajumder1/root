@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList</label>
+    </fieldSets>
+	<fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList_AR</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal For Argentina.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList_AR</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList_CL</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal For Chile.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList_CL</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList_CO</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal For Columbia.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList_CO</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList_EC</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal For Ecuador.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList_EC</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>YAHS_PP_AccountDetail_RelatedList_PE</fullName>
+        <description>Contains the fields for Asset Related List section of Account Detail Page in Partner Portal For Peru.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InstallDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Beam_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Gateway_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>YAHS_PP_AccountDetail_RelatedList_PE</label>
+    </fieldSets>
+    <fields>
+        <fullName>ACS_Site_ID__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Only applicable for Ku VSATs</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Only applicable for Ku VSATs</inlineHelpText>
+        <label>ACS Site ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Access_Hours__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Indicates when the technician can have access to the asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates when the technician can have access to the asset</inlineHelpText>
+        <label>Access Hours</label>
+        <referenceTo>BusinessHours</referenceTo>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Adapter_Model__c</fullName>
+        <description>Adapter Model</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Adapter Model</inlineHelpText>
+        <label>Adapter Model</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssetLevel</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetProvidedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetServicedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset Owner</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>LE</value>
+            </filterItems>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Brand</value>
+            </filterItems>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Franchise</value>
+            </filterItems>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Franchise-1</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Assets (Asset Owner)</relationshipLabel>
+        <relationshipName>Assets1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Supported_By__c</fullName>
+        <description>For Hughes Assets: N/A
+
+For Customer Assets: Hughes, Customer, NAP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: N/A
+
+For Customer Assets: Hughes, Customer, NAP</inlineHelpText>
+        <label>Asset Supported By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hughes</fullName>
+                    <default>false</default>
+                    <label>Hughes</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>NAP</fullName>
+                    <default>false</default>
+                    <label>NAP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Asset_Type__c</fullName>
+        <description>Indicates Hughes vs. Customer Assets</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates Hughes vs. Customer Assets</inlineHelpText>
+        <label>Asset Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hughes</fullName>
+                    <default>false</default>
+                    <label>Hughes</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Associated_Networks__c</fullName>
+        <description>For Hughes Assets: List of Networks a given Hughes Asset is associated with separated by | (Pipe) delimiter.
+
+For Customer Assets: N/A</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: List of Networks a given Hughes Asset is associated with separated by | (Pipe) delimiter.
+
+For Customer Assets: N/A</inlineHelpText>
+        <label>Associated Networks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Backup_NAP_WAN_Gateway_IP__c</fullName>
+        <description>Backup NAP WAN Gateway IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Backup NAP WAN Gateway IP</inlineHelpText>
+        <label>Backup NAP WAN Gateway IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Backup_NAP_WAN_IP__c</fullName>
+        <description>Backup NAP WAN IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Backup NAP WAN IP</inlineHelpText>
+        <label>Backup NAP WAN IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Backup_NAP_WAN_Protocol__c</fullName>
+        <description>Backup NAP WAN Protocol</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Backup NAP WAN Protocol</inlineHelpText>
+        <label>Backup NAP WAN Protocol</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Backup_NAP_WAN_Subnet_Mask__c</fullName>
+        <description>Backup NAP WAN Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Backup NAP WAN Subnet Mask</inlineHelpText>
+        <label>Backup NAP WAN Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Barcode__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Device Serial number which is scanned.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Device Serial number which is scanned.</inlineHelpText>
+        <label>Barcode</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Beam_Id__c</fullName>
+        <description>Beam Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Beam Id</inlineHelpText>
+        <label>Beam Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CV_Site_ID__c</fullName>
+        <description>CV Site ID</description>
+        <externalId>true</externalId>
+        <inlineHelpText>CV Site ID</inlineHelpText>
+        <label>CV Site ID</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Channel_ID__c</fullName>
+        <description>Channel ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Channel ID</inlineHelpText>
+        <label>Channel ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Checkdigit__c</fullName>
+        <description>Checkdigit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkdigit</inlineHelpText>
+        <label>Checkdigit</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Circuit_ID__c</fullName>
+        <description>For Hughes Assets: N/A
+
+For Customer Assets: Same as NAP Key or ST Name or Wireless Account Number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: N/A
+
+For Customer Assets: Same as NAP Key or ST Name or Wireless Account Number.</inlineHelpText>
+        <label>Circuit ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Courtesy_Warranty_End_Date__c</fullName>
+        <description>Applicable for B2C only that all customers get.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Courtesy Warranty End Date</inlineHelpText>
+        <label>Courtesy Warranty End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Customer_Location_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Customer_Location_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Location ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Order_Number__c</fullName>
+        <description>Customer Order Number for NAP orders</description>
+        <externalId>false</externalId>
+        <label>Customer Order Number</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Customer Program</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer Program</inlineHelpText>
+        <label>Customer Program</label>
+        <referenceTo>Program__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Region__c</fullName>
+        <description>Customer Region</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer Region</inlineHelpText>
+        <label>Customer Region</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Site_Id__c</fullName>
+        <description>Customer Site Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer Site Id</inlineHelpText>
+        <label>Customer Site Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DI_CheckSum__c</fullName>
+        <externalId>false</externalId>
+        <label>DI CheckSum</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DMN_Vendor_Name__c</fullName>
+        <description>DMN Vendor Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DMN Vendor Name</inlineHelpText>
+        <label>DMN Vendor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSS_Order_ID__c</fullName>
+        <description>DSS Order ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DSS Order ID</inlineHelpText>
+        <label>DSS Order ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Center__c</fullName>
+        <description>For Hughes Assets; Comma Separated list of Datacen-ters that the asset is a member (typically 1, but not always)
+
+For Customer Assets; N/A</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; Comma Separated list of Datacen-ters that the asset is a member (typically 1, but not always)
+
+For Customer Assets; N/A</inlineHelpText>
+        <label>Data Center</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deregister_date__c</fullName>
+        <description>Deregister date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Deregister date</inlineHelpText>
+        <label>Deregister date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Downlink_Cellid__c</fullName>
+        <description>Downlink Cellid</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Downlink Cellid</inlineHelpText>
+        <label>Downlink Cellid</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Downlink_Speed__c</fullName>
+        <description>Downlink Speed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Downlink Speed</inlineHelpText>
+        <label>Downlink Speed</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ESRI_Latitude__c</fullName>
+        <description>ESRI Latitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ESRI Latitude</inlineHelpText>
+        <label>ESRI Latitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ESRI_Longitude__c</fullName>
+        <description>ESRI Longitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ESRI Longitude</inlineHelpText>
+        <label>ESRI Longitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Message__c</fullName>
+        <description>Error Message is Used to show the Error happend on the Conversion Process</description>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Extented_Trial_Period_Date__c</fullName>
+        <description>Extented Trial Period Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Extented Trial Period Date</inlineHelpText>
+        <label>Extented Trial Period Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FAP_Plan_ID__c</fullName>
+        <description>FAP Plan ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>FAP Plan ID</inlineHelpText>
+        <label>FAP Plan ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSO_ID__c</fullName>
+        <description>FSO ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>FSO ID</inlineHelpText>
+        <label>FSO ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Failover_Hub__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; it represents diversity hub</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; it represents diversity hub</inlineHelpText>
+        <label>Failover Hub</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Free_Dispatch_End_Date__c</fullName>
+        <description>Free Dispatch End Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Free Dispatch End Date</inlineHelpText>
+        <label>Free Dispatch End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Gateway_Id__c</fullName>
+        <description>Gateway Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Gateway Id</inlineHelpText>
+        <label>Gateway Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gateway_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Gateway_Id__c, 
+&quot;1&quot;,&quot;ALB&quot;, 
+&quot;3&quot;, &quot;BIL&quot;, 
+&quot;9&quot;, &quot;ROS&quot;,
+&quot;15&quot;, &quot;SEA&quot;, 
+&quot;16&quot;, &quot;STC&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Gateway Name</inlineHelpText>
+        <label>Gateway Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HAN_Config__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>HAN Config</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HAN Config</inlineHelpText>
+        <label>HAN Config</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HAN_Type__c</fullName>
+        <description>HAN Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HAN Type</inlineHelpText>
+        <label>HAN Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HDEVNAME__c</fullName>
+        <description>HDEVNAME</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HDEVNAME</inlineHelpText>
+        <label>HDEVNAME</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Level__c</fullName>
+        <description>HNS Level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HNS Level</inlineHelpText>
+        <label>HNS Level</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Location_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.HNS_Location_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HNS Location ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Product_Grouping__c</fullName>
+        <externalId>false</externalId>
+        <formula>HNS_Product__r.Product_Grouping__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HNS Product Grouping</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Product_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(HNS_Product__r.Product_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HNS Product Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Look up Reference to the HNS Product</description>
+        <externalId>false</externalId>
+        <label>HNS Product</label>
+        <referenceTo>HNS_Products__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Exclude_Asset_From_Chronic__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exclude Asset From Chronic Calculation</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HUB_Site_Id__c</fullName>
+        <description>HUB Site Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HUB Site Id</inlineHelpText>
+        <label>HUB Site Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_AGW_Name__c</fullName>
+        <description>Same as Home Hub Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Same as Home Hub Name</inlineHelpText>
+        <label>Home AGW Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_HUB_Id__c</fullName>
+        <description>Home HUB Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Home HUB Id</inlineHelpText>
+        <label>Home HUB Id</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_Business_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Status) &amp; IF(NOT(ISBLANK(Status_Reason_Code_Description__c)),IF(NOT(ISBLANK(Status_Reason_Code__c)), &apos;(&apos;+Status_Reason_Code_Description__c+&apos;:&apos;+Status_Reason_Code__c+&apos;)&apos;,&apos;(&apos;+Status_Reason_Code_Description__c+&apos;)&apos;), IF(NOT(ISBLANK(Status_Reason_Code__c)),&apos;:&apos;+Status_Reason_Code__c,&apos;&apos;))</formula>
+        <label>Business Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_chronic__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chronic</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hughes_Asset_ID__c</fullName>
+        <description>For Hughes Assets; it is coming from NW OPS. 
+
+For Customer Assets; it is same as SAN. &quot;Needs Device ID?&quot; and &quot;Device ID Suffix&quot; attributes on Product are used to generate Hughes Asset ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; it is coming from NW OPS. 
+
+For Customer Assets; it is same as SAN. &quot;Needs Device ID?&quot; and &quot;Device ID Suffix&quot; attributes on Product are used to generate Hughes Asset ID</inlineHelpText>
+        <label>Hughes Asset ID</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ISP_AGW_Name__c</fullName>
+        <description>Same as ISP Hub Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Same as ISP Hub Name</inlineHelpText>
+        <label>ISP AGW Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ISP_HUB_Id__c</fullName>
+        <description>ISP HUB Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ISP HUB Id</inlineHelpText>
+        <label>ISP HUB Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InstallDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsCompetitorProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInternal</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Is_Self_Installed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Represents whether the Asset was self installed by the customer or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents whether the Asset was self installed by the customer or not</inlineHelpText>
+        <label>Is Self Installed</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Site_HUB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is Site HUB</description>
+        <externalId>false</externalId>
+        <label>Is Site HUB</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Temp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used for Temp Transport or Express Backup Service</description>
+        <externalId>false</externalId>
+        <label>Is Temp</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LAN1_IP_Address__c</fullName>
+        <description>LAN1 IP Address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>LAN1 IP Address</inlineHelpText>
+        <label>LAN1 IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LAN1_Subnet_Mask__c</fullName>
+        <description>LAN1 Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>LAN1 Subnet Mask</inlineHelpText>
+        <label>LAN1 Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LAN2_IP_Address__c</fullName>
+        <description>LAN2 IP Address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>LAN2 IP Address</inlineHelpText>
+        <label>LAN2 IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LAN2_Subnet_Mask__c</fullName>
+        <description>LAN2 Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>LAN2 Subnet Mask</inlineHelpText>
+        <label>LAN2 Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Latest_Commission_Date__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Latest commissioned date for an Asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Latest commissioned date for an Asset</inlineHelpText>
+        <label>Latest Commission Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Decommission_Date__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Date when the asset was decommissioned last.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Date when the asset was decommissioned last.</inlineHelpText>
+        <label>Latest Decommission Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Latitude__c</fullName>
+        <description>Latitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Latitude</inlineHelpText>
+        <label>Latitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location_Account_Zipcode__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.ShippingPostalCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Location Account Zipcode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Longitude__c</fullName>
+        <description>Longitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Longitude</inlineHelpText>
+        <label>Longitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MAC_Address__c</fullName>
+        <description>For Hughes Assets; N/A</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A</inlineHelpText>
+        <label>MAC Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Management_IP_Address__c</fullName>
+        <description>Networking Information from DMN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Networking Information from DMN</inlineHelpText>
+        <label>Management IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Modem_Number__c</fullName>
+        <description>Modem Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Modem Number</inlineHelpText>
+        <label>Modem Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAD_Business_Group__c</fullName>
+        <description>For Hughes Assets: NAD group responsible (deep support, NOC monitoring, SBSS etc.)
+
+For Customer Assets: N/A</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: NAD group responsible (deep support, NOC monitoring, SBSS etc.)
+
+For Customer Assets: N/A</inlineHelpText>
+        <label>NAD Business Group</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_Completion_Date__c</fullName>
+        <description>NAP Completion Date, which used to know when the NAP Provider completed their Work</description>
+        <externalId>false</externalId>
+        <label>NAP/Vendor Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NAP_Order_Number__c</fullName>
+        <description>NAP Order Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP Order Number</inlineHelpText>
+        <label>NAP/Vendor Order Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_PPP_Password__c</fullName>
+        <description>NAP PPP Password</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP PPP Password</inlineHelpText>
+        <label>NAP PPP Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_PPP_Username__c</fullName>
+        <description>NAP PPP Username</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP PPP Username</inlineHelpText>
+        <label>NAP PPP Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_WAN_Gateway_IP__c</fullName>
+        <description>NAP WAN Gateway IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP WAN Gateway IP</inlineHelpText>
+        <label>NAP WAN Gateway IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_WAN_IP__c</fullName>
+        <description>NAP WAN IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP WAN IP</inlineHelpText>
+        <label>NAP WAN IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_WAN_Protocol__c</fullName>
+        <description>NAP WAN Protocol</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP WAN Protocol</inlineHelpText>
+        <label>NAP WAN Protocol</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAP_WAN_Subnet_Mask__c</fullName>
+        <description>NAP WAN Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAP WAN Subnet Mask</inlineHelpText>
+        <label>NAP WAN Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAT_IP__c</fullName>
+        <description>NAT IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAT IP</inlineHelpText>
+        <label>NAT IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NAT_Subnet_Mask__c</fullName>
+        <description>NAT Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NAT Subnet Mask</inlineHelpText>
+        <label>NAT Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NMS_BBS_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>NMS BBS ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NMS_Service_Plan_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>NMS Service Plan Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NOCC_Latitude__c</fullName>
+        <description>NOCC Latitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NOCC Latitude</inlineHelpText>
+        <label>NOCC Latitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NOCC_Longitude__c</fullName>
+        <description>NOCC Longitude</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NOCC Longitude</inlineHelpText>
+        <label>NOCC Longitude</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NPR_IP__c</fullName>
+        <description>NPR IP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NPR IP</inlineHelpText>
+        <label>NPR IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NPR_Subnet_Mask__c</fullName>
+        <description>NPR Subnet Mask</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NPR Subnet Mask</inlineHelpText>
+        <label>NPR Subnet Mask</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Netgroup_Name__c</fullName>
+        <description>Netgroup Name</description>
+        <externalId>false</externalId>
+        <label>Netgroup Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_CRM_PS_SAN__c</fullName>
+        <description>PeopleSoft SAN.</description>
+        <externalId>false</externalId>
+        <label>Old CRM PS SAN</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On_Premise_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE(On_premise_Central_DB_ID__c)</formula>
+        <label>On Premise Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On_premise_Central_DB_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>On-premise Central DB ID</description>
+        <externalId>true</externalId>
+        <inlineHelpText>On-premise Central DB ID</inlineHelpText>
+        <label>On-premise Central DB ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Offer_Lineitem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Order Offer LineItem</label>
+        <referenceTo>Order_Offer_LineItem__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Organization__c</fullName>
+        <description>For Hughes Assets: High level organization Hughes Asset belongs to.
+
+For Customer Assets: N/A</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: High level organization Hughes Asset belongs to.
+
+For Customer Assets: N/A</inlineHelpText>
+        <label>Organization</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PEP_Max_Downstream__c</fullName>
+        <description>PEP Max Downstream</description>
+        <externalId>false</externalId>
+        <inlineHelpText>PEP Max Downstream</inlineHelpText>
+        <label>PEP Max Downstream</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PEP_Max_Upstream__c</fullName>
+        <description>PEP Max Upstream</description>
+        <externalId>false</externalId>
+        <inlineHelpText>PEP Max Upstream</inlineHelpText>
+        <label>PEP Max Upstream</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PPIL__c</fullName>
+        <externalId>false</externalId>
+        <label>PPIL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PS_Site_BO_ID__c</fullName>
+        <description>PeopleSoft System Site BO ID</description>
+        <externalId>true</externalId>
+        <label>PS Site BO ID</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PS_Site_ID__c</fullName>
+        <description>PS Site ID</description>
+        <externalId>true</externalId>
+        <label>PS Site ID</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Code__c</fullName>
+        <description>Payment Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Payment Code</inlineHelpText>
+        <label>Payment Code</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pin__c</fullName>
+        <description>Pin</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Pin</inlineHelpText>
+        <label>Pin</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Primary_Hub__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; e.g. NLV Hub, Gtwon Hub</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; e.g. NLV Hub, Gtwon Hub</inlineHelpText>
+        <label>Primary Hub</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductDescription</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductFamily</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Profile_Group__c</fullName>
+        <description>Profile Group</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Profile Group</inlineHelpText>
+        <label>Profile Group</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_SLA__c</fullName>
+        <description>Provider SLA</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Provider SLA</inlineHelpText>
+        <label>Provider SLA</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PurchaseDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Register_Date__c</fullName>
+        <description>Register Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Register Date</inlineHelpText>
+        <label>Register Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_Start_Date__c</fullName>
+        <description>Relationship Start Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Relationship Start Date</inlineHelpText>
+        <label>Relationship Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Renewal_End_Date__c</fullName>
+        <description>Renewal End Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Renewal End Date</inlineHelpText>
+        <label>Renewal End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RootAssetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ST_Name__c</fullName>
+        <description>ST Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ST Name</inlineHelpText>
+        <label>ST Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SWAP_Auth_Code__c</fullName>
+        <description>SWAP Auth Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SWAP Auth Code</inlineHelpText>
+        <label>SWAP Auth Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Channel__c</fullName>
+        <description>Sales Channel</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sales Channel</inlineHelpText>
+        <label>Sales Channel</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Satellite__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Only for VSATs</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Only for VSATs</inlineHelpText>
+        <label>Satellite</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SerialNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Shipment_Carrier__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Applicable in case hardware asset is directly shipped to the Customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shipment Carrier</inlineHelpText>
+        <label>Shipment Carrier</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipment_Tracking_Number__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Applicable in case hardware asset is directly shipped to the Customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shipment Tracking Number</inlineHelpText>
+        <label>Shipment Tracking Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Category__c</fullName>
+        <description>Site Category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Site Category</inlineHelpText>
+        <label>Site Category</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Opn_Mode__c</fullName>
+        <description>Site Opn Mode</description>
+        <externalId>false</externalId>
+        <label>Site Opn Mode</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Software_Version__c</fullName>
+        <description>Software Version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Software Version</inlineHelpText>
+        <label>Software Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <description>Source</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Source</inlineHelpText>
+        <label>Source</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status_Reason_Code_Change_Date__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Specify when the status was changed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Specify when the status was changed</inlineHelpText>
+        <label>Status Reason Code Change Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status_Reason_Code_Description__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Description of the Status Reason Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Description of the Status Reason Code</inlineHelpText>
+        <label>Status Reason Code Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_Reason_Code__c</fullName>
+        <description>For Hughes Assets; N/A
+
+For Customer Assets; Specify if the site is locked for non payments, voluntary termination etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets; N/A
+
+For Customer Assets; Specify if the site is locked for non payments, voluntary termination etc.</inlineHelpText>
+        <label>Status Reason Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+    </fields>
+    <fields>
+        <fullName>TOG__c</fullName>
+        <description>The Other Gateway</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Other Gateway</inlineHelpText>
+        <label>TOG</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Terminal_Activation_date__c</fullName>
+        <description>Terminal Activation date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Terminal Activation date</inlineHelpText>
+        <label>Terminal Activation date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Transponder__c</fullName>
+        <description>For Hughes Assets: N/A
+
+For Customer Assets: Only for VSATs</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Hughes Assets: N/A
+
+For Customer Assets: Only for VSATs</inlineHelpText>
+        <label>Transponder</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transport_Offering_Name__c</fullName>
+        <description>Indicates actual transport service offering name being sold to the customer</description>
+        <externalId>false</externalId>
+        <label>Transport Offering Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unit_of_Measure__c</fullName>
+        <description>Unit of Measure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Unit of Measure</inlineHelpText>
+        <label>Unit of Measure</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Uplink_Cellid__c</fullName>
+        <description>Uplink Cellid</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Uplink Cellid</inlineHelpText>
+        <label>Uplink Cellid</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Uplink_Speed__c</fullName>
+        <description>Uplink Speed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Uplink Speed</inlineHelpText>
+        <label>Uplink Speed</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UsageEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>VADB_Backup_Phone__c</fullName>
+        <description>VADB Backup Phone</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VADB Backup Phone</inlineHelpText>
+        <label>VADB Backup Phone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VADB_Enable__c</fullName>
+        <description>VADB Enable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VADB Enable</inlineHelpText>
+        <label>VADB Enable</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VADB_Primary_Phone__c</fullName>
+        <description>VADB Primary Phone</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VADB Primary Phone</inlineHelpText>
+        <label>VADB Primary Phone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VPGW__c</fullName>
+        <description>VPGW</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VPGW</inlineHelpText>
+        <label>VPGW</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VSAT_Antenna__c</fullName>
+        <externalId>false</externalId>
+        <label>VSAT Antenna</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Vendor Name i.e NAP Source</description>
+        <externalId>false</externalId>
+        <label>NAP/Vendor Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_SubName__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Vendor Sub Name, i.e NAP Sub Type</description>
+        <externalId>false</externalId>
+        <label>Vendor SubName</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Assets (Vendor SubName)</relationshipLabel>
+        <relationshipName>Assets2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Commitment_Term_End_Date__c</fullName>
+        <description>Applicable for B2C only in case customer purchases Express Repair.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Applicable for B2C only in case customer purchases Express Repair.</inlineHelpText>
+        <label>Warranty Term End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Effective_Date__c</fullName>
+        <description>Applicable for B2C only in case customer purchases Express Repair. Indicate the date when Customer Purchases Express repair.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Applicable for B2C only in case customer purchases Express Repair. Indicate the date when Customer Purchases Express repair.</inlineHelpText>
+        <label>Warranty Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Expiration_Date__c</fullName>
+        <description>Warranty Expiration Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Warranty Expiration Date</inlineHelpText>
+        <label>Warranty Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Expiry_Date__c</fullName>
+        <description>Warranty Expiry Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Warranty Expiry Date</inlineHelpText>
+        <label>Warranty Expiry Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Vesting_Period_End_Date__c</fullName>
+        <description>Applicable for B2C only in case customer purchases Express Repair.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Applicable for B2C only in case customer purchases Express Repair.</inlineHelpText>
+        <label>Warranty Vesting End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hardware_program__c</fullName>
+        <description>Hardware Program, Used to show the Type of Hardware the Customer Used, like Lease, Purchase</description>
+        <externalId>false</externalId>
+        <label>hardware program</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+	<fields>
+        <fullName>HSvc_LockDate__c</fullName>
+        <description>DI sync Lock Date from IP to this field and it is used in Account Transaction</description>
+        <externalId>false</externalId>
+        <label>Lock Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HNS_Product_Service_Plan__c</fullName>
+        <description>HNS Product Service Plan</description>
+        <externalId>false</externalId>
+        <label>HNS Product Service Plan</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllAssets</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Assets</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Status_Reason_Code__c</searchFilterFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Hughes_Asset_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status_Reason_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

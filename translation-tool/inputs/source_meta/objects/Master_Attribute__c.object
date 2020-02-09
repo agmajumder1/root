@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Master Attribute</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Agent_Instructions__c</fullName>
+        <description>E.g. Depot Maintenance</description>
+        <externalId>false</externalId>
+        <inlineHelpText>E.g. Depot Maintenance</inlineHelpText>
+        <label>Agent Instructions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <description>Category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Category</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Network</fullName>
+                    <default>false</default>
+                    <label>Network</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Community_UI_Display__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Community UI Display</description>
+        <externalId>false</externalId>
+        <label>Community UI Display</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Data_Type__c</fullName>
+        <description>Data Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data Type</inlineHelpText>
+        <label>Data Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Default_Value__c</fullName>
+        <description>Default Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default Value</inlineHelpText>
+        <label>Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Sequence__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Display Sequence</description>
+        <externalId>false</externalId>
+        <label>Display Sequence</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_in_Attributes_Section__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Display in Attributes Section</description>
+        <externalId>false</externalId>
+        <label>Display in Attributes Section</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_on_Asset__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Display on Asset</description>
+        <externalId>false</externalId>
+        <label>Display on Account360 Direct</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_on_Hover_Over__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Display on Hover Over</description>
+        <externalId>false</externalId>
+        <label>Display on Hover Over</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is Active</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is Active</inlineHelpText>
+        <label>Is Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Editable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is Editable</description>
+        <externalId>false</externalId>
+        <label>Is Editable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Primary</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Master_Attribute_Desc__c</fullName>
+        <description>Master Attribute Description</description>
+        <externalId>false</externalId>
+        <label>Master Attribute Desc</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Attribute_ID__c</fullName>
+        <description>Master Attribute ID</description>
+        <externalId>false</externalId>
+        <label>Master Attribute ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Attribute_Key__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Master Attribute Key, Used to Make as Unique, and it is Concatination of Object Type and Attribute Name</description>
+        <externalId>true</externalId>
+        <label>Master Attribute Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Attribute_Name__c</fullName>
+        <description>Master Attribute Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Master Attribute Name</inlineHelpText>
+        <label>Master Attribute Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Attribute_ObjectType__c</fullName>
+        <description>Master Attribute Object Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Master Attribute Object Type</inlineHelpText>
+        <label>Master Attribute Object Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asset</fullName>
+                    <default>false</default>
+                    <label>Asset</label>
+                </value>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Save_on_Case__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Save on Case</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Save on Case</inlineHelpText>
+        <label>Save on Case</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sent_to_WWTS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sent to WWTS</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Source_Field_Name__c</fullName>
+        <description>Source Field Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Source Field Name</inlineHelpText>
+        <label>Source Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_System__c</fullName>
+        <description>Source System</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Source System</inlineHelpText>
+        <label>Source System</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CRM PeopleSoft</fullName>
+                    <default>false</default>
+                    <label>CRM PeopleSoft</label>
+                </value>
+                <value>
+                    <fullName>CRM Installation Portal</fullName>
+                    <default>false</default>
+                    <label>CRM Installation Portal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Source_Table__c</fullName>
+        <description>Source Table</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Source Table</inlineHelpText>
+        <label>Source Table</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UI_Display__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>UI Display</description>
+        <externalId>false</externalId>
+        <inlineHelpText>UI Display</inlineHelpText>
+        <label>UI Display</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Master Attribute</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Master_Attribute_Name__c</columns>
+        <columns>Master_Attribute_Desc__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>ATTR-{0000000000}</displayFormat>
+        <label>SEQ ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Master Attributes</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Master_Attribute_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Master_Attribute_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Master_Attribute_ObjectType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Display_on_Asset__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Display_on_Hover_Over__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Display_in_Attributes_Section__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Master_Attribute_ID__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Master_Attribute_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Master_Attribute_ObjectType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Display_on_Asset__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Display_in_Attributes_Section__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Display_on_Hover_Over__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Master_Attribute_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Master_Attribute_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Master_Attribute_ObjectType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Display_on_Asset__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Display_on_Hover_Over__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Display_in_Attributes_Section__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,470 @@
+Translation File,API Name,Error
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Activate service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Adjustments not applied,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Apply adjustments,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Number,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Callback,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Call Back,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancelled,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Considering,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Contacted,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer Education,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,De-install Equipment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Dispatch Tech,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Educated Customer,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Escalate,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Escalated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Escalated to Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Escalated to SIC,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Escalated to Supervisor,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Give Courtesy Token(s),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Inform customer,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Inform management Customer Service Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Inform management Field Service Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Install - Escalate,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Install - Updated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Left Message,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Located,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No Answer,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not located,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not Updated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Prioritize dispatch tech,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Process,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Process Cancellation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Purchase Token(s),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Refer to Retention,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repair - Escalate,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repair Site,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repair - Updated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Report Issue to Control Desk/NMC,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Request call recording,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Resolved,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Retain Customer No Credit,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Retain Customer with Credit,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Saved,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Survey Accomplish,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Truckroll,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Updated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Wait for New Allowance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,3rd party Device Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Access Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Account Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Account Name (Misspelling),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Account Ownership Change,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Activate new service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Agent Callback,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Amount Due,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Appeal/Escalation Status,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,API - FAP Token,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,API - Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application access issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application Issue - Customer,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application Issue - hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application Questions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application Slow response times,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Application System Error,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Authorized Contact,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Automated Call - Activation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Available schedule,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Cables/Wiring,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Modem,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Radio,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Treatment - CSR,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad Treatment - Technical,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad website,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bad website/url,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bank Strike,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bill Date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Billing Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Billing file download issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Billing Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bill Notification,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Boleto to credit card,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Boleto to debit,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bonus Zone,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Browser Message,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Business System Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cabling/connectors/materials,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancellation Fee,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancellation Policy,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Capture Business Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Changed Mind,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change due date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change of Mind,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Chose Another Satellite ISP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Chose Another Terrestrial ISP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Collection,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,"Collection clarification (Adjustment, tax)",API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Commercial Location,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Commitment/Contract,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Commitment Status,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,competition between companies - Cost,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,competition between companies - FAP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,competition between companies - Speed,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Configuration Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Confirmed/Known Issue - Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Confirmed Outage - Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Credit/Refund,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Credit card to boleto,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Credit card to debit,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Credit Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,CSR Impolite,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer device issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer education,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer-requested Call Back,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,CVV,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Data Allowance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Data Plan/Limits,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Debit to boleto,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Debit to credit card,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,De-Install (System),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Delay in installation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Delay in Repair,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Did not authorize/place order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Disable,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,"Disagrees with Billing (Pro rata, adjustment, fine)",API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Disaster,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Discount not applied,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Distance too far,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Divergence of values (customer claims undue values),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Does not agree to make Troubleshooting,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Does Not Meet Data Allowance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Does Not Meet Gaming Needs,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Does Not Meet Speed Needs,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Does not meet VPN/Static Needs,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Downgrade Plan,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Downgrade Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Download Allowance (FAP),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Download Speed,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Due Date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Due Date Extension,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Duplicate Account,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Duplicate Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Duplicate payment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Email Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Enable,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Engineering System Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Enterprise Account Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment configuration,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Damaged,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Location Change,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Recovery,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Return,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Error/Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Exceeded Bandwidth Allowance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Exceeded Data Allowance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Existing upgrade install,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Expiry Date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Explanation of Charges,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Extend Full Amount Due,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Fair Access Policy,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,FAP Not Informed,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,FAP Payment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Financial Consideration,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Financial Considerations,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Financial problems,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Firmware Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Forecasting/Ordering,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Full Amount Due,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,General Questions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Home Renovation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Hughes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Hughes Outage/Degradation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Improper collection (error of Hughes),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Improper contestation - correct Invoice,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Improperly Configured,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Improperly Connected,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incompatible with Customer's Equipment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect Account Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect Config,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect email configuration,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect Hughes Wi-Fi Configuration,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect IP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect login,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrectly Labeled/Wrong Port,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Incorrect power/LAN connection,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Inform amounts outstanding,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Inform payment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installation Complaint,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installation Portal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installation Quality,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installation without service activation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installer Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installer Kit/tools,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installer-Related,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Install - Latency,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Interference,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Invoice Download issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Invoice Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,IP Pool Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Knowledgeables,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Knowledge Base/Tech Bulletin,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Latency,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Letter - Collections,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Letter - Marketing Offers,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Lifestyle,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Line of Sight/Repoint,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Line Of Site,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Local Weather,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Location/Edge of Beam,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Location / limit beam,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Location Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Long Vacation (>30 days),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Lost,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Low/Intermittent Signal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Low signal / intermittent signal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Loyalty Fees,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Loyalty Not Informed during sales,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Manuals/materials,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Marketing Campaign,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Marketing Email Campaign,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Military Deployment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Missed Appointment/Reschedule,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Modem Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Modem Re-assignment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Move Program,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Name on Bank Account,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,NAP Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Network Lock,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,New Debit/Credit Card,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,New Direct Debit Account (E-check),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,New Installation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Newsletter,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,NOC System Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No receipt invoice,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No Signal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not Available,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not Indicated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not receive call recording,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Not Services Quoted,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Order Confirmation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Order issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Other,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Others,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Out of service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Partial Amount Due,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Partial Payment & Extend Due Date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Password Reset/Change request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Password Reset Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Payment Failure,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Payment Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Payment Method on File,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Payment Options,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Promotional Offers,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Quality,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reactivate from Billing Lock,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reactivate from Pending Cancellation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reactivate from Suspension,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Rebates,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Refill Period,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Relocation - Deinstall,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Relocation - Reinstall,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repair Quality,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repoint/Truckroll,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reporting,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Request Call Recording,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reschedule Install,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reschedule Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Response Time,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Routing Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Sales Practices,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Sale Token,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Schedule Full Amount Due,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Schedule Future Payment (No Amount Due),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Schedule Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Schedule Payment & Extend Due Date,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Scheduling Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Security PIN,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,See parent case,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Service doesn't meet needs,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Service Reliability,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Shipment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Shipping,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Short Vacation (< 30 days),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,SIC Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Site Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Slow Performance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,SMS/Text Message,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Snooze,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Speed,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Speeds,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Speed signal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Staying with current provider,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Stolen,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Strata Change,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Strata Change Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Strata Credit Dispute,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Survey,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Survey Accomplish,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Survey Feedback,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Switching Providers - ADSL,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Switching Providers - Cable/Fiber,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Switching Providers - Radio,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Switching Providers - Satellite,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,System User account issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Telephone Number,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Ticket Status,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Token Bytes,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Too expensive (monthly charge),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Too expensive (upfront charge),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Trading amounts outstanding,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Training,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Transponder Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Truckroll Confirmation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Buy Tokens,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Change Plan,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Create Ticket,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to detect 5G network,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Install - Access,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Install - Line of Sight,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Manage Account,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to View Invoice,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to View Usage,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Billing Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Credit Card,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Email Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Install Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Phone Number,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Upgrade,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Upgrade Plan,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Upgrade Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Usage History,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Username Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Video Data Saver,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Waiting Time and Call Queues in Customer Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Weather,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Wiring,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Critical,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Major,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Minor,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Acquisition Information,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Add/Upgrade Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Billing/Invoicing,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Billing Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Bill Inquiry/Dispute,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Callback,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Call Recording,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Change of Address,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Competition,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Financial,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancellation Information,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Ownership Change,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Sales Practices,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Technical,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel - Treatment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cancel VSAT,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cannot Connect to Wi-Fi Booster,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cannot find Wi-Fi Network,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cannot Login,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cannot Receive Emails,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Cannot Send Emails,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Care Operations,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change Due Date - Temporary,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change Payment Type,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Change Service Plan,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Client Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Collect Payment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Contract / Policies / Terms of Use,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Conversion,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer Collection,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Customer Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Damaged,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,De-Install (System),API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Delinquency,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Discount concession,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Downlink Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Download Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Dropped call,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Location Change,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Equipment Swap,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Explanation of Charges,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,FAP Questions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Field Operations,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Financial Adjustments,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,General Information,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Hughes Communication,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Information /Questions about the plan,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Information about Operation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Installation Problems,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Install Order,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Intermittent Connectivity,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Intermittent Wi-Fi Signal,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Invoice Reissue Request,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,IT/System Admin,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Lock-Up/Hangs,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Logistics/Equipment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Marketing Campaign,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Missing Equipment,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,New Install,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,New Installation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No Internet Access/Connectivity,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No internet connectivity,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,No Signal At All,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Other Internet Application Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Outbound Call,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Peformance Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Perfomance,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Policy,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Problems Related to Deinstall,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Questions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Questions about Offers and Promotions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Reactivate,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Repair Issues,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Replace Hardware,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Restore Hardware,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Restore Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Seasonal Suspension,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,See parent case,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Self-Care,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Self Care Portal Features,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Service Feature Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Service Questions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Services,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Signal Strength/Coverage,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Sign-Off,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Slow Internet Connectivity,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Static IP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Suspend,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portal - Ordering and Billing,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - API,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - BI,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - CRM,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - Customer Gateway,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - End User,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - Installation,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Systems/Portals - NMP,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Technician with difficulties,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Token,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Access/Login,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Buy Tokens,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to Launch,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unable to View Usage,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Unsatisfied with product / Service,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Account Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update Payment Info,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Update payment information,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Uplink Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Usage Question,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Values ​​Return,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Video Buffering,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Video Not Loading,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Video Optimization Settings,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Video Quality Issue,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Want to Become a Reseller,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Warnings Hughes Communications / Offers and Promotions,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Welcome Call,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Will not Activate,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Winback,API name not found in translation file.
+YAHS_RIAPriorityMapping__c-es_CO.objectTranslation,Without Internet Connection,API name not found in translation file.

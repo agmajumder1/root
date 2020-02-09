@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Action_Performed_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName + &apos; &apos; +  CreatedBy.LastName</formula>
+        <label>Action Performed By</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Action__c</fullName>
+        <description>video optimisation Data Saver setting</description>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Temporary HD</fullName>
+                    <default>false</default>
+                    <label>Temporary HD</label>
+                </value>
+                <value>
+                    <fullName>Permanent HD</fullName>
+                    <default>false</default>
+                    <label>Permanent HD</label>
+                </value>
+                <value>
+                    <fullName>DVD</fullName>
+                    <default>false</default>
+                    <label>DVD</label>
+                </value>
+                <value>
+                    <fullName>Reset Snooze</fullName>
+                    <default>false</default>
+                    <label>Reset Snooze</label>
+                </value>
+                <value>
+                    <fullName>Video Data Saver OFF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Video Data Saver OFF</label>
+                </value>
+                <value>
+                    <fullName>Video Data Saver ON</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Video Data Saver ON</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <label>Created Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_and_Time__c</fullName>
+        <description>Video optimisation Scheduled snooze end time</description>
+        <externalId>false</externalId>
+        <label>Scheduled End Date and Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastModifiedBy.FirstName + &apos; &apos; +  LastModifiedBy.LastName</formula>
+        <label>Last Modified By</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location_Account__c</fullName>
+        <description>An account for which video optimisation case has been raised</description>
+        <externalId>false</externalId>
+        <label>Location Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Hsvc_VideoDataSaverTransactions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Start_Date_and_Time__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Video optimisation data saver Snooze start time</inlineHelpText>
+        <label>Start Date and Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>VideoShapingEnabled__c</fullName>
+        <externalId>false</externalId>
+        <label>VideoShapingEnabled</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VideoShapingSnoozeEnabled__c</fullName>
+        <externalId>false</externalId>
+        <label>VideoShapingSnoozeEnabled</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Video Data Saver Transactions History</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>VDS-{0000000000}</displayFormat>
+        <label>Hsvc_VideoDataSaverTransaction Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Video Data Saver Transactions History</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

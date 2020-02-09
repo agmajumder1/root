@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Account Transaction To Provider Group --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Account Transaction To Provider Group --></value>
+    </caseValues>
+    <fields>
+        <label>Descripción</label>
+        <name>HSvc_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProviderGroup --></label>
+        <name>HSvc_ProviderGroup__c</name>
+        <relationshipLabel><!-- Account Transaction To Provider Groups --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Account Transaction To Provider Group Na --></nameFieldLabel>
+</CustomObjectTranslation>

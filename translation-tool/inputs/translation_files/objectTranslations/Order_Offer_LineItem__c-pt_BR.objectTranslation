@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Order Offer LineItem --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Order Offer LineItem --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Add On Upfront Fee --></label>
+        <name>Add_On_Upfront_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Charge --></label>
+        <name>Additional_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commitment Fee --></label>
+        <name>Commitment_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commitment Duration --></label>
+        <name>Commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Amount Duration (in Months) --></label>
+        <name>Credit_Amount_Duration_in_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Amount --></label>
+        <name>Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Type --></label>
+        <name>Credit_Type__c</name>
+        <picklistValues>
+            <masterLabel>PERCENT</masterLabel>
+            <translation><!-- PERCENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALUE</masterLabel>
+            <translation><!-- VALUE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease or Purchase --></label>
+        <name>Lease_Purchase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Term --></label>
+        <name>Lease_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer LineItem Category --></label>
+        <name>Offer_LineItem_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer LineItem Name --></label>
+        <name>Offer_LineItem_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer LineItem --></label>
+        <name>Offer_LineItem__c</name>
+        <relationshipLabel><!-- Order Offer LineItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Offer Name --></label>
+        <name>Offer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Offer --></label>
+        <name>Order_Offer__c</name>
+        <relationshipLabel><!-- Order Offer LineItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Billing Deal Name --></label>
+        <name>Override_Billing_Deal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Price --></label>
+        <name>Override_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotional Discount --></label>
+        <name>Promotional_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token Bandwidth (MB) --></label>
+        <name>Token_Bandwidth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Upfront Fee --></label>
+        <name>Total_Upfront_Fee__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Order Offer LineItem Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Order Offer LineItem Name --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </webLinks>
+</CustomObjectTranslation>

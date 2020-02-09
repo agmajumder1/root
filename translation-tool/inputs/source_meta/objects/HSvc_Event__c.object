@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Represents an atomic event (something that happened). For work orders, an event is a pre-defined value that initiates a set of actions on one or more object fields</description>
+    <enableFeeds>false</enableFeeds>
+    <label>HSvc_Event</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Product_to_Tool_Mapping</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Display_Sequence__c</fullName>
+        <externalId>false</externalId>
+        <label>Display Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Product__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>HNS Product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HNS Product</inlineHelpText>
+        <label>HNS Product</label>
+        <referenceTo>HNS_Products__c</referenceTo>
+        <relationshipLabel>Product to Tool Mappings</relationshipLabel>
+        <relationshipName>Product_to_Tool_Mappings</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRD_TOOL_MAP_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Product to Tools Mapping ID</description>
+        <externalId>true</externalId>
+        <label>PRD TOOL MAP ID</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Tool__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Tool</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tool</inlineHelpText>
+        <label>Tool</label>
+        <referenceTo>Tools_Master__c</referenceTo>
+        <relationshipLabel>Product to Tool Mappings</relationshipLabel>
+        <relationshipName>Product_to_Tool_Mappings</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>YAHS_Customer_Portal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will determine whether this tool will be visible in customer portal or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please Check if you want to show this tool on customer portal.</inlineHelpText>
+        <label>Customer Portal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Product to Tool Mapping</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PDTOOL-{000000}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Product to Tool Mappings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Provider Group - FAP --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Provider Group - FAP --></value>
+    </caseValues>
+    <fields>
+        <label><!-- FAP Configuration Template --></label>
+        <name>FAP_Configuration_Template__c</name>
+        <relationshipLabel><!-- Provider Group - FAPs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Grupo de Proveedor</label>
+        <name>ProviderGroup__c</name>
+        <relationshipLabel><!-- Provider Group - FAPs --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Provider Group FAP Name --></nameFieldLabel>
+</CustomObjectTranslation>

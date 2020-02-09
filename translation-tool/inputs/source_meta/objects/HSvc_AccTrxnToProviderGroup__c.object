@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account_Transaction_Reason__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Transaction Reason</label>
+        <referenceTo>HSvc_AccTrxnReason__c</referenceTo>
+        <relationshipLabel>Account Transaction To Provider Groups</relationshipLabel>
+        <relationshipName>Account_Transaction_To_Provider_Groups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ActiveFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+  HSvc_Expiry_Date__c &gt;= TODAY(),
+  HSvc_Effective_Date__c &lt;= TODAY()
+
+)</formula>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Expiry_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ProviderGroup__c</fullName>
+        <externalId>false</externalId>
+        <label>ProviderGroup</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+				<value>
+                    <fullName>Ent SA Frontline</fullName>
+                    <default>false</default>
+                    <label>Ent SA Frontline</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Field Support</fullName>
+                    <default>false</default>
+                    <label>Ent SA Field Support</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Control Desk</fullName>
+                    <default>false</default>
+                    <label>Ent SA Control Desk</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Business Analyst</fullName>
+                    <default>false</default>
+                    <label>Ent SA Business Analyst</label>
+                </value>
+                <value>
+                    <fullName>Affinitas Phoenix MOD</fullName>
+                    <default>false</default>
+                    <label>Affinitas Phoenix MOD</label>
+                </value>
+                <value>
+                    <fullName>Affinitas Phoenix Universal</fullName>
+                    <default>false</default>
+                    <label>Affinitas Phoenix Universal</label>
+                </value>
+                <value>
+                    <fullName>Call Center Manager</fullName>
+                    <default>false</default>
+                    <label>Call Center Manager</label>
+                </value>
+                <value>
+                    <fullName>Consumer Auto Generated</fullName>
+                    <default>false</default>
+                    <label>Consumer Auto Generated</label>
+                </value>
+                <value>
+                    <fullName>CPM Escalations</fullName>
+                    <default>false</default>
+                    <label>CPM Escalations</label>
+                </value>
+                <value>
+                    <fullName>CS Program Management NAD</fullName>
+                    <default>false</default>
+                    <label>CS Program Management NAD</label>
+                </value>
+                <value>
+                    <fullName>DDAG</fullName>
+                    <default>false</default>
+                    <label>DDAG</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Billing - NAD</fullName>
+                    <default>false</default>
+                    <label>Enterprise Billing - NAD</label>
+                </value>
+                <value>
+                    <fullName>ESC Advanced Billing</fullName>
+                    <default>false</default>
+                    <label>ESC Advanced Billing</label>
+                </value>
+                <value>
+                    <fullName>ESC Advanced Tech Agent</fullName>
+                    <default>false</default>
+                    <label>ESC Advanced Tech Agent</label>
+                </value>
+                <value>
+                    <fullName>ESC Billing Level 1</fullName>
+                    <default>false</default>
+                    <label>ESC Billing Level 1</label>
+                </value>
+                <value>
+                    <fullName>ESC Control Desk</fullName>
+                    <default>false</default>
+                    <label>ESC Control Desk</label>
+                </value>
+                <value>
+                    <fullName>ESC Corporate CSM</fullName>
+                    <default>false</default>
+                    <label>ESC Corporate CSM</label>
+                </value>
+                <value>
+                    <fullName>ESC Digital Media</fullName>
+                    <default>false</default>
+                    <label>ESC Digital Media</label>
+                </value>
+                <value>
+                    <fullName>ESC Field Support Agent Terrestrial</fullName>
+                    <default>false</default>
+                    <label>ESC Field Support Agent Terrestrial</label>
+                </value>
+                <value>
+                    <fullName>ESC Field Support VSAT</fullName>
+                    <default>false</default>
+                    <label>ESC Field Support VSAT</label>
+                </value>
+                <value>
+                    <fullName>ESC Franchisee Sales Support</fullName>
+                    <default>false</default>
+                    <label>ESC Franchisee Sales Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Frontline</fullName>
+                    <default>false</default>
+                    <label>ESC Frontline</label>
+                </value>
+                <value>
+                    <fullName>ESC Frontline Level 2</fullName>
+                    <default>false</default>
+                    <label>ESC Frontline Level 2</label>
+                </value>
+                <value>
+                    <fullName>ESC GEH</fullName>
+                    <default>false</default>
+                    <label>ESC GEH</label>
+                </value>
+                <value>
+                    <fullName>ESC Level 3 Agent</fullName>
+                    <default>false</default>
+                    <label>ESC Level 3 Agent</label>
+                </value>
+                <value>
+                    <fullName>ESC Network Associates Team</fullName>
+                    <default>false</default>
+                    <label>ESC Network Associates Team</label>
+                </value>
+                <value>
+                    <fullName>ESC Onboarding</fullName>
+                    <default>false</default>
+                    <label>ESC Onboarding</label>
+                </value>
+                <value>
+                    <fullName>ESC Post Install Provisioning</fullName>
+                    <default>false</default>
+                    <label>ESC Post Install Provisioning</label>
+                </value>
+                <value>
+                    <fullName>ESC Program Management Support</fullName>
+                    <default>false</default>
+                    <label>ESC Program Management Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Projects</fullName>
+                    <default>false</default>
+                    <label>ESC Projects</label>
+                </value>
+                <value>
+                    <fullName>ESC Provisioning Support</fullName>
+                    <default>false</default>
+                    <label>ESC Provisioning Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Sales Support</fullName>
+                    <default>false</default>
+                    <label>ESC Sales Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Special Ops</fullName>
+                    <default>false</default>
+                    <label>ESC Special Ops</label>
+                </value>
+                <value>
+                    <fullName>Hughes Call Center Manager</fullName>
+                    <default>false</default>
+                    <label>Hughes Call Center Manager</label>
+                </value>
+                <value>
+                    <fullName>Hughes Collections</fullName>
+                    <default>false</default>
+                    <label>Hughes Collections</label>
+                </value>
+                <value>
+                    <fullName>Hughes Corporate Community</fullName>
+                    <default>false</default>
+                    <label>Hughes Corporate Community</label>
+                </value>
+                <value>
+                    <fullName>Hughes Corporate ECC</fullName>
+                    <default>false</default>
+                    <label>Hughes Corporate ECC</label>
+                </value>
+                <value>
+                    <fullName>Hughes CSPM and SF Support</fullName>
+                    <default>false</default>
+                    <label>Hughes CSPM and SF Support</label>
+                </value>
+                <value>
+                    <fullName>Hughes Fraud Management</fullName>
+                    <default>false</default>
+                    <label>Hughes Fraud Management</label>
+                </value>
+                <value>
+                    <fullName>Hughes FSS</fullName>
+                    <default>false</default>
+                    <label>Hughes FSS</label>
+                </value>
+                <value>
+                    <fullName>Hughes Install DM</fullName>
+                    <default>false</default>
+                    <label>Hughes Install DM</label>
+                </value>
+                <value>
+                    <fullName>Hughes Install OA</fullName>
+                    <default>false</default>
+                    <label>Hughes Install OA</label>
+                </value>
+                <value>
+                    <fullName>Network Engineering</fullName>
+                    <default>false</default>
+                    <label>Network Engineering</label>
+                </value>
+                <value>
+                    <fullName>Program Management</fullName>
+                    <default>false</default>
+                    <label>Program Management</label>
+                </value>
+                <value>
+                    <fullName>Provisioning</fullName>
+                    <default>false</default>
+                    <label>Provisioning</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Service User Prov. Grp</fullName>
+                    <default>false</default>
+                    <label>Salesforce Service User Prov. Grp</label>
+                </value>
+                <value>
+                    <fullName>SDG Admin and Prod Support</fullName>
+                    <default>false</default>
+                    <label>SDG Admin and Prod Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Advanced Support</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Advanced Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Community</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Community</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Community Support</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Community Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Escalation</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Escalation</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Clark MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Outbound</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Outbound</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Retention</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Retention</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Team Lead</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Tier Advanced Support Consult</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Tier Advanced Support Consult</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Universal Agent</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Universal Agent</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Voice Support</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Voice Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Home Tech Support</fullName>
+                    <default>false</default>
+                    <label>SUT Home Tech Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Account Management</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Account Management</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Advanced Support</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Advanced Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Outbound</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Outbound</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Universal</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Universal</label>
+                </value>
+                <value>
+                    <fullName>SUT Legazpi Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Legazpi Team Lead</label>
+                </value>
+                <value>
+                    <fullName>SUT Monterrey MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Monterrey MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Monterrey Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Monterrey Team Lead</label>
+                </value>
+                <value>
+                    <fullName>SUT Monterrey Universal</fullName>
+                    <default>false</default>
+                    <label>SUT Monterrey Universal</label>
+                </value>
+                <value>
+                    <fullName>SUT Tarlac MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Tarlac MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Tarlac Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Tarlac Team Lead</label>
+                </value>
+                <value>
+                    <fullName>SUT Tarlac Universal</fullName>
+                    <default>false</default>
+                    <label>SUT Tarlac Universal</label>
+                </value>
+                <value>
+                    <fullName>System Work Order</fullName>
+                    <default>false</default>
+                    <label>System Work Order</label>
+                </value>
+                <value>
+                    <fullName>TAG Escalation Management</fullName>
+                    <default>false</default>
+                    <label>TAG Escalation Management</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Advanced Billing</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Advanced Billing</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Advanced Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Advanced Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville ECC</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville ECC</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Install Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Install Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville MOD</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville MOD</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Outbound</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Outbound</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Post Install Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Post Install Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Retail Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Retail Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Retention</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Retention</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville TSC</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville TSC</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey MOD</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey MOD</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey Team Lead</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Team Lead</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey Universal</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Universal</label>
+                </value>
+                <value>
+                    <fullName>General Ops</fullName>
+                    <default>false</default>
+                    <label>General Ops</label>
+                </value>
+                <value>
+                    <fullName>MOD</fullName>
+                    <default>false</default>
+                    <label>MOD</label>
+                </value>
+                <value>
+                    <fullName>South America Control Center</fullName>
+                    <default>false</default>
+                    <label>South America Control Center</label>
+                </value>
+                <value>
+                    <fullName>SP IT/Systems Admin</fullName>
+                    <default>false</default>
+                    <label>SP IT/Systems Admin</label>
+                </value>
+                <value>
+                    <fullName>SP Technical Support Tier 1</fullName>
+                    <default>false</default>
+                    <label>SP Technical Support Tier 1</label>
+                </value>                
+                <value>
+                    <fullName>Hughes Distributor</fullName>
+                    <default>false</default>
+                    <label>Hughes Distributor</label>
+                </value>
+                <value>
+                    <fullName>SDG</fullName>
+                    <default>false</default>
+                    <label>SDG</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Colombia</fullName>
+                    <default>false</default>
+                    <label>Hughes de Colombia</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Panama</fullName>
+                    <default>false</default>
+                    <label>Hughes de Panama</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Peru</fullName>
+                    <default>false</default>
+                    <label>Hughes de Peru</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Ecuador</fullName>
+                    <default>false</default>
+                    <label>Hughes de Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Chile</fullName>
+                    <default>false</default>
+                    <label>Hughes de Chile</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Corporate (HQ)</fullName>
+                    <default>false</default>
+                    <label>Hughes de Corporate (HQ)</label>                
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Account Transaction To Provider Group</label>
+    <nameField>
+        <displayFormat>ATPG-{0000}</displayFormat>
+        <label>Account Transaction To Prov Group Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Transaction To Provider Groups</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ExpiryDateCannotBeSetInThePast</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( HSvc_Expiry_Date__c &lt; TODAY(), HSvc_Expiry_Date__c&lt; HSvc_Effective_Date__c)</errorConditionFormula>
+        <errorDisplayField>HSvc_Expiry_Date__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

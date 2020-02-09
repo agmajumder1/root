@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>HSvc_KB_Exit_CodeSearchInput</fullName>
+        <description>HSvc_KB_Exit_CodeSearchInput</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>KB_Exit_Code_Description_esCO__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Case_Record_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>HSvc_KB_Exit_CodeSearchInput</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>HSvc_KB_Exit_CodeSearchOutput</fullName>
+        <description>HSvc_KB_Exit_CodeSearchOutput</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>KB_Exit_Code_Description_esCO__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Case_Record_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Effective_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Expiry_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>HSvc_KB_Exit_CodeSearchOutput</label>
+    </fieldSets>
+    <fields>
+        <fullName>Case_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>B2B General Case</fullName>
+                    <default>false</default>
+                    <label>B2B General Case</label>
+                </value>
+                <value>
+                    <fullName>B2C General Case</fullName>
+                    <default>false</default>
+                    <label>B2C General Case</label>
+                </value>
+                <value>
+                    <fullName>Office Only</fullName>
+                    <default>false</default>
+                    <label>Office Only</label>
+                </value>
+                <value>
+                    <fullName>Repair Work Order</fullName>
+                    <default>false</default>
+                    <label>Repair Work Order</label>
+                </value>
+                <value>
+                    <fullName>Install Work Order</fullName>
+                    <default>false</default>
+                    <label>Install Work Order</label>
+                </value>
+                <value>
+                    <fullName>RMA</fullName>
+                    <default>false</default>
+                    <label>RMA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Effective_Date__c</fullName>
+        <description>Date when the KB Exit code is valid. Same as Effective Date field on Resolution Code Data Admin object</description>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Expiry_Date__c</fullName>
+        <description>Date when the KB Exit code is invalid. Same as Expiry Date field on Resolution Code Data Admin object</description>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+	<fields>
+        <fullName>Hsvc_KBExitCodeDescriptionArgentina__c</fullName>
+        <externalId>false</externalId>
+        <label>KB Exit Code Description(Argentina)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_KBExitCodeDescriptionPanama__c</fullName>
+        <externalId>false</externalId>
+        <label>KB Exit Code Description(Panama)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KB_Exit_Code_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE($Label.Current_Language_Key,&apos;es_CO&apos;, IF(ISBLANK(KB_Exit_Code_Description_esCO__c), KB_Exit_Code_Description_enUS__c,KB_Exit_Code_Description_esCO__c), &apos;es_PA&apos;, IF(ISBLANK(Hsvc_KBExitCodeDescriptionPanama__c), KB_Exit_Code_Description_enUS__c,Hsvc_KBExitCodeDescriptionPanama__c),&apos;es_AR&apos;, IF(ISBLANK(Hsvc_KBExitCodeDescriptionArgentina__c), KB_Exit_Code_Description_enUS__c,Hsvc_KBExitCodeDescriptionArgentina__c), KB_Exit_Code_Description_enUS__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>KB Exit Code Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KB_Exit_Code_Description_enUS__c</fullName>
+        <externalId>false</externalId>
+        <label>KB Exit Code Description_enUS</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KB_Exit_Code_Description_esCO__c</fullName>
+        <description>Description of KB Exit Code.
+Ex: Change of Account Ownership, Complimentary Restore Tokens, etc.</description>
+        <externalId>false</externalId>
+        <label>KB Exit Code Description_esCO</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>is_Active__c</fullName>
+        <description>To find out whether or not a KB Exit Code is Active</description>
+        <externalId>false</externalId>
+        <formula>IF( AND( Effective_Date__c &lt;= TODAY(), Expiry_Date__c &gt; TODAY()),True, False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>KB Exit Code</label>
+    <nameField>
+        <label>KB Exit Code</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>KB Exit Codes</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>KB_Exit_Code_Description__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ExitCodeDescriptionNotBlank</fullName>
+        <active>true</active>
+        <description>This validation checks that all of the description field should not be empty.</description>
+        <errorConditionFormula>((KB_Exit_Code_Description_esCO__c ==NULL ||KB_Exit_Code_Description_esCO__c ==&apos;&apos;) &amp;&amp;  (KB_Exit_Code_Description_enUS__c ==NULL || KB_Exit_Code_Description_enUS__c ==&apos;&apos;))</errorConditionFormula>
+        <errorMessage>Please enter value in atleast One description field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the expiry date is set in future and is greater that the effective date</description>
+        <errorConditionFormula>OR(Expiry_Date__c &lt; TODAY(),Expiry_Date__c &lt; Effective_Date__c)</errorConditionFormula>
+        <errorDisplayField>Expiry_Date__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

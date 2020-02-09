@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Maintains List of profile to whom Yahsat Internal button has to be shown</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Profile_Name__c</fullName>
+        <description>Profile Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Profile Name</inlineHelpText>
+        <label>Profile Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>YAHS_PRT_Disp_Internal</label>
+    <visibility>Public</visibility>
+</CustomObject>

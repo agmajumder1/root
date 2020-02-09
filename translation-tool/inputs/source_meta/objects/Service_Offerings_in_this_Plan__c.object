@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Billing_Deal_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Embedded_Billing_Deal_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Deal Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>text( Service_Offerings__r.Billing_Type__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Circuit_Transport__c</fullName>
+        <description>What is the transport provided by this Hughes service?</description>
+        <externalId>false</externalId>
+        <formula>Text( Service_Offerings__r.Circuit_Transport__c )</formula>
+        <inlineHelpText>What is the transport provided by this Hughes service?</inlineHelpText>
+        <label>Circuit Transport</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Circuit_Type__c</fullName>
+        <description>Is this Hughes service a primary or backup circuit?</description>
+        <externalId>false</externalId>
+        <formula>Text(Service_Offerings__r.Circuit_Type__c)</formula>
+        <inlineHelpText>Is this Hughes service a primary or backup circuit?</inlineHelpText>
+        <label>Circuit Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contracted_Price1__c</fullName>
+        <description>Contracted price for this service offering.</description>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Contracted_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Contracted price for this service offering.</inlineHelpText>
+        <label>Contracted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Embedded_Billing_Deal_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Embedded_Billing_Deal_Name__c</formula>
+        <label>Embedded Billing Deal Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Description__c</fullName>
+        <description>(Optional)  Customer-friendly description of any equipment included in service offering.</description>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Equipment_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Customer-friendly description of any equipment included in service offering.</inlineHelpText>
+        <label>Equipment Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installment_Fee__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( Service_Offerings__r.Installment_Fee__c = True, &quot;True&quot;, &quot;False&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Installment Fee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Bundle_Key__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Service_Offerings__r.Is_Bundle_Key__c=TRUE,&quot;True&quot;,&quot;False&quot;)</formula>
+        <label>Is Bundle Key</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Default__c</fullName>
+        <description>Is this the default service offering for this plan?</description>
+        <externalId>false</externalId>
+        <formula>IF(Service_Offerings__r.Is_Default__c=TRUE,&quot;True&quot;,&quot;False&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Is this the default service offering for this plan?</inlineHelpText>
+        <label>Is Default</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Service_Offering__c</fullName>
+        <description>If False, there is no service offering (only a placeholder).</description>
+        <externalId>false</externalId>
+        <formula>IF(Service_Offerings__r.Is_Service_Offering__c=TRUE,&quot;True&quot;,&quot;False&quot;)</formula>
+        <inlineHelpText>If False, there is no service offering (only a placeholder).</inlineHelpText>
+        <label>Is Service Offering</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>One_Time_Charge__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Onetime_Charge__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>One Time Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Path_Plan__c</fullName>
+        <externalId>false</externalId>
+        <formula>Plan__r.Path__c</formula>
+        <label>Path (Plan)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Path_SO__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Path__c</formula>
+        <label>Path (SO)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Service_Offerings__r.Payment_Type__c)</formula>
+        <label>Payment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Plan__r.Plan_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plan ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Plan__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plan Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Plan__r.Plan_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plan Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Plan</label>
+        <referenceTo>Plan__c</referenceTo>
+        <relationshipLabel>Service Offerings in this Plan</relationshipLabel>
+        <relationshipName>Service_Offerings_in_this_Plan</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Program_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Service_Offerings__r.Program_Code__c)</formula>
+        <label>Program Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recurring_Charge__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Recurring_Charge__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Recurring Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SOIP_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <label>SOIP ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.SO_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SO ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_Description__c</fullName>
+        <description>(Optional) Customer-friendly description of service offering.</description>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Service_Offering_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Customer-friendly description of service offering.</inlineHelpText>
+        <label>Service Offering Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Service_Offering_ID__c</formula>
+        <label>Service Offering ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_Is_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( Service_Offerings__r.Is_Active__c = TRUE, &quot;True&quot;, &quot;False&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Offering Is Active</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Offering Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offerings__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Order_Order Line Items_Service Offerings In This Plan.Serivce Offering Name</description>
+        <externalId>false</externalId>
+        <label>Service Offerings</label>
+        <referenceTo>Service_Offerings__c</referenceTo>
+        <relationshipLabel>Service Offerings in this Plan</relationshipLabel>
+        <relationshipName>Service_Offerings_in_this_Plan</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <description>Term of service (in months).</description>
+        <externalId>false</externalId>
+        <formula>Service_Offerings__r.Term__c</formula>
+        <inlineHelpText>Term of service (in months).</inlineHelpText>
+        <label>Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Service Offerings in this Plan</label>
+    <nameField>
+        <displayFormat>SOP-{000000}</displayFormat>
+        <label>Service Offerings in this Plan ID</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Service Offerings in this Plan</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FOSS</fullName>
+        <active>true</active>
+        <label>FOSS</label>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>SO_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Service_Offerings__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Service_Offering_Is_Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Billing_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>One_Time_Charge__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Recurring_Charge__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contracted_Price1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Select_Service_Offerings</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Select Service Offerings</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/OppQuotingServiceOfferings</url>
+    </webLinks>
+</CustomObject>

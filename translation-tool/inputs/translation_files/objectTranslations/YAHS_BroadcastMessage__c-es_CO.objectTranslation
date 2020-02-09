@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Anuncio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Anuncios</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- YAHS_FetchAnnouncement_Data --></label>
+        <name>YAHS_FetchAnnouncement_Data</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PRT_AnnoucementSummary --></label>
+        <name>YAHS_PRT_AnnoucementSummary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PRT_AnnouncementSysINfo --></label>
+        <name>YAHS_PRT_AnnouncementSysINfo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PRT_RecentAnnouncement --></label>
+        <name>YAHS_PRT_RecentAnnouncement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Yahs_GeneralAnnouncement_PP --></label>
+        <name>Yahs_GeneralAnnouncement_PP</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Activation Date/Time --></label>
+        <name>Activation_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Anuncio</label>
+        <name>Announcement_Type__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Impact</masterLabel>
+            <translation>Afectación del Servicio</translation>
+        </picklistValues>
+    </fields>
+	<fields>
+        <label>Anuncios Argentina</label>
+        <name>Announcement_esAR__c</name>
+    </fields>
+    <fields>
+        <label>Anuncios Chile</label>
+        <name>Announcement_esCL__c</name>
+    </fields>
+    <fields>
+        <label>Anuncios Colombia</label>
+        <name>Announcement_esCO__c</name>
+    </fields>
+    <fields>
+        <label>Anuncios Ecuador</label>
+        <name>Announcement_esEC__c</name>
+    </fields>
+    <fields>
+        <label>Anuncios Perú</label>
+        <name>Announcement_esPE__c</name>
+    </fields>
+    <fields>
+        <label>Anuncios Panamá</label>
+        <name>Announcement_in_Panama__c</name>
+    </fields>
+    <fields>
+        <label><!-- BeamId --></label>
+        <name>BeamId__c</name>
+        <picklistValues>
+            <masterLabel>115</masterLabel>
+            <translation><!-- 115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>121</masterLabel>
+            <translation><!-- 121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38</masterLabel>
+            <translation><!-- 38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>47</masterLabel>
+            <translation><!-- 47 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Anuncio</label>
+        <name>Broadcast_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Id --></label>
+        <name>Carrier_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedBy Profile --></label>
+        <name>CreatedBy_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Active --></label>
+        <name>Date_Active__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date in UTC --></label>
+        <name>Effective_Date_in_UTC__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiry Date in UTC --></label>
+        <name>Expiry_Date_in_UTC__c</name>
+    </fields>
+    <fields>
+        <label>Localización de Gateway</label>
+        <name>Gateway_Location__c</name>
+        <picklistValues>
+            <masterLabel>Albuquerque</masterLabel>
+            <translation><!-- Albuquerque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billings</masterLabel>
+            <translation><!-- Billings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roseburg</masterLabel>
+            <translation><!-- Roseburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Clara</masterLabel>
+            <translation><!-- Santa Clara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seattle</masterLabel>
+            <translation><!-- Seattle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gateway --></label>
+        <name>Gateway__c</name>
+        <picklistValues>
+            <masterLabel>ALB</masterLabel>
+            <translation><!-- ALB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIL</masterLabel>
+            <translation><!-- BIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROS</masterLabel>
+            <translation><!-- ROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEA</masterLabel>
+            <translation><!-- SEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STC</masterLabel>
+            <translation><!-- STC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Público objetivo</label>
+        <name>Intended_Audience__c</name>
+        <picklistValues>
+            <masterLabel>Display to SP Only</masterLabel>
+            <translation>Mostrar solo a Asociado de Servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display to SP and Customer</masterLabel>
+            <translation>Mostrar al Proveedor del Servicio y Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP ONLY</masterLabel>
+            <translation><!-- SP ONLY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Asociado de Servicios</label>
+        <name>Service_Partner_Selection__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>General Broadcast Message Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Impact Broadcast Message Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Id del Anuncio</nameFieldLabel>
+    <recordTypes>
+        <label><!-- General --></label>
+        <name>General</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Impact --></label>
+        <name>Service_Impact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Debe ingresar un mensaje de Anuncio y su versión en español.</errorMessage>
+        <name>Broadcast_Message_Cannot_Be_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede establecer una fecha de vencimiento anterior y no puede ser menor a la fecha efectiva.</errorMessage>
+        <name>ExpiryDateCannotBeSetupAsPastDate</name>
+    </validationRules>
+</CustomObjectTranslation>

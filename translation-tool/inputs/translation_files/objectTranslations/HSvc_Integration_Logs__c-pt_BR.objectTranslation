@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Integration Log --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Integration Log --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Allowance Transaction --></label>
+        <name>DataAllowanceTransaction__c</name>
+        <relationshipLabel><!-- Integration Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>HSvc_Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiated By --></label>
+        <name>HSvc_Initiated_By__c</name>
+        <relationshipLabel><!-- Integration Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>HSvc_Operation__c</name>
+        <picklistValues>
+            <masterLabel>Activate Vouchers</masterLabel>
+            <translation><!-- Activate Vouchers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Bandwidth</masterLabel>
+            <translation><!-- Add Bandwidth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Validation</masterLabel>
+            <translation><!-- Address Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRM WS Service</masterLabel>
+            <translation><!-- BRM WS Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Existing Customer Location Order</masterLabel>
+            <translation><!-- Create Existing Customer Location Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Installation &amp; Provisioning task</masterLabel>
+            <translation><!-- Create Installation &amp; Provisioning task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Check Callout</masterLabel>
+            <translation><!-- Credit Check Callout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Download Contract</masterLabel>
+            <translation><!-- Download Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Download Vouchers</masterLabel>
+            <translation><!-- Download Vouchers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAP</masterLabel>
+            <translation><!-- FAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Account Status</masterLabel>
+            <translation><!-- Fetch Account Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Account/Contact Information</masterLabel>
+            <translation><!-- Fetch Account/Contact Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Current Usage</masterLabel>
+            <translation><!-- Fetch Current Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Historical Usage</masterLabel>
+            <translation><!-- Fetch Historical Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch SP Voucher Balance</masterLabel>
+            <translation><!-- Fetch SP Voucher Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Subscriber Details</masterLabel>
+            <translation><!-- Fetch Subscriber Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Voucher Batch Status</masterLabel>
+            <translation><!-- Fetch Voucher Batch Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetch Voucher Status</masterLabel>
+            <translation><!-- Fetch Voucher Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FetchCreditReportCheck</masterLabel>
+            <translation><!-- FetchCreditReportCheck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FetchFAPOffers</masterLabel>
+            <translation><!-- FetchFAPOffers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forgot Password</masterLabel>
+            <translation><!-- Forgot Password --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forgot Username</masterLabel>
+            <translation><!-- Forgot Username --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generate Voucher Batch</masterLabel>
+            <translation><!-- Generate Voucher Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geocoding</masterLabel>
+            <translation><!-- Geocoding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Account Info</masterLabel>
+            <translation><!-- Get Account Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Bandwidth Info</masterLabel>
+            <translation><!-- Get Bandwidth Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get FAP Status</masterLabel>
+            <translation><!-- Get FAP Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get SP Account Balance</masterLabel>
+            <translation><!-- Get SP Account Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get SP Voucher Account Balance</masterLabel>
+            <translation><!-- Get SP Voucher Account Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Tax</masterLabel>
+            <translation><!-- Get Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Terminate Info</masterLabel>
+            <translation><!-- Get Terminate Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Usage</masterLabel>
+            <translation><!-- Get Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Voucher Batch Status</masterLabel>
+            <translation><!-- Get Voucher Batch Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Voucher Information File</masterLabel>
+            <translation><!-- Get Voucher Information File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Voucher Status List</masterLabel>
+            <translation><!-- Get Voucher Status List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GetOffers</masterLabel>
+            <translation><!-- GetOffers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GetbandwidthInfo</masterLabel>
+            <translation><!-- GetbandwidthInfo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Getusage API</masterLabel>
+            <translation><!-- Getusage API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InitiateCreditCheck</masterLabel>
+            <translation><!-- InitiateCreditCheck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoke Billing API</masterLabel>
+            <translation><!-- Invoke Billing API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoke Billing Spec API</masterLabel>
+            <translation><!-- Invoke Billing Spec API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoke CLO API of DSS</masterLabel>
+            <translation><!-- Invoke CLO API of DSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoke Purge API</masterLabel>
+            <translation><!-- Invoke Purge API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage FAP Token</masterLabel>
+            <translation><!-- Manage FAP Token --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage Free FAP Token</masterLabel>
+            <translation><!-- Manage Free FAP Token --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notify Voucher Batch Print</masterLabel>
+            <translation><!-- Notify Voucher Batch Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PostFapPurchase</masterLabel>
+            <translation><!-- PostFapPurchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PreFAPPurchase</masterLabel>
+            <translation><!-- PreFAPPurchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provision Data Allowance</masterLabel>
+            <translation><!-- Provision Data Allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redeem Voucher</masterLabel>
+            <translation><!-- Redeem Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Existing CustomerLocation Order</masterLabel>
+            <translation><!-- Remove Existing CustomerLocation Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reverse Voucher</masterLabel>
+            <translation><!-- Reverse Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLVT Op</masterLabel>
+            <translation><!-- SLVT Op --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Prequal Callout</masterLabel>
+            <translation><!-- Service Prequal Callout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminate Service</masterLabel>
+            <translation><!-- Terminate Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport Feasibility</masterLabel>
+            <translation><!-- Transport Feasibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unprovision Data Allowance</masterLabel>
+            <translation><!-- Unprovision Data Allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Migrated to Captive Portal Status</masterLabel>
+            <translation><!-- Update Migrated to Captive Portal Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UpdateProfile</masterLabel>
+            <translation><!-- UpdateProfile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate SAN/ESN</masterLabel>
+            <translation><!-- Validate SAN/ESN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate Voucher List</masterLabel>
+            <translation><!-- Validate Voucher List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>View Account Info</masterLabel>
+            <translation><!-- View Account Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void Individual Voucher</masterLabel>
+            <translation><!-- Void Individual Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void Voucher Range</masterLabel>
+            <translation><!-- Void Voucher Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>selfregister</masterLabel>
+            <translation><!-- selfregister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>viewAccountInfo</masterLabel>
+            <translation><!-- viewAccountInfo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related to --></label>
+        <name>HSvc_Related_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Message --></label>
+        <name>HSvc_Request_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Status --></label>
+        <name>HSvc_Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Response Message --></label>
+        <name>HSvc_Response_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Status --></label>
+        <name>HSvc_Response_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>HSvc_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target URL --></label>
+        <name>HSvc_Target_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>HSvc_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>HSvc_Type__c</name>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation><!-- Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request &amp; Response</masterLabel>
+            <translation><!-- Request &amp; Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response</masterLabel>
+            <translation><!-- Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Order Name --></label>
+        <name>Location_Order__c</name>
+        <relationshipLabel><!-- Integration Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Timestamp --></label>
+        <name>Request_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Timestamp --></label>
+        <name>Response_Timestamp__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Integration Log Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Integration Log Name --></nameFieldLabel>
+</CustomObjectTranslation>

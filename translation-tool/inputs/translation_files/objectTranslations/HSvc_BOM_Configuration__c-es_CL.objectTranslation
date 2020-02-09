@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de Lista de Materiales (BOM)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuración de Lista de Materiales (BOM)</value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label>Modelo del Adaptador</label>
+        <name>Adapter_Model__c</name>
+        <relationshipLabel><!-- BOM Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre de Lista de Materiales (BOM)</label>
+        <name>BOM_Name__c</name>
+        <relationshipLabel><!-- BOM Configurations (BOM Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de Lista de Materiales (BOM)</label>
+        <name>BOM_Type__c</name>
+        <picklistValues>
+            <masterLabel>Install</masterLabel>
+            <translation><!-- Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>País</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label>Modelo de Negocio</label>
+        <name>Hsvc_BusinessModel__c</name>
+    </fields>
+    <fields>
+        <label>Valor por defecto</label>
+        <name>Is_default__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Radio</label>
+        <name>Radio__c</name>
+    </fields>
+    <fields>
+        <label>Id. de Satélite</label>
+        <name>Satellite__c</name>
+        <relationshipLabel><!-- BOM Configurations --></relationshipLabel>
+    </fields>
+	<gender>Masculine</gender>
+    <nameFieldLabel>Id de Configuración de Lista de Material</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Fecha Efectiva debe ser igual o posterior a la fecha de hoy</errorMessage>
+        <name>Expiry_Date_Greater_Than_Effective_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

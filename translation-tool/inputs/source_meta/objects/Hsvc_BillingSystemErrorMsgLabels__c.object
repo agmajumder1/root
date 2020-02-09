@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This is used in Billing - It contains all the error codes received from Billing system with its Error message label in Salesforce.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>EnglishErrorMsg__c</fullName>
+        <externalId>false</externalId>
+        <label>EnglishErrorMsg</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PortugeseErrorMsg__c</fullName>
+        <externalId>false</externalId>
+        <label>PortugeseErrorMsg</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SpanishErrorMsg__c</fullName>
+        <externalId>false</externalId>
+        <label>SpanishErrorMsg</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Hsvc_BillingSystemErrorMsgLabels</label>
+    <visibility>Public</visibility>
+</CustomObject>

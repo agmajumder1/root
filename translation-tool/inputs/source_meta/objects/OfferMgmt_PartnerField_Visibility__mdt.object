@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ShowFields__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>ShowFields</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>OfferMgmt_PartnerField_Visibility</label>
+    <pluralLabel>OfferMgmt_PartnerFields_Visibility</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

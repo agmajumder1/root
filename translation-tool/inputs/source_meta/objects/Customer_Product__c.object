@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This Object defines Product selected by user for particular account.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Customer from the Accounts Table</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Customer Products</relationshipLabel>
+        <relationshipName>Customer_Products1</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Category__c</fullName>
+        <description>Billing Category is Similar to Product Grouping but needed by Billing</description>
+        <externalId>false</externalId>
+        <label>Billing Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wireline</fullName>
+                    <default>false</default>
+                    <label>Wireline</label>
+                </value>
+                <value>
+                    <fullName>VADB</fullName>
+                    <default>false</default>
+                    <label>VADB</label>
+                </value>
+                <value>
+                    <fullName>Active Bonding</fullName>
+                    <default>false</default>
+                    <label>Active Bonding</label>
+                </value>
+                <value>
+                    <fullName>Wireless</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+                <value>
+                    <fullName>Satellite</fullName>
+                    <default>false</default>
+                    <label>Satellite</label>
+                </value>
+                <value>
+                    <fullName>WiFi</fullName>
+                    <default>false</default>
+                    <label>WiFi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Program__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Program</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Program__c.Brand_LE_Account__r.Id</field>
+                <operation>equals</operation>
+                <valueField>$Source.Account_Name__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Program__c</referenceTo>
+        <relationshipLabel>Customer Products</relationshipLabel>
+        <relationshipName>Customer_Products</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Install__c</fullName>
+        <description>Indicates End of Life of a given product for Installation purposes</description>
+        <externalId>false</externalId>
+        <label>End of Life for Install</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Sale__c</fullName>
+        <description>Indicates End of Life of a given product for Sales purposes</description>
+        <externalId>false</externalId>
+        <label>End of Life for Sale</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Support__c</fullName>
+        <description>Indicates End of Life of a given product for customer service purposes</description>
+        <externalId>false</externalId>
+        <label>End of Life for Support</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Launch_Status__c</fullName>
+        <description>Indicates launched status of a Product for a given Customer</description>
+        <externalId>false</externalId>
+        <label>Launch Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Marketing Pilot</fullName>
+                    <default>false</default>
+                    <label>Marketing Pilot</label>
+                </value>
+                <value>
+                    <fullName>Field Pilot</fullName>
+                    <default>false</default>
+                    <label>Field Pilot</label>
+                </value>
+                <value>
+                    <fullName>Feature Restricted</fullName>
+                    <default>false</default>
+                    <label>Feature Restricted</label>
+                </value>
+                <value>
+                    <fullName>Volume Restricted</fullName>
+                    <default>false</default>
+                    <label>Volume Restricted</label>
+                </value>
+                <value>
+                    <fullName>Customer Specific</fullName>
+                    <default>false</default>
+                    <label>Customer Specific</label>
+                </value>
+                <value>
+                    <fullName>Unrestricted</fullName>
+                    <default>true</default>
+                    <label>Unrestricted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product__r.Name</formula>
+        <label>Product Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Type_Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Product__r.Product_Type__c)+&apos;-&apos;+ Product__r.Product_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Type - Product Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Products mapped to a customer.</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>HNS_Products__c</referenceTo>
+        <relationshipLabel>Customer Products (Product)</relationshipLabel>
+        <relationshipName>Customer_Products1</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Customer Product</label>
+    <nameField>
+        <label>Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Customer Products</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Product__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ECOB_End_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( End_of_Life_for_Install__c &lt; TODAY() ,
+ End_of_Life_for_Sale__c &lt; TODAY(),
+  End_of_Life_for_Support__c &lt; TODAY())</errorConditionFormula>
+        <errorMessage>All End Dates Cannot be in Past</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

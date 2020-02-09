@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>When there are more than one external Ids for the same object based on a field of the SObject, then is possible to define the corresponding ExternalIds as entries within this setting., 
+
+Name                       SObject        TypeOfRecord      ExternalId
+Account_Partner      Account        Partner                 PartnerId__c
+Account_Location    Account        Location               SAN__c</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <description>Define the External ID for a combination of &quot;SObjectType&quot; + &quot;Type of Record&quot;
+Ex: Account Partner --&gt; PartnerId__c</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the External ID for a combination of &quot;SObjectType&quot; + &quot;Type of Record&quot;
+Ex: Account Partner --&gt; PartnerId__c</inlineHelpText>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SObject_Type__c</fullName>
+        <description>Define the SObject Type for which there could be multiple externalIds</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the SObject Type for which there could be multiple externalIds</inlineHelpText>
+        <label>SObject Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Record__c</fullName>
+        <description>Define the Type of the Record for which you need a particular External Id. 
+Ex : Type = &quot;Partner&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the Type of the Record for which you need a particular External Id. 
+Ex : Type = &quot;Partner&quot;</inlineHelpText>
+        <label>Type of Record</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>External Ids By SObject</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>HSvc_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( HSvc_ExpiryDate__c  &lt;  TODAY() , False, True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ActivityDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_ActivityTypeLookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Hsvc_ActivityType__c.AvailableToUser__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>Hsvc_ActivityType__c.RecordType__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.RecordType__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Hsvc_ActivityType__c</referenceTo>
+        <relationshipLabel>Quick Notes Template</relationshipLabel>
+        <relationshipName>Quick_Notes_Template</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ActivityType__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agent Note</fullName>
+                    <default>false</default>
+                    <label>Agent Note</label>
+                </value>
+                <value>
+                    <fullName>Customer Note</fullName>
+                    <default>false</default>
+                    <label>Customer Note</label>
+                </value>
+                <value>
+                    <fullName>Consult</fullName>
+                    <default>false</default>
+                    <label>Consult</label>
+                </value>
+                <value>
+                    <fullName>Escalation by Customer</fullName>
+                    <default>false</default>
+                    <label>Escalation by Customer</label>
+                </value>
+                <value>
+                    <fullName>Customer Escalation Response</fullName>
+                    <default>false</default>
+                    <label>Customer Escalation Response</label>
+                </value>
+                <value>
+                    <fullName>Inbound Email</fullName>
+                    <default>false</default>
+                    <label>Inbound Email</label>
+                </value>
+                <value>
+                    <fullName>Outbound Email</fullName>
+                    <default>false</default>
+                    <label>Outbound Email</label>
+                </value>
+                <value>
+                    <fullName>ARRIVAL</fullName>
+                    <default>false</default>
+                    <label>ARRIVAL</label>
+                </value>
+                <value>
+                    <fullName>STOP</fullName>
+                    <default>false</default>
+                    <label>STOP</label>
+                </value>
+                <value>
+                    <fullName>ETA</fullName>
+                    <default>false</default>
+                    <label>ETA</label>
+                </value>
+                <value>
+                    <fullName>CLOSURE</fullName>
+                    <default>false</default>
+                    <label>CLOSURE</label>
+                </value>
+                <value>
+                    <fullName>Case Creation</fullName>
+                    <default>false</default>
+                    <label>Case Creation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_EffectiveDate__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_End_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ExpiryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Provider_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>RecordType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TP Monterrey MOD</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey MOD</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey Universal</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Universal</label>
+                </value>
+                <value>
+                    <fullName>SDG Colombia</fullName>
+                    <default>false</default>
+                    <label>SDG Colombia</label>
+                </value>
+                <value>
+                    <fullName>South America Control Center</fullName>
+                    <default>false</default>
+                    <label>South America Control Center</label>
+                </value>
+                <value>
+                    <fullName>Hughes Colombia Distributor</fullName>
+                    <default>false</default>
+                    <label>Hughes Colombia Distributor</label>
+                </value>
+                <value>
+                    <fullName>Universal</fullName>
+                    <default>false</default>
+                    <label>Universal</label>
+                </value>
+                <value>
+                    <fullName>Hughes Panama Distributor</fullName>
+                    <default>false</default>
+                    <label>Hughes Panama Distributor</label>
+                </value>
+                <value>
+                    <fullName>SDG Panama</fullName>
+                    <default>false</default>
+                    <label>SDG Panama</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey MOD Panama</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey MOD Panama</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Colombia</fullName>
+                    <default>false</default>
+                    <label>Hughes de Colombia</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Panama</fullName>
+                    <default>false</default>
+                    <label>Hughes de Panama</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Ecuador</fullName>
+                    <default>false</default>
+                    <label>Hughes de Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Chile</fullName>
+                    <default>false</default>
+                    <label>Hughes de Chile</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Peru</fullName>
+                    <default>false</default>
+                    <label>Hughes de Peru</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Corporate(HQ)</fullName>
+                    <default>false</default>
+                    <label>Hughes de Corporate(HQ)</label>                
+                </value>
+				<value>
+                    <fullName>Ent SA Frontline</fullName>
+                    <default>false</default>
+                    <label>Ent SA Frontline</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Field Support</fullName>
+                    <default>false</default>
+                    <label>Ent SA Field Support</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Control Desk</fullName>
+                    <default>false</default>
+                    <label>Ent SA Control Desk</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Business Analyst</fullName>
+                    <default>false</default>
+                    <label>Ent SA Business Analyst</label>
+                </value>
+            </valueSetDefinition>
+			<valueSettings>
+                <controllingFieldValue>B2B General Case</controllingFieldValue>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Ent SA Frontline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2B General Case</controllingFieldValue>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Ent SA Field Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2B General Case</controllingFieldValue>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Ent SA Control Desk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2B General Case</controllingFieldValue>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Ent SA Business Analyst</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>TP Monterrey MOD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>TP Monterrey Universal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>CS Corp Colombia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>SDG Colombia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <valueName>South America Control Center</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <valueName>Hughes Colombia Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <valueName>Universal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>CS Corp Panama</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Hughes Panama Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>SDG Panama</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B2C General Case</controllingFieldValue>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>TP Monterrey MOD Panama</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_Start_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Hsvc_Language__c</fullName>
+        <description>Languages which are supported in SAD</description>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Hsvc_Languages</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RecordType__c</fullName>
+        <externalId>false</externalId>
+        <label>Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>B2B General Case</fullName>
+                    <default>false</default>
+                    <label>B2B General Case</label>
+                </value>
+                <value>
+                    <fullName>B2C General Case</fullName>
+                    <default>false</default>
+                    <label>B2C General Case</label>
+                </value>
+                <value>
+                    <fullName>Repair Work Order</fullName>
+                    <default>false</default>
+                    <label>Repair Work Order</label>
+                </value>
+                <value>
+                    <fullName>Install Work Order</fullName>
+                    <default>false</default>
+                    <label>Install Work Order</label>
+                </value>
+                <value>
+                    <fullName>RMA</fullName>
+                    <default>false</default>
+                    <label>RMA</label>
+                </value>
+                <value>
+                    <fullName>Office Only</fullName>
+                    <default>false</default>
+                    <label>Office Only</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Quick Notes Template</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>RecordType__c</columns>
+        <columns>NAME</columns>
+        <columns>HSvc_ActivityTypeLookup__c</columns>
+        <columns>HSvc_ActivityDescription__c</columns>
+        <columns>HSvc_EffectiveDate__c</columns>
+        <columns>HSvc_ExpiryDate__c</columns>
+        <columns>HSvc_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Quick Activity Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Quick Activity Template</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>RecordType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ActivityType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ActivityDescription__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_EffectiveDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ExpiryDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Active__c</customTabListAdditionalFields>
+        <listViewButtons>Hsvc_Data_Admin</listViewButtons>
+        <lookupDialogsAdditionalFields>RecordType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ActivityType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ActivityDescription__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_EffectiveDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ExpiryDate__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>HSvc_ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(HSvc_ExpiryDate__c &lt; TODAY(),HSvc_ExpiryDate__c &lt; HSvc_EffectiveDate__c)</errorConditionFormula>
+        <errorDisplayField>HSvc_ExpiryDate__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Hsvc_Data_Admin</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Data Admin</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/support/console/31.0/integration.js&quot;)} 
+sforce.console.refreshNavigationTab();</url>
+    </webLinks>
+</CustomObject>

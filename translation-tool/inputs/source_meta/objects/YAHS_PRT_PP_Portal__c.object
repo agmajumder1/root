@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Maintains the portal name for the tier 2 CSR users to switch</description>
+    <enableFeeds>false</enableFeeds>
+    <label>YAHS_PRT_PP_Portal</label>
+    <visibility>Public</visibility>
+</CustomObject>

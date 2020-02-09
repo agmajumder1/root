@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is  responsible for holding the FAP configurations, like number of tokens and the frequency</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Frequency_in_days__c</fullName>
+        <externalId>false</externalId>
+        <label>Frequency (in days)</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_tokens__c</fullName>
+        <description>Displays the number of days until when &quot;no. of token&quot; is available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Displays the number of days until when &quot;no. of token&quot; is available.</inlineHelpText>
+        <label>Number of tokens</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>FAP Configuration Template</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Number_of_tokens__c</columns>
+        <columns>Frequency_in_days__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_View</fullName>
+        <columns>NAME</columns>
+        <columns>Frequency_in_days__c</columns>
+        <columns>Number_of_tokens__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>My View</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>FAP-{0000000}</displayFormat>
+        <label>FAP Configuration Template Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>FAP Configuration Template</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Frequency_in_days__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Number_of_tokens__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Frequency_in_days__c</lookupFilterFields>
+        <lookupFilterFields>Number_of_tokens__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Frequency_in_days__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Number_of_tokens__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Frequency_in_days__c</searchFilterFields>
+        <searchFilterFields>Number_of_tokens__c</searchFilterFields>
+        <searchResultsAdditionalFields>Frequency_in_days__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Number_of_tokens__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

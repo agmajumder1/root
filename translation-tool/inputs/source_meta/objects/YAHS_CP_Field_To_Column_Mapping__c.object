@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to display the field name as  userdefined column in a table in any VF Page. Name of the custom setting should be same as Label of any sobject field</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Value__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Provide Custom Label API Name</inlineHelpText>
+        <label>Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>YAHS_CP_Field_To_Column_Mapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

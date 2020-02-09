@@ -1,0 +1,1351 @@
+Translation File,API Name,Error
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SME_CHANNEL SALES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reseller,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Prospect,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partner,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Activate service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Adjustments not applied,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Apply adjustments,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Number,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Callback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Call Back,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Considering,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Contacted,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,De-install Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dispatch Tech,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Educated Customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated to Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated to SIC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated to Supervisor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Give Courtesy Token(s),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform management Customer Service Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform management Field Service Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install - Escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install - Updated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Left Message,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Located,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Answer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not located,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not Updated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Prioritize dispatch tech,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Process,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Process Cancellation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Purchase Token(s),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Recurring Payments,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Refer to Retention,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair - Escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair - Updated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Issue to Control Desk/NMC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request call recording,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Retain Customer No Credit,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Retain Customer with Credit,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Saved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Survey Accomplish,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Truckroll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Updated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wait for New Allowance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Agent Note,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Note,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Consult,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalation by Customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Escalation Response,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inbound Email,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outbound Email,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Case Creation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARRIVAL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,STOP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ETA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CLOSURE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complaint,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,3rd party Device Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Account Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Account Name (Misspelling),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Account Ownership Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Activate new service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Agent Callback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Amount Due,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Application Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Application Issue - Customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Application Issue - hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Authorized Contact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Automated Call - Activation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Available schedule,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Cables/Wiring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Modem,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Radio,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Treatment - CSR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad Treatment - Technical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad website,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bad website/url,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bank Strike,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bill Date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Billing Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Billing Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bill Notification,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Boleto to credit card,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Boleto to debit,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bonus Zone,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Response Time,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Appeal/Escalation Status,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Browser Message,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Business System Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancellation Fee,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancellation Policy,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Capture Business Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Changed Mind,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change due date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change of Mind,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Chose Another Satellite ISP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Chose Another Terrestrial ISP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Collection,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,"Collection clarification (Adjustment, tax)",API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Commercial Location,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Commitment/Contract,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Commitment Status,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,competition between companies - Cost,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,competition between companies - FAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,competition between companies - Speed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Configuration Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Confirmed/Known Issue - Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Confirmed Outage - Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Credit/Refund,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Credit card to boleto,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Credit card to debit,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Credit Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CSR Impolite,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer device issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer education,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer-requested Call Back,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CVV,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Data Allowance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Data Plan/Limits,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Debit to boleto,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Debit to credit card,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,De-Install (System),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Delay in installation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Delay in Repair,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Did not authorize/place order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Disable,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,"Disagrees with Billing (Pro rata, adjustment, fine)",API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Disaster,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Discount not applied,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Distance too far,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Divergence of values (customer claims undue values),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does not agree to make Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does Not Meet Data Allowance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does Not Meet Gaming Needs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does Not Meet Speed Needs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does not meet VPN/Static Needs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Downgrade Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Downgrade Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Download Allowance (FAP),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Download Speed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Due Date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Due Date Extension,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Duplicate Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Duplicate Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Duplicate payment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Email Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enable,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Engineering System Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Damaged,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Location Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Recovery,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Return,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Exceeded Bandwidth Allowance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Exceeded Data Allowance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Existing upgrade install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Expiry Date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Explanation of Charges,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Extend Full Amount Due,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Fair Access Policy,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FAP Not Informed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Financial Consideration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Financial Considerations,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Financial problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Firmware Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Full Amount Due,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,General Questions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Home Renovation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Outage/Degradation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Improper collection (error of Hughes),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Improper contestation - correct Invoice,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Improperly Configured,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Improperly Connected,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incompatible with Customer's Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect Account Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect Config,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect email configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect Hughes Wi-Fi Configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect IP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect login,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrectly Labeled/Wrong Port,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect power/LAN connection,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform amounts outstanding,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform payment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation Complaint,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation Quality,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation without service activation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installer Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installer-Related,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install - Latency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Interference,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Latency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Letter - Collections,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Letter - Marketing Offers,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Lifestyle,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Line of Sight/Repoint,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Line Of Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Local Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Location/Edge of Beam,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Location / limit beam,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Location Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Long Vacation (>30 days),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Lost,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Low/Intermittent Signal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Low signal / intermittent signal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Loyalty Fees,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Loyalty Not Informed during sales,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Campaign,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Email Campaign,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Military Deployment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Missed Appointment/Reschedule,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Modem Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Move Program,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Name on Bank Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NAP Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Debit/Credit Card,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Direct Debit Account (E-check),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Installation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Newsletter,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NOC System Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No receipt invoice,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Signal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not Indicated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not receive call recording,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not Services Quoted,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Order Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Others,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Out of service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partial Amount Due,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partial Payment & Extend Due Date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Password Reset/Change request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Password Reset Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Payment Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Payment Method on File,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Payment Options,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Promotional Offers,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reactivate from Billing Lock,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reactivate from Incorrect Suspension,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reactivate from Pending Cancellation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reactivate from Suspension,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rebates,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Recurring Payments,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Refill Period,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation - Deinstall,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation - Reinstall,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation on Same Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation to New Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Regulator Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Quality,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repoint/Truckroll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request Call Recording,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reschedule Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reschedule Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Routing Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sales practices,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sale Token,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Schedule Full Amount Due,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Schedule Future Payment (No Amount Due),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Schedule Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Schedule Payment & Extend Due Date,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Scheduling Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Security PIN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,See parent case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service doesn't meet needs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Reliability,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Shipping,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Short Vacation (< 30 days),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Site Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SMS/Text Message,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Snooze,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Speed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Speeds,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Speed signal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Staying with current provider,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Stolen,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Strata Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Strata Change Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Strata Credit Dispute,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Survey,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Survey Accomplish,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Survey Feedback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Switching Providers - ADSL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Switching Providers - Cable/Fiber,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Switching Providers - Radio,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Switching Providers - Satellite,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Telephone Number,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ticket Status,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Token Bytes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Too expensive (monthly charge),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Too expensive (upfront charge),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Trading amounts outstanding,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Transponder Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Truckroll Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Buy Tokens,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Change Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Create Ticket,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to detect 5G network,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Install - Access,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Install - Line of Sight,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Manage Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to View Invoice,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to View Usage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Billing Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Credit Card,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Email Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Install Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Phone Number,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Usage History,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Username Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Data Saver,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Waiting Time and Call Queues in Customer Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wiring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Purchased,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Shipped,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Registered,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Obsolete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not Yet Commissioned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Terminal Activated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,De-registered,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Active,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Locked,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inactive,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Chat,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Email,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IVR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Mail,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Phone - inbound,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Phone - outbound,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Self-care,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey MOD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey Universal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SDG Colombia,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Colombia Distributor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,South America Control Center,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Panama Distributor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SDG Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey MOD Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Colombia,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Peru,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Ecuador,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Chile,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Corporate (HQ),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Frontline,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Field Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Control Desk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Business Analyst,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Yes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Acquisition Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Add/Upgrade Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Billing Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bill Inquiry/Dispute,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Callback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Call Recording,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Change of Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Competition,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Financial,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancellation Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Ownership Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Sales Practices,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Technical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel - Treatment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel VSAT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cannot Connect to Wi-Fi Booster,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cannot find Wi-Fi Network,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cannot Login,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cannot Receive Emails,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cannot Send Emails,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change Due Date - Temporary,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change Payment Type,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change Service Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Client Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Collect Payment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Contract / Policies / Terms of Use,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Conversion,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Collection,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Damaged,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,De-Install (System),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Delinquency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Discount concession,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Downlink Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Download Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dropped call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Location Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Swap,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Explanation of Charges,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FAP Questions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Financial Adjustments,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,General Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Communication,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Information /Questions about the plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Information about Operation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation Problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Intermittent Connectivity,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Intermittent Wi-Fi Signal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Invoice Reissue Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Lock-Up/Hangs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Campaign,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Missing Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Installation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Internet Access/Connectivity,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No internet connectivity,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Signal At All,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other Internet Application Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outbound Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Peformance Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Perfomance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Policy,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Problems Related to Deinstall,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Questions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Questions about Offers and Promotions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reactivate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Restore Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Restore Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Seasonal Suspension,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,See parent case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Self-Care,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Self Care Portal Features,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Feature Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Questions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Signal Strength/Coverage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sign-Off,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Slow Internet Connectivity,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Suspend,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,System Generated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Technician with difficulties,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Token,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Access/Login,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Buy Tokens,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to Launch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unable to View Usage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unsatisfied with product / Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Account Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update Payment Info,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Update payment information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Uplink Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Usage Question,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Values ​​Return,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Buffering,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Not Loading,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Optimization Settings,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Quality Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Want to Become a Reseller,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Warnings Hughes Communications / Offers and Promotions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Welcome Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Will not Activate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Winback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Without Internet Connection,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sample,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Yes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Awaiting Response,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,B2B General Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,B2C General Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Work Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install Work Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Office Only,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Assigned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Associate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Awaiting SPR Code Release,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Build Out Released,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled or Duplicate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Closed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—No issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—Pending Quality Assurance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Director Approved and Scheduled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EMRB Approved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENG - SPR Active,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated to Regulator,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Failed QA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold-Awaiting Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold—Awaiting Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Implementation Phase,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Investigation Closed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Investigation Open,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MRB Approved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Problem Found,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Acknowledge,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - De-escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Dispatch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated Field Terr Supp,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated to Call Center,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated to NAP Provisioning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated to NOC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated to PM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Esc NE review,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Holding for Parts,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - In Progress,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Investigating,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - On Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - PAM Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Pending NE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Pending Release,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Pending Tech Review,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Provisioning Processing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open PSR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Reassigned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Repair,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Special Escalation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Suspension,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Unassigned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Upgrade,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Web,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Web Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Work in Progress,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Operator Analysis,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Operator Analysis - Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Acceptance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Approval,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Callback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Cancel,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Construction,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Customer Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Customer Contact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Customer Input,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Customer Input,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Engineering Action,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Follow On Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Hughes Closure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - MOD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Monitoring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - NAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending- OA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Post Install Provisioning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Provisioning Group,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Re-Activation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Resolution,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Service Provider Closure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Site Access,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Vendor Meet,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pend- NE Trblshoot,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Project Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Qualified,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Redirected to Third Party,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolved or Completed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Scheduled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPF Released,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPR Opened,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Testing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel Core Service (Retention),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel Order,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,De-Install (System),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Emergency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Finance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,General information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Truck Roll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Installation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outbound Program,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partial Outage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Regular,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Regular Process,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Standard,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tool Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancel,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outbound Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Self Care Portal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Status Meter App,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Billing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Email Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Internet Performance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video Streaming Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wi-Fi Network,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Compliance with Regulator,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Equipment Recovery,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Truckroll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pre-Sales,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation - Deinstall,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation - Reinstall,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Event,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Non-Technical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Product Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Field,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Techician Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Technical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Repair Remote,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pre-install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Project,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Retention,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pre-Sales,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Business Plan Approval,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Competition Making Inroads into Account - DSL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Competition Making Inroads into Account - Wild Blue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Competition Making Inroads into Account - Wireless,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Care Problems - Billing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Care Problems - Escalations,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dealer Event - Key City Approval Form,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Distribution Problem (unable to get help from Distributor),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Financial Trouble,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inventory Shortages/Product Shortages,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Key City Approvals,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Local Issue impacting Business,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Losing a Key Contact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Materials,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ordering Tool Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Password Reset,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Payment Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Product Problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reoccuring Log In Problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Shipment Problems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Staffing Issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Training,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,1,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,2,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,3,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Emergency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Regular,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Standard,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NMD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,None,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Consumer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enterprise,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Shared,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Yes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,1,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,2,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Business Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Key City Funds,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,A change is required to repair an issue that is impacting service (or will impact service if not corrected),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,A change is required to correct a security issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Does not adhere to emergency change policy,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reproducible,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Occasional,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rare,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Constant,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,JUPITER 4,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DPC/EE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GEMINI,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IPES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NNOC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TRES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,UMOD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VSAT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GRDFGFDS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FDSAFSDA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARBB7000,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARBB9000,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARCDPD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARGMHTDMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARLLTDMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARWU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MSS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SWOPS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPACEWAY,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPWY BYPAS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN-HX SYSTEM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARBB9400,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ARBB9800,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Yes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Degradation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,None,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Special,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Case Closure Instructions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Profile,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dispatch Note,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Network Diagram,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Network Infractions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,To Do List,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Red Text Message,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AC313,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AC315,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AC367,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ALB,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ALBNM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AMATX,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,B125,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BENOR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BIL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BIS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BOI,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BOIID,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CASWY,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CEDIA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DET,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DETMI,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EDM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ELP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENG,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENGCO,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EUGOR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FLG,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GRJ,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GTN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GTNMD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MIDTX,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MIS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MISMT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NLV,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NMC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NOR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NORNE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,OKLOK,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,OMANE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,REG,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SAN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SEAWA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SLC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPOWA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,STC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TUC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BISND,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BXICA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FLAAZ,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NLVNV,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NORME,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SANTX,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SLCUT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,STCCA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Yes,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Not Applicable,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ACP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CAC-PC-UEM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 7000_TU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DNCC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DVBSGW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IP Gateway,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Management Gateway Client,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,QMPC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Return Channel CP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Serial Gateway,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Special Services Gateway,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TurboPage Server,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VISION-PC-UEM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,UBB HN Router,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,UBB IP Gateway,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,UBB Vision-PC-UEM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CDS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 4010,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 4020,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 4030,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 6000,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 7000,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 7700,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIRECWAY 7740,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN 7000,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN 7000S,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN 7700S,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN9400,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN9200,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN92600,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN9600,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HN9800,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Satellite Gateway Modulator,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX 150,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX 200,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX 260,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX 280,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX 50,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX90,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX50L,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX ExpertNMS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,WEB ACS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ACS Lite,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ACS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Management File Server,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Quality Monitoring PC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX DNCC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX IPGW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ACU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BGM_SGW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HT1100,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HT1200,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HT1300,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GW_TM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inroute Bandwidth Manager,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IDC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IGM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Jovian,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Jupiter MFS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Legal Intercept,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outroute Bandwidth Manager,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resource Manager,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SGW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TG3_PROXY,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TSA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TXM_RXM Microcontroller,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TXM_RXM Proxy,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,WAS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Component,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Facilities,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Performance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AWR/RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Acct Deletion,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Beta,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hot Field Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Master,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Mgd Sec Svcs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pin Reset,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Problem,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Project,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,"RF Ded,Natl,Shr",API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RFT Dedicated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RFT Natl NW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RFT Shared,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace KeyFob,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Req - VOD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Req- New Key Fob,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request - SSID,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rqst -Live Broadcast,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Site Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tracking,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes SP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ABC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,XYZ,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Correct Network Event,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Requested,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enable New Feature,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Infrastructure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Install/Remove HW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Customer Rollout,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Product Launch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Security/PCI Compliance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Management,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Software,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Defect escaped test,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hardware failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Root cause unknown,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Human Error,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Abort,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Account Transaction,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Advanced Warranty Replacement,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Continue Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Corrected Configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Corrected Connections,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer to replace cables,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Will Configure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Will Correct,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dispatch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dispatch Tech,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalate to DM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalate to NAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Expedited TR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Follow-up,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Truck Roll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Inform customer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Monitoring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NAP Office Only,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NAP Truck Roll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,None Required,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other (Explain in Notes),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partner RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pass,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PIP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Priority TR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Provisioning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PSR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Receive manually,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Referred to 3rd Party,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Refer to 3rd Party,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Remove 3rd Party Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace Cable,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace Equipment,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Replace with No Return,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Issue to Control Desk/NMC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reschedule Tech,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolve,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Set up Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Truck roll,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Vendor Meet,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wait for outage to Clear,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wait for Weather to Clear,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Waiting customer return,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Forwarded for processing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Forwarded for approval,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Relocation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RF work,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Power work,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Port Turn up,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sample,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TNF – Cancelled Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TNF – Customer Accepted,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,High,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Medium,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Low,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outside NAD Control,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Human Error,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unknown Up/Downstream Configuration,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Incorrect Implementation Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,"Power, Water, Fire, Other",API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,"Defective Component, Defective Software",API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unknown,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,QXS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ZCVD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ANS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ANTFI,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ASTRACOM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AVIEU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BANHU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DENEU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DIGEUSP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VSD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TELSAT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PANA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PTPO,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GETCH,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,GETPO,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,JUPITER 1,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPACEWAY 3,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,KU,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Terrestrial,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Business Systems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Management,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VoIP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Video,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Managed Services,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,JUP/SW,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Internet/Backhaul,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Critical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Major,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Moderate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tech Question,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Minor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,6-AWR/RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enhancement,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,8-Software,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EM7,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SMARTS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HNMon,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CS Escalation/Trend,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Monitoring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Internal Call,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,AGO,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BBB,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Bulk Upload,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CES,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Chat,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Corp Officer,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Email,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,FCC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Fax,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IVR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Letter,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Mobile Native,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Mobile Web,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NOC,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other Agency,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PAM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Phone,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,QA Tool,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SCF Alarm,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SCS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Self-Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Smarts Alarm,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Vantive,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,General,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Satellite Broadband,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Tools,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sales,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,True,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,False,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Commissioning/Activation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Gateway/Web,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Management,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ordering,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Provisioning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Reports/Data,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tools,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Transport,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Account/ Contract Related,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Compensation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Campaigns,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Collateral,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Communications,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Events,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Incentives,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Offers,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Marketing Programs,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Order Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Quality,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,System Access/Account Password Reset,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tools & Systems,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Training,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey MOD,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey Universal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SDG Colombia,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,South America Control Center,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Colombia Distributor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes Panama Distributor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SDG Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TP Monterrey MOD Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Colombia,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Panama,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Peru,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Ecuador,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Chile,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes de Corporate (HQ),API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Frontline,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Field Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Control Desk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ent SA Business Analyst,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Closed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Dispatch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Holding for Parts,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - In Progress,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Investigating,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - On Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - PAM Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Provisioning Processing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open PSR,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - RMA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Upgrade,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open - Web Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Callback,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Cancel,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Construction,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Customer Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Customer Contact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Customer Input,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Engineering Action,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Monitoring,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - NAP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Post Install Provisioning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Provisioning Group,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Re-Activation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Service Provider Closure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Site Access,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Vendor Meet,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending - Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Performance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Outage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Partial Outage,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Degradation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Investigation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Redundant Failover,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Single Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Capital Lease,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Lease,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Purchase,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Recovery Act,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Recovery Act - DISH,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Critical,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Major,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Minor,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Device,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Support,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,BOM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Administrative Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Billing Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Technical Issue Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Technical Issue Tool,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request Account Maintenance & Service Charge,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request Configuration Change,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Activate Portal Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Add/Remove/Change Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Deactivate Portal Account,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dispute,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Explanation Of Charges,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hughes On Portal,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IP Address,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Network Wide,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,New Site,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Other Tools,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Prequal Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Purchase Approvals,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Quote Conversions,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Report Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request Copy Of Bill,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Request Key Fob,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Research Request,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,RMA Approvals,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Intermittent,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Out,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Service Performance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Site Number,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Transponder Change Notification,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Username/Password,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VADB Number,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Change Caused Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Circuit Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cleared Before isolation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete-No issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Configuration Value,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer-Owned System Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Requested Task Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Facility Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Fix Not Planned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HW/SW Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Infrastructure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Interference,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,IT-Owned Sys/Svc Failure,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Licensing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Problem Found,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Project Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Provider Issue,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rolled Back-Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rolled Back-No Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Security,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tools,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Unknown/Restarted/Reset,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Weather,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Working as Designed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Work Request Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,2ND BUSINESS DAY ARRIVAL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Acceleration Appliance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Active Bonding,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ActiveTechnologies,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Broadband Remote,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cable,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,CONTINUOUS COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Customer Provided Transport,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dial Backup,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Digital Media,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,DSL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Dual Router HAN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Education,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Elearning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enterprise VOIP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Enterprise WiFi,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Ethernet,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BASIC W/O COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BASIC WITH COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BASIC WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS W/O COMMITMENT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS W/O COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS WITH COMMITMENT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS WITH COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR BUSINESS WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME W/O COMMITMENT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME W/O COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME WITH COMMITMENT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME WITH COMMITMENT WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXPRESS REPAIR HOME WITH TERM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXTENDED 18 X 7 COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXTENDED COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EXTENDED PLUS COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Fiber,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Games,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Guest WiFi,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Guest WiFi Helpdesk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HughesNet Voice,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,HX Satellite,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Jupiter,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Learning,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Music,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Music Premium,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Next Business Day,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NEXT BUSINESS DAY COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NEXT BUSINESS DAY - FLAT FEE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Next Calendar Day,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NEXT DAY COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,PC System Essentials,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Platinum Helpdesk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,POTS Line,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Premium Helpdesk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Premium Security Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Professional Install,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Radio,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rogue WiFi,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Router,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SAME BUSINESS DAY COVERAGE,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Satellite Modem,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Security Appliance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Single Router HAN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Single Transport,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Spaceway,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Sports,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR PLUS EXISTING CUST NO COMMIT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR PLUS EXISTING CUST WITH COMMI,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR PLUS NEW CUST,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR PLUS NEW CUST BUY UP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR STD EXISTING CUST NO COMMIT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR STD EXISTING CUST WITH COMMIT,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SRVC ASSUR STD NEW CUST,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Standard Wireless,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Switch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,T1,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Temp Wireless,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tier 1 Helpdesk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Tier 3 Helpdesk,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TIME AND MATERIAL,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,UNKNOWN,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Variety,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VDOM,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VOIP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,VOIP ATA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wi-Fi AP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wi-Fi Controller,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wi-Fi Virtual Controller,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wireless Modem,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wireline,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wireline Modem,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wireline Modem - AB,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Wireline Modem - ABV,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Zone Alarm Internet Security Suite,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Assigned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Awaiting SPR Code Release,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Build Out Released,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Cancelled or Duplicate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Closed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—No issues,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Complete—Pending Quality Assurance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Director Approved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Director Approved and Scheduled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,EMRB Approved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Failed QA,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold—Awaiting Hardware,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Hold—Awaiting Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Implementation Phase,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Installed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Investigation Closed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Investigation Open,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,MRB Approved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,No Problem Found,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Escalated,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Unassigned,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Work In Progress,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Acceptance,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Approval,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Customer Confirmation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Customer Input,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Follow On Case,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Resolution,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Project Plan,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Qualified,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rolled Back—Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Rolled Back—No Impact,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Scheduled,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPR Opened,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Testing,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Troubleshooting,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Upgrade Complete,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,SPF Released,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Resolved or Completed,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENG - Support Requested,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENG - Under Investigation,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Need more Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,ENG - SPR Active,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Engineering Provided Workaround,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Requires EP,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Duplicate,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Pending Release,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,NE - Engineering Resolved,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TNF – Cancelled Service,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,TNF – Customer Accepted,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Pending Asset Information,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Open Dispatch,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Accept T&M Charges,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,N/A,API name not found in translation file.
+HSvc_SpecialInstructions__c-es_CO.objectTranslation,Override T&M,API name not found in translation file.

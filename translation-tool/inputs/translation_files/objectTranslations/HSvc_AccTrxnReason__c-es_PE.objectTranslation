@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Motivos de Transacción de Cuenta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Motivos de Transacción de Cuenta</value>
+    </caseValues>
+    <fields>
+        <label>Transacción de Cuenta</label>
+        <name>HSvc_AccountTransactionCode__c</name>
+        <relationshipLabel>Motivos de Transacción de Cuenta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Permitir Fechas de Inicio y Finalización</label>
+        <name>HSvc_AllowStartEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Disponible en Auto Servicio</label>
+        <name>HSvc_AvailableOnSelfService__c</name>
+    </fields>
+    <fields>
+        <label>Código de Motivo de Facturación</label>
+        <name>HSvc_BillingReasonCode__c</name>
+    </fields>
+    <fields>
+        <label>Crear Seguimiento a Transacción</label>
+        <name>HSvc_CreateFollowOnTransaction__c</name>
+    </fields>
+    <fields>
+        <label>Motivo del Seguimiento</label>
+        <name>HSvc_FollowOnReason__c</name>
+        <relationshipLabel>Motivos de Transacción de Cuenta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motivo</label>
+        <name>HSvc_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicable For Country --></label>
+        <name>Hsvc_ApplicableForCountry__c</name>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation><!-- Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation><!-- Ecuador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation><!-- Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason(Panama) --></label>
+        <name>Hsvc_ReasonPanama__c</name>
+    </fields>
+    <fields>
+        <label>Cargo de Reconexión</label>
+        <name>Hsvc_Retention_Fee__c</name>
+    </fields>
+	<fields>
+        <label>Redondeo del Cargo de Retención</label>
+        <name>Hsvc_Retention_Rounding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Motivo (Español)</label>
+        <name>Reason_Spanish__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason(Chile) --></label>
+        <name>Reason_esCL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason(Ecuador) --></label>
+        <name>Reason_esEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason(Peru) --></label>
+        <name>Reason_esPE__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Account Transaction Reason Layout</layout>
+        <sections>
+            <label>Vínculos Personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Motivo de Transacción de Cuenta</nameFieldLabel>
+</CustomObjectTranslation>

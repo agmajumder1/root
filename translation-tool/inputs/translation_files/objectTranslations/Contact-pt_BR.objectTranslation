@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HSvc_GetAccountContactDetails --></label>
+        <name>HSvc_GetAccountContactDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HSvc_UpdateAccountContactRetry --></label>
+        <name>HSvc_UpdateAccountContactRetry</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_AccountDetail_RelatedList --></label>
+        <name>YAHS_PP_AccountDetail_RelatedList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_AccountDetail_RelatedList_CL --></label>
+        <name>YAHS_PP_AccountDetail_RelatedList_CL</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_AccountDetail_RelatedList_CO --></label>
+        <name>YAHS_PP_AccountDetail_RelatedList_CO</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_AccountDetail_RelatedList_EC --></label>
+        <name>YAHS_PP_AccountDetail_RelatedList_EC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_AccountDetail_RelatedList_PE --></label>
+        <name>YAHS_PP_AccountDetail_RelatedList_PE</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Cons_Cust_AccountDetail_RelList --></label>
+        <name>YAHS_PP_Cons_Cust_AccountDetail_RelList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Cons_Cust_AccountDetail_Rel_CL --></label>
+        <name>YAHS_PP_Cons_Cust_AccountDetail_Rel_CL</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Cons_Cust_AccountDetail_Rel_CO --></label>
+        <name>YAHS_PP_Cons_Cust_AccountDetail_Rel_CO</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Cons_Cust_AccountDetail_Rel_EC --></label>
+        <name>YAHS_PP_Cons_Cust_AccountDetail_Rel_EC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Cons_Cust_AccountDetail_Rel_PE --></label>
+        <name>YAHS_PP_Cons_Cust_AccountDetail_Rel_PE</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Partner_AccountDetail_RelList --></label>
+        <name>YAHS_PP_Partner_AccountDetail_RelList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Partner_AccountDetail_RelList_CL --></label>
+        <name>YAHS_PP_Partner_AccountDetail_RelList_CL</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Partner_AccountDetail_RelList_CO --></label>
+        <name>YAHS_PP_Partner_AccountDetail_RelList_CO</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Partner_AccountDetail_RelList_EC --></label>
+        <name>YAHS_PP_Partner_AccountDetail_RelList_EC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_Partner_AccountDetail_RelList_PE --></label>
+        <name>YAHS_PP_Partner_AccountDetail_RelList_PE</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_SOHO_AccountDetail_RelList --></label>
+        <name>YAHS_PP_SOHO_AccountDetail_RelList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_SOHO_AccountDetail_RelList_CL --></label>
+        <name>YAHS_PP_SOHO_AccountDetail_RelList_CL</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_SOHO_AccountDetail_RelList_CO --></label>
+        <name>YAHS_PP_SOHO_AccountDetail_RelList_CO</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_SOHO_AccountDetail_RelList_EC --></label>
+        <name>YAHS_PP_SOHO_AccountDetail_RelList_EC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- YAHS_PP_SOHO_AccountDetail_RelList_PE --></label>
+        <name>YAHS_PP_SOHO_AccountDetail_RelList_PE</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Phone Number 2 --></label>
+        <name>Additional_Phone_Number_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email for additional contact for Welcome email or other email communications. --></help>
+        <label><!-- CC Email --></label>
+        <name>CC_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>CP_Language__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRM PS Person BO ID --></help>
+        <label><!-- CRM PS Person BO ID --></label>
+        <name>CRM_PS_Person_BO_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSR_Reissue_Invoice_Pref --></label>
+        <name>CSR_Reissue_Invoice_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cancel_Order_Confirmation_Pref --></label>
+        <name>Cancel_Order_Confirmation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case_Appealed_Pref --></label>
+        <name>Case_Appealed_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case_Associated_Pref --></label>
+        <name>Case_Associated_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case_Canceled_Pref --></label>
+        <name>Case_Canceled_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case_Open_Pref --></label>
+        <name>Case_Open_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case_Resolved_Pref --></label>
+        <name>Case_Resolved_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The channel marketing contact is the recipient of HughesNet communications associated with service updates, customer promotions/offers, Hughes policies and retailer program updates. --></help>
+        <label><!-- Channel Marketing --></label>
+        <name>Channel_Marketing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections Initiated Terminate Pref --></label>
+        <name>Collections_Initiated_Terminate_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complaint or Clarification Pref --></label>
+        <name>Complaint_or_Clarification_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ContactSync Error --></label>
+        <name>ContactSync_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactSync Flag --></label>
+        <name>ContactSync_Flag__c</name>
+    </fields>
+    <fields>
+        <help><!-- Priority of calling by CSRs --></help>
+        <label><!-- Contact Priority --></label>
+        <name>Contact_Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Role --></label>
+        <name>Contact_Role__c</name>
+        <picklistValues>
+            <masterLabel>1st POC</masterLabel>
+            <translation><!-- 1st POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd POC</masterLabel>
+            <translation><!-- 2nd POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd POC</masterLabel>
+            <translation><!-- 3rd POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Support</masterLabel>
+            <translation><!-- Administrative Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrator</masterLabel>
+            <translation><!-- Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex IT Consultant</masterLabel>
+            <translation><!-- Apex IT Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup Customer Engineer</masterLabel>
+            <translation><!-- Backup Customer Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Segment Manager</masterLabel>
+            <translation><!-- Billing Segment Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center Management</masterLabel>
+            <translation><!-- Call Center Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Executive Officer</masterLabel>
+            <translation><!-- Chief Executive Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Financial Officer</masterLabel>
+            <translation><!-- Chief Financial Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Information Officer/CTO</masterLabel>
+            <translation><!-- Chief Information Officer/CTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Manager</masterLabel>
+            <translation><!-- Configuration Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Engineer</masterLabel>
+            <translation><!-- Customer Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Senior Management</masterLabel>
+            <translation><!-- Customer Senior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Support</masterLabel>
+            <translation><!-- Customer Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department Director</masterLabel>
+            <translation><!-- Department Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department Manager</masterLabel>
+            <translation><!-- Department Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Engineer</masterLabel>
+            <translation><!-- Development Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering Manager</masterLabel>
+            <translation><!-- Engineering Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Management</masterLabel>
+            <translation><!-- Executive Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Engineer</masterLabel>
+            <translation><!-- Field Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer</masterLabel>
+            <translation><!-- Installer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Engineer</masterLabel>
+            <translation><!-- Marketing Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Switching Segment manager</masterLabel>
+            <translation><!-- Network Switching Segment manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Call Engineer</masterLabel>
+            <translation><!-- On-Call Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Manager</masterLabel>
+            <translation><!-- Operations Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Admininistrator</masterLabel>
+            <translation><!-- Pre-Qual Admininistrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Agent</masterLabel>
+            <translation><!-- Pre-Qual Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Lead</masterLabel>
+            <translation><!-- Pre-Qual Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Manager</masterLabel>
+            <translation><!-- Program Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Manager</masterLabel>
+            <translation><!-- Quality Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Administrator</masterLabel>
+            <translation><!-- RMA Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Installation</masterLabel>
+            <translation><!-- Remote Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SND Installer</masterLabel>
+            <translation><!-- SND Installer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Representative</masterLabel>
+            <translation><!-- Sales Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Management</masterLabel>
+            <translation><!-- Senior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Backup Manager 1</masterLabel>
+            <translation><!-- Site Backup Manager 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Backup Manager 2</masterLabel>
+            <translation><!-- Site Backup Manager 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Manager</masterLabel>
+            <translation><!-- Site Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Operator</masterLabel>
+            <translation><!-- Site Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Desk Representative</masterLabel>
+            <translation><!-- Support Desk Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Manager</masterLabel>
+            <translation><!-- Support Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User segment manager</masterLabel>
+            <translation><!-- User segment manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vantive Administrator</masterLabel>
+            <translation><!-- Vantive Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice President</masterLabel>
+            <translation><!-- Vice President --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Sync CaseNumber --></label>
+        <name>Contact_Sync_CaseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Gateway Login ID --></label>
+        <name>Customer_Gateway_Login_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Expiry Date --></label>
+        <name>Document_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Issue Date --></label>
+        <name>Document_Issue_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number --></label>
+        <name>Document_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chilean Identity Card (RUN)</masterLabel>
+            <translation><!-- Chilean Identity Card (RUN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chilean Tax Identification Number (RUT)</masterLabel>
+            <translation><!-- Chilean Tax Identification Number (RUT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citizenship Card</masterLabel>
+            <translation><!-- Citizenship Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Citizenship Card</masterLabel>
+            <translation><!-- Ecuador Citizenship Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Foreigner ID</masterLabel>
+            <translation><!-- Ecuador Foreigner ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Tax Identification Number (RUC)</masterLabel>
+            <translation><!-- Ecuador Tax Identification Number (RUC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreigner ID</masterLabel>
+            <translation><!-- Foreigner ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru Foreigner ID (CE)</masterLabel>
+            <translation><!-- Peru Foreigner ID (CE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru National Identity Document (DNI)</masterLabel>
+            <translation><!-- Peru National Identity Document (DNI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is additional field to store unformatted Fax numbers from CRM staging. --></help>
+        <label><!-- Extra Fax Info --></label>
+        <name>Extra_Fax__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is additional field to store unformatted Home phone numbers from CRM staging. --></help>
+        <label><!-- Extra Home Phone Info --></label>
+        <name>Extra_Home_Phone_Info__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is additional field to store unformatted Mobile e numbers from CRM staging. --></help>
+        <label><!-- Extra Mobile Info --></label>
+        <name>Extra_Mobile_Info__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is additional field to store unformatted Other phone numbers from CRM staging. --></help>
+        <label><!-- Extra Other Phone Info --></label>
+        <name>Extra_Other_Phone_Info__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is additional field to store unformatted phone numbers from CRM staging. --></help>
+        <label><!-- Extra Phone Info --></label>
+        <name>Extra_Phone_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- HNS Company ID --></label>
+        <name>HSvc_HNSCompanyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>HSvc_RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HughesSvc_Account CompanyOrLocation --></label>
+        <name>HughesSvc_Account_CompanyOrLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- HughesSvc_PSFT_RelatedObjectID --></label>
+        <name>HughesSvc_PSFT_RelatedObjectID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Manager --></label>
+        <name>IT_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install Rescheduling Confirm Pref --></label>
+        <name>Install_Rescheduling_Confirm_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Install_Scheduling_Pref --></label>
+        <name>Install_Scheduling_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Install_Warning_Confirm_Pref --></label>
+        <name>Install_Warning_Confirm_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Installer ID --></label>
+        <name>Installer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Generated Pref --></label>
+        <name>Invoice_Generated_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail to Initiate Termination Pref --></label>
+        <name>Mail_to_Initiate_Termination_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mailing City --></label>
+        <name>MailingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Country --></label>
+        <name>MailingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Zip/Postal Code --></label>
+        <name>MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing State/Province --></label>
+        <name>MailingState__c</name>
+    </fields>
+    <fields>
+        <help><!-- This represents Barcode of Mailing Address at the Contact. --></help>
+        <label><!-- Mailing Barcode --></label>
+        <name>Mailing_Barcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Complement --></label>
+        <name>Mailing_Complement__c</name>
+    </fields>
+    <fields>
+        <help><!-- This represents County of Mailing Address at the Contact. --></help>
+        <label><!-- Mailing County --></label>
+        <name>Mailing_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Neighborhood --></label>
+        <name>Mailing_Neighborhood__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Campaign Mail Opt Out --></label>
+        <name>Marketing_Campaign_Mail_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Campaign SMS Opt Out --></label>
+        <name>Marketing_Campaign_SMS_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing_Campaigns_Pref --></label>
+        <name>Marketing_Campaigns_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Modify Order Confirmation Pref --></label>
+        <name>Modify_Order_Confirmation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Net Promoter Score And Surveys Pref --></label>
+        <name>Net_Promoter_Score_And_Surveys_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Order Confirmation Pref --></label>
+        <name>New_Order_Confirmation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Order Expiration Confiramtion Pref --></label>
+        <name>New_Order_Expiration_Confiramtion_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Order On Hold Confirmation Pref --></label>
+        <name>New_Order_On_Hold_Confirmation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field tells type of Person --></help>
+        <label><!-- Person Type --></label>
+        <name>Person_Type__c</name>
+        <picklistValues>
+            <masterLabel>1st POC</masterLabel>
+            <translation><!-- 1st POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd POC</masterLabel>
+            <translation><!-- 2nd POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd POC</masterLabel>
+            <translation><!-- 3rd POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Support</masterLabel>
+            <translation><!-- Administrative Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrator</masterLabel>
+            <translation><!-- Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex IT Consultant</masterLabel>
+            <translation><!-- Apex IT Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup Customer Engineer</masterLabel>
+            <translation><!-- Backup Customer Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Segment Manager</masterLabel>
+            <translation><!-- Billing Segment Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center Management</masterLabel>
+            <translation><!-- Call Center Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Executive Officer</masterLabel>
+            <translation><!-- Chief Executive Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Financial Officer</masterLabel>
+            <translation><!-- Chief Financial Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Information Officer/CTO</masterLabel>
+            <translation><!-- Chief Information Officer/CTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Manager</masterLabel>
+            <translation><!-- Configuration Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Engineer</masterLabel>
+            <translation><!-- Customer Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Senior Management</masterLabel>
+            <translation><!-- Customer Senior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Support</masterLabel>
+            <translation><!-- Customer Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department Director</masterLabel>
+            <translation><!-- Department Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department Manager</masterLabel>
+            <translation><!-- Department Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Engineer</masterLabel>
+            <translation><!-- Development Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering Manager</masterLabel>
+            <translation><!-- Engineering Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Management</masterLabel>
+            <translation><!-- Executive Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Engineer</masterLabel>
+            <translation><!-- Field Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer</masterLabel>
+            <translation><!-- Installer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Engineer</masterLabel>
+            <translation><!-- Marketing Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Switching Segment manager</masterLabel>
+            <translation><!-- Network Switching Segment manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Call Engineer</masterLabel>
+            <translation><!-- On-Call Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Manager</masterLabel>
+            <translation><!-- Operations Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Admininistrator</masterLabel>
+            <translation><!-- Pre-Qual Admininistrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Agent</masterLabel>
+            <translation><!-- Pre-Qual Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Qual Lead</masterLabel>
+            <translation><!-- Pre-Qual Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Manager</masterLabel>
+            <translation><!-- Program Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Manager</masterLabel>
+            <translation><!-- Quality Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Administrator</masterLabel>
+            <translation><!-- RMA Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Installation</masterLabel>
+            <translation><!-- Remote Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SND Installer</masterLabel>
+            <translation><!-- SND Installer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Representative</masterLabel>
+            <translation><!-- Sales Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Management</masterLabel>
+            <translation><!-- Senior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Backup Manager 1</masterLabel>
+            <translation><!-- Site Backup Manager 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Backup Manager 2</masterLabel>
+            <translation><!-- Site Backup Manager 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Manager</masterLabel>
+            <translation><!-- Site Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Operator</masterLabel>
+            <translation><!-- Site Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Desk Representative</masterLabel>
+            <translation><!-- Support Desk Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Manager</masterLabel>
+            <translation><!-- Support Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User segment manager</masterLabel>
+            <translation><!-- User segment manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vantive Administrator</masterLabel>
+            <translation><!-- Vantive Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice President</masterLabel>
+            <translation><!-- Vice President --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned Service Interruption Pref --></label>
+        <name>Planned_Service_Interruption_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field tells about the prefered communication --></help>
+        <label><!-- Pref Communication --></label>
+        <name>Pref_Communication__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worklist</masterLabel>
+            <translation><!-- Worklist --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact? --></label>
+        <name>Primary_Franchise_Contact__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purchase Token Pref --></label>
+        <name>Purchase_Token_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Complete Pref --></label>
+        <name>Repair_Complete_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Completion Pref --></label>
+        <name>Repair_Completion_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Initiated Pref --></label>
+        <name>Repair_Initiated_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair_Initiation_Pref --></label>
+        <name>Repair_Initiation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request Call Recording Case Pref --></label>
+        <name>Request_Call_Recording_Case_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request Call Recording Pref --></label>
+        <name>Request_Call_Recording_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request for Install Rescheduling Pref --></label>
+        <name>Request_for_Install_Rescheduling_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retention Successful Pref --></label>
+        <name>Retention_Successful_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retention Unsuccessful Pref --></label>
+        <name>Retention_Unsuccessful_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SMS Enable Number --></label>
+        <name>SMS_Enable_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Point Of Contact --></label>
+        <name>Sales_Point_Of_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Phone --></label>
+        <name>Secondary_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self Care Initiated Termination Pref --></label>
+        <name>Self_Care_Initiated_Termination_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Self_Care_Password_Change_Pref --></label>
+        <name>Self_Care_Password_Change_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Self_Care_Profile_Change_Pref --></label>
+        <name>Self_Care_Profile_Change_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Self_Registration_Pref --></label>
+        <name>Self_Registration_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service_Activation_Pref --></label>
+        <name>Service_Activation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service_Change_Confirmation_Pref --></label>
+        <name>Service_Change_Confirmation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termination_Completion_Pref --></label>
+        <name>Termination_Completion_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termination_Initiation_Pref --></label>
+        <name>Termination_Initiation_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UnFAP_User_Pref --></label>
+        <name>UnFAP_User_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unplanned_Service_Interruption_Pref --></label>
+        <name>Unplanned_Service_Interruption_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage_Cap_Reached_Pref --></label>
+        <name>Usage_Cap_Reached_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage_Cap_Threshold_Pref --></label>
+        <name>Usage_Cap_Threshold_Pref__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Website Point Of Contact --></label>
+        <name>Website_Point_Of_Contact__c</name>
+    </fields>
+    <layouts>
+        <layout>Consumer Customer</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HughesSvc_Customer Service Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Location</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Details --></label>
+            <section>Marketing Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SOHO</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Partner --></label>
+        <name>Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Consumer Customer --></label>
+        <name>Consumer_Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Location --></label>
+        <name>Location</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SOHO --></label>
+        <name>SOHO</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You can not edit Contacts Name --></errorMessage>
+        <name>CSR_CannotEditAccountContactName</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Hsvc_Reset_Password --></label>
+        <name>Hsvc_Reset_Password</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

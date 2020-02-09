@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Formato Nota Rápida</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Formato Nota Rápida</value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>HSvc_Active__c</name>
+    </fields>
+    <fields>
+        <label>Descripción de la Actividad</label>
+        <name>HSvc_ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Actividad</label>
+        <name>HSvc_ActivityTypeLookup__c</name>
+        <relationshipLabel><!-- Quick Notes Template --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de Actividad</label>
+        <name>HSvc_ActivityType__c</name>
+        <picklistValues>
+            <masterLabel>ARRIVAL</masterLabel>
+            <translation><!-- ARRIVAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent Note</masterLabel>
+            <translation>Nota de Agente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLOSURE</masterLabel>
+            <translation><!-- CLOSURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Creation</masterLabel>
+            <translation><!-- Case Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consult</masterLabel>
+            <translation>Consulta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Escalation Response</masterLabel>
+            <translation><!-- Customer Escalation Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Note</masterLabel>
+            <translation><!-- Customer Note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETA</masterLabel>
+            <translation><!-- ETA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalation by Customer</masterLabel>
+            <translation><!-- Escalation by Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Email</masterLabel>
+            <translation><!-- Inbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Email</masterLabel>
+            <translation><!-- Outbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STOP</masterLabel>
+            <translation><!-- STOP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>HSvc_EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label>Hora Fecha de Finalización</label>
+        <name>HSvc_End_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>HSvc_ExpiryDate__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de Proveedor</label>
+        <name>HSvc_Provider_Group__c</name>
+        <picklistValues>
+            <masterLabel>CS Corp Colombia</masterLabel>
+            <translation><!-- CS Corp Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CS Corp Panama</masterLabel>
+            <translation><!-- CS Corp Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Colombia Distributor</masterLabel>
+            <translation>Distribuidor Hughes Colombia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Panama Distributor</masterLabel>
+            <translation><!-- Hughes Panama Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG Colombia</masterLabel>
+            <translation><!-- SDG Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG Panama</masterLabel>
+            <translation><!-- SDG Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America Control Center</masterLabel>
+            <translation><!-- South America Control Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Monterrey MOD</masterLabel>
+            <translation><!-- TP Monterrey MOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Monterrey MOD Panama</masterLabel>
+            <translation><!-- TP Monterrey MOD Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Monterrey Universal</masterLabel>
+            <translation><!-- TP Monterrey Universal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal</masterLabel>
+            <translation><!-- Universal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Hora Fecha de Inicio</label>
+        <name>HSvc_Start_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>Idioma</label>
+        <name>Hsvc_Language__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Registro</label>
+        <name>RecordType__c</name>
+        <picklistValues>
+            <masterLabel>B2B General Case</masterLabel>
+            <translation><!-- B2B General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C General Case</masterLabel>
+            <translation><!-- B2C General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Work Order</masterLabel>
+            <translation>Orden de Trabajo Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Only</masterLabel>
+            <translation><!-- Office Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation>Autorización de Retorno de Mercancía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Work Order</masterLabel>
+            <translation><!-- Repair Work Order --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Quick Notes Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre Rápido de Actividad</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Expiry Date cannot be set in past and cannot be less than the effective date --></errorMessage>
+        <name>HSvc_ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+    <webLinks>
+        <label>Administración de Datos</label>
+        <name>Hsvc_Data_Admin</name>
+    </webLinks>
+</CustomObjectTranslation>

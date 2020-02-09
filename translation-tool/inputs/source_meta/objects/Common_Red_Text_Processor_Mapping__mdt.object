@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Class_Name__c</fullName>
+        <description>Contains the reference to the processor class</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Contains the reference to the processor class</inlineHelpText>
+        <label>Class Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Filter_Logic__c</fullName>
+        <description>Filter logic to be used in the processor class for dynamic query.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Filter logic to be used in the processor class for dynamic query.</inlineHelpText>
+        <label>Filter Logic</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Processor__c</fullName>
+        <description>Contains the name of the processor class to filter red texts</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Contains the name of the processor class to filter red texts</inlineHelpText>
+        <label>Processor</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Common Red Text Processor Mapping</label>
+    <pluralLabel>Common Red Text Processor Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

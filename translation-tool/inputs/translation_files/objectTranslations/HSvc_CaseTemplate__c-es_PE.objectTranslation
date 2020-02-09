@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Templates</value>
+    </caseValues>
+    <fields>
+        <label>Descripción de la Actividad</label>
+        <name>ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label>Actividad Interna</label>
+        <name>ActivityInternal__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Actividad</label>
+        <name>ActivityType__c</name>
+        <picklistValues>
+            <masterLabel>ARRIVAL</masterLabel>
+            <translation><!-- ARRIVAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent Note</masterLabel>
+            <translation>Nota de Agente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLOSURE</masterLabel>
+            <translation>Cierre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Creation</masterLabel>
+            <translation><!-- Case Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation>Queja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consult</masterLabel>
+            <translation>Consulta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Escalation Response</masterLabel>
+            <translation><!-- Customer Escalation Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Note</masterLabel>
+            <translation><!-- Customer Note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETA</masterLabel>
+            <translation><!-- ETA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalation by Customer</masterLabel>
+            <translation><!-- Escalation by Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Email</masterLabel>
+            <translation><!-- Inbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>Información</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Email</masterLabel>
+            <translation><!-- Outbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STOP</masterLabel>
+            <translation><!-- STOP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>¿Estado de Servicio del Activo?</label>
+        <name>AssetServiceStatus__c</name>
+    </fields>
+    <fields>
+        <label>Valor Nuevo de CCR</label>
+        <name>CCRNewValue__c</name>
+    </fields>
+    <fields>
+        <label>Valor Anterior de CCR</label>
+        <name>CCROldValue__c</name>
+    </fields>
+    <fields>
+        <label>Horas de Interrupción Calculadas</label>
+        <name>CalculatedOutageHours__c</name>
+    </fields>
+    <fields>
+        <label>Caso Interno</label>
+        <name>CaseInternal__c</name>
+    </fields>
+    <fields>
+        <label>Origen del Caso</label>
+        <name>CaseOrigin__c</name>
+        <picklistValues>
+            <masterLabel>Chat</masterLabel>
+            <translation><!-- Chat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EM7</masterLabel>
+            <translation><!-- EM7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVR</masterLabel>
+            <translation><!-- IVR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>Correo Físico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MobileAPP</masterLabel>
+            <translation><!-- MobileAPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation><!-- Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Teléfono</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone - inbound</masterLabel>
+            <translation>Teléfono - llamada entrante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone - outbound</masterLabel>
+            <translation>Teléfono - llamada saliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Service</masterLabel>
+            <translation><!-- Self-Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-care</masterLabel>
+            <translation>Auto Servicio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tiempo Total del Caso Abierto</label>
+        <name>CaseTotalOpenTime__c</name>
+    </fields>
+    <fields>
+        <label>Email de Contacto</label>
+        <name>ContactEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de Contacto</label>
+        <name>ContactName__c</name>
+        <relationshipLabel><!-- Case Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Teléfono de Contacto</label>
+        <name>ContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label>Cola Actual</label>
+        <name>CurrentQueue__c</name>
+    </fields>
+    <fields>
+        <label>Número del tiquete del Cliente</label>
+        <name>CustomerTicketNumber__c</name>
+    </fields>
+    <fields>
+        <label>Horas de Duración</label>
+        <name>DurationHours__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label>Excepción</label>
+        <name>Exception__c</name>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>ExpiryDate__c</name>
+    </fields>
+    <fields>
+        <help>Por favor ingrese los minutos que se agregarán en el seguimiento de fecha de pago.</help>
+        <label>Minutos hasta la fecha de chequeo</label>
+        <name>FollowUpDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- HNS Asset ID --></label>
+        <name>HNSAssetID__c</name>
+        <relationshipLabel><!-- Case Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Regla del Código de Resolución</label>
+        <name>HSVC_Resolution_Code_Rule__c</name>
+        <relationshipLabel><!-- Case Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Acción</label>
+        <name>HSvc_Action__c</name>
+        <picklistValues>
+            <masterLabel>Activate service</masterLabel>
+            <translation>Activar servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjustments not applied</masterLabel>
+            <translation>Ajustes no aplicados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apply adjustments</masterLabel>
+            <translation>Aplicar ajustes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Number</masterLabel>
+            <translation>Número equivocado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Back</masterLabel>
+            <translation>Devolver la llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation>Volver a llamar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Considering</masterLabel>
+            <translation>Considerando</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact customer</masterLabel>
+            <translation>Contactar cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation>Contactado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Education</masterLabel>
+            <translation>Educación del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Issue</masterLabel>
+            <translation>Problema del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-install Equipment</masterLabel>
+            <translation>Desinstalar el equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Tech</masterLabel>
+            <translation>Enviar técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educated Customer</masterLabel>
+            <translation>Cliente educado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate</masterLabel>
+            <translation>Escalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated to Hughes</masterLabel>
+            <translation>Recurso de reposición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated to SIC</masterLabel>
+            <translation>Recurso de reposición y subsidio de apelación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated to Supervisor</masterLabel>
+            <translation>Escalada al Supervisor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Give Courtesy Token(s)</masterLabel>
+            <translation>Entregar Token(s) de Cortesía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform customer</masterLabel>
+            <translation>Informar al cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform management Customer Service Hughes</masterLabel>
+            <translation>Informar a la Gerencia de Servicio al Cliente de Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform management Field Service Hughes</masterLabel>
+            <translation>Informar a la Gerencia de Servicio de Campo de Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install - Escalate</masterLabel>
+            <translation>Instalar - Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install - Updated</masterLabel>
+            <translation>Instalar-Actualizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left Message</masterLabel>
+            <translation>Mensaje en buzón</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Located</masterLabel>
+            <translation>Localizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Answer</masterLabel>
+            <translation>Sin respuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Updated</masterLabel>
+            <translation>No Actualizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not located</masterLabel>
+            <translation>No Localizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prioritize dispatch tech</masterLabel>
+            <translation>Priorizar envío de técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation>Proceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Cancellation</masterLabel>
+            <translation>Cancelación del Proceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Token(s)</masterLabel>
+            <translation>Comprar Token(s)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Payments</masterLabel>
+            <translation>Pago Recurrente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer to Retention</masterLabel>
+            <translation>Referir a Retención</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair - Escalate</masterLabel>
+            <translation>Reparar-Escalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair - Updated</masterLabel>
+            <translation>Reparar-Actualizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Site</masterLabel>
+            <translation>Sitio de reparación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Issue to Control Desk/NMC</masterLabel>
+            <translation>Informar problema a la mesa de control/NMC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request call recording</masterLabel>
+            <translation>Solicitud para grabación de llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>Resuelto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retain Customer No Credit</masterLabel>
+            <translation>Retener Cliente Sin Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retain Customer with Credit</masterLabel>
+            <translation>Retener Cliente con Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved</masterLabel>
+            <translation>Salvado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Accomplish</masterLabel>
+            <translation>Realizar Encuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Generated</masterLabel>
+            <translation>Generado por el Sistema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truckroll</masterLabel>
+            <translation>Servicio Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation>Actualizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wait for New Allowance</masterLabel>
+            <translation>Esperar Nuevo Plan de Datos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>HSvc_Active__c</name>
+    </fields>
+    <fields>
+        <label>Situación Actual</label>
+        <name>HSvc_Actual_Issue__c</name>
+        <picklistValues>
+            <masterLabel>3rd party Device Issue</masterLabel>
+            <translation>Problema Dispositivo de Terceros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>API - FAP Token</masterLabel>
+            <translation>API - FAP Token</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>API - Order</masterLabel>
+            <translation>API - Orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Access Issue</masterLabel>
+            <translation>Problema de Acceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Issue</masterLabel>
+            <translation>Problema con la cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Name (Misspelling)</masterLabel>
+            <translation>Nombre de la cuenta (Mal escrito)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Ownership Change</masterLabel>
+            <translation>Cambio de titular de la cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activate new service</masterLabel>
+            <translation>Activar nuevo servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent Callback</masterLabel>
+            <translation>Devolución de llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amount Due</masterLabel>
+            <translation>Monto pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Issue</masterLabel>
+            <translation>Problema de la Aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Issue - Customer</masterLabel>
+            <translation>Problema Aplicación - Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Issue - hughes</masterLabel>
+            <translation>Problema Aplicación- Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Questions</masterLabel>
+            <translation>Pregunta sobre la solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Slow response times</masterLabel>
+            <translation>Tiempo de Respuesta lentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application System Error</masterLabel>
+            <translation>Error de Sistema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application access issue</masterLabel>
+            <translation>Problema de Acceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Authorized Contact</masterLabel>
+            <translation>Contacto autorizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automated Call - Activation</masterLabel>
+            <translation>Llamada automática - Activación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available schedule</masterLabel>
+            <translation>Agenda disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Cables/Wiring</masterLabel>
+            <translation>Cables / Cableado Malos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Modem</masterLabel>
+            <translation>Modem defectuoso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Radio</masterLabel>
+            <translation>Radio defectuoso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Treatment - CSR</masterLabel>
+            <translation>Mal tratamiento - Representante de Ventas (CSR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Treatment - Technical</masterLabel>
+            <translation>Mal tratamiento - Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad website</masterLabel>
+            <translation>Sitio web no funcional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad website/url</masterLabel>
+            <translation>Sitio web/ URL no funcional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank Strike</masterLabel>
+            <translation>Huelga bancaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Date</masterLabel>
+            <translation>Fecha de generación de factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Notification</masterLabel>
+            <translation>Notificación de factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Address</masterLabel>
+            <translation>Dirección de Facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Issue</masterLabel>
+            <translation>Problemas de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing file download issue</masterLabel>
+            <translation>Problema de Descarga de Archivos de Facturacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boleto to credit card</masterLabel>
+            <translation>Factura a tarjeta de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boleto to debit</masterLabel>
+            <translation>Factura a débito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus Zone</masterLabel>
+            <translation>Franja horario de datos extra</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Appeal/Escalation Status</masterLabel>
+            <translation>Estado de apelación / escalamiento</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Response Time</masterLabel>
+            <translation>Tiempo de Respuesta</translation>
+        </picklistValues>
+
+        <picklistValues>
+            <masterLabel>Browser Message</masterLabel>
+            <translation>Mensaje del navegador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business System Issue</masterLabel>
+            <translation>Problema de Sistema del Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSR Impolite</masterLabel>
+            <translation>CSR Maleducado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVV</masterLabel>
+            <translation><!-- CVV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabling/connectors/materials</masterLabel>
+            <translation>Cableado/Conectores/Materiales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Fee</masterLabel>
+            <translation>Cargo de cancelación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Policy</masterLabel>
+            <translation>Política de cancelación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capture Business Info</masterLabel>
+            <translation>Captura Información del Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change due date</masterLabel>
+            <translation>Cambiar Fecha de Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change of Mind</masterLabel>
+            <translation>Cambio de idea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changed Mind</masterLabel>
+            <translation>Cambió de opinión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chose Another Satellite ISP</masterLabel>
+            <translation>Escogió otro proveedor de Internet Satélital</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chose Another Terrestrial ISP</masterLabel>
+            <translation>Escogió otro proveedor de Internet Terrestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection</masterLabel>
+            <translation>Cobro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection clarification (Adjustment, tax)</masterLabel>
+            <translation>Aclaración del Cobro (Ajuste, impuesto)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Location</masterLabel>
+            <translation>Ubicación comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commitment Status</masterLabel>
+            <translation>Estado del compromiso de permamencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commitment/Contract</masterLabel>
+            <translation>Compromiso/ Contrato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Issue</masterLabel>
+            <translation>Problema de Configuración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed Outage - Hughes</masterLabel>
+            <translation>Interrupción confirmada -Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed/Known Issue - Hughes</masterLabel>
+            <translation>Problema Confirmado/Conocido - Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Request</masterLabel>
+            <translation>Solicitud de Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit card to boleto</masterLabel>
+            <translation>Tarjeta de Crédito a factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit card to debit</masterLabel>
+            <translation>Tarjeta de Crédito a débito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit/Refund</masterLabel>
+            <translation>Crédito/ Reembolso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer device issue</masterLabel>
+            <translation>Problema con el Dispositivo del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer education</masterLabel>
+            <translation>Educación del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer-requested Call Back</masterLabel>
+            <translation>El cliente solicitó se vuelva a llamar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Allowance</masterLabel>
+            <translation>Plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Plan/Limits</masterLabel>
+            <translation>Plan/ Límite de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-Install (System)</masterLabel>
+            <translation>Desinstalación (Sistema)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit to boleto</masterLabel>
+            <translation>Débito a factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit to credit card</masterLabel>
+            <translation>Débito a tarjeta de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delay in Repair</masterLabel>
+            <translation>Retraso en la Reparación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delay in installation</masterLabel>
+            <translation>Retraso en la Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did not authorize/place order</masterLabel>
+            <translation>No autorizo/ hizó el pedido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disable</masterLabel>
+            <translation>Desabilitar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disagrees with Billing (Pro rata, adjustment, fine)</masterLabel>
+            <translation>Desacuerdo con la Facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster</masterLabel>
+            <translation>Desastre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount not applied</masterLabel>
+            <translation>No se aplicó el descuento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distance too far</masterLabel>
+            <translation>Distancia demasiado lejos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divergence of values (customer claims undue values)</masterLabel>
+            <translation>Diferencia en los valores</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Does not agree to make Troubleshooting</masterLabel>
+            <translation>No accede a realizar Troubleshooting</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does Not Meet Data Allowance</masterLabel>
+            <translation>No cumple el plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does Not Meet Gaming Needs</masterLabel>
+            <translation>No cumple necesidades de juego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does Not Meet Speed Needs</masterLabel>
+            <translation>No cumple la necesidad de velocidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not meet VPN/Static Needs</masterLabel>
+            <translation>No cumple las necesidades VPN / estáticas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade Plan</masterLabel>
+            <translation>Reducción de plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade Service</masterLabel>
+            <translation>Reducción del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Download Allowance (FAP)</masterLabel>
+            <translation>Datos de descaga (Estado del Plan de Datos)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Download Speed</masterLabel>
+            <translation>Velocidad de descarga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date</masterLabel>
+            <translation>Fecha Límite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Extension</masterLabel>
+            <translation>Extensión de fecha de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Account</masterLabel>
+            <translation>Cuenta duplicada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Order</masterLabel>
+            <translation>Orden duplicada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate payment</masterLabel>
+            <translation>Pago Duplicado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Address</masterLabel>
+            <translation>Dirección de email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enable</masterLabel>
+            <translation>Habilitar Permanente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering System Issue</masterLabel>
+            <translation>Problema Sistema de Ingeniería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Account Issue</masterLabel>
+            <translation>Problema cuenta empresarial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Damaged</masterLabel>
+            <translation>Equipa dañado</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Equipment Location Change</masterLabel>
+            <translation>Movimiento de Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Recovery</masterLabel>
+            <translation>Recuperación del equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Return</masterLabel>
+            <translation>Devolución del equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment configuration</masterLabel>
+            <translation>Configuración del Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error/Issue</masterLabel>
+            <translation>Error / Problema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeded Bandwidth Allowance</masterLabel>
+            <translation>Capacidad Contratada de Ancho de Banda superada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeded Data Allowance</masterLabel>
+            <translation>Se excedió el plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing upgrade install</masterLabel>
+            <translation>Instalación de actualización existente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expiry Date</masterLabel>
+            <translation>Fecha de Vencimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explanation of Charges</masterLabel>
+            <translation>Explicación de los cargos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend Full Amount Due</masterLabel>
+            <translation>Extender monto total pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAP Not Informed</masterLabel>
+            <translation>No se informó el FAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAP Payment</masterLabel>
+            <translation>Pago FAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Access Policy</masterLabel>
+            <translation>Estado del Plan de Datos (Política de Acceso Justo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Consideration</masterLabel>
+            <translation>Consideraciones financieras</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Considerations</masterLabel>
+            <translation>Consideraciones financieras</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial problems</masterLabel>
+            <translation>Problemas financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firmware Issue</masterLabel>
+            <translation>Problema de Firmware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forecasting/Ordering</masterLabel>
+            <translation>Prevision/Pedidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Amount Due</masterLabel>
+            <translation>Importe total pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Questions</masterLabel>
+            <translation>Dudas Generales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Renovation</masterLabel>
+            <translation>Renovación del hogar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes</masterLabel>
+            <translation><!-- Hughes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Outage/Degradation</masterLabel>
+            <translation>Interrupción / Degradación de Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IP Pool Request</masterLabel>
+            <translation>Solicitud IP Pool</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improper collection (error of Hughes)</masterLabel>
+            <translation>Cobro inadecuado (error de Hughes)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improper contestation - correct Invoice</masterLabel>
+            <translation>Objeción inadecuada - corregir Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improperly Configured</masterLabel>
+            <translation>Configuración inapropiada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improperly Connected</masterLabel>
+            <translation>Conexión incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incompatible with Customer&apos;s Equipment</masterLabel>
+            <translation>Incompatible con el equipo del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Account Info</masterLabel>
+            <translation>Información de cuenta incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Config</masterLabel>
+            <translation>Configuración Incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Hughes Wi-Fi Configuration</masterLabel>
+            <translation>Configuración incorrecta de la red inalámbrica Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect IP</masterLabel>
+            <translation>IP Incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect email configuration</masterLabel>
+            <translation>Configuración incorrecta del email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect login</masterLabel>
+            <translation>Inicio de sesión incorrecto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect power/LAN connection</masterLabel>
+            <translation>Conexión incorrecta de corriente/ cable LAN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrectly Labeled/Wrong Port</masterLabel>
+            <translation>Etiquetado Incorrecto/Puerto Equivocado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform amounts outstanding</masterLabel>
+            <translation>Informar montos pendientes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform payment</masterLabel>
+            <translation>Informar pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install - Latency</masterLabel>
+            <translation>Instalación - Latencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Complaint</masterLabel>
+            <translation>Queja de instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Portal</masterLabel>
+            <translation>Portal de Instalacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Quality</masterLabel>
+            <translation>Calidad de la instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation without service activation</masterLabel>
+            <translation>Instalación sin la activación del servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer Info</masterLabel>
+            <translation>Información del instalador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer Kit/tools</masterLabel>
+            <translation>Kit Instalador/Herramientas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer-Related</masterLabel>
+            <translation>Relacionado con el instalador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interference</masterLabel>
+            <translation>Interferencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Download issue</masterLabel>
+            <translation>Problema de Descarga de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Issue</masterLabel>
+            <translation>Problema Emision de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge Base/Tech Bulletin</masterLabel>
+            <translation>Base de Conocimiento / Boletin Tecnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledgeables</masterLabel>
+            <translation>Expertos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latency</masterLabel>
+            <translation>Latencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter - Collections</masterLabel>
+            <translation>Carta - Cobros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter - Marketing Offers</masterLabel>
+            <translation>Carta - Ofertas de Mercadeo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lifestyle</masterLabel>
+            <translation>Estilo de vida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line Of Site</masterLabel>
+            <translation>Línea de Vista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Sight/Repoint</masterLabel>
+            <translation>Línea de visión/ Reapuntamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Weather</masterLabel>
+            <translation>Clima local</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location / limit beam</masterLabel>
+            <translation>Sitio/Límite del Haz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Issue</masterLabel>
+            <translation>Problema del Sitio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location/Edge of Beam</masterLabel>
+            <translation>Ubicación/Borde del Haz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Vacation (&gt;30 days)</masterLabel>
+            <translation>Vacaciones largas (&gt;30 días)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>Perdido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low signal / intermittent signal</masterLabel>
+            <translation>Señal baja/señal intermitente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low/Intermittent Signal</masterLabel>
+            <translation>Señal baja/señal intermitente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty Fees</masterLabel>
+            <translation>Tarifas de Fidelidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty Not Informed during sales</masterLabel>
+            <translation>Lealtad no informada durante las ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manuals/materials</masterLabel>
+            <translation>Manuales/Materiales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Campaign</masterLabel>
+            <translation>Campaña de Mercadeo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Email Campaign</masterLabel>
+            <translation>Campaña de mercadeo por email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Deployment</masterLabel>
+            <translation>Despliegue militar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed Appointment/Reschedule</masterLabel>
+            <translation>Incumplimiento de la cita/Reprogramar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modem Issue</masterLabel>
+            <translation>Problema del Módem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modem Re-assignment</masterLabel>
+            <translation>Reasignacion de Modem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move Program</masterLabel>
+            <translation>Programa de Mudanza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAP Issue</masterLabel>
+            <translation>Problema de NAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOC System Issue</masterLabel>
+            <translation>Problema del Sistema NOC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name on Bank Account</masterLabel>
+            <translation>Nombre en la cuenta de banco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navigation Issues</masterLabel>
+            <translation>Problemas de Navegación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Lock</masterLabel>
+            <translation>Bloqueo de Red</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Debit/Credit Card</masterLabel>
+            <translation>Nueva tarjeta de crédito/ débito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Direct Debit Account (E-check)</masterLabel>
+            <translation>Nueva cuenta de débito (Cheque Electrónico)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Installation</masterLabel>
+            <translation>Nueva Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter</masterLabel>
+            <translation>Hoja informativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response to Case created in Self-care</masterLabel>
+            <translation>Sin respuesta al caso creado en auto-cuidado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Signal</masterLabel>
+            <translation>Sin señal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No receipt invoice</masterLabel>
+            <translation>Factura no recibida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-retrieved asset fee</masterLabel>
+            <translation>Tarifa de activo no devuelto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Available</masterLabel>
+            <translation>No disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Indicated</masterLabel>
+            <translation>No indicado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Services Quoted</masterLabel>
+            <translation>Servicios no cotizados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not explained FAP</masterLabel>
+            <translation>Capacidad Contratada (FAP) no explicada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not receive call recording</masterLabel>
+            <translation>No recibe grabación de llamadas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Confirmation</masterLabel>
+            <translation>Confirmación del pedido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order issue</masterLabel>
+            <translation>Problema con la orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>Otros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of service</masterLabel>
+            <translation>Fuera de Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Amount Due</masterLabel>
+            <translation>Importe parcial pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Payment &amp; Extend Due Date</masterLabel>
+            <translation>Pago parcial y extender fecha de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Password Reset Request</masterLabel>
+            <translation>Solicitud de restablecimiento de contraseña</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Password Reset/Change request</masterLabel>
+            <translation>Solicitud de Restauración/Cambio de Contraseña</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Failure</masterLabel>
+            <translation>Error de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Issue</masterLabel>
+            <translation>Problema de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Method on File</masterLabel>
+            <translation>Método de Pago en el Archivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Options</masterLabel>
+            <translation>Opciones de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Promise</masterLabel>
+            <translation>Promesa de Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Data Allowance Not Enough</masterLabel>
+            <translation>Datos del Plan de Datos no son suficientes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Service Strike</masterLabel>
+            <translation>Huelga del servicio de correo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problems Chart of consumption</masterLabel>
+            <translation>Problemas con la Tabla de Consumo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problems with applications (Skype, Netflix ...)</masterLabel>
+            <translation>Problemas con las aplicaciones (Skype, Netflix…)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional Offers</masterLabel>
+            <translation>Ofertas promocionales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation>Calidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions about Special Offers</masterLabel>
+            <translation>Preguntas sobre Ofertas Especiales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivate from Billing Lock</masterLabel>
+            <translation>Reactivar por bloqueo de facturación</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Reactivate from Incorrect Suspension</masterLabel>
+            <translation>Reactivar - suspension incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivate from Pending Cancellation</masterLabel>
+            <translation>Reactivar por cancelación pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivate from Suspension</masterLabel>
+            <translation>Reactivar de suspensión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation>Reembolsos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Payments</masterLabel>
+            <translation>Pago Recurrente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refill Period</masterLabel>
+            <translation>Período de recarga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulator Order</masterLabel>
+            <translation>Orden del regulador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Reubicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Access</masterLabel>
+            <translation>Acceso Remoto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation - Deinstall</masterLabel>
+            <translation>Traslado del Servicio – Desinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation - Reinstall</masterLabel>
+            <translation>Traslado del Servicio - Reinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation on Same Address</masterLabel>
+            <translation>Translado de Servicio misma Dirección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation to New Address</masterLabel>
+            <translation>Translado de Servicio Nueva Dirección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Quality</masterLabel>
+            <translation>Calidad de la reparación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repoint/Truckroll</masterLabel>
+            <translation>Reapuntamiento / Servicio Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation>Informes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Call Recording</masterLabel>
+            <translation>Solicitud para grabación de llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reschedule Install</masterLabel>
+            <translation>Reprogramar la instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reschedule Request</masterLabel>
+            <translation>Re-programar la solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller Education</masterLabel>
+            <translation>Educación del distribuidor minorista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routing Issue</masterLabel>
+            <translation>Problema de enrutamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS/Text Message</masterLabel>
+            <translation>SMS / Mensaje de Texto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale Token</masterLabel>
+            <translation>Venta del Token</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Partner left the project</masterLabel>
+            <translation>Asociado Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales practices</masterLabel>
+            <translation>Prácticas de Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Full Amount Due</masterLabel>
+            <translation>Programar importe total pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Future Payment (No Amount Due)</masterLabel>
+            <translation>Programar un pago futuro (Sin saldo pendiente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Info</masterLabel>
+            <translation>Información del horario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Payment &amp; Extend Due Date</masterLabel>
+            <translation>Programar pago y extender fecha de vpago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduling Issue</masterLabel>
+            <translation>Problema de agendamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension - 120 days</masterLabel>
+            <translation>Suspensión Estacional/Temporal - 120 días</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension - 30 days</masterLabel>
+            <translation>Suspensión Estacional/Temporal - 30 días</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension - 60 days</masterLabel>
+            <translation>Suspensión Estacional/Temporal - 60 días</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension - 90 days</masterLabel>
+            <translation>Suspensión Estacional/Temporal - 90 días</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security PIN</masterLabel>
+            <translation>PIN de Seguridad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See parent case</masterLabel>
+            <translation>Vea el caso de los padres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Instability (does not work)</masterLabel>
+            <translation>Inestabilidad en el Servicio (no funciona)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Reliability</masterLabel>
+            <translation>Fiabilidad del servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service doesn&apos;t meet needs</masterLabel>
+            <translation>El servicio no cumple necesidades</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service quality</masterLabel>
+            <translation>Calidad del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment</masterLabel>
+            <translation>Envio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>Despacho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short Vacation (&lt; 30 days)</masterLabel>
+            <translation>Vacaciones cortas (&lt; 30 días)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Address</masterLabel>
+            <translation>Dirección del sitio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow / Speed ​​Complaint</masterLabel>
+            <translation><!-- Slow / Speed ​​Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow Performance</masterLabel>
+            <translation>Desempeño Lento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snooze</masterLabel>
+            <translation>Habilitar Temporária</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speed</masterLabel>
+            <translation>Velocidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speed signal</masterLabel>
+            <translation>Lentitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speeds</masterLabel>
+            <translation>Velocidades</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staying with current provider</masterLabel>
+            <translation>Continuará con el proveedor actual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stolen</masterLabel>
+            <translation>Robado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strata Change</masterLabel>
+            <translation>Cambio de estrato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strata Change Request</masterLabel>
+            <translation>Solicitud de cambio de estrato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strata Credit Dispute</masterLabel>
+            <translation>Disputa de crédito por estrato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation>Encuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Accomplish</masterLabel>
+            <translation>Realizar Encuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Feedback</masterLabel>
+            <translation>Encuestra de retroalimentación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspension cancelling</masterLabel>
+            <translation>Cancelación de la suspensión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Providers - ADSL</masterLabel>
+            <translation>Cambiar Proveedores - ADSL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Providers - Cable/Fiber</masterLabel>
+            <translation>Cambiar Proveedores - Cable/Fibra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Providers - Radio</masterLabel>
+            <translation>Cambiar Proveedores - Radio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Providers - Satellite</masterLabel>
+            <translation>Cambiar Proveedores - Satélite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Generated</masterLabel>
+            <translation>Generado por el Sistema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Modem Swap (SWAP)</masterLabel>
+            <translation>Cambio del módem (CAMBIO)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System User account issue</masterLabel>
+            <translation>Problema Cuenta de Usuario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technician absence</masterLabel>
+            <translation>Ausencia del técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone Number</masterLabel>
+            <translation>Número telefónico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket Status</masterLabel>
+            <translation>Estado del ticket</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Token Bytes</masterLabel>
+            <translation>Bytes de Token</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Token Free of Charge</masterLabel>
+            <translation>Token gratis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too expensive (monthly charge)</masterLabel>
+            <translation>Cargo mensual demasiado costoso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too expensive (upfront charge)</masterLabel>
+            <translation>Cargo de conexión demasiado costoso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading amounts outstanding</masterLabel>
+            <translation>Negociar montos pendientes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>Capacitacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transponder Issue</masterLabel>
+            <translation>Problema del Transpondedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truckroll Confirmation</masterLabel>
+            <translation>Confirmación de Servicio Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Buy Tokens</masterLabel>
+            <translation>No puede comprar tokens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Change Plan</masterLabel>
+            <translation>No puede cambiar el plan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Create Ticket</masterLabel>
+            <translation>No puede crear ticket</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Install - Access</masterLabel>
+            <translation>No se puede instalar - acceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Install - Line of Sight</masterLabel>
+            <translation>No se puede instalar - Línea de visión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Manage Account</masterLabel>
+            <translation>No puede gestionar la cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to View Invoice</masterLabel>
+            <translation>No puede ver la factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to View Usage</masterLabel>
+            <translation>No puede ver el uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to detect 5G network</masterLabel>
+            <translation>No se puede detectar la red 5G</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undiagnosed system problem</masterLabel>
+            <translation>Problema del sistema no diagnosticado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment</masterLabel>
+            <translation>Desempleo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unidentified subject</masterLabel>
+            <translation>Tema no identificado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstall quality</masterLabel>
+            <translation>Calidad de desinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Address</masterLabel>
+            <translation>Actualizar Dirección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Billing Address</masterLabel>
+            <translation>Actualizar dirección de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Credit Card</masterLabel>
+            <translation>Actualizar tarjeta de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Email Address</masterLabel>
+            <translation>Actualizar Dirección de Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Install Address</masterLabel>
+            <translation>Actualizar la dirección de instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Phone Number</masterLabel>
+            <translation>Actualizar Número de Teléfono</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation>Actualización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Plan</masterLabel>
+            <translation>Actualizar el plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Service</masterLabel>
+            <translation>Aumento del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upload below contracted speed</masterLabel>
+            <translation>Carga inferior a la velocidad contratada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage History</masterLabel>
+            <translation>Historial de uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage Information</masterLabel>
+            <translation>Información del Uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Username Info</masterLabel>
+            <translation>Información del nombre de usuario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Data Saver</masterLabel>
+            <translation>Ahorrador de Datos de Video</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting Time and Call Queues in Customer Service</masterLabel>
+            <translation>Tiempo de Espera y Colas de Llamadas en Servicio al Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation>Clima</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wiring</masterLabel>
+            <translation>Cableado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>competition between companies - Cost</masterLabel>
+            <translation>Competencia entre compañías - Costo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>competition between companies - FAP</masterLabel>
+            <translation>Competencia entre compañías - Capacidad Contratada (FAP)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>competition between companies - Speed</masterLabel>
+            <translation>Competencia entre compañías - Capacidad Contratada - Velocidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>technical unfeasibility</masterLabel>
+            <translation>Inviabilidad Técnica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Disponible para el Perfil</label>
+        <name>HSvc_Available_to_Profile__c</name>
+        <picklistValues>
+            <masterLabel>Customer Portal Defaults</masterLabel>
+            <translation><!-- Customer Portal Defaults --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System</masterLabel>
+            <translation><!-- System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation>Usuario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Reasignación del Caso</label>
+        <name>HSvc_Case_Re_assign__c</name>
+        <picklistValues>
+            <masterLabel>CS Corp</masterLabel>
+            <translation><!-- CS Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Ops</masterLabel>
+            <translation>Operaciones Generales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Distributor</masterLabel>
+            <translation><!-- Hughes Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOD</masterLabel>
+            <translation><!-- MOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG</masterLabel>
+            <translation><!-- SDG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP IT/Systems Admin</masterLabel>
+            <translation>TI/administrador del sistema del Asociado de Servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP Technical Support Tier 1</masterLabel>
+            <translation>Nivel 1 Soporte Técnico del Asociado de Servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America Control Center</masterLabel>
+            <translation><!-- South America Control Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Monterrey MOD</masterLabel>
+            <translation><!-- TP Monterrey MOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Monterrey Universal</masterLabel>
+            <translation><!-- TP Monterrey Universal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de Registro del Caso</label>
+        <name>HSvc_Case_Record_type__c</name>
+        <picklistValues>
+            <masterLabel>B2B General Case</masterLabel>
+            <translation><!-- B2B General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C General Case</masterLabel>
+            <translation><!-- B2C General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Support Case</masterLabel>
+            <translation>Caso de Soporte de Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Work Order</masterLabel>
+            <translation>Orden de Trabajo Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Only</masterLabel>
+            <translation>Solo Oficina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation>Autorización de Retorno de Mercancía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Work Order</masterLabel>
+            <translation><!-- Repair Work Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado del Caso</label>
+        <name>HSvc_Case_Status__c</name>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation>Asociado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated - Hughes</masterLabel>
+            <translation><!-- Escalated - Hughes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated to SIC</masterLabel>
+            <translation>Escalado a SIC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Acknowledge</masterLabel>
+            <translation>Abierto - Reconocimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - BackOffice</masterLabel>
+            <translation><!-- Open - BackOffice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - De-escalate</masterLabel>
+            <translation>Abierto - Desescalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Dispatch</masterLabel>
+            <translation>Abierto - Envío</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Escalate</masterLabel>
+            <translation>Abierto - Escalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Escalated</masterLabel>
+            <translation>Abierto - Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Holding for Parts</masterLabel>
+            <translation><!-- Open - Holding for Parts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - In Progress</masterLabel>
+            <translation><!-- Open - In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Investigating</masterLabel>
+            <translation>Abierto - En Investigación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - On Site</masterLabel>
+            <translation><!-- Open - On Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - PAM Case</masterLabel>
+            <translation><!-- Open - PAM Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Pending Release</masterLabel>
+            <translation>Abierto - Pendiente Liberación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Provisioning Processing</masterLabel>
+            <translation><!-- Open - Provisioning Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Reassigned</masterLabel>
+            <translation>Abierto - Reasignado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Repair</masterLabel>
+            <translation><!-- Open - Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Troubleshooting</masterLabel>
+            <translation>Abierto - Solución de Problemas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Upgrade</masterLabel>
+            <translation>Abierto - Actualización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Web</masterLabel>
+            <translation>Abierto – Web</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Web Case</masterLabel>
+            <translation><!-- Open - Web Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open PSR</masterLabel>
+            <translation><!-- Open PSR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operator Analysis</masterLabel>
+            <translation>Análisis del Operador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operator Analysis - Escalated</masterLabel>
+            <translation>Análisis del Operador - Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Callback</masterLabel>
+            <translation>Pendiente - Devolver llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Cancel</masterLabel>
+            <translation><!-- Pending - Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Construction</masterLabel>
+            <translation><!-- Pending - Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Customer Contact</masterLabel>
+            <translation><!-- Pending - Customer Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Customer Input</masterLabel>
+            <translation>Pendiente - Insumo del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Engineering Action</masterLabel>
+            <translation>Pendiente - Acción de Ingeniería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Install</masterLabel>
+            <translation><!-- Pending - Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Monitoring</masterLabel>
+            <translation><!-- Pending - Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - NAP</masterLabel>
+            <translation><!-- Pending - NAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Provisioning Group</masterLabel>
+            <translation><!-- Pending - Provisioning Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Recovery</masterLabel>
+            <translation><!-- Pending - Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Service Provider Closure</masterLabel>
+            <translation><!-- Pending - Service Provider Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Site Access</masterLabel>
+            <translation><!-- Pending - Site Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Vendor Meet</masterLabel>
+            <translation><!-- Pending - Vendor Meet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending - Weather</masterLabel>
+            <translation>Pendiente por el Clima</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Confirmation</masterLabel>
+            <translation>Confirmación pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Customer Input</masterLabel>
+            <translation>Pendiente - Insumo del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Post Install Provisioning</masterLabel>
+            <translation><!-- Pending Post Install Provisioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Re-Activation</masterLabel>
+            <translation><!-- Pending Re-Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redirected to Third Party</masterLabel>
+            <translation>Traslado a operador competente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Asunto del Caso</label>
+        <name>HSvc_Case_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Type &amp; Sub-Type --></label>
+        <name>HSvc_Case_Type_Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo del Caso</label>
+        <name>HSvc_Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Support</masterLabel>
+            <translation>Soporte Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>Cambios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>Evento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Technical</masterLabel>
+            <translation>No técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Sales</masterLabel>
+            <translation>Preventa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-install</masterLabel>
+            <translation>Preinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Support</masterLabel>
+            <translation>Soporte de Producto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation>Proyecto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Field</masterLabel>
+            <translation>Reparación de Campo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Remote</masterLabel>
+            <translation>Reparación Remota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retention</masterLabel>
+            <translation>Retención</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Techician Support</masterLabel>
+            <translation>Soporte Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical</masterLabel>
+            <translation>Técnico</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Traslado de Servicio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Formato Rápido Creación Caso Subsidiario</label>
+        <name>HSvc_ChildCaseQuickCaseCreateTempla__c</name>
+        <relationshipLabel><!-- Case Templates (Child Case Quick Case Create Template) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Count towards Contractual SLA --></label>
+        <name>HSvc_Count_towards_Contractual_SLA__c</name>
+    </fields>
+    <fields>
+        <label>Crear Caso Subsidiario</label>
+        <name>HSvc_Create_Child_Case_s__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Requerimiento del Cliente</label>
+        <name>HSvc_Customer_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition Information</masterLabel>
+            <translation>Información de Adquisición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add/Upgrade Service</masterLabel>
+            <translation>Agregar/Actualizar Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Inquiry/Dispute</masterLabel>
+            <translation>Consultar/Discutir Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Info</masterLabel>
+            <translation>Información de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing/Invoicing</masterLabel>
+            <translation>Facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Recording</masterLabel>
+            <translation>Grabación Llamada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation>Volver a llamar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Change of Address</masterLabel>
+            <translation>Cancelar - Cambio de Dirección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Competition</masterLabel>
+            <translation>Cancelar - Competencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Financial</masterLabel>
+            <translation>Cancelar - Financiero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Ownership Change</masterLabel>
+            <translation>Cancelar - Cambio de Propiedad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Sales Practices</masterLabel>
+            <translation>Cancelar - Técnicas de Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Technical</masterLabel>
+            <translation>Cancelar - Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel - Treatment</masterLabel>
+            <translation>Cancelar - Tratamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Order</masterLabel>
+            <translation>Cancelación de orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Service</masterLabel>
+            <translation>Cancelación del servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel VSAT</masterLabel>
+            <translation>Cancelar VSAT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Information</masterLabel>
+            <translation>Información de Cancelación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Connect to Wi-Fi Booster</masterLabel>
+            <translation>No se puede conectar a Wi-Fi Booster</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Login</masterLabel>
+            <translation>No puede ingresar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Receive Emails</masterLabel>
+            <translation>No puede recibir correos electrónicos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Send Emails</masterLabel>
+            <translation>No puede enviar correos electrónicos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot find Wi-Fi Network</masterLabel>
+            <translation>No puede encontrar la red Wi-Fi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Care Operations</masterLabel>
+            <translation>Operaciones de atención</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Due Date - Temporary</masterLabel>
+            <translation>Cambiar Fecha de Pago - Temporal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Order</masterLabel>
+            <translation>Cambiar orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Payment Type</masterLabel>
+            <translation>Cambiar Forma de Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Service Plan</masterLabel>
+            <translation>Cambiar plan de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Request</masterLabel>
+            <translation>Solicitud del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collect Payment</masterLabel>
+            <translation>Recaudar pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract / Policies / Terms of Use</masterLabel>
+            <translation>Contrato/Políticas/Términos de Uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>Conversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Collection</masterLabel>
+            <translation>Cobro a Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation>Servicio al Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damaged</masterLabel>
+            <translation>Daño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-Install (System)</masterLabel>
+            <translation>Desinstalación (Sistema)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquency</masterLabel>
+            <translation>Incumplimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount concession</masterLabel>
+            <translation>Concesión de Descuento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downlink Issue</masterLabel>
+            <translation>Problema  de Downlink</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Download Issue</masterLabel>
+            <translation>Problema de descarga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dropped call</masterLabel>
+            <translation>Llamada pérdida</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Equipment Location Change</masterLabel>
+            <translation>Movimiento de Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Swap</masterLabel>
+            <translation>Cambio de equipos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explanation of Charges</masterLabel>
+            <translation>Explicación de los cargos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAP Questions</masterLabel>
+            <translation>Preguntas Capacidad Contratada (FAP)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Operations</masterLabel>
+            <translation>Operaciones de campo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Adjustments</masterLabel>
+            <translation>Ajustes financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Information</masterLabel>
+            <translation>Información General</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Communication</masterLabel>
+            <translation>Comunicación de Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT/System Admin</masterLabel>
+            <translation>Ti/administrador del sistema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information /Questions about the plan</masterLabel>
+            <translation>Información/Preguntas sobre el plan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information about Operation</masterLabel>
+            <translation>Información sobre el Funcionamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Order</masterLabel>
+            <translation>Instalar orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Problems</masterLabel>
+            <translation>Problemas de Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermittent Connectivity</masterLabel>
+            <translation>Conexión intermitente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermittent Wi-Fi Signal</masterLabel>
+            <translation>Señal de Wi-Fi intermitente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Reissue Request</masterLabel>
+            <translation>Solicitud de Nueva Emisión de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lock-Up/Hangs</masterLabel>
+            <translation>Bloqueo / Colgado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics/Equipment</masterLabel>
+            <translation>Logística / Equipos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Campaign</masterLabel>
+            <translation>Campaña de Mercadeo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Equipment</masterLabel>
+            <translation>Falta Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Install</masterLabel>
+            <translation>Nueva instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Installation</masterLabel>
+            <translation>Nueva Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Internet Access/Connectivity</masterLabel>
+            <translation>Sin acceso a internet/Sin conectividad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Signal At All</masterLabel>
+            <translation>Sin señal en absoluto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No internet connectivity</masterLabel>
+            <translation>Sin conexión a Internet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Internet Application Issue</masterLabel>
+            <translation>Otro problema con la aplicación de internet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Call</masterLabel>
+            <translation>Llamada saliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peformance Issue</masterLabel>
+            <translation>Problema de Desempeño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perfomance</masterLabel>
+            <translation>Desempeño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policy</masterLabel>
+            <translation>Política</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problems Related to Deinstall</masterLabel>
+            <translation>Problemas relacionados con la Desinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions</masterLabel>
+            <translation>Preguntas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions about Offers and Promotions</masterLabel>
+            <translation>Preguntas sobre Ofertas y Promociones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivate</masterLabel>
+            <translation>Reactivar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Traslado de Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Issues</masterLabel>
+            <translation>Problemas de reparación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace Hardware</masterLabel>
+            <translation>Remplazar Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restore Hardware</masterLabel>
+            <translation>Restaurar Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restore Service</masterLabel>
+            <translation>Restaurar Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension</masterLabel>
+            <translation>Suspensión Temporal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See parent case</masterLabel>
+            <translation>Vea el caso de los padres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Care Portal Features</masterLabel>
+            <translation>Características del Portal de Autoservicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Care</masterLabel>
+            <translation>Auto Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Feature Issue</masterLabel>
+            <translation>Problema de Característica del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Questions</masterLabel>
+            <translation>Preguntas del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>Servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign-Off</masterLabel>
+            <translation>Cierre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signal Strength/Coverage</masterLabel>
+            <translation>Fuerza/Cobertura de la Señal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow Internet Connectivity</masterLabel>
+            <translation>Conexión a Internet lenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static IP</masterLabel>
+            <translation>IP Estática</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspend</masterLabel>
+            <translation>Suspender</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Generated</masterLabel>
+            <translation>Generado por el Sistema</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portal - Ordering and Billing</masterLabel>
+            <translation>Sistemas / Portal - Pedidos y Facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - API</masterLabel>
+            <translation>Sistemas / Portales - API</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - BI</masterLabel>
+            <translation>Sistemas / Portales - BI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - CRM</masterLabel>
+            <translation>Sistemas / Portales - CRM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - Customer Gateway</masterLabel>
+            <translation>Sistemas / Portales - Gateway del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - End User</masterLabel>
+            <translation>Sistemas / Portales - Usuario Final</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - Installation</masterLabel>
+            <translation>Sistemas / Portales - Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems/Portals - NMP</masterLabel>
+            <translation>Sistemas / Portales - NMP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technician with difficulties</masterLabel>
+            <translation>Técnico con dificultades</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Token</masterLabel>
+            <translation><!-- Token --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Access/Login</masterLabel>
+            <translation>No puede acceder / Iniciar Sesión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Buy Tokens</masterLabel>
+            <translation>No puede comprar tokens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Launch</masterLabel>
+            <translation>No se puede iniciar/ejecutar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to View Usage</masterLabel>
+            <translation>No puede ver el uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsatisfied with product / Service</masterLabel>
+            <translation>Insatisfecho con el producto/servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Account Info</masterLabel>
+            <translation>Actualizar información de la cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Payment Info</masterLabel>
+            <translation>Actualizar información de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update payment information</masterLabel>
+            <translation>Actualizar Información de Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplink Issue</masterLabel>
+            <translation>Problema de Uplink</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage Question</masterLabel>
+            <translation>Pregunta sobre uso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Values ​​Return</masterLabel>
+            <translation>Devolución de Valores</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Buffering</masterLabel>
+            <translation>Video cargando</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Not Loading</masterLabel>
+            <translation>Video no carga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Optimization Settings</masterLabel>
+            <translation>Configuración de optimización de video</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Quality Issue</masterLabel>
+            <translation>Problemas de calidad del video</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Want to Become a Reseller</masterLabel>
+            <translation>Quiere volverse un distribuidor minorista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warnings Hughes Communications / Offers and Promotions</masterLabel>
+            <translation>Alertas Comunicaciones Hughes/Ofertas y Promociones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcome Call</masterLabel>
+            <translation>Llamada de bienvenida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will not Activate</masterLabel>
+            <translation>No se activará</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winback</masterLabel>
+            <translation>Recuperación</translation>
+        </picklistValues>
+		<picklistValues>
+            <masterLabel>Without Internet Connection</masterLabel>
+            <translation>Sin conexión a Internet</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>HSvc_Description__c</name>
+    </fields>
+    <fields>
+        <label>Derecho</label>
+        <name>HSvc_Entitlement__c</name>
+        <relationshipLabel><!-- Case Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exclude Asset from future chronic cal --></label>
+        <name>HSvc_Exclude_Asset_from_future_chronic__c</name>
+    </fields>
+    <fields>
+        <label>¿Es Activo?</label>
+        <name>HSvc_IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Days --></label>
+        <name>HSvc_Number_of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-populate Case field values --></label>
+        <name>HSvc_Pre_populate_Case_field_values__c</name>
+    </fields>
+    <fields>
+        <label><!-- RIA --></label>
+        <name>HSvc_RIA__c</name>
+    </fields>
+    <fields>
+        <label>Motivo</label>
+        <name>HSvc_Reason_Description__c</name>
+    </fields>
+    <fields>
+        <label>Próximos Pasos Recomendados</label>
+        <name>HSvc_Recommended_Next_Step__c</name>
+        <picklistValues>
+            <masterLabel>Escalate</masterLabel>
+            <translation>Escalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate to DM</masterLabel>
+            <translation><!-- Escalate to DM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate to NAP</masterLabel>
+            <translation><!-- Escalate to NAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedited TR</masterLabel>
+            <translation><!-- Expedited TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Truck Roll</masterLabel>
+            <translation>Desplazamiento a sitio de Hughes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform customer</masterLabel>
+            <translation>Informar al cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring</masterLabel>
+            <translation>Monitoreo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAP Office Only</masterLabel>
+            <translation><!-- NAP Office Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAP Truck Roll</masterLabel>
+            <translation><!-- NAP Truck Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None Required</masterLabel>
+            <translation>Ninguna Requerida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIP</masterLabel>
+            <translation><!-- PIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSR</masterLabel>
+            <translation><!-- PSR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner RMA</masterLabel>
+            <translation>Asociado RMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority TR</masterLabel>
+            <translation><!-- Priority TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provisioning</masterLabel>
+            <translation><!-- Provisioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation>Autorización de Retorno de Mercancía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Traslado del Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolve</masterLabel>
+            <translation><!-- Resolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>Resuelto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set up Account</masterLabel>
+            <translation><!-- Set up Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Meet</masterLabel>
+            <translation>Reunión con Vendedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting customer return</masterLabel>
+            <translation>Esperar la devolución del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>forwarded for approval</masterLabel>
+            <translation><!-- forwarded for approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>forwarded for processing</masterLabel>
+            <translation><!-- forwarded for processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción Próximos Pasos Recomendados</label>
+        <name>HSvc_Recommended_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label>Resolución</label>
+        <name>HSvc_Resolution__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de Producto</label>
+        <name>HSvc_SuspectedAsset__c</name>
+        <picklistValues>
+            <masterLabel>Customer Tools</masterLabel>
+            <translation>Herramientas del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satellite Broadband</masterLabel>
+            <translation>Satélite Banda Ancha</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Subtipo del Caso</label>
+        <name>Hsvc_Case_Subtype__c</name>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation>Facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Core Service (Terminate)</masterLabel>
+            <translation><!-- Cancel Core Service (Terminate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Order</masterLabel>
+            <translation>Cancelación de orden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>Cambios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance with Regulator</masterLabel>
+            <translation>Cumplimiento con el regulador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-Install (System)</masterLabel>
+            <translation>Desinstalación (Sistema)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Issue</masterLabel>
+            <translation>Problemas de correo electrónico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation>Emergencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Recovery</masterLabel>
+            <translation>Recuperación del equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General information</masterLabel>
+            <translation>Información General</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>Información</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install</masterLabel>
+            <translation>Instalar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Performance</masterLabel>
+            <translation>Desempeño del Internet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Installation</masterLabel>
+            <translation>Nueva Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Technical</masterLabel>
+            <translation>No técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outage</masterLabel>
+            <translation>Interrupción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Call</masterLabel>
+            <translation>Llamada saliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Program</masterLabel>
+            <translation>Programar Saliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Outage</masterLabel>
+            <translation>Interrupción Parcial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Sales</masterLabel>
+            <translation>Preventa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular</masterLabel>
+            <translation>Normal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Process</masterLabel>
+            <translation>Proceso Normal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Traslado de Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation - Deinstall</masterLabel>
+            <translation>Traslado del Servicio – Desinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation - Reinstall</masterLabel>
+            <translation>Traslado del Servicio - Reinstalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Truckroll</masterLabel>
+            <translation>Reparación Truckroll</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Care Portal</masterLabel>
+            <translation>Portal de autoservicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Issue</masterLabel>
+            <translation>Problema de Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status Meter App</masterLabel>
+            <translation>Aplicación Status Meter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical</masterLabel>
+            <translation>Técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tool Issue</masterLabel>
+            <translation>Problema de la Herramienta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Streaming Issue</masterLabel>
+            <translation>Problema de transmisión de vídeo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wi-Fi Network</masterLabel>
+            <translation>Red inalámbrica</translation>
+        </picklistValues>
+    </fields>
+	<fields>
+        <label>Respuesta inmediata</label>
+        <name>Hsvc_First_Call_Resolution__c</name>
+    </fields>
+    <fields>
+        <label>Idioma</label>
+        <name>Hsvc_Language__c</name>
+    </fields>
+    <fields>
+        <label>Categoría de Problema</label>
+        <name>Hsvc_Problem_Category__c</name>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation>Reclamos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation>Quejas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint/Claim</masterLabel>
+            <translation>Queja/ Reclamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiry/Request</masterLabel>
+            <translation>Consulta/Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petition</masterLabel>
+            <translation>Petición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petition/Claim</masterLabel>
+            <translation>Petición y Reclamos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requests/Inquiries</masterLabel>
+            <translation>Peticiones y Sugerencias</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nivel de Soporte</label>
+        <name>Hsvc_Support_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Tier 1</masterLabel>
+            <translation><!-- Consumer Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Tier 1</masterLabel>
+            <translation><!-- Enterprise Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation><!-- Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2</masterLabel>
+            <translation><!-- Tier 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Código Salida KB</label>
+        <name>KBExitCode__c</name>
+    </fields>
+    <fields>
+        <label>Horas No Disponible</label>
+        <name>NonAvailableHours__c</name>
+    </fields>
+    <fields>
+        <label>Abrir en Modo Edición</label>
+        <name>Open_in_Edit_Mode__c</name>
+    </fields>
+    <fields>
+        <label>Horas de Interrupción Cubiertas</label>
+        <name>OutageCoveredHours__c</name>
+    </fields>
+    <fields>
+        <label>Horas de Interrupción</label>
+        <name>OutageHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Email --></label>
+        <name>PrimaryContactEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Name --></label>
+        <name>PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Phone --></label>
+        <name>PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Prioridad</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Crítica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation>Mayor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation>Menor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Razón Cerrada</label>
+        <name>ReasonClosed__c</name>
+    </fields>
+    <fields>
+        <label>Recalcular Bandera</label>
+        <name>RecalculateFlag__c</name>
+    </fields>
+    <fields>
+        <label>Código de Resolución</label>
+        <name>ResolutionCode__c</name>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNF – Cancelled Service</masterLabel>
+            <translation><!-- TNF – Cancelled Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNF – Customer Accepted</masterLabel>
+            <translation><!-- TNF – Customer Accepted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Enviar Email</label>
+        <name>SendEmail__c</name>
+    </fields>
+    <fields>
+        <label>% de servicios perdidos</label>
+        <name>ServicesLost__c</name>
+    </fields>
+    <fields>
+        <label>Código de Estado</label>
+        <name>StateCode__c</name>
+    </fields>
+    <fields>
+        <label>Contacto T&amp;M</label>
+        <name>TMContact__c</name>
+    </fields>
+    <fields>
+        <label>Estado de T&amp;M</label>
+        <name>TMStatus__c</name>
+        <picklistValues>
+            <masterLabel>Accept T&amp;M Charges</masterLabel>
+            <translation><!-- Accept T&amp;M Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Override T&amp;M</masterLabel>
+            <translation><!-- Override T&amp;M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tiempo de Estado Actual</label>
+        <name>TimeInCurrentStatus__c</name>
+    </fields>
+    <fields>
+        <label>Severidad</label>
+        <name>Yahs_Severity__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Medio</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Case Template Layout</layout>
+        <sections>
+            <label>Actividad</label>
+            <section>Activity</section>
+        </sections>
+        <sections>
+            <label>Detalles del Caso</label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label>Vínculos Personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Formato de Información</label>
+            <section>Template Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre del Formato</nameFieldLabel>
+    <recordTypes>
+        <label><!-- B2C General Case --></label>
+        <name>B2CGeneralCase</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Orden de Trabajo Instalación</label>
+        <name>InstallWorkOrder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Repair Work Order --></label>
+        <name>RepairWorkOrder</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Caso de Soporte de Negocio</label>
+        <name>Yahsat_Business_Support_Case</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>No se puede establecer una fecha de vencimiento anterior y no puede ser menor a la fecha efectiva.</errorMessage>
+        <name>ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Plase select child case template --></errorMessage>
+        <name>HSvc_CreateChildCase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Abrir en Modo Editar no se puede seleccionar, si Disponible para el Perfil está configurado en Sistema</errorMessage>
+        <name>HSvc_DisableOpeninEditMode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede dejar el campo vacio</errorMessage>
+        <name>HSvc_MinutesUntilFollowUpDue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Formato con estado del Caso en ‘Pendiente Reactivación’ solo está disponible para Sistema</errorMessage>
+        <name>HSvc_PendingReactivationStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede seleccionar Próximo Paso Recomendado r como desplazamiento a Sitio de Hughes, desplazamiento a sitio de NAP, Oficina NAP Únicamente y Reunión con el Proveedor cuando el formato está marcado disponible para el usuario</errorMessage>
+        <name>HSvc_RecommentNextStepSelection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No puede Cerrar Caso sin Resolución y Código de Resolución</errorMessage>
+        <name>HughesSvc_CaseResolutiononCaseTemplate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Si selecciona Próximo Paso Recomendado no puede dejar este campo vacio</errorMessage>
+        <name>RecommendedNextStepDesc_Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label>Administración de Datos</label>
+        <name>Hsvc_Data_Admin</name>
+    </webLinks>
+</CustomObjectTranslation>

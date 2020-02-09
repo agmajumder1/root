@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+	 <caseValues>
+        <plural>false</plural>
+        <value>Email</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Emails</value>
+    </caseValues>
+	<gender>Feminine</gender>
+	<nameFieldLabel>Nombre del Evento</nameFieldLabel>
+	<fields>
+        <label>Nombre de la Cuenta</label>
+        <name>Account__c</name>
+    </fields>
+	<fields>
+        <label><!-- Campaign Member ID--></label>
+        <name>HSvc_CampaignMemberId__c</name>
+    </fields>
+	<fields>
+        <label><!-- Clicked--></label>
+        <name>HSvc_Clicked__c</name>
+    </fields>
+	<fields>
+        <label>Contacto</label>
+        <name>HSvc_Contact__c</name>
+    </fields>
+	<fields>
+        <label>Id. de Contacto</label>
+        <name>HSvc_Contact_ID__c</name>
+    </fields>
+	<fields>
+        <label>Fecha/Hora de Envío</label>
+        <name>HSvc_DateSent__c</name>
+    </fields>
+	<fields>
+        <label><!-- Date Bounced --></label>
+        <name>HSvc_DateBounced__c</name>
+    </fields>
+	<fields>
+        <label><!-- Date Opened --></label>
+        <name>HSvc_DateOpened__c</name>
+    </fields>
+	<fields>
+        <label><!-- Date Unsubscribed --></label>
+        <name>HSvc_DateUnsubscribed__c</name>
+    </fields>
+	<fields>
+        <label>Email</label>
+        <name>HSvc_Email__c</name>
+    </fields>
+	<fields>
+        <label><!-- Email Asset ID --></label>
+        <name>HSvc_Email_Asset_ID__c</name>
+    </fields>
+	<fields>
+        <label>Id. de Email</label>
+        <name>HSvc_Email_ID__c</name>
+    </fields>
+	<fields>
+        <label>Miniatura Email </label>
+        <name>HSvc_Email_Thumbnail__c</name>
+    </fields>
+	<fields>
+        <label>De Dirección</label>
+        <name>HSvc_FromAddress__c</name>
+    </fields>
+	<fields>
+        <label>Nombre del remitente</label>
+        <name>HSvc_FromName__c</name>
+    </fields>
+	<fields>
+        <label><!-- Hard Bounce --></label>
+        <name>HSvc_HardBounce__c</name>
+    </fields>
+	<fields>
+        <label><!-- Lead --></label>
+        <name>HSvc_Lead__c</name>
+    </fields>
+	<fields>
+        <label><!--	Lead ID --></label>
+        <name>HSvc_Lead_ID__c</name>
+    </fields>
+	<fields>
+        <label><!-- Links Clicked --></label>
+        <name>HSvc_NumberOfUniqueClicks__c</name>
+    </fields>
+	<fields>
+        <label><!-- Merge Id --></label>
+        <name>HSvc_MergeId__c</name>
+    </fields>
+	<fields>
+        <label><!-- Number of Total Clicks --></label>
+        <name>HSvc_NumberOfTotalClicks__c</name>
+    </fields>
+	<fields>
+        <label><!-- Opened --></label>
+        <name>HSvc_Opened__c</name>
+    </fields>
+	<fields>
+        <label><!-- Soft Bounce --></label>
+        <name>HSvc_SoftBounce__c</name>
+    </fields>
+	<fields>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Éxito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation>Fracaso</translation>
+        </picklistValues>
+    </fields>
+	<fields>
+        <label>Asunto del email</label>
+        <name>HSvc_SubjectLine__c</name>
+    </fields>
+	<fields>
+        <label><!-- Tracking As Of --></label>
+        <name>HSvc_Tracking_As_Of__c</name>
+    </fields>
+</CustomObjectTranslation>

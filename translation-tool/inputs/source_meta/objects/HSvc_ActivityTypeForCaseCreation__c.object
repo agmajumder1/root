@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting stores the Activity Type Names For Various Case Record Types.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Value__c</fullName>
+        <description>This field will contains the Name of Activity Type</description>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Activity Type For Case Creation</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Company_Id_Location_Id__c</fullName>
+        <description>A formula field to populate Company ID or Location ID based on Account</description>
+        <externalId>false</externalId>
+        <formula>IF(HSvc_AccountName__r.CBC_ID__c=&apos;&apos;, HSvc_AccountName__r.HNS_Location_ID__c, HSvc_AccountName__r.CBC_ID__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Company Id/Location Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_AccountName__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Service Provider Rules</relationshipLabel>
+        <relationshipName>Service_Provider_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( HSvc_ExpiryDate__c  &lt;  TODAY() , False, True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Service Provider Rules</relationshipLabel>
+        <relationshipName>Service_Provider_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_CaseRecordType__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Record Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Repair Work Order</fullName>
+                    <default>false</default>
+                    <label>Repair Work Order</label>
+                </value>
+                <value>
+                    <fullName>Install Work Order</fullName>
+                    <default>false</default>
+                    <label>Install Work Order</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_CaseSubtype__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Subtype</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>HSvc_CaseType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Account Maintenance</fullName>
+                    <default>false</default>
+                    <label>Account Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Approvals</fullName>
+                    <default>false</default>
+                    <label>Approvals</label>
+                </value>
+                <value>
+                    <fullName>Billing Issue</fullName>
+                    <default>false</default>
+                    <label>Billing Issue</label>
+                </value>
+                <value>
+                    <fullName>Cancel Core Service (Retention)</fullName>
+                    <default>false</default>
+                    <label>Cancel Core Service (Retention)</label>
+                </value>
+                <value>
+                    <fullName>Complaint</fullName>
+                    <default>false</default>
+                    <label>Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer Communication</fullName>
+                    <default>false</default>
+                    <label>Customer Communication</label>
+                </value>
+                <value>
+                    <fullName>Customer Complaint</fullName>
+                    <default>false</default>
+                    <label>Customer Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer follow-up</fullName>
+                    <default>false</default>
+                    <label>Customer follow-up</label>
+                </value>
+                <value>
+                    <fullName>Discovery Error</fullName>
+                    <default>false</default>
+                    <label>Discovery Error</label>
+                </value>
+                <value>
+                    <fullName>DVR request</fullName>
+                    <default>false</default>
+                    <label>DVR request</label>
+                </value>
+                <value>
+                    <fullName>Equipment</fullName>
+                    <default>false</default>
+                    <label>Equipment</label>
+                </value>
+                <value>
+                    <fullName>Equipment issue</fullName>
+                    <default>false</default>
+                    <label>Equipment issue</label>
+                </value>
+                <value>
+                    <fullName>Express Backup</fullName>
+                    <default>false</default>
+                    <label>Express Backup</label>
+                </value>
+                <value>
+                    <fullName>Gateway Provisioning</fullName>
+                    <default>false</default>
+                    <label>Gateway Provisioning</label>
+                </value>
+                <value>
+                    <fullName>General Questions</fullName>
+                    <default>false</default>
+                    <label>General Questions</label>
+                </value>
+                <value>
+                    <fullName>Hughes Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Hughes Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Install Issue</fullName>
+                    <default>false</default>
+                    <label>Install Issue</label>
+                </value>
+                <value>
+                    <fullName>Internet Service</fullName>
+                    <default>false</default>
+                    <label>Internet Service</label>
+                </value>
+                <value>
+                    <fullName>Key FOB provisioning</fullName>
+                    <default>false</default>
+                    <label>Key FOB provisioning</label>
+                </value>
+                <value>
+                    <fullName>Leased equipment</fullName>
+                    <default>false</default>
+                    <label>Leased equipment</label>
+                </value>
+                <value>
+                    <fullName>myHughesNet Issue</fullName>
+                    <default>false</default>
+                    <label>myHughesNet Issue</label>
+                </value>
+                <value>
+                    <fullName>NAP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>NAP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>NE Esc</fullName>
+                    <default>false</default>
+                    <label>NE Esc</label>
+                </value>
+                <value>
+                    <fullName>New Circuit</fullName>
+                    <default>false</default>
+                    <label>New Circuit</label>
+                </value>
+                <value>
+                    <fullName>New Site Monitoring</fullName>
+                    <default>false</default>
+                    <label>New Site Monitoring</label>
+                </value>
+                <value>
+                    <fullName>NMC Esc</fullName>
+                    <default>false</default>
+                    <label>NMC Esc</label>
+                </value>
+                <value>
+                    <fullName>Offers/Programs</fullName>
+                    <default>false</default>
+                    <label>Offers/Programs</label>
+                </value>
+                <value>
+                    <fullName>Order Modification</fullName>
+                    <default>false</default>
+                    <label>Order Modification</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Outbound Program</fullName>
+                    <default>false</default>
+                    <label>Outbound Program</label>
+                </value>
+                <value>
+                    <fullName>Out of scope Install</fullName>
+                    <default>false</default>
+                    <label>Out of scope Install</label>
+                </value>
+                <value>
+                    <fullName>Out of scope Repair</fullName>
+                    <default>false</default>
+                    <label>Out of scope Repair</label>
+                </value>
+                <value>
+                    <fullName>PMO Support</fullName>
+                    <default>false</default>
+                    <label>PMO Support</label>
+                </value>
+                <value>
+                    <fullName>Portal Issue</fullName>
+                    <default>false</default>
+                    <label>Portal Issue</label>
+                </value>
+                <value>
+                    <fullName>Premium Service</fullName>
+                    <default>false</default>
+                    <label>Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Proactive Maintenance</fullName>
+                    <default>false</default>
+                    <label>Proactive Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Purchased equipment</fullName>
+                    <default>false</default>
+                    <label>Purchased equipment</label>
+                </value>
+                <value>
+                    <fullName>Regular Process</fullName>
+                    <default>false</default>
+                    <label>Regular Process</label>
+                </value>
+                <value>
+                    <fullName>Restore Token Issue</fullName>
+                    <default>false</default>
+                    <label>Restore Token Issue</label>
+                </value>
+                <value>
+                    <fullName>Self-Service Issue</fullName>
+                    <default>false</default>
+                    <label>Self-Service Issue</label>
+                </value>
+                <value>
+                    <fullName>Service Change</fullName>
+                    <default>false</default>
+                    <label>Service Change</label>
+                </value>
+                <value>
+                    <fullName>Service Issue</fullName>
+                    <default>false</default>
+                    <label>Service Issue</label>
+                </value>
+                <value>
+                    <fullName>Service Out/Intermittent</fullName>
+                    <default>false</default>
+                    <label>Service Out/Intermittent</label>
+                </value>
+                <value>
+                    <fullName>Service Performance</fullName>
+                    <default>false</default>
+                    <label>Service Performance</label>
+                </value>
+                <value>
+                    <fullName>Service Restoration</fullName>
+                    <default>false</default>
+                    <label>Service Restoration</label>
+                </value>
+                <value>
+                    <fullName>Shipment Issue</fullName>
+                    <default>false</default>
+                    <label>Shipment Issue</label>
+                </value>
+                <value>
+                    <fullName>Status Meter Issue</fullName>
+                    <default>false</default>
+                    <label>Status Meter Issue</label>
+                </value>
+                <value>
+                    <fullName>Support Center Issue</fullName>
+                    <default>false</default>
+                    <label>Support Center Issue</label>
+                </value>
+                <value>
+                    <fullName>Survey Follow-up</fullName>
+                    <default>false</default>
+                    <label>Survey Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Tool Issue</fullName>
+                    <default>false</default>
+                    <label>Tool Issue</label>
+                </value>
+                <value>
+                    <fullName>Vendor Meet Hughes SP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Vendor Meet Hughes SP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Vendor Meet NAP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Vendor Meet NAP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Voice Service</fullName>
+                    <default>false</default>
+                    <label>Voice Service</label>
+                </value>
+                <value>
+                    <fullName>Wireless Router</fullName>
+                    <default>false</default>
+                    <label>Wireless Router</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Repair Remote</controllingFieldValue>
+                <controllingFieldValue>Technician Support</controllingFieldValue>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Remote</controllingFieldValue>
+                <valueName>Express Backup</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Remote</controllingFieldValue>
+                <controllingFieldValue>Technician Support</controllingFieldValue>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Regular Process</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Remote</controllingFieldValue>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <controllingFieldValue>Advanced Warranty Replacement</controllingFieldValue>
+                <controllingFieldValue>Technician Support</controllingFieldValue>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Service Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Remote</controllingFieldValue>
+                <controllingFieldValue>Technician Support</controllingFieldValue>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Tool Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Replacement with No Return</controllingFieldValue>
+                <controllingFieldValue>Return of Lease</controllingFieldValue>
+                <controllingFieldValue>Return of Lease Collect</controllingFieldValue>
+                <valueName>Leased equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retail Support</controllingFieldValue>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Complaint</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retail Support</controllingFieldValue>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <controllingFieldValue>Pre-install</controllingFieldValue>
+                <valueName>General Questions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retail Support</controllingFieldValue>
+                <controllingFieldValue>Pre-install</controllingFieldValue>
+                <valueName>Order Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retail Support</controllingFieldValue>
+                <valueName>Portal Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return for Credit</controllingFieldValue>
+                <valueName>Purchased equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Changes</controllingFieldValue>
+                <valueName>Internet Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Changes</controllingFieldValue>
+                <valueName>Premium Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Changes</controllingFieldValue>
+                <valueName>Voice Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Changes</controllingFieldValue>
+                <valueName>Wireless Router</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Provisioning</controllingFieldValue>
+                <valueName>DVR request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Provisioning</controllingFieldValue>
+                <valueName>Gateway Provisioning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Provisioning</controllingFieldValue>
+                <valueName>Key FOB provisioning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>myHughesNet Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>NMC Esc</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>Restore Token Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>Self-Service Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <controllingFieldValue>Chronic</controllingFieldValue>
+                <valueName>Service Out/Intermittent</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>Service Performance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>Status Meter Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Technical</controllingFieldValue>
+                <valueName>Support Center Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advanced Warranty Replacement</controllingFieldValue>
+                <valueName>Equipment issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advanced Warranty Replacement</controllingFieldValue>
+                <valueName>Install Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advanced Warranty Replacement</controllingFieldValue>
+                <valueName>Shipment Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NE Action</controllingFieldValue>
+                <valueName>Discovery Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NE Action</controllingFieldValue>
+                <valueName>NE Esc</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Account Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Billing Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Cancel Core Service (Retention)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Customer Communication</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Offers/Programs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Outbound Program</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>PMO Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Technical</controllingFieldValue>
+                <valueName>Service Change</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Action</controllingFieldValue>
+                <valueName>Approvals</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Action</controllingFieldValue>
+                <valueName>Customer follow-up</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Project</controllingFieldValue>
+                <valueName>New Site Monitoring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Project</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Project</controllingFieldValue>
+                <valueName>Proactive Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Project</controllingFieldValue>
+                <valueName>Service Restoration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Project</controllingFieldValue>
+                <valueName>Survey Follow-up</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Provisioning</controllingFieldValue>
+                <valueName>New Circuit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Customer Complaint</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Out of scope Install</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Out of scope Repair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Hughes Truck Roll</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>NAP Truck Roll</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Vendor Meet Hughes SP Truck Roll</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Field</controllingFieldValue>
+                <valueName>Vendor Meet NAP Truck Roll</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_CaseType__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>HSvc_CaseRecordType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Advanced Warranty Replacement</fullName>
+                    <default>false</default>
+                    <label>Advanced Warranty Replacement</label>
+                </value>
+                <value>
+                    <fullName>Chronic</fullName>
+                    <default>false</default>
+                    <label>Chronic</label>
+                </value>
+                <value>
+                    <fullName>NE Action</fullName>
+                    <default>false</default>
+                    <label>NE Action</label>
+                </value>
+                <value>
+                    <fullName>Non-Technical</fullName>
+                    <default>false</default>
+                    <label>Non-Technical</label>
+                </value>
+                <value>
+                    <fullName>PM Action</fullName>
+                    <default>false</default>
+                    <label>PM Action</label>
+                </value>
+                <value>
+                    <fullName>Pre-install</fullName>
+                    <default>false</default>
+                    <label>Pre-install</label>
+                </value>
+                <value>
+                    <fullName>Project</fullName>
+                    <default>false</default>
+                    <label>Project</label>
+                </value>
+                <value>
+                    <fullName>Provisioning</fullName>
+                    <default>false</default>
+                    <label>Provisioning</label>
+                </value>
+                <value>
+                    <fullName>PSR</fullName>
+                    <default>false</default>
+                    <label>PSR</label>
+                </value>
+                <value>
+                    <fullName>Repair Field</fullName>
+                    <default>false</default>
+                    <label>Repair Field</label>
+                </value>
+                <value>
+                    <fullName>Repair Remote</fullName>
+                    <default>false</default>
+                    <label>Repair Remote</label>
+                </value>
+                <value>
+                    <fullName>Replacement with No Return</fullName>
+                    <default>false</default>
+                    <label>Replacement with No Return</label>
+                </value>
+                <value>
+                    <fullName>Retail Support</fullName>
+                    <default>false</default>
+                    <label>Retail Support</label>
+                </value>
+                <value>
+                    <fullName>Return for Credit</fullName>
+                    <default>false</default>
+                    <label>Return for Credit</label>
+                </value>
+                <value>
+                    <fullName>Return of Lease</fullName>
+                    <default>false</default>
+                    <label>Return of Lease</label>
+                </value>
+                <value>
+                    <fullName>Return of Lease Collect</fullName>
+                    <default>false</default>
+                    <label>Return of Lease Collect</label>
+                </value>
+                <value>
+                    <fullName>Service Changes</fullName>
+                    <default>false</default>
+                    <label>Service Changes</label>
+                </value>
+                <value>
+                    <fullName>Service Provisioning</fullName>
+                    <default>false</default>
+                    <label>Service Provisioning</label>
+                </value>
+                <value>
+                    <fullName>Technical</fullName>
+                    <default>false</default>
+                    <label>Technical</label>
+                </value>
+                <value>
+                    <fullName>Technician Support</fullName>
+                    <default>false</default>
+                    <label>Technician Support</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <valueName>Repair Field</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Repair Work Order</controllingFieldValue>
+                <valueName>Repair Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Install Work Order</controllingFieldValue>
+                <valueName>Technician Support</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_Case_Type_Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT( HSvc_CaseType__c  )&lt;&gt;&apos;&apos; &amp;&amp; TEXT( HSvc_CaseSubtype__c  )&lt;&gt;&apos;&apos;,TEXT( HSvc_CaseType__c  ) &amp; &apos; / &apos; &amp; TEXT( HSvc_CaseSubtype__c  ),IF(TEXT( HSvc_CaseType__c  )=&apos;&apos; &amp;&amp; TEXT( HSvc_CaseSubtype__c  )=&apos;&apos;,&apos;&apos;,IF(TEXT( HSvc_CaseType__c  )&lt;&gt;&apos;&apos;,TEXT( HSvc_CaseType__c  ),TEXT( HSvc_CaseSubtype__c  ))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Type &amp; Sub Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_EffectiveDate__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ExpiryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_HNSCompanyID__c</fullName>
+        <externalId>false</externalId>
+        <label>Company ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_HNSLocationId__c</fullName>
+        <externalId>false</externalId>
+        <label>Location ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_HNSProduct__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>HNS Product</label>
+        <referenceTo>HNS_Products__c</referenceTo>
+        <relationshipLabel>Service Provider Rules</relationshipLabel>
+        <relationshipName>Service_Provider_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_PostalCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_ProductCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_ProductGrouping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product Grouping</label>
+        <referenceTo>Product_Grouping__c</referenceTo>
+        <relationshipLabel>Service Provider Rules</relationshipLabel>
+        <relationshipName>Service_Provider_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ServiceProvider__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Service Provider</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Partner</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Service Provider Rules (Service Provider)</relationshipLabel>
+        <relationshipName>Service_Provider_Rules1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Weight__c</fullName>
+        <externalId>false</externalId>
+        <label>Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Service Provider Rule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>HSvc_CaseRecordType__c</columns>
+        <columns>NAME</columns>
+        <columns>HSvc_ProductGrouping__c</columns>
+        <columns>HSvc_Case_Type_Sub_Type__c</columns>
+        <columns>HSvc_State__c</columns>
+        <columns>HSvc_Country__c</columns>
+        <columns>HSvc_PostalCode__c</columns>
+        <columns>HSvc_Weight__c</columns>
+        <columns>HSvc_ServiceProvider__c</columns>
+        <columns>HSvc_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>SPR-{0000}</displayFormat>
+        <label>Service Provider Rule Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Service Provider Rules</pluralLabel>
+    <recordTypes>
+        <fullName>InstallWorkOrder</fullName>
+        <active>true</active>
+        <label>Install Work Order</label>
+        <picklistValues>
+            <picklist>HSvc_CaseRecordType__c</picklist>
+            <values>
+                <fullName>Install Work Order</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HSvc_CaseSubtype__c</picklist>
+            <values>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regular Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HSvc_CaseType__c</picklist>
+            <values>
+                <fullName>Technician Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RepairWorkOrder</fullName>
+        <active>true</active>
+        <label>Repair Work Order</label>
+        <picklistValues>
+            <picklist>HSvc_CaseRecordType__c</picklist>
+            <values>
+                <fullName>Repair Work Order</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HSvc_CaseSubtype__c</picklist>
+            <values>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Express Backup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hughes Truck Roll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NAP Truck Roll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regular Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor Meet Hughes SP Truck Roll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor Meet NAP Truck Roll</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HSvc_CaseType__c</picklist>
+            <values>
+                <fullName>Repair Field</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair%C2%A0Remote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>HSvc_CaseRecordType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ProductGrouping__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Case_Type_Sub_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_State__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Country__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ProductCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Weight__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_ServiceProvider__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_CaseRecordType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ProductGrouping__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_Case_Type_Sub_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_State__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_Country__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ProductCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_ServiceProvider__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>HSvc_ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(HSvc_ExpiryDate__c &lt; TODAY(),HSvc_ExpiryDate__c &lt; HSvc_EffectiveDate__c)</errorConditionFormula>
+        <errorDisplayField>HSvc_ExpiryDate__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to show/hide sync geo checkbox and button in lightning offer management</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Show_Hide_Geo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Show_Hide_Geo</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>SyncGeographySupport</label>
+    <visibility>Public</visibility>
+</CustomObject>

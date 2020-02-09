@@ -1,0 +1,4271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>HSvc_Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accept Payment</fullName>
+                    <default>false</default>
+                    <label>Accept Payment</label>
+                </value>
+                <value>
+                    <fullName>Ack customer</fullName>
+                    <default>false</default>
+                    <label>Ack customer</label>
+                </value>
+                <value>
+                    <fullName>Acknowledge customer</fullName>
+                    <default>false</default>
+                    <label>Acknowledge customer</label>
+                </value>
+                <value>
+                    <fullName>Added</fullName>
+                    <default>false</default>
+                    <label>Added</label>
+                </value>
+                <value>
+                    <fullName>Address bandwidth</fullName>
+                    <default>false</default>
+                    <label>Address bandwidth</label>
+                </value>
+                <value>
+                    <fullName>Adjust appointment</fullName>
+                    <default>false</default>
+                    <label>Adjust appointment</label>
+                </value>
+                <value>
+                    <fullName>Adjust browser settings</fullName>
+                    <default>false</default>
+                    <label>Adjust browser settings</label>
+                </value>
+                <value>
+                    <fullName>Adjust due date</fullName>
+                    <default>false</default>
+                    <label>Adjust due date</label>
+                </value>
+                <value>
+                    <fullName>Adjust service</fullName>
+                    <default>false</default>
+                    <label>Adjust service</label>
+                </value>
+                <value>
+                    <fullName>Advise PC clean up</fullName>
+                    <default>false</default>
+                    <label>Advise PC clean up</label>
+                </value>
+                <value>
+                    <fullName>Application restart</fullName>
+                    <default>false</default>
+                    <label>Application restart</label>
+                </value>
+                <value>
+                    <fullName>Apply adjustment</fullName>
+                    <default>false</default>
+                    <label>Apply adjustment</label>
+                </value>
+                <value>
+                    <fullName>Apply adjustments</fullName>
+                    <default>false</default>
+                    <label>Apply adjustments</label>
+                </value>
+                <value>
+                    <fullName>Apply credits</fullName>
+                    <default>false</default>
+                    <label>Apply credits</label>
+                </value>
+                <value>
+                    <fullName>Apply extension</fullName>
+                    <default>false</default>
+                    <label>Apply extension</label>
+                </value>
+                <value>
+                    <fullName>Apply payment</fullName>
+                    <default>false</default>
+                    <label>Apply payment</label>
+                </value>
+                <value>
+                    <fullName>Apply Token(s) from bank</fullName>
+                    <default>false</default>
+                    <label>Apply Token(s) from bank</label>
+                </value>
+                <value>
+                    <fullName>Apply tokens</fullName>
+                    <default>false</default>
+                    <label>Apply tokens</label>
+                </value>
+                <value>
+                    <fullName>Begin prov new service</fullName>
+                    <default>false</default>
+                    <label>Begin prov new service</label>
+                </value>
+                <value>
+                    <fullName>Cancel account</fullName>
+                    <default>false</default>
+                    <label>Cancel account</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Change</fullName>
+                    <default>false</default>
+                    <label>Change</label>
+                </value>
+                <value>
+                    <fullName>Communicate to customer</fullName>
+                    <default>false</default>
+                    <label>Communicate to customer</label>
+                </value>
+                <value>
+                    <fullName>communicate to PM</fullName>
+                    <default>false</default>
+                    <label>communicate to PM</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+                <value>
+                    <fullName>Complete investigate</fullName>
+                    <default>false</default>
+                    <label>Complete investigate</label>
+                </value>
+                <value>
+                    <fullName>Complete report</fullName>
+                    <default>false</default>
+                    <label>Complete report</label>
+                </value>
+                <value>
+                    <fullName>Complete research</fullName>
+                    <default>false</default>
+                    <label>Complete research</label>
+                </value>
+                <value>
+                    <fullName>Considering</fullName>
+                    <default>false</default>
+                    <label>Considering</label>
+                </value>
+                <value>
+                    <fullName>Contact customer</fullName>
+                    <default>false</default>
+                    <label>Contact customer</label>
+                </value>
+                <value>
+                    <fullName>Contact customer address</fullName>
+                    <default>false</default>
+                    <label>Contact customer address</label>
+                </value>
+                <value>
+                    <fullName>Contacted</fullName>
+                    <default>false</default>
+                    <label>Contacted</label>
+                </value>
+                <value>
+                    <fullName>Corrected Configuration</fullName>
+                    <default>false</default>
+                    <label>Corrected Configuration</label>
+                </value>
+                <value>
+                    <fullName>Corrected Connections</fullName>
+                    <default>false</default>
+                    <label>Corrected Connections</label>
+                </value>
+                <value>
+                    <fullName>Correct Routes</fullName>
+                    <default>false</default>
+                    <label>Correct Routes</label>
+                </value>
+                <value>
+                    <fullName>Could not complete</fullName>
+                    <default>false</default>
+                    <label>Could not complete</label>
+                </value>
+                <value>
+                    <fullName>Create Order</fullName>
+                    <default>false</default>
+                    <label>Create Order</label>
+                </value>
+                <value>
+                    <fullName>Create RMA request</fullName>
+                    <default>false</default>
+                    <label>Create RMA request</label>
+                </value>
+                <value>
+                    <fullName>Customer Clear Obstruction</fullName>
+                    <default>false</default>
+                    <label>Customer Clear Obstruction</label>
+                </value>
+                <value>
+                    <fullName>Customer Ed</fullName>
+                    <default>false</default>
+                    <label>Customer Ed</label>
+                </value>
+                <value>
+                    <fullName>Customer to replace cables</fullName>
+                    <default>false</default>
+                    <label>Customer to replace cables</label>
+                </value>
+                <value>
+                    <fullName>Customer Will Configure</fullName>
+                    <default>false</default>
+                    <label>Customer Will Configure</label>
+                </value>
+                <value>
+                    <fullName>Customer Will Correct</fullName>
+                    <default>false</default>
+                    <label>Customer Will Correct</label>
+                </value>
+                <value>
+                    <fullName>Dispatch</fullName>
+                    <default>false</default>
+                    <label>Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Dispatch Tech</fullName>
+                    <default>false</default>
+                    <label>Dispatch Tech</label>
+                </value>
+                <value>
+                    <fullName>Email customer</fullName>
+                    <default>false</default>
+                    <label>Email customer</label>
+                </value>
+                <value>
+                    <fullName>Escalate</fullName>
+                    <default>false</default>
+                    <label>Escalate</label>
+                </value>
+                <value>
+                    <fullName>Escalated</fullName>
+                    <default>false</default>
+                    <label>Escalated</label>
+                </value>
+                <value>
+                    <fullName>Escalate to NMC</fullName>
+                    <default>false</default>
+                    <label>Escalate to NMC</label>
+                </value>
+                <value>
+                    <fullName>Explain charges</fullName>
+                    <default>false</default>
+                    <label>Explain charges</label>
+                </value>
+                <value>
+                    <fullName>Explained</fullName>
+                    <default>false</default>
+                    <label>Explained</label>
+                </value>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>false</default>
+                    <label>Fixed</label>
+                </value>
+                <value>
+                    <fullName>Fix in CRM</fullName>
+                    <default>false</default>
+                    <label>Fix in CRM</label>
+                </value>
+                <value>
+                    <fullName>Fix in DSS</fullName>
+                    <default>false</default>
+                    <label>Fix in DSS</label>
+                </value>
+                <value>
+                    <fullName>Fix in EMS</fullName>
+                    <default>false</default>
+                    <label>Fix in EMS</label>
+                </value>
+                <value>
+                    <fullName>Fix in NMP</fullName>
+                    <default>false</default>
+                    <label>Fix in NMP</label>
+                </value>
+                <value>
+                    <fullName>Follow on action</fullName>
+                    <default>false</default>
+                    <label>Follow on action</label>
+                </value>
+                <value>
+                    <fullName>Follow-up and Monitor</fullName>
+                    <default>false</default>
+                    <label>Follow-up and Monitor</label>
+                </value>
+                <value>
+                    <fullName>Give Courtesy Token(s)</fullName>
+                    <default>false</default>
+                    <label>Give Courtesy Token(s)</label>
+                </value>
+                <value>
+                    <fullName>Inform customer</fullName>
+                    <default>false</default>
+                    <label>Inform customer</label>
+                </value>
+                <value>
+                    <fullName>Inform Field services team</fullName>
+                    <default>false</default>
+                    <label>Inform Field services team</label>
+                </value>
+                <value>
+                    <fullName>Inform Hughes CS</fullName>
+                    <default>false</default>
+                    <label>Inform Hughes CS</label>
+                </value>
+                <value>
+                    <fullName>Inform Installation team</fullName>
+                    <default>false</default>
+                    <label>Inform Installation team</label>
+                </value>
+                <value>
+                    <fullName>Inform PM</fullName>
+                    <default>false</default>
+                    <label>Inform PM</label>
+                </value>
+                <value>
+                    <fullName>Issue Adjustment</fullName>
+                    <default>false</default>
+                    <label>Issue Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Issue Order</fullName>
+                    <default>false</default>
+                    <label>Issue Order</label>
+                </value>
+                <value>
+                    <fullName>Left Message</fullName>
+                    <default>false</default>
+                    <label>Left Message</label>
+                </value>
+                <value>
+                    <fullName>Load sheet</fullName>
+                    <default>false</default>
+                    <label>Load sheet</label>
+                </value>
+                <value>
+                    <fullName>Monitoring</fullName>
+                    <default>false</default>
+                    <label>Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Monitor Outage</fullName>
+                    <default>false</default>
+                    <label>Monitor Outage</label>
+                </value>
+                <value>
+                    <fullName>Move Dish</fullName>
+                    <default>false</default>
+                    <label>Move Dish</label>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                    <label>No Answer</label>
+                </value>
+                <value>
+                    <fullName>Not Processed</fullName>
+                    <default>false</default>
+                    <label>Not Processed</label>
+                </value>
+                <value>
+                    <fullName>Other (Explain in Notes)</fullName>
+                    <default>false</default>
+                    <label>Other (Explain in Notes)</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Pending Account holder</fullName>
+                    <default>false</default>
+                    <label>Pending Account holder</label>
+                </value>
+                <value>
+                    <fullName>Pending Cancel</fullName>
+                    <default>false</default>
+                    <label>Pending Cancel</label>
+                </value>
+                <value>
+                    <fullName>Pending Not Account holder</fullName>
+                    <default>false</default>
+                    <label>Pending Not Account holder</label>
+                </value>
+                <value>
+                    <fullName>Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Process Approval</fullName>
+                    <default>false</default>
+                    <label>Process Approval</label>
+                </value>
+                <value>
+                    <fullName>Process Cancellation</fullName>
+                    <default>false</default>
+                    <label>Process Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Process change</fullName>
+                    <default>false</default>
+                    <label>Process change</label>
+                </value>
+                <value>
+                    <fullName>Process decommission</fullName>
+                    <default>false</default>
+                    <label>Process decommission</label>
+                </value>
+                <value>
+                    <fullName>Processed</fullName>
+                    <default>false</default>
+                    <label>Processed</label>
+                </value>
+                <value>
+                    <fullName>Process Full Payment</fullName>
+                    <default>false</default>
+                    <label>Process Full Payment</label>
+                </value>
+                <value>
+                    <fullName>Process or send email</fullName>
+                    <default>false</default>
+                    <label>Process or send email</label>
+                </value>
+                <value>
+                    <fullName>Process Partial Payment</fullName>
+                    <default>false</default>
+                    <label>Process Partial Payment</label>
+                </value>
+                <value>
+                    <fullName>Process Payment</fullName>
+                    <default>false</default>
+                    <label>Process Payment</label>
+                </value>
+                <value>
+                    <fullName>Process prequal</fullName>
+                    <default>false</default>
+                    <label>Process prequal</label>
+                </value>
+                <value>
+                    <fullName>Provide customer correct information</fullName>
+                    <default>false</default>
+                    <label>Provide customer correct information</label>
+                </value>
+                <value>
+                    <fullName>Provided Information</fullName>
+                    <default>false</default>
+                    <label>Provided Information</label>
+                </value>
+                <value>
+                    <fullName>Provide information details</fullName>
+                    <default>false</default>
+                    <label>Provide information details</label>
+                </value>
+                <value>
+                    <fullName>Purchase Token(s)</fullName>
+                    <default>false</default>
+                    <label>Purchase Token(s)</label>
+                </value>
+                <value>
+                    <fullName>Readjust appointment</fullName>
+                    <default>false</default>
+                    <label>Readjust appointment</label>
+                </value>
+                <value>
+                    <fullName>Receive manually</fullName>
+                    <default>false</default>
+                    <label>Receive manually</label>
+                </value>
+                <value>
+                    <fullName>Reconcile</fullName>
+                    <default>false</default>
+                    <label>Reconcile</label>
+                </value>
+                <value>
+                    <fullName>Reconnect</fullName>
+                    <default>false</default>
+                    <label>Reconnect</label>
+                </value>
+                <value>
+                    <fullName>Refer back to customer</fullName>
+                    <default>false</default>
+                    <label>Refer back to customer</label>
+                </value>
+                <value>
+                    <fullName>Referred to 3rd Party</fullName>
+                    <default>false</default>
+                    <label>Referred to 3rd Party</label>
+                </value>
+                <value>
+                    <fullName>Refer to 3rd Party</fullName>
+                    <default>false</default>
+                    <label>Refer to 3rd Party</label>
+                </value>
+                <value>
+                    <fullName>Refer to application provider</fullName>
+                    <default>false</default>
+                    <label>Refer to application provider</label>
+                </value>
+                <value>
+                    <fullName>Refer to Billing</fullName>
+                    <default>false</default>
+                    <label>Refer to Billing</label>
+                </value>
+                <value>
+                    <fullName>Refer to HNS</fullName>
+                    <default>false</default>
+                    <label>Refer to HNS</label>
+                </value>
+                <value>
+                    <fullName>Refer to Installation</fullName>
+                    <default>false</default>
+                    <label>Refer to Installation</label>
+                </value>
+                <value>
+                    <fullName>Refer to NMC</fullName>
+                    <default>false</default>
+                    <label>Refer to NMC</label>
+                </value>
+                <value>
+                    <fullName>Refer to PIP</fullName>
+                    <default>false</default>
+                    <label>Refer to PIP</label>
+                </value>
+                <value>
+                    <fullName>Refer to provider</fullName>
+                    <default>false</default>
+                    <label>Refer to provider</label>
+                </value>
+                <value>
+                    <fullName>Refer to Retention</fullName>
+                    <default>false</default>
+                    <label>Refer to Retention</label>
+                </value>
+                <value>
+                    <fullName>Reject</fullName>
+                    <default>false</default>
+                    <label>Reject</label>
+                </value>
+                <value>
+                    <fullName>Reject request</fullName>
+                    <default>false</default>
+                    <label>Reject request</label>
+                </value>
+                <value>
+                    <fullName>Reload configuration</fullName>
+                    <default>false</default>
+                    <label>Reload configuration</label>
+                </value>
+                <value>
+                    <fullName>Remove 3rd Party Equipment</fullName>
+                    <default>false</default>
+                    <label>Remove 3rd Party Equipment</label>
+                </value>
+                <value>
+                    <fullName>Remove lock</fullName>
+                    <default>false</default>
+                    <label>Remove lock</label>
+                </value>
+                <value>
+                    <fullName>Replace</fullName>
+                    <default>false</default>
+                    <label>Replace</label>
+                </value>
+                <value>
+                    <fullName>Replace Cable</fullName>
+                    <default>false</default>
+                    <label>Replace Cable</label>
+                </value>
+                <value>
+                    <fullName>Replace Equipment</fullName>
+                    <default>false</default>
+                    <label>Replace Equipment</label>
+                </value>
+                <value>
+                    <fullName>Replace hardware</fullName>
+                    <default>false</default>
+                    <label>Replace hardware</label>
+                </value>
+                <value>
+                    <fullName>Replace power</fullName>
+                    <default>false</default>
+                    <label>Replace power</label>
+                </value>
+                <value>
+                    <fullName>Repoint</fullName>
+                    <default>false</default>
+                    <label>Repoint</label>
+                </value>
+                <value>
+                    <fullName>Report Issue to Control Desk/NMC</fullName>
+                    <default>false</default>
+                    <label>Report Issue to Control Desk/NMC</label>
+                </value>
+                <value>
+                    <fullName>Report to Hughes PM</fullName>
+                    <default>false</default>
+                    <label>Report to Hughes PM</label>
+                </value>
+                <value>
+                    <fullName>Report to Installation</fullName>
+                    <default>false</default>
+                    <label>Report to Installation</label>
+                </value>
+                <value>
+                    <fullName>Report to NE</fullName>
+                    <default>false</default>
+                    <label>Report to NE</label>
+                </value>
+                <value>
+                    <fullName>Report to requestor</fullName>
+                    <default>false</default>
+                    <label>Report to requestor</label>
+                </value>
+                <value>
+                    <fullName>Resolve</fullName>
+                    <default>false</default>
+                    <label>Resolve</label>
+                </value>
+                <value>
+                    <fullName>Resolved</fullName>
+                    <default>false</default>
+                    <label>Resolved</label>
+                </value>
+                <value>
+                    <fullName>Respond to customer</fullName>
+                    <default>false</default>
+                    <label>Respond to customer</label>
+                </value>
+                <value>
+                    <fullName>Restore service</fullName>
+                    <default>false</default>
+                    <label>Restore service</label>
+                </value>
+                <value>
+                    <fullName>Retain Customer No Credit</fullName>
+                    <default>false</default>
+                    <label>Retain Customer No Credit</label>
+                </value>
+                <value>
+                    <fullName>Retain Customer with Credit</fullName>
+                    <default>false</default>
+                    <label>Retain Customer with Credit</label>
+                </value>
+                <value>
+                    <fullName>Review service</fullName>
+                    <default>false</default>
+                    <label>Review service</label>
+                </value>
+                <value>
+                    <fullName>Saved</fullName>
+                    <default>false</default>
+                    <label>Saved</label>
+                </value>
+                <value>
+                    <fullName>Send for approval</fullName>
+                    <default>false</default>
+                    <label>Send for approval</label>
+                </value>
+                <value>
+                    <fullName>Send info to requestor</fullName>
+                    <default>false</default>
+                    <label>Send info to requestor</label>
+                </value>
+                <value>
+                    <fullName>Send PO</fullName>
+                    <default>false</default>
+                    <label>Send PO</label>
+                </value>
+                <value>
+                    <fullName>Send results</fullName>
+                    <default>false</default>
+                    <label>Send results</label>
+                </value>
+                <value>
+                    <fullName>Send to Retention</fullName>
+                    <default>false</default>
+                    <label>Send to Retention</label>
+                </value>
+                <value>
+                    <fullName>Sent tech</fullName>
+                    <default>false</default>
+                    <label>Sent tech</label>
+                </value>
+                <value>
+                    <fullName>Set up Account</fullName>
+                    <default>false</default>
+                    <label>Set up Account</label>
+                </value>
+                <value>
+                    <fullName>Suspend PAM</fullName>
+                    <default>false</default>
+                    <label>Suspend PAM</label>
+                </value>
+                <value>
+                    <fullName>Take payment</fullName>
+                    <default>false</default>
+                    <label>Take payment</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Update firmware</fullName>
+                    <default>false</default>
+                    <label>Update firmware</label>
+                </value>
+                <value>
+                    <fullName>Upload site record</fullName>
+                    <default>false</default>
+                    <label>Upload site record</label>
+                </value>
+                <value>
+                    <fullName>Upload spreadsheet</fullName>
+                    <default>false</default>
+                    <label>Upload spreadsheet</label>
+                </value>
+                <value>
+                    <fullName>Upload Static IP change</fullName>
+                    <default>false</default>
+                    <label>Upload Static IP change</label>
+                </value>
+                <value>
+                    <fullName>Use a Different Application</fullName>
+                    <default>false</default>
+                    <label>Use a Different Application</label>
+                </value>
+                <value>
+                    <fullName>Verify upload spreadsheet</fullName>
+                    <default>false</default>
+                    <label>Verify upload spreadsheet</label>
+                </value>
+                <value>
+                    <fullName>Wait for Commercial Power</fullName>
+                    <default>false</default>
+                    <label>Wait for Commercial Power</label>
+                </value>
+                <value>
+                    <fullName>Wait for New Allowance</fullName>
+                    <default>false</default>
+                    <label>Wait for New Allowance</label>
+                </value>
+                <value>
+                    <fullName>Wait for outage to Clear</fullName>
+                    <default>false</default>
+                    <label>Wait for outage to Clear</label>
+                </value>
+                <value>
+                    <fullName>Wait for Weather to Clear</fullName>
+                    <default>false</default>
+                    <label>Wait for Weather to Clear</label>
+                </value>
+                <value>
+                    <fullName>Working with the NAP</fullName>
+                    <default>false</default>
+                    <label>Working with the NAP</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( HSvc_ExpiryDate__c  &lt;  TODAY() , False, True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Actual_Issue__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Issue</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3rd Party Application</fullName>
+                    <default>false</default>
+                    <label>3rd Party Application</label>
+                </value>
+                <value>
+                    <fullName>3rd Party Application Issue</fullName>
+                    <default>false</default>
+                    <label>3rd Party Application Issue</label>
+                </value>
+                <value>
+                    <fullName>3rd party Device Issue</fullName>
+                    <default>false</default>
+                    <label>3rd party Device Issue</label>
+                </value>
+                <value>
+                    <fullName>3rd Party Equip</fullName>
+                    <default>false</default>
+                    <label>3rd Party Equip</label>
+                </value>
+                <value>
+                    <fullName>Ability to Solve Issue</fullName>
+                    <default>false</default>
+                    <label>Ability to Solve Issue</label>
+                </value>
+                <value>
+                    <fullName>Accessibility/Wait times</fullName>
+                    <default>false</default>
+                    <label>Accessibility/Wait times</label>
+                </value>
+                <value>
+                    <fullName>Account not Set-up</fullName>
+                    <default>false</default>
+                    <label>Account not Set-up</label>
+                </value>
+                <value>
+                    <fullName>Account Past Due</fullName>
+                    <default>false</default>
+                    <label>Account Past Due</label>
+                </value>
+                <value>
+                    <fullName>Activation Failure</fullName>
+                    <default>false</default>
+                    <label>Activation Failure</label>
+                </value>
+                <value>
+                    <fullName>Add Authorized User</fullName>
+                    <default>false</default>
+                    <label>Add Authorized User</label>
+                </value>
+                <value>
+                    <fullName>Add Core Service</fullName>
+                    <default>false</default>
+                    <label>Add Core Service</label>
+                </value>
+                <value>
+                    <fullName>Add New Core Service</fullName>
+                    <default>false</default>
+                    <label>Add New Core Service</label>
+                </value>
+                <value>
+                    <fullName>Add New Premium Service</fullName>
+                    <default>false</default>
+                    <label>Add New Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Add Premium Service</fullName>
+                    <default>false</default>
+                    <label>Add Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Add professional Voice Install</fullName>
+                    <default>false</default>
+                    <label>Add professional Voice Install</label>
+                </value>
+                <value>
+                    <fullName>Add Voice Service</fullName>
+                    <default>false</default>
+                    <label>Add Voice Service</label>
+                </value>
+                <value>
+                    <fullName>Add Wireless Router</fullName>
+                    <default>false</default>
+                    <label>Add Wireless Router</label>
+                </value>
+                <value>
+                    <fullName>Adjust service</fullName>
+                    <default>false</default>
+                    <label>Adjust service</label>
+                </value>
+                <value>
+                    <fullName>Administrator login</fullName>
+                    <default>false</default>
+                    <label>Administrator login</label>
+                </value>
+                <value>
+                    <fullName>Advertising/Marketing Accuracy</fullName>
+                    <default>false</default>
+                    <label>Advertising/Marketing Accuracy</label>
+                </value>
+                <value>
+                    <fullName>Agent Courtesy</fullName>
+                    <default>false</default>
+                    <label>Agent Courtesy</label>
+                </value>
+                <value>
+                    <fullName>Agent Courtesy/Professionalism</fullName>
+                    <default>false</default>
+                    <label>Agent Courtesy/Professionalism</label>
+                </value>
+                <value>
+                    <fullName>Agent Understandability</fullName>
+                    <default>false</default>
+                    <label>Agent Understandability</label>
+                </value>
+                <value>
+                    <fullName>AP Issue</fullName>
+                    <default>false</default>
+                    <label>AP Issue</label>
+                </value>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Application Issue</fullName>
+                    <default>false</default>
+                    <label>Application Issue</label>
+                </value>
+                <value>
+                    <fullName>Application Issue - Customer</fullName>
+                    <default>false</default>
+                    <label>Application Issue - Customer</label>
+                </value>
+                <value>
+                    <fullName>Application Issue - Hughes</fullName>
+                    <default>false</default>
+                    <label>Application Issue - Hughes</label>
+                </value>
+                <value>
+                    <fullName>Apply Static IP</fullName>
+                    <default>false</default>
+                    <label>Apply Static IP</label>
+                </value>
+                <value>
+                    <fullName>Appointment Confirmation</fullName>
+                    <default>false</default>
+                    <label>Appointment Confirmation</label>
+                </value>
+                <value>
+                    <fullName>Available Appointments</fullName>
+                    <default>false</default>
+                    <label>Available Appointments</label>
+                </value>
+                <value>
+                    <fullName>Bad Cables/Wiring</fullName>
+                    <default>false</default>
+                    <label>Bad Cables/Wiring</label>
+                </value>
+                <value>
+                    <fullName>Bent Pole</fullName>
+                    <default>false</default>
+                    <label>Bent Pole</label>
+                </value>
+                <value>
+                    <fullName>Bill Date change</fullName>
+                    <default>false</default>
+                    <label>Bill Date change</label>
+                </value>
+                <value>
+                    <fullName>Broken</fullName>
+                    <default>false</default>
+                    <label>Broken</label>
+                </value>
+                <value>
+                    <fullName>Business System Issue</fullName>
+                    <default>false</default>
+                    <label>Business System Issue</label>
+                </value>
+                <value>
+                    <fullName>Cancel Porting</fullName>
+                    <default>false</default>
+                    <label>Cancel Porting</label>
+                </value>
+                <value>
+                    <fullName>Capture Business Info</fullName>
+                    <default>false</default>
+                    <label>Capture Business Info</label>
+                </value>
+                <value>
+                    <fullName>Change Appointment Time</fullName>
+                    <default>false</default>
+                    <label>Change Appointment Time</label>
+                </value>
+                <value>
+                    <fullName>Change Core Service</fullName>
+                    <default>false</default>
+                    <label>Change Core Service</label>
+                </value>
+                <value>
+                    <fullName>Changed Mind</fullName>
+                    <default>false</default>
+                    <label>Changed Mind</label>
+                </value>
+                <value>
+                    <fullName>Change Premium Service</fullName>
+                    <default>false</default>
+                    <label>Change Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Change Service</fullName>
+                    <default>false</default>
+                    <label>Change Service</label>
+                </value>
+                <value>
+                    <fullName>Configuration</fullName>
+                    <default>false</default>
+                    <label>Configuration</label>
+                </value>
+                <value>
+                    <fullName>Configuration Issue</fullName>
+                    <default>false</default>
+                    <label>Configuration Issue</label>
+                </value>
+                <value>
+                    <fullName>Confirmation Email</fullName>
+                    <default>false</default>
+                    <label>Confirmation Email</label>
+                </value>
+                <value>
+                    <fullName>Confirmed/Known Issue - Hughes</fullName>
+                    <default>false</default>
+                    <label>Confirmed/Known Issue - Hughes</label>
+                </value>
+                <value>
+                    <fullName>Confirmed Issue - Hughes</fullName>
+                    <default>false</default>
+                    <label>Confirmed Issue - Hughes</label>
+                </value>
+                <value>
+                    <fullName>Confirmed Issue - Partner</fullName>
+                    <default>false</default>
+                    <label>Confirmed Issue - Partner</label>
+                </value>
+                <value>
+                    <fullName>Confirmed Outage - Hughes</fullName>
+                    <default>false</default>
+                    <label>Confirmed Outage - Hughes</label>
+                </value>
+                <value>
+                    <fullName>Confirmed Outage - Partner</fullName>
+                    <default>false</default>
+                    <label>Confirmed Outage - Partner</label>
+                </value>
+                <value>
+                    <fullName>Construction</fullName>
+                    <default>false</default>
+                    <label>Construction</label>
+                </value>
+                <value>
+                    <fullName>Contact Hughes</fullName>
+                    <default>false</default>
+                    <label>Contact Hughes</label>
+                </value>
+                <value>
+                    <fullName>Contract not matching service</fullName>
+                    <default>false</default>
+                    <label>Contract not matching service</label>
+                </value>
+                <value>
+                    <fullName>Convert Hardware Program</fullName>
+                    <default>false</default>
+                    <label>Convert Hardware Program</label>
+                </value>
+                <value>
+                    <fullName>Cost</fullName>
+                    <default>false</default>
+                    <label>Cost</label>
+                </value>
+                <value>
+                    <fullName>Create Email</fullName>
+                    <default>false</default>
+                    <label>Create Email</label>
+                </value>
+                <value>
+                    <fullName>Create notification email</fullName>
+                    <default>false</default>
+                    <label>Create notification email</label>
+                </value>
+                <value>
+                    <fullName>Create upload spreadsheet</fullName>
+                    <default>false</default>
+                    <label>Create upload spreadsheet</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Customer Account Past Due</fullName>
+                    <default>false</default>
+                    <label>Customer Account Past Due</label>
+                </value>
+                <value>
+                    <fullName>Customer Ed</fullName>
+                    <default>false</default>
+                    <label>Customer Ed</label>
+                </value>
+                <value>
+                    <fullName>Customer Routing Issue</fullName>
+                    <default>false</default>
+                    <label>Customer Routing Issue</label>
+                </value>
+                <value>
+                    <fullName>Defective Power Supply</fullName>
+                    <default>false</default>
+                    <label>Defective Power Supply</label>
+                </value>
+                <value>
+                    <fullName>Delivered to incorrect address</fullName>
+                    <default>false</default>
+                    <label>Delivered to incorrect address</label>
+                </value>
+                <value>
+                    <fullName>Did not leave/install equipment</fullName>
+                    <default>false</default>
+                    <label>Did not leave/install equipment</label>
+                </value>
+                <value>
+                    <fullName>Did not Meet Expectations</fullName>
+                    <default>false</default>
+                    <label>Did not Meet Expectations</label>
+                </value>
+                <value>
+                    <fullName>Did not receive lease return kit</fullName>
+                    <default>false</default>
+                    <label>Did not receive lease return kit</label>
+                </value>
+                <value>
+                    <fullName>Disconnected In Error -Customer</fullName>
+                    <default>false</default>
+                    <label>Disconnected In Error -Customer</label>
+                </value>
+                <value>
+                    <fullName>Disconnected In Error - Hughes</fullName>
+                    <default>false</default>
+                    <label>Disconnected In Error - Hughes</label>
+                </value>
+                <value>
+                    <fullName>Disconnected In Error -NAP</fullName>
+                    <default>false</default>
+                    <label>Disconnected In Error -NAP</label>
+                </value>
+                <value>
+                    <fullName>DOA</fullName>
+                    <default>false</default>
+                    <label>DOA</label>
+                </value>
+                <value>
+                    <fullName>Does Not Meet Needs</fullName>
+                    <default>false</default>
+                    <label>Does Not Meet Needs</label>
+                </value>
+                <value>
+                    <fullName>Downgrade Core Service</fullName>
+                    <default>false</default>
+                    <label>Downgrade Core Service</label>
+                </value>
+                <value>
+                    <fullName>Downgrade Premium Service</fullName>
+                    <default>false</default>
+                    <label>Downgrade Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Downgrade Voice Plan</fullName>
+                    <default>false</default>
+                    <label>Downgrade Voice Plan</label>
+                </value>
+                <value>
+                    <fullName>Due Date Extention/Payment Arrangement</fullName>
+                    <default>false</default>
+                    <label>Due Date Extention/Payment Arrangement</label>
+                </value>
+                <value>
+                    <fullName>Duplicate Order</fullName>
+                    <default>false</default>
+                    <label>Duplicate Order</label>
+                </value>
+                <value>
+                    <fullName>Early Termination Fees</fullName>
+                    <default>false</default>
+                    <label>Early Termination Fees</label>
+                </value>
+                <value>
+                    <fullName>Enable move flag</fullName>
+                    <default>false</default>
+                    <label>Enable move flag</label>
+                </value>
+                <value>
+                    <fullName>Engineering issue</fullName>
+                    <default>false</default>
+                    <label>Engineering issue</label>
+                </value>
+                <value>
+                    <fullName>Engineering System Issue</fullName>
+                    <default>false</default>
+                    <label>Engineering System Issue</label>
+                </value>
+                <value>
+                    <fullName>Enroll</fullName>
+                    <default>false</default>
+                    <label>Enroll</label>
+                </value>
+                <value>
+                    <fullName>Equipment damage</fullName>
+                    <default>false</default>
+                    <label>Equipment damage</label>
+                </value>
+                <value>
+                    <fullName>Equipment damaged</fullName>
+                    <default>false</default>
+                    <label>Equipment damaged</label>
+                </value>
+                <value>
+                    <fullName>Equipment Failure</fullName>
+                    <default>false</default>
+                    <label>Equipment Failure</label>
+                </value>
+                <value>
+                    <fullName>Escalate</fullName>
+                    <default>false</default>
+                    <label>Escalate</label>
+                </value>
+                <value>
+                    <fullName>Exceeded Bandwidth Allowance</fullName>
+                    <default>false</default>
+                    <label>Exceeded Bandwidth Allowance</label>
+                </value>
+                <value>
+                    <fullName>Exceeding Bandwidth Allowance</fullName>
+                    <default>false</default>
+                    <label>Exceeding Bandwidth Allowance</label>
+                </value>
+                <value>
+                    <fullName>Expired password</fullName>
+                    <default>false</default>
+                    <label>Expired password</label>
+                </value>
+                <value>
+                    <fullName>Exposed wires</fullName>
+                    <default>false</default>
+                    <label>Exposed wires</label>
+                </value>
+                <value>
+                    <fullName>Firmware Issue</fullName>
+                    <default>false</default>
+                    <label>Firmware Issue</label>
+                </value>
+                <value>
+                    <fullName>Fix in CRM</fullName>
+                    <default>false</default>
+                    <label>Fix in CRM</label>
+                </value>
+                <value>
+                    <fullName>Fix in DSS</fullName>
+                    <default>false</default>
+                    <label>Fix in DSS</label>
+                </value>
+                <value>
+                    <fullName>Fix in EMS</fullName>
+                    <default>false</default>
+                    <label>Fix in EMS</label>
+                </value>
+                <value>
+                    <fullName>Fix in NMP</fullName>
+                    <default>false</default>
+                    <label>Fix in NMP</label>
+                </value>
+                <value>
+                    <fullName>Forgot password</fullName>
+                    <default>false</default>
+                    <label>Forgot password</label>
+                </value>
+                <value>
+                    <fullName>Gateway issues</fullName>
+                    <default>false</default>
+                    <label>Gateway issues</label>
+                </value>
+                <value>
+                    <fullName>Hughes</fullName>
+                    <default>false</default>
+                    <label>Hughes</label>
+                </value>
+                <value>
+                    <fullName>Hughes Account Past Due</fullName>
+                    <default>false</default>
+                    <label>Hughes Account Past Due</label>
+                </value>
+                <value>
+                    <fullName>Hughes Application Issue</fullName>
+                    <default>false</default>
+                    <label>Hughes Application Issue</label>
+                </value>
+                <value>
+                    <fullName>Hughes Routing Issue</fullName>
+                    <default>false</default>
+                    <label>Hughes Routing Issue</label>
+                </value>
+                <value>
+                    <fullName>Improperly Configured</fullName>
+                    <default>false</default>
+                    <label>Improperly Configured</label>
+                </value>
+                <value>
+                    <fullName>Improperly Connected</fullName>
+                    <default>false</default>
+                    <label>Improperly Connected</label>
+                </value>
+                <value>
+                    <fullName>Incompatibility Issue</fullName>
+                    <default>false</default>
+                    <label>Incompatibility Issue</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Config</fullName>
+                    <default>false</default>
+                    <label>Incorrect Config</label>
+                </value>
+                <value>
+                    <fullName>Incorrect connection</fullName>
+                    <default>false</default>
+                    <label>Incorrect connection</label>
+                </value>
+                <value>
+                    <fullName>Incorrect equipment</fullName>
+                    <default>false</default>
+                    <label>Incorrect equipment</label>
+                </value>
+                <value>
+                    <fullName>Incorrect GUI</fullName>
+                    <default>false</default>
+                    <label>Incorrect GUI</label>
+                </value>
+                <value>
+                    <fullName>Incorrect IP</fullName>
+                    <default>false</default>
+                    <label>Incorrect IP</label>
+                </value>
+                <value>
+                    <fullName>Incorrect IP address</fullName>
+                    <default>false</default>
+                    <label>Incorrect IP address</label>
+                </value>
+                <value>
+                    <fullName>Incorrectly Labeled/Wrong Port</fullName>
+                    <default>false</default>
+                    <label>Incorrectly Labeled/Wrong Port</label>
+                </value>
+                <value>
+                    <fullName>Inform customer</fullName>
+                    <default>false</default>
+                    <label>Inform customer</label>
+                </value>
+                <value>
+                    <fullName>Inquire</fullName>
+                    <default>false</default>
+                    <label>Inquire</label>
+                </value>
+                <value>
+                    <fullName>Installation Issue</fullName>
+                    <default>false</default>
+                    <label>Installation Issue</label>
+                </value>
+                <value>
+                    <fullName>Installation Quality</fullName>
+                    <default>false</default>
+                    <label>Installation Quality</label>
+                </value>
+                <value>
+                    <fullName>Installation Related</fullName>
+                    <default>false</default>
+                    <label>Installation Related</label>
+                </value>
+                <value>
+                    <fullName>Installed wrong equipment</fullName>
+                    <default>false</default>
+                    <label>Installed wrong equipment</label>
+                </value>
+                <value>
+                    <fullName>Interference</fullName>
+                    <default>false</default>
+                    <label>Interference</label>
+                </value>
+                <value>
+                    <fullName>Investigate issue</fullName>
+                    <default>false</default>
+                    <label>Investigate issue</label>
+                </value>
+                <value>
+                    <fullName>IP issue</fullName>
+                    <default>false</default>
+                    <label>IP issue</label>
+                </value>
+                <value>
+                    <fullName>IPS issue</fullName>
+                    <default>false</default>
+                    <label>IPS issue</label>
+                </value>
+                <value>
+                    <fullName>Latency</fullName>
+                    <default>false</default>
+                    <label>Latency</label>
+                </value>
+                <value>
+                    <fullName>Line Errors</fullName>
+                    <default>false</default>
+                    <label>Line Errors</label>
+                </value>
+                <value>
+                    <fullName>Line of Sight</fullName>
+                    <default>false</default>
+                    <label>Line of Sight</label>
+                </value>
+                <value>
+                    <fullName>Line Of Site</fullName>
+                    <default>false</default>
+                    <label>Line Of Site</label>
+                </value>
+                <value>
+                    <fullName>Location/Edge of Beam</fullName>
+                    <default>false</default>
+                    <label>Location/Edge of Beam</label>
+                </value>
+                <value>
+                    <fullName>Location Issue</fullName>
+                    <default>false</default>
+                    <label>Location Issue</label>
+                </value>
+                <value>
+                    <fullName>Locked - Policy Violation</fullName>
+                    <default>false</default>
+                    <label>Locked - Policy Violation</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Low/Intermittent Signal</fullName>
+                    <default>false</default>
+                    <label>Low/Intermittent Signal</label>
+                </value>
+                <value>
+                    <fullName>Make Payment</fullName>
+                    <default>false</default>
+                    <label>Make Payment</label>
+                </value>
+                <value>
+                    <fullName>Manual Sign Off</fullName>
+                    <default>false</default>
+                    <label>Manual Sign Off</label>
+                </value>
+                <value>
+                    <fullName>Military Deployment</fullName>
+                    <default>false</default>
+                    <label>Military Deployment</label>
+                </value>
+                <value>
+                    <fullName>Missed Appointment/Reschedule</fullName>
+                    <default>false</default>
+                    <label>Missed Appointment/Reschedule</label>
+                </value>
+                <value>
+                    <fullName>Missing Adjustment</fullName>
+                    <default>false</default>
+                    <label>Missing Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Missing equipment</fullName>
+                    <default>false</default>
+                    <label>Missing equipment</label>
+                </value>
+                <value>
+                    <fullName>Missing IP address</fullName>
+                    <default>false</default>
+                    <label>Missing IP address</label>
+                </value>
+                <value>
+                    <fullName>Missing Payment</fullName>
+                    <default>false</default>
+                    <label>Missing Payment</label>
+                </value>
+                <value>
+                    <fullName>Missing Promo</fullName>
+                    <default>false</default>
+                    <label>Missing Promo</label>
+                </value>
+                <value>
+                    <fullName>Moving</fullName>
+                    <default>false</default>
+                    <label>Moving</label>
+                </value>
+                <value>
+                    <fullName>Multiple Outages</fullName>
+                    <default>false</default>
+                    <label>Multiple Outages</label>
+                </value>
+                <value>
+                    <fullName>NAP Issue</fullName>
+                    <default>false</default>
+                    <label>NAP Issue</label>
+                </value>
+                <value>
+                    <fullName>New Account holder</fullName>
+                    <default>false</default>
+                    <label>New Account holder</label>
+                </value>
+                <value>
+                    <fullName>New function role</fullName>
+                    <default>false</default>
+                    <label>New function role</label>
+                </value>
+                <value>
+                    <fullName>New Key FOB</fullName>
+                    <default>false</default>
+                    <label>New Key FOB</label>
+                </value>
+                <value>
+                    <fullName>New user login</fullName>
+                    <default>false</default>
+                    <label>New user login</label>
+                </value>
+                <value>
+                    <fullName>No connectivity</fullName>
+                    <default>false</default>
+                    <label>No connectivity</label>
+                </value>
+                <value>
+                    <fullName>NOC System Issue</fullName>
+                    <default>false</default>
+                    <label>NOC System Issue</label>
+                </value>
+                <value>
+                    <fullName>Noise</fullName>
+                    <default>false</default>
+                    <label>Noise</label>
+                </value>
+                <value>
+                    <fullName>No Issue Found - Customer Ed</fullName>
+                    <default>false</default>
+                    <label>No Issue Found - Customer Ed</label>
+                </value>
+                <value>
+                    <fullName>No LEDs</fullName>
+                    <default>false</default>
+                    <label>No LEDs</label>
+                </value>
+                <value>
+                    <fullName>Non Returned Equipment Fees</fullName>
+                    <default>false</default>
+                    <label>Non Returned Equipment Fees</label>
+                </value>
+                <value>
+                    <fullName>No Power</fullName>
+                    <default>false</default>
+                    <label>No Power</label>
+                </value>
+                <value>
+                    <fullName>No Signal</fullName>
+                    <default>false</default>
+                    <label>No Signal</label>
+                </value>
+                <value>
+                    <fullName>Not Delivered</fullName>
+                    <default>false</default>
+                    <label>Not Delivered</label>
+                </value>
+                <value>
+                    <fullName>Not Enabled</fullName>
+                    <default>false</default>
+                    <label>Not Enabled</label>
+                </value>
+                <value>
+                    <fullName>Not Installed</fullName>
+                    <default>false</default>
+                    <label>Not Installed</label>
+                </value>
+                <value>
+                    <fullName>Not Price Quoted</fullName>
+                    <default>false</default>
+                    <label>Not Price Quoted</label>
+                </value>
+                <value>
+                    <fullName>Not Services Quoted</fullName>
+                    <default>false</default>
+                    <label>Not Services Quoted</label>
+                </value>
+                <value>
+                    <fullName>Not-Using</fullName>
+                    <default>false</default>
+                    <label>Not-Using</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other (Explain in Notes)</fullName>
+                    <default>false</default>
+                    <label>Other (Explain in Notes)</label>
+                </value>
+                <value>
+                    <fullName>Outdoor equipment damaged</fullName>
+                    <default>false</default>
+                    <label>Outdoor equipment damaged</label>
+                </value>
+                <value>
+                    <fullName>Overheating</fullName>
+                    <default>false</default>
+                    <label>Overheating</label>
+                </value>
+                <value>
+                    <fullName>Partner Ordering Website</fullName>
+                    <default>false</default>
+                    <label>Partner Ordering Website</label>
+                </value>
+                <value>
+                    <fullName>Password Reset</fullName>
+                    <default>false</default>
+                    <label>Password Reset</label>
+                </value>
+                <value>
+                    <fullName>Password Reset/Change request</fullName>
+                    <default>false</default>
+                    <label>Password Reset/Change request</label>
+                </value>
+                <value>
+                    <fullName>Payment Failure</fullName>
+                    <default>false</default>
+                    <label>Payment Failure</label>
+                </value>
+                <value>
+                    <fullName>Poor MOS</fullName>
+                    <default>false</default>
+                    <label>Poor MOS</label>
+                </value>
+                <value>
+                    <fullName>Portal Authentication Issue</fullName>
+                    <default>false</default>
+                    <label>Portal Authentication Issue</label>
+                </value>
+                <value>
+                    <fullName>Porting Failure</fullName>
+                    <default>false</default>
+                    <label>Porting Failure</label>
+                </value>
+                <value>
+                    <fullName>Porting Status</fullName>
+                    <default>false</default>
+                    <label>Porting Status</label>
+                </value>
+                <value>
+                    <fullName>Power Issues</fullName>
+                    <default>false</default>
+                    <label>Power Issues</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Process a PO</fullName>
+                    <default>false</default>
+                    <label>Process a PO</label>
+                </value>
+                <value>
+                    <fullName>Process Cancellation</fullName>
+                    <default>false</default>
+                    <label>Process Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Process conversion</fullName>
+                    <default>false</default>
+                    <label>Process conversion</label>
+                </value>
+                <value>
+                    <fullName>Process decom</fullName>
+                    <default>false</default>
+                    <label>Process decom</label>
+                </value>
+                <value>
+                    <fullName>Process prequal</fullName>
+                    <default>false</default>
+                    <label>Process prequal</label>
+                </value>
+                <value>
+                    <fullName>Process quote</fullName>
+                    <default>false</default>
+                    <label>Process quote</label>
+                </value>
+                <value>
+                    <fullName>Process Upgrade order</fullName>
+                    <default>false</default>
+                    <label>Process Upgrade order</label>
+                </value>
+                <value>
+                    <fullName>Property damage</fullName>
+                    <default>false</default>
+                    <label>Property damage</label>
+                </value>
+                <value>
+                    <fullName>Provide customer correct information</fullName>
+                    <default>false</default>
+                    <label>Provide customer correct information</label>
+                </value>
+                <value>
+                    <fullName>Provide information details</fullName>
+                    <default>false</default>
+                    <label>Provide information details</label>
+                </value>
+                <value>
+                    <fullName>Provision IP</fullName>
+                    <default>false</default>
+                    <label>Provision IP</label>
+                </value>
+                <value>
+                    <fullName>Punctuality</fullName>
+                    <default>false</default>
+                    <label>Punctuality</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Quality of Work</fullName>
+                    <default>false</default>
+                    <label>Quality of Work</label>
+                </value>
+                <value>
+                    <fullName>Reactivate Service</fullName>
+                    <default>false</default>
+                    <label>Reactivate Service</label>
+                </value>
+                <value>
+                    <fullName>Refer to Retention</fullName>
+                    <default>false</default>
+                    <label>Refer to Retention</label>
+                </value>
+                <value>
+                    <fullName>Reliability</fullName>
+                    <default>false</default>
+                    <label>Reliability</label>
+                </value>
+                <value>
+                    <fullName>Relocation</fullName>
+                    <default>false</default>
+                    <label>Relocation</label>
+                </value>
+                <value>
+                    <fullName>Remove Authorized user</fullName>
+                    <default>false</default>
+                    <label>Remove Authorized user</label>
+                </value>
+                <value>
+                    <fullName>Remove Premium Service</fullName>
+                    <default>false</default>
+                    <label>Remove Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Remove user</fullName>
+                    <default>false</default>
+                    <label>Remove user</label>
+                </value>
+                <value>
+                    <fullName>Remove Voice</fullName>
+                    <default>false</default>
+                    <label>Remove Voice</label>
+                </value>
+                <value>
+                    <fullName>Remove Voice Plan</fullName>
+                    <default>false</default>
+                    <label>Remove Voice Plan</label>
+                </value>
+                <value>
+                    <fullName>Repair Cost</fullName>
+                    <default>false</default>
+                    <label>Repair Cost</label>
+                </value>
+                <value>
+                    <fullName>Repair Quality</fullName>
+                    <default>false</default>
+                    <label>Repair Quality</label>
+                </value>
+                <value>
+                    <fullName>Replace Key FOB</fullName>
+                    <default>false</default>
+                    <label>Replace Key FOB</label>
+                </value>
+                <value>
+                    <fullName>Reprovision circuit</fullName>
+                    <default>false</default>
+                    <label>Reprovision circuit</label>
+                </value>
+                <value>
+                    <fullName>Request for a new order</fullName>
+                    <default>false</default>
+                    <label>Request for a new order</label>
+                </value>
+                <value>
+                    <fullName>Request for RMA</fullName>
+                    <default>false</default>
+                    <label>Request for RMA</label>
+                </value>
+                <value>
+                    <fullName>Reset Pin</fullName>
+                    <default>false</default>
+                    <label>Reset Pin</label>
+                </value>
+                <value>
+                    <fullName>Retain Customer No Credit</fullName>
+                    <default>false</default>
+                    <label>Retain Customer No Credit</label>
+                </value>
+                <value>
+                    <fullName>Retain Customer with Credit</fullName>
+                    <default>false</default>
+                    <label>Retain Customer with Credit</label>
+                </value>
+                <value>
+                    <fullName>Routing Issue</fullName>
+                    <default>false</default>
+                    <label>Routing Issue</label>
+                </value>
+                <value>
+                    <fullName>Run a report</fullName>
+                    <default>false</default>
+                    <label>Run a report</label>
+                </value>
+                <value>
+                    <fullName>Salesperson Accuracy</fullName>
+                    <default>false</default>
+                    <label>Salesperson Accuracy</label>
+                </value>
+                <value>
+                    <fullName>Salesperson Courtesy</fullName>
+                    <default>false</default>
+                    <label>Salesperson Courtesy</label>
+                </value>
+                <value>
+                    <fullName>Sales practices</fullName>
+                    <default>false</default>
+                    <label>Sales practices</label>
+                </value>
+                <value>
+                    <fullName>Security issue</fullName>
+                    <default>false</default>
+                    <label>Security issue</label>
+                </value>
+                <value>
+                    <fullName>Service charge</fullName>
+                    <default>false</default>
+                    <label>Service charge</label>
+                </value>
+                <value>
+                    <fullName>Service Expectations</fullName>
+                    <default>false</default>
+                    <label>Service Expectations</label>
+                </value>
+                <value>
+                    <fullName>Service Performance/Quality</fullName>
+                    <default>false</default>
+                    <label>Service Performance/Quality</label>
+                </value>
+                <value>
+                    <fullName>Service Reliability</fullName>
+                    <default>false</default>
+                    <label>Service Reliability</label>
+                </value>
+                <value>
+                    <fullName>Services Purchased</fullName>
+                    <default>false</default>
+                    <label>Services Purchased</label>
+                </value>
+                <value>
+                    <fullName>Set up Account</fullName>
+                    <default>false</default>
+                    <label>Set up Account</label>
+                </value>
+                <value>
+                    <fullName>Shipped all equipment</fullName>
+                    <default>false</default>
+                    <label>Shipped all equipment</label>
+                </value>
+                <value>
+                    <fullName>Shipped ATA</fullName>
+                    <default>false</default>
+                    <label>Shipped ATA</label>
+                </value>
+                <value>
+                    <fullName>Shipped IDU</fullName>
+                    <default>false</default>
+                    <label>Shipped IDU</label>
+                </value>
+                <value>
+                    <fullName>Shipped radio</fullName>
+                    <default>false</default>
+                    <label>Shipped radio</label>
+                </value>
+                <value>
+                    <fullName>Shipping</fullName>
+                    <default>false</default>
+                    <label>Shipping</label>
+                </value>
+                <value>
+                    <fullName>Site Did not Recover</fullName>
+                    <default>false</default>
+                    <label>Site Did not Recover</label>
+                </value>
+                <value>
+                    <fullName>Site Incompatible</fullName>
+                    <default>false</default>
+                    <label>Site Incompatible</label>
+                </value>
+                <value>
+                    <fullName>Site infeasible need alternate transport</fullName>
+                    <default>false</default>
+                    <label>Site infeasible need alternate transport</label>
+                </value>
+                <value>
+                    <fullName>Site Intermittent</fullName>
+                    <default>false</default>
+                    <label>Site Intermittent</label>
+                </value>
+                <value>
+                    <fullName>Site long down</fullName>
+                    <default>false</default>
+                    <label>Site long down</label>
+                </value>
+                <value>
+                    <fullName>Site Not Created</fullName>
+                    <default>false</default>
+                    <label>Site Not Created</label>
+                </value>
+                <value>
+                    <fullName>Site Survey</fullName>
+                    <default>false</default>
+                    <label>Site Survey</label>
+                </value>
+                <value>
+                    <fullName>SLAM</fullName>
+                    <default>false</default>
+                    <label>SLAM</label>
+                </value>
+                <value>
+                    <fullName>SLA not met</fullName>
+                    <default>false</default>
+                    <label>SLA not met</label>
+                </value>
+                <value>
+                    <fullName>Slow connectivity</fullName>
+                    <default>false</default>
+                    <label>Slow connectivity</label>
+                </value>
+                <value>
+                    <fullName>Smoke</fullName>
+                    <default>false</default>
+                    <label>Smoke</label>
+                </value>
+                <value>
+                    <fullName>Speeds</fullName>
+                    <default>false</default>
+                    <label>Speeds</label>
+                </value>
+                <value>
+                    <fullName>Stolen</fullName>
+                    <default>false</default>
+                    <label>Stolen</label>
+                </value>
+                <value>
+                    <fullName>Suspected Outage</fullName>
+                    <default>false</default>
+                    <label>Suspected Outage</label>
+                </value>
+                <value>
+                    <fullName>Suspend Service</fullName>
+                    <default>false</default>
+                    <label>Suspend Service</label>
+                </value>
+                <value>
+                    <fullName>Swap</fullName>
+                    <default>false</default>
+                    <label>Swap</label>
+                </value>
+                <value>
+                    <fullName>Switching Providers - Cable/Fiber</fullName>
+                    <default>false</default>
+                    <label>Switching Providers - Cable/Fiber</label>
+                </value>
+                <value>
+                    <fullName>Switching Providers - DSL</fullName>
+                    <default>false</default>
+                    <label>Switching Providers - DSL</label>
+                </value>
+                <value>
+                    <fullName>Switching Providers - Other</fullName>
+                    <default>false</default>
+                    <label>Switching Providers - Other</label>
+                </value>
+                <value>
+                    <fullName>Switching Providers - Satellite</fullName>
+                    <default>false</default>
+                    <label>Switching Providers - Satellite</label>
+                </value>
+                <value>
+                    <fullName>Switching Providers - Wireless</fullName>
+                    <default>false</default>
+                    <label>Switching Providers - Wireless</label>
+                </value>
+                <value>
+                    <fullName>System Info Incorrect</fullName>
+                    <default>false</default>
+                    <label>System Info Incorrect</label>
+                </value>
+                <value>
+                    <fullName>T&amp;M</fullName>
+                    <default>false</default>
+                    <label>T&amp;M</label>
+                </value>
+                <value>
+                    <fullName>T&amp;M Charges</fullName>
+                    <default>false</default>
+                    <label>T&amp;M Charges</label>
+                </value>
+                <value>
+                    <fullName>Tech Brought Wrong Equipment</fullName>
+                    <default>false</default>
+                    <label>Tech Brought Wrong Equipment</label>
+                </value>
+                <value>
+                    <fullName>Tech Courtesy/Professionalism</fullName>
+                    <default>false</default>
+                    <label>Tech Courtesy/Professionalism</label>
+                </value>
+                <value>
+                    <fullName>Technician</fullName>
+                    <default>false</default>
+                    <label>Technician</label>
+                </value>
+                <value>
+                    <fullName>Technician Error</fullName>
+                    <default>false</default>
+                    <label>Technician Error</label>
+                </value>
+                <value>
+                    <fullName>Testing</fullName>
+                    <default>false</default>
+                    <label>Testing</label>
+                </value>
+                <value>
+                    <fullName>Transponder Issue</fullName>
+                    <default>false</default>
+                    <label>Transponder Issue</label>
+                </value>
+                <value>
+                    <fullName>Unable to Install - Access</fullName>
+                    <default>false</default>
+                    <label>Unable to Install - Access</label>
+                </value>
+                <value>
+                    <fullName>Unable to Install - LOS</fullName>
+                    <default>false</default>
+                    <label>Unable to Install - LOS</label>
+                </value>
+                <value>
+                    <fullName>Unable to Reach</fullName>
+                    <default>false</default>
+                    <label>Unable to Reach</label>
+                </value>
+                <value>
+                    <fullName>Unenroll</fullName>
+                    <default>false</default>
+                    <label>Unenroll</label>
+                </value>
+                <value>
+                    <fullName>Update Address</fullName>
+                    <default>false</default>
+                    <label>Update Address</label>
+                </value>
+                <value>
+                    <fullName>Update Contact Info</fullName>
+                    <default>false</default>
+                    <label>Update Contact Info</label>
+                </value>
+                <value>
+                    <fullName>Update Email Address</fullName>
+                    <default>false</default>
+                    <label>Update Email Address</label>
+                </value>
+                <value>
+                    <fullName>Update Marketing Preferences</fullName>
+                    <default>false</default>
+                    <label>Update Marketing Preferences</label>
+                </value>
+                <value>
+                    <fullName>Update Name</fullName>
+                    <default>false</default>
+                    <label>Update Name</label>
+                </value>
+                <value>
+                    <fullName>Update Payment Info</fullName>
+                    <default>false</default>
+                    <label>Update Payment Info</label>
+                </value>
+                <value>
+                    <fullName>Update Phone Number</fullName>
+                    <default>false</default>
+                    <label>Update Phone Number</label>
+                </value>
+                <value>
+                    <fullName>Upgrade</fullName>
+                    <default>false</default>
+                    <label>Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Core Service</fullName>
+                    <default>false</default>
+                    <label>Upgrade Core Service</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Premium Service</fullName>
+                    <default>false</default>
+                    <label>Upgrade Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Voice Plan</fullName>
+                    <default>false</default>
+                    <label>Upgrade Voice Plan</label>
+                </value>
+                <value>
+                    <fullName>Validate IP</fullName>
+                    <default>false</default>
+                    <label>Validate IP</label>
+                </value>
+                <value>
+                    <fullName>Validate outage</fullName>
+                    <default>false</default>
+                    <label>Validate outage</label>
+                </value>
+                <value>
+                    <fullName>Wait Times</fullName>
+                    <default>false</default>
+                    <label>Wait Times</label>
+                </value>
+                <value>
+                    <fullName>Weather</fullName>
+                    <default>false</default>
+                    <label>Weather</label>
+                </value>
+                <value>
+                    <fullName>Wiring</fullName>
+                    <default>false</default>
+                    <label>Wiring</label>
+                </value>
+                <value>
+                    <fullName>Wrong Equipment Delivered</fullName>
+                    <default>false</default>
+                    <label>Wrong Equipment Delivered</label>
+                </value>
+                <value>
+                    <fullName>Wrong Site Id</fullName>
+                    <default>false</default>
+                    <label>Wrong Site Id</label>
+                </value>
+                <value>
+                    <fullName>Wron Install Spec</fullName>
+                    <default>false</default>
+                    <label>Wron Install Spec</label>
+                </value>
+                <value>
+                    <fullName>Primary Transport Down</fullName>
+                    <default>false</default>
+                    <label>Primary Transport Down</label>
+                </value>
+                <value>
+                    <fullName>Recover EB</fullName>
+                    <default>false</default>
+                    <label>Recover EB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Case_Re_assign__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Owner</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Affinitas Phoenix MOD</fullName>
+                    <default>false</default>
+                    <label>Affinitas Phoenix MOD</label>
+                </value>
+                <value>
+                    <fullName>Affinitas Phoenix Universal</fullName>
+                    <default>false</default>
+                    <label>Affinitas Phoenix Universal</label>
+                </value>
+                <value>
+                    <fullName>CS Program Management NAD</fullName>
+                    <default>false</default>
+                    <label>CS Program Management NAD</label>
+                </value>
+                <value>
+                    <fullName>Collections</fullName>
+                    <default>false</default>
+                    <label>Collections</label>
+                </value>
+                <value>
+                    <fullName>Consumer Auto Generated</fullName>
+                    <default>false</default>
+                    <label>Consumer Auto Generated</label>
+                </value>
+                <value>
+                    <fullName>DDAG</fullName>
+                    <default>false</default>
+                    <label>DDAG</label>
+                </value>
+                <value>
+                    <fullName>ESC Advanced Billing Agent</fullName>
+                    <default>false</default>
+                    <label>ESC Advanced Billing Agent</label>
+                </value>
+                <value>
+                    <fullName>ESC Advanced Tech Agent</fullName>
+                    <default>false</default>
+                    <label>ESC Advanced Tech Agent</label>
+                </value>
+                <value>
+                    <fullName>ESC Billing Level 1</fullName>
+                    <default>false</default>
+                    <label>ESC Billing Level 1</label>
+                </value>
+                <value>
+                    <fullName>ESC Control Desk</fullName>
+                    <default>false</default>
+                    <label>ESC Control Desk</label>
+                </value>
+                <value>
+                    <fullName>ESC Corporate CSM</fullName>
+                    <default>false</default>
+                    <label>ESC Corporate CSM</label>
+                </value>
+                <value>
+                    <fullName>ESC Digital Media</fullName>
+                    <default>false</default>
+                    <label>ESC Digital Media</label>
+                </value>
+                <value>
+                    <fullName>ESC Field Support Agent Terrestrial</fullName>
+                    <default>false</default>
+                    <label>ESC Field Support Agent Terrestrial</label>
+                </value>
+                <value>
+                    <fullName>ESC Field Support VSAT</fullName>
+                    <default>false</default>
+                    <label>ESC Field Support VSAT</label>
+                </value>
+                <value>
+                    <fullName>ESC Frontline</fullName>
+                    <default>false</default>
+                    <label>ESC Frontline</label>
+                </value>
+                <value>
+                    <fullName>ESC GEH</fullName>
+                    <default>false</default>
+                    <label>ESC GEH</label>
+                </value>
+                <value>
+                    <fullName>ESC Level 1 Agent</fullName>
+                    <default>false</default>
+                    <label>ESC Level 1 Agent</label>
+                </value>
+                <value>
+                    <fullName>ESC Network Associates Team</fullName>
+                    <default>false</default>
+                    <label>ESC Network Associates Team</label>
+                </value>
+                <value>
+                    <fullName>ESC Post Install Provisioning</fullName>
+                    <default>false</default>
+                    <label>ESC Post Install Provisioning</label>
+                </value>
+                <value>
+                    <fullName>ESC Program Management Support</fullName>
+                    <default>false</default>
+                    <label>ESC Program Management Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Provisioning Support</fullName>
+                    <default>false</default>
+                    <label>ESC Provisioning Support</label>
+                </value>
+                <value>
+                    <fullName>ESC Sales Support</fullName>
+                    <default>false</default>
+                    <label>ESC Sales Support</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Auto Generated</fullName>
+                    <default>false</default>
+                    <label>Enterprise Auto Generated</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Billing - NAD</fullName>
+                    <default>false</default>
+                    <label>Enterprise Billing - NAD</label>
+                </value>
+                <value>
+                    <fullName>Hughes Call Center Manager</fullName>
+                    <default>false</default>
+                    <label>Hughes Call Center Manager</label>
+                </value>
+                <value>
+                    <fullName>Hughes Corporate Community</fullName>
+                    <default>false</default>
+                    <label>Hughes Corporate Community</label>
+                </value>
+                <value>
+                    <fullName>Hughes Corporate ECC</fullName>
+                    <default>false</default>
+                    <label>Hughes Corporate ECC</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Network Engineering</fullName>
+                    <default>false</default>
+                    <label>Network Engineering</label>
+                </value>
+                <value>
+                    <fullName>Program Management</fullName>
+                    <default>false</default>
+                    <label>Program Management</label>
+                </value>
+                <value>
+                    <fullName>Provisioning</fullName>
+                    <default>false</default>
+                    <label>Provisioning</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Advanced Support</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Advanced Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Community</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Community</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Escalation</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Escalation</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Clark MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Outbound</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Outbound</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Retention</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Retention</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Team Lead</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Tier Advanced Support Consult</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Tier Advanced Support Consult</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Universal Agent</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Universal Agent</label>
+                </value>
+                <value>
+                    <fullName>SUT Clark Voice Support</fullName>
+                    <default>false</default>
+                    <label>SUT Clark Voice Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Home Tech Support</fullName>
+                    <default>false</default>
+                    <label>SUT Home Tech Support</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi MOD</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi MOD</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Outbound</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Outbound</label>
+                </value>
+                <value>
+                    <fullName>SUT Legaspi Universal</fullName>
+                    <default>false</default>
+                    <label>SUT Legaspi Universal</label>
+                </value>
+                <value>
+                    <fullName>SUT Legazpi Team Lead</fullName>
+                    <default>false</default>
+                    <label>SUT Legazpi Team Lead</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Advanced Billing</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Advanced Billing</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Advanced Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Advanced Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville ECC</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville ECC</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Install Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Install Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville MOD</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville MOD</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Outbound</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Outbound</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Post Install Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Post Install Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Retail Support</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Retail Support</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville Retention</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville Retention</label>
+                </value>
+                <value>
+                    <fullName>TP Brownsville TSC</fullName>
+                    <default>false</default>
+                    <label>TP Brownsville TSC</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey MOD</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey MOD</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey Team Lead</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Team Lead</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey Universal</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Universal</label>
+                </value>
+                <value>
+                    <fullName>SUT Mumbai Advanced Support</fullName>
+                    <default>false</default>
+                    <label>SUT Mumbai Advanced Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Case_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Open - Dispatch</fullName>
+                    <default>false</default>
+                    <label>Open - Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Open - Escalated</fullName>
+                    <default>false</default>
+                    <label>Open - Escalated</label>
+                </value>
+                <value>
+                    <fullName>Open - Holding for Parts</fullName>
+                    <default>false</default>
+                    <label>Open - Holding for Parts</label>
+                </value>
+                <value>
+                    <fullName>Open - Investigating</fullName>
+                    <default>false</default>
+                    <label>Open - Investigating</label>
+                </value>
+                <value>
+                    <fullName>Open - PAM Case</fullName>
+                    <default>false</default>
+                    <label>Open - PAM Case</label>
+                </value>
+                <value>
+                    <fullName>Open - Provisioning Processing</fullName>
+                    <default>false</default>
+                    <label>Open - Provisioning Processing</label>
+                </value>
+                <value>
+                    <fullName>Open - RMA</fullName>
+                    <default>false</default>
+                    <label>Open - RMA</label>
+                </value>
+                <value>
+                    <fullName>Open - Troubleshooting</fullName>
+                    <default>false</default>
+                    <label>Open - Troubleshooting</label>
+                </value>
+                <value>
+                    <fullName>Open - Web Case</fullName>
+                    <default>false</default>
+                    <label>Open - Web Case</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Pending - Callback</fullName>
+                    <default>false</default>
+                    <label>Pending - Callback</label>
+                </value>
+                <value>
+                    <fullName>Pending - Construction</fullName>
+                    <default>false</default>
+                    <label>Pending - Construction</label>
+                </value>
+                <value>
+                    <fullName>Pending - Customer Confirmation</fullName>
+                    <default>false</default>
+                    <label>Pending - Customer Confirmation</label>
+                </value>
+                <value>
+                    <fullName>Pending - Customer Contact</fullName>
+                    <default>false</default>
+                    <label>Pending - Customer Contact</label>
+                </value>
+                <value>
+                    <fullName>Pending - Customer Input</fullName>
+                    <default>false</default>
+                    <label>Pending - Customer Input</label>
+                </value>
+                <value>
+                    <fullName>Pending - Install</fullName>
+                    <default>false</default>
+                    <label>Pending - Install</label>
+                </value>
+                <value>
+                    <fullName>Pending - Monitoring</fullName>
+                    <default>false</default>
+                    <label>Pending - Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Pending - NAP</fullName>
+                    <default>false</default>
+                    <label>Pending - NAP</label>
+                </value>
+                <value>
+                    <fullName>Pending - Provisioning Group</fullName>
+                    <default>false</default>
+                    <label>Pending - Provisioning Group</label>
+                </value>
+                <value>
+                    <fullName>Pending - Service Provider Closure</fullName>
+                    <default>false</default>
+                    <label>Pending - Service Provider Closure</label>
+                </value>
+                <value>
+                    <fullName>Pending - Site Access</fullName>
+                    <default>false</default>
+                    <label>Pending - Site Access</label>
+                </value>
+                <value>
+                    <fullName>Pending - Vendor Meet</fullName>
+                    <default>false</default>
+                    <label>Pending - Vendor Meet</label>
+                </value>
+                <value>
+                    <fullName>Pending - Weather</fullName>
+                    <default>false</default>
+                    <label>Pending - Weather</label>
+                </value>
+                <value>
+                    <fullName>Open - Upgrade</fullName>
+                    <default>false</default>
+                    <label>Open - Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Pending - Engineering Action</fullName>
+                    <default>false</default>
+                    <label>Pending - Engineering Action</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Open - In Progress</fullName>
+                    <default>false</default>
+                    <label>Open - In Progress</label>
+                </value>
+                <value>
+                    <fullName>Open - On Site</fullName>
+                    <default>false</default>
+                    <label>Open - On Site</label>
+                </value>
+                <value>
+                    <fullName>Pending - Cancel</fullName>
+                    <default>false</default>
+                    <label>Pending - Cancel</label>
+                </value>
+                <value>
+                    <fullName>Escalated</fullName>
+                    <default>false</default>
+                    <label>Escalated</label>
+                </value>
+                <value>
+                    <fullName>Pending Re-Activation</fullName>
+                    <default>false</default>
+                    <label>Pending Re-Activation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Case_Subtype__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Subtype</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Maintenance</fullName>
+                    <default>false</default>
+                    <label>Account Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Approvals</fullName>
+                    <default>false</default>
+                    <label>Approvals</label>
+                </value>
+                <value>
+                    <fullName>Billing Issue</fullName>
+                    <default>false</default>
+                    <label>Billing Issue</label>
+                </value>
+                <value>
+                    <fullName>Cancel Core Service (Retention)</fullName>
+                    <default>false</default>
+                    <label>Cancel Core Service (Retention)</label>
+                </value>
+                <value>
+                    <fullName>Complaint</fullName>
+                    <default>false</default>
+                    <label>Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer Communication</fullName>
+                    <default>false</default>
+                    <label>Customer Communication</label>
+                </value>
+                <value>
+                    <fullName>Customer Complaint</fullName>
+                    <default>false</default>
+                    <label>Customer Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer follow-up</fullName>
+                    <default>false</default>
+                    <label>Customer follow-up</label>
+                </value>
+                <value>
+                    <fullName>Discovery Error</fullName>
+                    <default>false</default>
+                    <label>Discovery Error</label>
+                </value>
+                <value>
+                    <fullName>DVR request</fullName>
+                    <default>false</default>
+                    <label>DVR request</label>
+                </value>
+                <value>
+                    <fullName>Equipment</fullName>
+                    <default>false</default>
+                    <label>Equipment</label>
+                </value>
+                <value>
+                    <fullName>Equipment issue</fullName>
+                    <default>false</default>
+                    <label>Equipment issue</label>
+                </value>
+                <value>
+                    <fullName>Gateway Provisioning</fullName>
+                    <default>false</default>
+                    <label>Gateway Provisioning</label>
+                </value>
+                <value>
+                    <fullName>General Questions</fullName>
+                    <default>false</default>
+                    <label>General Questions</label>
+                </value>
+                <value>
+                    <fullName>Hughes Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Hughes Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Install Issue</fullName>
+                    <default>false</default>
+                    <label>Install Issue</label>
+                </value>
+                <value>
+                    <fullName>Internet Service</fullName>
+                    <default>false</default>
+                    <label>Internet Service</label>
+                </value>
+                <value>
+                    <fullName>Key FOB provisioning</fullName>
+                    <default>false</default>
+                    <label>Key FOB provisioning</label>
+                </value>
+                <value>
+                    <fullName>Leased equipment</fullName>
+                    <default>false</default>
+                    <label>Leased equipment</label>
+                </value>
+                <value>
+                    <fullName>myHughesNet Issue</fullName>
+                    <default>false</default>
+                    <label>myHughesNet Issue</label>
+                </value>
+                <value>
+                    <fullName>NAP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>NAP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>NE Esc</fullName>
+                    <default>false</default>
+                    <label>NE Esc</label>
+                </value>
+                <value>
+                    <fullName>New Circuit</fullName>
+                    <default>false</default>
+                    <label>New Circuit</label>
+                </value>
+                <value>
+                    <fullName>New Site Monitoring</fullName>
+                    <default>false</default>
+                    <label>New Site Monitoring</label>
+                </value>
+                <value>
+                    <fullName>NMC Esc</fullName>
+                    <default>false</default>
+                    <label>NMC Esc</label>
+                </value>
+                <value>
+                    <fullName>Offers/Programs</fullName>
+                    <default>false</default>
+                    <label>Offers/Programs</label>
+                </value>
+                <value>
+                    <fullName>Order Modification</fullName>
+                    <default>false</default>
+                    <label>Order Modification</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Outbound Program</fullName>
+                    <default>false</default>
+                    <label>Outbound Program</label>
+                </value>
+                <value>
+                    <fullName>Out of scope Install</fullName>
+                    <default>false</default>
+                    <label>Out of scope Install</label>
+                </value>
+                <value>
+                    <fullName>Out of scope Repair</fullName>
+                    <default>false</default>
+                    <label>Out of scope Repair</label>
+                </value>
+                <value>
+                    <fullName>PMO Support</fullName>
+                    <default>false</default>
+                    <label>PMO Support</label>
+                </value>
+                <value>
+                    <fullName>Portal Issue</fullName>
+                    <default>false</default>
+                    <label>Portal Issue</label>
+                </value>
+                <value>
+                    <fullName>Premium Service</fullName>
+                    <default>false</default>
+                    <label>Premium Service</label>
+                </value>
+                <value>
+                    <fullName>Proactive Maintenance</fullName>
+                    <default>false</default>
+                    <label>Proactive Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Purchased equipment</fullName>
+                    <default>false</default>
+                    <label>Purchased equipment</label>
+                </value>
+                <value>
+                    <fullName>Regular Process</fullName>
+                    <default>false</default>
+                    <label>Regular Process</label>
+                </value>
+                <value>
+                    <fullName>Restore Token Issue</fullName>
+                    <default>false</default>
+                    <label>Restore Token Issue</label>
+                </value>
+                <value>
+                    <fullName>Self-Service Issue</fullName>
+                    <default>false</default>
+                    <label>Self-Service Issue</label>
+                </value>
+                <value>
+                    <fullName>Service Change</fullName>
+                    <default>false</default>
+                    <label>Service Change</label>
+                </value>
+                <value>
+                    <fullName>Service Issue</fullName>
+                    <default>false</default>
+                    <label>Service Issue</label>
+                </value>
+                <value>
+                    <fullName>Service Out/Intermittent</fullName>
+                    <default>false</default>
+                    <label>Service Out/Intermittent</label>
+                </value>
+                <value>
+                    <fullName>Service Performance</fullName>
+                    <default>false</default>
+                    <label>Service Performance</label>
+                </value>
+                <value>
+                    <fullName>Service Restoration</fullName>
+                    <default>false</default>
+                    <label>Service Restoration</label>
+                </value>
+                <value>
+                    <fullName>Shipment Issue</fullName>
+                    <default>false</default>
+                    <label>Shipment Issue</label>
+                </value>
+                <value>
+                    <fullName>Status Meter Issue</fullName>
+                    <default>false</default>
+                    <label>Status Meter Issue</label>
+                </value>
+                <value>
+                    <fullName>Support Center Issue</fullName>
+                    <default>false</default>
+                    <label>Support Center Issue</label>
+                </value>
+                <value>
+                    <fullName>Survey Follow-up</fullName>
+                    <default>false</default>
+                    <label>Survey Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Tool Issue</fullName>
+                    <default>false</default>
+                    <label>Tool Issue</label>
+                </value>
+                <value>
+                    <fullName>Vendor Meet Hughes SP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Vendor Meet Hughes SP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Vendor Meet NAP Truck Roll</fullName>
+                    <default>false</default>
+                    <label>Vendor Meet NAP Truck Roll</label>
+                </value>
+                <value>
+                    <fullName>Voice Service</fullName>
+                    <default>false</default>
+                    <label>Voice Service</label>
+                </value>
+                <value>
+                    <fullName>Wireless Router</fullName>
+                    <default>false</default>
+                    <label>Wireless Router</label>
+                </value>
+                <value>
+                    <fullName>Express Backup</fullName>
+                    <default>false</default>
+                    <label>Express Backup</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Case_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advanced Warranty Replacement</fullName>
+                    <default>false</default>
+                    <label>Advanced Warranty Replacement</label>
+                </value>
+                <value>
+                    <fullName>Chronic</fullName>
+                    <default>false</default>
+                    <label>Chronic</label>
+                </value>
+                <value>
+                    <fullName>NE Action</fullName>
+                    <default>false</default>
+                    <label>NE Action</label>
+                </value>
+                <value>
+                    <fullName>Non-Technical</fullName>
+                    <default>false</default>
+                    <label>Non-Technical</label>
+                </value>
+                <value>
+                    <fullName>PM Action</fullName>
+                    <default>false</default>
+                    <label>PM Action</label>
+                </value>
+                <value>
+                    <fullName>Pre-install</fullName>
+                    <default>false</default>
+                    <label>Pre-install</label>
+                </value>
+                <value>
+                    <fullName>Project</fullName>
+                    <default>false</default>
+                    <label>Project</label>
+                </value>
+                <value>
+                    <fullName>Provisioning</fullName>
+                    <default>false</default>
+                    <label>Provisioning</label>
+                </value>
+                <value>
+                    <fullName>PSR</fullName>
+                    <default>false</default>
+                    <label>PSR</label>
+                </value>
+                <value>
+                    <fullName>Repair Field</fullName>
+                    <default>false</default>
+                    <label>Repair Field</label>
+                </value>
+                <value>
+                    <fullName>Repair Remote</fullName>
+                    <default>false</default>
+                    <label>Repair Remote</label>
+                </value>
+                <value>
+                    <fullName>Replacement with No Return</fullName>
+                    <default>false</default>
+                    <label>Replacement with No Return</label>
+                </value>
+                <value>
+                    <fullName>Retail Support</fullName>
+                    <default>false</default>
+                    <label>Retail Support</label>
+                </value>
+                <value>
+                    <fullName>Return for Credit</fullName>
+                    <default>false</default>
+                    <label>Return for Credit</label>
+                </value>
+                <value>
+                    <fullName>Return of Lease</fullName>
+                    <default>false</default>
+                    <label>Return of Lease</label>
+                </value>
+                <value>
+                    <fullName>Return of Lease Collect</fullName>
+                    <default>false</default>
+                    <label>Return of Lease Collect</label>
+                </value>
+                <value>
+                    <fullName>Service Changes</fullName>
+                    <default>false</default>
+                    <label>Service Changes</label>
+                </value>
+                <value>
+                    <fullName>Service Provisioning</fullName>
+                    <default>false</default>
+                    <label>Service Provisioning</label>
+                </value>
+                <value>
+                    <fullName>Technical</fullName>
+                    <default>true</default>
+                    <label>Technical</label>
+                </value>
+                <value>
+                    <fullName>Technician Support</fullName>
+                    <default>false</default>
+                    <label>Technician Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Customer_Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Request Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account past Due</fullName>
+                    <default>false</default>
+                    <label>Account past Due</label>
+                </value>
+                <value>
+                    <fullName>Add/Remove Services</fullName>
+                    <default>false</default>
+                    <label>Add/Remove Services</label>
+                </value>
+                <value>
+                    <fullName>Add/Upgrade Service</fullName>
+                    <default>false</default>
+                    <label>Add/Upgrade Service</label>
+                </value>
+                <value>
+                    <fullName>Add new role</fullName>
+                    <default>false</default>
+                    <label>Add new role</label>
+                </value>
+                <value>
+                    <fullName>Automated Call</fullName>
+                    <default>false</default>
+                    <label>Automated Call</label>
+                </value>
+                <value>
+                    <fullName>Billing Issues</fullName>
+                    <default>false</default>
+                    <label>Billing Issues</label>
+                </value>
+                <value>
+                    <fullName>Bill Inquiry/Dispute</fullName>
+                    <default>false</default>
+                    <label>Bill Inquiry/Dispute</label>
+                </value>
+                <value>
+                    <fullName>Callback</fullName>
+                    <default>false</default>
+                    <label>Callback</label>
+                </value>
+                <value>
+                    <fullName>Call Center Esc</fullName>
+                    <default>false</default>
+                    <label>Call Center Esc</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t make calls</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t make calls</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t receive calls</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t receive calls</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t Receive Mail - Any</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t Receive Mail - Any</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t Receive Mail - Specific Domain(s)</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t Receive Mail - Specific Domain(s)</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t Send Mail - Any</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t Send Mail - Any</label>
+                </value>
+                <value>
+                    <fullName>Can&apos;t Send Mail - Specific Domain(s)</fullName>
+                    <default>false</default>
+                    <label>Can&apos;t Send Mail - Specific Domain(s)</label>
+                </value>
+                <value>
+                    <fullName>Cancel Order</fullName>
+                    <default>false</default>
+                    <label>Cancel Order</label>
+                </value>
+                <value>
+                    <fullName>Cancel Transport</fullName>
+                    <default>false</default>
+                    <label>Cancel Transport</label>
+                </value>
+                <value>
+                    <fullName>Cancel Voice</fullName>
+                    <default>false</default>
+                    <label>Cancel Voice</label>
+                </value>
+                <value>
+                    <fullName>Cancel VSAT</fullName>
+                    <default>false</default>
+                    <label>Cancel VSAT</label>
+                </value>
+                <value>
+                    <fullName>Cannot Locate</fullName>
+                    <default>false</default>
+                    <label>Cannot Locate</label>
+                </value>
+                <value>
+                    <fullName>Change Service</fullName>
+                    <default>false</default>
+                    <label>Change Service</label>
+                </value>
+                <value>
+                    <fullName>Change Services</fullName>
+                    <default>false</default>
+                    <label>Change Services</label>
+                </value>
+                <value>
+                    <fullName>Chronic site</fullName>
+                    <default>false</default>
+                    <label>Chronic site</label>
+                </value>
+                <value>
+                    <fullName>Chronic Sites - Non Contract</fullName>
+                    <default>false</default>
+                    <label>Chronic Sites - Non Contract</label>
+                </value>
+                <value>
+                    <fullName>Circuit provisioning</fullName>
+                    <default>false</default>
+                    <label>Circuit provisioning</label>
+                </value>
+                <value>
+                    <fullName>Client Request</fullName>
+                    <default>false</default>
+                    <label>Client Request</label>
+                </value>
+                <value>
+                    <fullName>Code Upgrade Cleanup</fullName>
+                    <default>false</default>
+                    <label>Code Upgrade Cleanup</label>
+                </value>
+                <value>
+                    <fullName>Community Support</fullName>
+                    <default>false</default>
+                    <label>Community Support</label>
+                </value>
+                <value>
+                    <fullName>Content Not Updating/Incorrect</fullName>
+                    <default>false</default>
+                    <label>Content Not Updating/Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Contract issues</fullName>
+                    <default>false</default>
+                    <label>Contract issues</label>
+                </value>
+                <value>
+                    <fullName>Conversion</fullName>
+                    <default>false</default>
+                    <label>Conversion</label>
+                </value>
+                <value>
+                    <fullName>Conversion support</fullName>
+                    <default>false</default>
+                    <label>Conversion support</label>
+                </value>
+                <value>
+                    <fullName>Convert Hardware Program</fullName>
+                    <default>false</default>
+                    <label>Convert Hardware Program</label>
+                </value>
+                <value>
+                    <fullName>Credit adjustments</fullName>
+                    <default>false</default>
+                    <label>Credit adjustments</label>
+                </value>
+                <value>
+                    <fullName>Crosstalk</fullName>
+                    <default>false</default>
+                    <label>Crosstalk</label>
+                </value>
+                <value>
+                    <fullName>Customer Application Issue</fullName>
+                    <default>false</default>
+                    <label>Customer Application Issue</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>Damaged</fullName>
+                    <default>false</default>
+                    <label>Damaged</label>
+                </value>
+                <value>
+                    <fullName>Damage during install</fullName>
+                    <default>false</default>
+                    <label>Damage during install</label>
+                </value>
+                <value>
+                    <fullName>Damage during repair</fullName>
+                    <default>false</default>
+                    <label>Damage during repair</label>
+                </value>
+                <value>
+                    <fullName>Decommission Request</fullName>
+                    <default>false</default>
+                    <label>Decommission Request</label>
+                </value>
+                <value>
+                    <fullName>Discovery Errors</fullName>
+                    <default>false</default>
+                    <label>Discovery Errors</label>
+                </value>
+                <value>
+                    <fullName>Downgrade Service</fullName>
+                    <default>false</default>
+                    <label>Downgrade Service</label>
+                </value>
+                <value>
+                    <fullName>Downlink Issue</fullName>
+                    <default>false</default>
+                    <label>Downlink Issue</label>
+                </value>
+                <value>
+                    <fullName>Download Issue</fullName>
+                    <default>false</default>
+                    <label>Download Issue</label>
+                </value>
+                <value>
+                    <fullName>Echo</fullName>
+                    <default>false</default>
+                    <label>Echo</label>
+                </value>
+                <value>
+                    <fullName>Email notifications</fullName>
+                    <default>false</default>
+                    <label>Email notifications</label>
+                </value>
+                <value>
+                    <fullName>Expired Key FOB</fullName>
+                    <default>false</default>
+                    <label>Expired Key FOB</label>
+                </value>
+                <value>
+                    <fullName>Explanation of Charges</fullName>
+                    <default>false</default>
+                    <label>Explanation of Charges</label>
+                </value>
+                <value>
+                    <fullName>Express backup</fullName>
+                    <default>false</default>
+                    <label>Express backup</label>
+                </value>
+                <value>
+                    <fullName>Express Repair</fullName>
+                    <default>false</default>
+                    <label>Express Repair</label>
+                </value>
+                <value>
+                    <fullName>Hughes Communication</fullName>
+                    <default>false</default>
+                    <label>Hughes Communication</label>
+                </value>
+                <value>
+                    <fullName>Inactivate user</fullName>
+                    <default>false</default>
+                    <label>Inactivate user</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Equipment</fullName>
+                    <default>false</default>
+                    <label>Incorrect Equipment</label>
+                </value>
+                <value>
+                    <fullName>Incorrect IP address</fullName>
+                    <default>false</default>
+                    <label>Incorrect IP address</label>
+                </value>
+                <value>
+                    <fullName>Inquiry</fullName>
+                    <default>false</default>
+                    <label>Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Installation change</fullName>
+                    <default>false</default>
+                    <label>Installation change</label>
+                </value>
+                <value>
+                    <fullName>Install Upload</fullName>
+                    <default>false</default>
+                    <label>Install Upload</label>
+                </value>
+                <value>
+                    <fullName>Intermittent site</fullName>
+                    <default>false</default>
+                    <label>Intermittent site</label>
+                </value>
+                <value>
+                    <fullName>Internet Access/Connectivity</fullName>
+                    <default>false</default>
+                    <label>Internet Access/Connectivity</label>
+                </value>
+                <value>
+                    <fullName>Internet Connectivity</fullName>
+                    <default>false</default>
+                    <label>Internet Connectivity</label>
+                </value>
+                <value>
+                    <fullName>Letter</fullName>
+                    <default>false</default>
+                    <label>Letter</label>
+                </value>
+                <value>
+                    <fullName>Lock-Up/Hangs</fullName>
+                    <default>false</default>
+                    <label>Lock-Up/Hangs</label>
+                </value>
+                <value>
+                    <fullName>Login/Access</fullName>
+                    <default>false</default>
+                    <label>Login/Access</label>
+                </value>
+                <value>
+                    <fullName>Login Request</fullName>
+                    <default>false</default>
+                    <label>Login Request</label>
+                </value>
+                <value>
+                    <fullName>Lost Key FOB</fullName>
+                    <default>false</default>
+                    <label>Lost Key FOB</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Cleanup</fullName>
+                    <default>false</default>
+                    <label>Maintenance Cleanup</label>
+                </value>
+                <value>
+                    <fullName>Malfunction Key FOB</fullName>
+                    <default>false</default>
+                    <label>Malfunction Key FOB</label>
+                </value>
+                <value>
+                    <fullName>Marketing Campaign</fullName>
+                    <default>false</default>
+                    <label>Marketing Campaign</label>
+                </value>
+                <value>
+                    <fullName>Missing Equipment</fullName>
+                    <default>false</default>
+                    <label>Missing Equipment</label>
+                </value>
+                <value>
+                    <fullName>Missing IP address</fullName>
+                    <default>false</default>
+                    <label>Missing IP address</label>
+                </value>
+                <value>
+                    <fullName>New IP address req</fullName>
+                    <default>false</default>
+                    <label>New IP address req</label>
+                </value>
+                <value>
+                    <fullName>New Key FOB</fullName>
+                    <default>false</default>
+                    <label>New Key FOB</label>
+                </value>
+                <value>
+                    <fullName>New Site Monitoring</fullName>
+                    <default>false</default>
+                    <label>New Site Monitoring</label>
+                </value>
+                <value>
+                    <fullName>New Site Request</fullName>
+                    <default>false</default>
+                    <label>New Site Request</label>
+                </value>
+                <value>
+                    <fullName>New  transport</fullName>
+                    <default>false</default>
+                    <label>New  transport</label>
+                </value>
+                <value>
+                    <fullName>No Dial Tone</fullName>
+                    <default>false</default>
+                    <label>No Dial Tone</label>
+                </value>
+                <value>
+                    <fullName>No Email Access</fullName>
+                    <default>false</default>
+                    <label>No Email Access</label>
+                </value>
+                <value>
+                    <fullName>No Internet Access/Connectivity</fullName>
+                    <default>false</default>
+                    <label>No Internet Access/Connectivity</label>
+                </value>
+                <value>
+                    <fullName>Non-Hughes Communication</fullName>
+                    <default>false</default>
+                    <label>Non-Hughes Communication</label>
+                </value>
+                <value>
+                    <fullName>No Signal At All</fullName>
+                    <default>false</default>
+                    <label>No Signal At All</label>
+                </value>
+                <value>
+                    <fullName>No Sound</fullName>
+                    <default>false</default>
+                    <label>No Sound</label>
+                </value>
+                <value>
+                    <fullName>No Synch</fullName>
+                    <default>false</default>
+                    <label>No Synch</label>
+                </value>
+                <value>
+                    <fullName>Notification Req</fullName>
+                    <default>false</default>
+                    <label>Notification Req</label>
+                </value>
+                <value>
+                    <fullName>No Video</fullName>
+                    <default>false</default>
+                    <label>No Video</label>
+                </value>
+                <value>
+                    <fullName>One-Way Audio</fullName>
+                    <default>false</default>
+                    <label>One-Way Audio</label>
+                </value>
+                <value>
+                    <fullName>OOSB</fullName>
+                    <default>false</default>
+                    <label>OOSB</label>
+                </value>
+                <value>
+                    <fullName>Order</fullName>
+                    <default>false</default>
+                    <label>Order</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other Internet Application Issue</fullName>
+                    <default>false</default>
+                    <label>Other Internet Application Issue</label>
+                </value>
+                <value>
+                    <fullName>Other Phone Feature</fullName>
+                    <default>false</default>
+                    <label>Other Phone Feature</label>
+                </value>
+                <value>
+                    <fullName>Outage Cleanup</fullName>
+                    <default>false</default>
+                    <label>Outage Cleanup</label>
+                </value>
+                <value>
+                    <fullName>Outage issue</fullName>
+                    <default>false</default>
+                    <label>Outage issue</label>
+                </value>
+                <value>
+                    <fullName>Password reset</fullName>
+                    <default>false</default>
+                    <label>Password reset</label>
+                </value>
+                <value>
+                    <fullName>Patch Cleanup</fullName>
+                    <default>false</default>
+                    <label>Patch Cleanup</label>
+                </value>
+                <value>
+                    <fullName>Payment Request</fullName>
+                    <default>false</default>
+                    <label>Payment Request</label>
+                </value>
+                <value>
+                    <fullName>Performance</fullName>
+                    <default>false</default>
+                    <label>Performance</label>
+                </value>
+                <value>
+                    <fullName>Performance Issue</fullName>
+                    <default>false</default>
+                    <label>Performance Issue</label>
+                </value>
+                <value>
+                    <fullName>Pixelation/Freezing</fullName>
+                    <default>false</default>
+                    <label>Pixelation/Freezing</label>
+                </value>
+                <value>
+                    <fullName>Policy/Terms of Service</fullName>
+                    <default>false</default>
+                    <label>Policy/Terms of Service</label>
+                </value>
+                <value>
+                    <fullName>Prequal Request</fullName>
+                    <default>false</default>
+                    <label>Prequal Request</label>
+                </value>
+                <value>
+                    <fullName>Proactive Truckroll</fullName>
+                    <default>false</default>
+                    <label>Proactive Truckroll</label>
+                </value>
+                <value>
+                    <fullName>Purchase Approvals</fullName>
+                    <default>false</default>
+                    <label>Purchase Approvals</label>
+                </value>
+                <value>
+                    <fullName>Quote Conv</fullName>
+                    <default>false</default>
+                    <label>Quote Conv</label>
+                </value>
+                <value>
+                    <fullName>Reach Hughes personnel</fullName>
+                    <default>false</default>
+                    <label>Reach Hughes personnel</label>
+                </value>
+                <value>
+                    <fullName>Reactivate service</fullName>
+                    <default>false</default>
+                    <label>Reactivate service</label>
+                </value>
+                <value>
+                    <fullName>Relocation</fullName>
+                    <default>false</default>
+                    <label>Relocation</label>
+                </value>
+                <value>
+                    <fullName>Repair</fullName>
+                    <default>false</default>
+                    <label>Repair</label>
+                </value>
+                <value>
+                    <fullName>Report Request</fullName>
+                    <default>false</default>
+                    <label>Report Request</label>
+                </value>
+                <value>
+                    <fullName>Request Balance</fullName>
+                    <default>false</default>
+                    <label>Request Balance</label>
+                </value>
+                <value>
+                    <fullName>Request Bill Copy</fullName>
+                    <default>false</default>
+                    <label>Request Bill Copy</label>
+                </value>
+                <value>
+                    <fullName>Research Request</fullName>
+                    <default>false</default>
+                    <label>Research Request</label>
+                </value>
+                <value>
+                    <fullName>RMA Approvals</fullName>
+                    <default>false</default>
+                    <label>RMA Approvals</label>
+                </value>
+                <value>
+                    <fullName>Safety Issue</fullName>
+                    <default>false</default>
+                    <label>Safety Issue</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Service Feature Issue</fullName>
+                    <default>false</default>
+                    <label>Service Feature Issue</label>
+                </value>
+                <value>
+                    <fullName>Service Questions</fullName>
+                    <default>false</default>
+                    <label>Service Questions</label>
+                </value>
+                <value>
+                    <fullName>Signal Strength/Coverage</fullName>
+                    <default>false</default>
+                    <label>Signal Strength/Coverage</label>
+                </value>
+                <value>
+                    <fullName>Sign-Off</fullName>
+                    <default>false</default>
+                    <label>Sign-Off</label>
+                </value>
+                <value>
+                    <fullName>Site Move</fullName>
+                    <default>false</default>
+                    <label>Site Move</label>
+                </value>
+                <value>
+                    <fullName>Slow Downloads</fullName>
+                    <default>false</default>
+                    <label>Slow Downloads</label>
+                </value>
+                <value>
+                    <fullName>Slow Response - Other 3rd party App</fullName>
+                    <default>false</default>
+                    <label>Slow Response - Other 3rd party App</label>
+                </value>
+                <value>
+                    <fullName>Slow Uploads</fullName>
+                    <default>false</default>
+                    <label>Slow Uploads</label>
+                </value>
+                <value>
+                    <fullName>Slow Web Browsing</fullName>
+                    <default>false</default>
+                    <label>Slow Web Browsing</label>
+                </value>
+                <value>
+                    <fullName>Slow Web Response</fullName>
+                    <default>false</default>
+                    <label>Slow Web Response</label>
+                </value>
+                <value>
+                    <fullName>Static</fullName>
+                    <default>false</default>
+                    <label>Static</label>
+                </value>
+                <value>
+                    <fullName>Static IP transition</fullName>
+                    <default>false</default>
+                    <label>Static IP transition</label>
+                </value>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>Suspend Service</fullName>
+                    <default>false</default>
+                    <label>Suspend Service</label>
+                </value>
+                <value>
+                    <fullName>Synch - No Surf</fullName>
+                    <default>false</default>
+                    <label>Synch - No Surf</label>
+                </value>
+                <value>
+                    <fullName>System setup</fullName>
+                    <default>false</default>
+                    <label>System setup</label>
+                </value>
+                <value>
+                    <fullName>TUMS</fullName>
+                    <default>false</default>
+                    <label>TUMS</label>
+                </value>
+                <value>
+                    <fullName>Unable to Access</fullName>
+                    <default>false</default>
+                    <label>Unable to Access</label>
+                </value>
+                <value>
+                    <fullName>Unable to Access/Login</fullName>
+                    <default>false</default>
+                    <label>Unable to Access/Login</label>
+                </value>
+                <value>
+                    <fullName>Unable to Browse-All Sites</fullName>
+                    <default>false</default>
+                    <label>Unable to Browse-All Sites</label>
+                </value>
+                <value>
+                    <fullName>Unable to Browse-Specific Sites</fullName>
+                    <default>false</default>
+                    <label>Unable to Browse-Specific Sites</label>
+                </value>
+                <value>
+                    <fullName>Unable to complete Install</fullName>
+                    <default>false</default>
+                    <label>Unable to complete Install</label>
+                </value>
+                <value>
+                    <fullName>Unable to complete Repair</fullName>
+                    <default>false</default>
+                    <label>Unable to complete Repair</label>
+                </value>
+                <value>
+                    <fullName>Unable to connect</fullName>
+                    <default>false</default>
+                    <label>Unable to connect</label>
+                </value>
+                <value>
+                    <fullName>Unable to Launch</fullName>
+                    <default>false</default>
+                    <label>Unable to Launch</label>
+                </value>
+                <value>
+                    <fullName>Unable to Pass Credit</fullName>
+                    <default>false</default>
+                    <label>Unable to Pass Credit</label>
+                </value>
+                <value>
+                    <fullName>Unable to Place Order(s)</fullName>
+                    <default>false</default>
+                    <label>Unable to Place Order(s)</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Update Account Info</fullName>
+                    <default>false</default>
+                    <label>Update Account Info</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Req</fullName>
+                    <default>false</default>
+                    <label>Upgrade Req</label>
+                </value>
+                <value>
+                    <fullName>Uplink Issue</fullName>
+                    <default>false</default>
+                    <label>Uplink Issue</label>
+                </value>
+                <value>
+                    <fullName>Video Application Issue</fullName>
+                    <default>false</default>
+                    <label>Video Application Issue</label>
+                </value>
+                <value>
+                    <fullName>Voice Activation</fullName>
+                    <default>false</default>
+                    <label>Voice Activation</label>
+                </value>
+                <value>
+                    <fullName>Voicemail Issue</fullName>
+                    <default>false</default>
+                    <label>Voicemail Issue</label>
+                </value>
+                <value>
+                    <fullName>Voice Porting</fullName>
+                    <default>false</default>
+                    <label>Voice Porting</label>
+                </value>
+                <value>
+                    <fullName>Will not Activate</fullName>
+                    <default>false</default>
+                    <label>Will not Activate</label>
+                </value>
+                <value>
+                    <fullName>Will not Register</fullName>
+                    <default>false</default>
+                    <label>Will not Register</label>
+                </value>
+                <value>
+                    <fullName>Winback</fullName>
+                    <default>false</default>
+                    <label>Winback</label>
+                </value>
+                <value>
+                    <fullName>Wrong Site Id</fullName>
+                    <default>false</default>
+                    <label>Wrong Site Id</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Expedited</fullName>
+                    <default>false</default>
+                    <label>Enterprise Expedited</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Priority</fullName>
+                    <default>false</default>
+                    <label>Enterprise Priority</label>
+                </value>
+                <value>
+                    <fullName>Install EB</fullName>
+                    <default>false</default>
+                    <label>Install EB</label>
+                </value>
+                <value>
+                    <fullName>DeInstall EB</fullName>
+                    <default>false</default>
+                    <label>DeInstall EB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_EffectiveDate__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_ExpiryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_SLATemplateName__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;javascript:if(typeof(srcUp)==&apos;function&apos;) {srcUp(&apos;/&quot; &amp; Id &amp; &quot;?isdtp=vw&apos;);}&quot;+ &quot; else {window.location.href=&apos;/&quot; &amp; Id &amp; &quot;?isdtp=vw&apos;}&quot;,TEXT( HSvc_SLA_Template__c ), &apos;_self&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SLA Template Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_SLA_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA Template</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Billing Handle Time</fullName>
+                    <default>false</default>
+                    <label>Billing Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Customer Handle Time</fullName>
+                    <default>false</default>
+                    <label>Customer Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Customer Service Handle Time</fullName>
+                    <default>false</default>
+                    <label>Customer Service Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Field Service Handle Time</fullName>
+                    <default>false</default>
+                    <label>Field Service Handle Time</label>
+                </value>
+                <value>
+                    <fullName>NAP Handle Time</fullName>
+                    <default>false</default>
+                    <label>NAP Handle Time</label>
+                </value>
+                <value>
+                    <fullName>NE Handle Time</fullName>
+                    <default>false</default>
+                    <label>NE Handle Time</label>
+                </value>
+                <value>
+                    <fullName>NMC Handle Time</fullName>
+                    <default>false</default>
+                    <label>NMC Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Other Hughes Handle Time</fullName>
+                    <default>false</default>
+                    <label>Other Hughes Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Other Partner Handle Time</fullName>
+                    <default>false</default>
+                    <label>Other Partner Handle Time</label>
+                </value>
+                <value>
+                    <fullName>PM Handle Time</fullName>
+                    <default>false</default>
+                    <label>PM Handle Time</label>
+                </value>
+                <value>
+                    <fullName>Outage Calculator</fullName>
+                    <default>false</default>
+                    <label>Outage Calculator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_SuspectedAsset__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Grouping</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Active QoS</fullName>
+                    <default>false</default>
+                    <label>Active QoS</label>
+                </value>
+                <value>
+                    <fullName>Appliance</fullName>
+                    <default>false</default>
+                    <label>Appliance</label>
+                </value>
+                <value>
+                    <fullName>BOM</fullName>
+                    <default>false</default>
+                    <label>BOM</label>
+                </value>
+                <value>
+                    <fullName>BYOB</fullName>
+                    <default>false</default>
+                    <label>BYOB</label>
+                </value>
+                <value>
+                    <fullName>Customer Gateway</fullName>
+                    <default>false</default>
+                    <label>Customer Gateway</label>
+                </value>
+                <value>
+                    <fullName>Customer Tools</fullName>
+                    <default>false</default>
+                    <label>Customer Tools</label>
+                </value>
+                <value>
+                    <fullName>Digital Media</fullName>
+                    <default>false</default>
+                    <label>Digital Media</label>
+                </value>
+                <value>
+                    <fullName>DVR</fullName>
+                    <default>false</default>
+                    <label>DVR</label>
+                </value>
+                <value>
+                    <fullName>EMAIL</fullName>
+                    <default>false</default>
+                    <label>EMAIL</label>
+                </value>
+                <value>
+                    <fullName>Field Maintenance</fullName>
+                    <default>false</default>
+                    <label>Field Maintenance</label>
+                </value>
+                <value>
+                    <fullName>General</fullName>
+                    <default>false</default>
+                    <label>General</label>
+                </value>
+                <value>
+                    <fullName>Guest Services</fullName>
+                    <default>false</default>
+                    <label>Guest Services</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Helpdesk Support</fullName>
+                    <default>false</default>
+                    <label>Helpdesk Support</label>
+                </value>
+                <value>
+                    <fullName>Install Support</fullName>
+                    <default>false</default>
+                    <label>Install Support</label>
+                </value>
+                <value>
+                    <fullName>Key FOB</fullName>
+                    <default>false</default>
+                    <label>Key FOB</label>
+                </value>
+                <value>
+                    <fullName>Modem</fullName>
+                    <default>false</default>
+                    <label>Modem</label>
+                </value>
+                <value>
+                    <fullName>Premium Services</fullName>
+                    <default>false</default>
+                    <label>Premium Services</label>
+                </value>
+                <value>
+                    <fullName>Router</fullName>
+                    <default>false</default>
+                    <label>Router</label>
+                </value>
+                <value>
+                    <fullName>Satellite Broadband</fullName>
+                    <default>false</default>
+                    <label>Satellite Broadband</label>
+                </value>
+                <value>
+                    <fullName>Satellite Narrowband</fullName>
+                    <default>false</default>
+                    <label>Satellite Narrowband</label>
+                </value>
+                <value>
+                    <fullName>Secure LAN</fullName>
+                    <default>false</default>
+                    <label>Secure LAN</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Switch</fullName>
+                    <default>false</default>
+                    <label>Switch</label>
+                </value>
+                <value>
+                    <fullName>Terrestrial Wireless</fullName>
+                    <default>false</default>
+                    <label>Terrestrial Wireless</label>
+                </value>
+                <value>
+                    <fullName>Terrestrial Wireline</fullName>
+                    <default>false</default>
+                    <label>Terrestrial Wireline</label>
+                </value>
+                <value>
+                    <fullName>VADB</fullName>
+                    <default>false</default>
+                    <label>VADB</label>
+                </value>
+                <value>
+                    <fullName>Voice</fullName>
+                    <default>false</default>
+                    <label>Voice</label>
+                </value>
+                <value>
+                    <fullName>Wi-Fi</fullName>
+                    <default>false</default>
+                    <label>Wi-Fi</label>
+                </value>
+                <value>
+                    <fullName>Wireless</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Operational SLA Calculation</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>HSvc_SLATemplateName__c</columns>
+        <columns>HSvc_Case_Type__c</columns>
+        <columns>HSvc_Case_Status__c</columns>
+        <columns>HSvc_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SLA-{0000}</displayFormat>
+        <label>Operational SLA Calculation Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Operational SLA Calculations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>HSvc_SLATemplateName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Case_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Case_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_SLATemplateName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_Case_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_Case_Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>HSvc_SLATemplateName__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_SLATemplateName__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>HSvc_ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(HSvc_ExpiryDate__c &lt; TODAY(),HSvc_ExpiryDate__c &lt; HSvc_EffectiveDate__c)</errorConditionFormula>
+        <errorDisplayField>HSvc_ExpiryDate__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

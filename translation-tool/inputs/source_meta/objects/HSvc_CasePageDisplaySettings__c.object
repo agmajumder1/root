@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>this custom setting controls read only / Editable setting for Case UI Fields</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>HSvc_AccountType__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enterprise or Consumer</inlineHelpText>
+        <label>Account Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Applicable_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Applicable Country</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_FieldName__c</fullName>
+        <description>Case Field Name</description>
+        <externalId>false</externalId>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Mode__c</fullName>
+        <description>Mode of UI Create / Edit</description>
+        <externalId>false</externalId>
+        <label>Mode</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_RecordTypeName__c</fullName>
+        <description>Case Record Type Name</description>
+        <externalId>false</externalId>
+        <label>Record Type Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_isReadOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Read Only</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Visible_to_Tier__c</fullName>
+        <externalId>false</externalId>
+        <label>Visible to Tier</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Case Page Display Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

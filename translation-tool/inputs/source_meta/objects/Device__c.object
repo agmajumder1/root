@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object represents a device at a physical location and identified by SAN.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Customer_Device_ID__c</fullName>
+        <description>Customer provided name for the device at this physical location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer provided name for the device at this physical location.</inlineHelpText>
+        <label>Customer Device ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HWProduct_ID__c</fullName>
+        <description>Hardware at this physical location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Hardware at this physical location.</inlineHelpText>
+        <label>Hardware Product ID</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ADSL DEDICATED</fullName>
+                    <default>false</default>
+                    <label>ADSL DEDICATED</label>
+                </value>
+                <value>
+                    <fullName>ADSL SHARED-VADB</fullName>
+                    <default>false</default>
+                    <label>ADSL SHARED-VADB</label>
+                </value>
+                <value>
+                    <fullName>ANTENNA-098</fullName>
+                    <default>false</default>
+                    <label>ANTENNA-098</label>
+                </value>
+                <value>
+                    <fullName>ANTI-ICE ANT-098</fullName>
+                    <default>false</default>
+                    <label>ANTI-ICE ANT-098</label>
+                </value>
+                <value>
+                    <fullName>ANTI-ICE ANT-120</fullName>
+                    <default>false</default>
+                    <label>ANTI-ICE ANT-120</label>
+                </value>
+                <value>
+                    <fullName>ATT 3G-250M-HN7700</fullName>
+                    <default>false</default>
+                    <label>ATT 3G-250M-HN7700</label>
+                </value>
+                <value>
+                    <fullName>ATT 3G-50M-HN7700</fullName>
+                    <default>false</default>
+                    <label>ATT 3G-50M-HN7700</label>
+                </value>
+                <value>
+                    <fullName>BEVMO CUTOVER</fullName>
+                    <default>false</default>
+                    <label>BEVMO CUTOVER</label>
+                </value>
+                <value>
+                    <fullName>BWI-MEDIA-PLATINUM</fullName>
+                    <default>false</default>
+                    <label>BWI-MEDIA-PLATINUM</label>
+                </value>
+                <value>
+                    <fullName>C1811-CABLE</fullName>
+                    <default>false</default>
+                    <label>C1811-CABLE</label>
+                </value>
+                <value>
+                    <fullName>C1811-DSL</fullName>
+                    <default>false</default>
+                    <label>C1811-DSL</label>
+                </value>
+                <value>
+                    <fullName>C1811-T1</fullName>
+                    <default>false</default>
+                    <label>C1811-T1</label>
+                </value>
+                <value>
+                    <fullName>C871W-DSL</fullName>
+                    <default>false</default>
+                    <label>C871W-DSL</label>
+                </value>
+                <value>
+                    <fullName>C877-CABLE</fullName>
+                    <default>false</default>
+                    <label>C877-CABLE</label>
+                </value>
+                <value>
+                    <fullName>C877-DSL</fullName>
+                    <default>false</default>
+                    <label>C877-DSL</label>
+                </value>
+                <value>
+                    <fullName>C877-T1</fullName>
+                    <default>false</default>
+                    <label>C877-T1</label>
+                </value>
+                <value>
+                    <fullName>C877W-CABLE</fullName>
+                    <default>false</default>
+                    <label>C877W-CABLE</label>
+                </value>
+                <value>
+                    <fullName>C877W-DSL</fullName>
+                    <default>false</default>
+                    <label>C877W-DSL</label>
+                </value>
+                <value>
+                    <fullName>C877W-NAP-MODEM</fullName>
+                    <default>false</default>
+                    <label>C877W-NAP-MODEM</label>
+                </value>
+                <value>
+                    <fullName>C891-APPLIANCE</fullName>
+                    <default>false</default>
+                    <label>C891-APPLIANCE</label>
+                </value>
+                <value>
+                    <fullName>C891-CABLE</fullName>
+                    <default>false</default>
+                    <label>C891-CABLE</label>
+                </value>
+                <value>
+                    <fullName>C891-CUSTTRANS</fullName>
+                    <default>false</default>
+                    <label>C891-CUSTTRANS</label>
+                </value>
+                <value>
+                    <fullName>C891-DSL</fullName>
+                    <default>false</default>
+                    <label>C891-DSL</label>
+                </value>
+                <value>
+                    <fullName>C891-NAP MODEM</fullName>
+                    <default>false</default>
+                    <label>C891-NAP MODEM</label>
+                </value>
+                <value>
+                    <fullName>CBR CABLE</fullName>
+                    <default>false</default>
+                    <label>CBR CABLE</label>
+                </value>
+                <value>
+                    <fullName>CBR DSL</fullName>
+                    <default>false</default>
+                    <label>CBR DSL</label>
+                </value>
+                <value>
+                    <fullName>CISCO 2960 SWITCH</fullName>
+                    <default>false</default>
+                    <label>CISCO 2960 SWITCH</label>
+                </value>
+                <value>
+                    <fullName>CISCO 300 SWITCH</fullName>
+                    <default>false</default>
+                    <label>CISCO 300 SWITCH</label>
+                </value>
+                <value>
+                    <fullName>CPT AUDIO CONNECT</fullName>
+                    <default>false</default>
+                    <label>CPT AUDIO CONNECT</label>
+                </value>
+                <value>
+                    <fullName>CPT DIGITAL MEDIA</fullName>
+                    <default>false</default>
+                    <label>CPT DIGITAL MEDIA</label>
+                </value>
+                <value>
+                    <fullName>CPT TV 42-1</fullName>
+                    <default>false</default>
+                    <label>CPT TV 42-1</label>
+                </value>
+                <value>
+                    <fullName>CPT TV 42-2</fullName>
+                    <default>false</default>
+                    <label>CPT TV 42-2</label>
+                </value>
+                <value>
+                    <fullName>CPT TV 46-1</fullName>
+                    <default>false</default>
+                    <label>CPT TV 46-1</label>
+                </value>
+                <value>
+                    <fullName>CPT TV 46-2</fullName>
+                    <default>false</default>
+                    <label>CPT TV 46-2</label>
+                </value>
+                <value>
+                    <fullName>CRDPT COMBO</fullName>
+                    <default>false</default>
+                    <label>CRDPT COMBO</label>
+                </value>
+                <value>
+                    <fullName>DSL MODEM</fullName>
+                    <default>false</default>
+                    <label>DSL MODEM</label>
+                </value>
+                <value>
+                    <fullName>DSL NAP MODEM</fullName>
+                    <default>false</default>
+                    <label>DSL NAP MODEM</label>
+                </value>
+                <value>
+                    <fullName>DSS DUMMY BOM</fullName>
+                    <default>false</default>
+                    <label>DSS DUMMY BOM</label>
+                </value>
+                <value>
+                    <fullName>EVDO-200M-HN7700SR</fullName>
+                    <default>false</default>
+                    <label>EVDO-200M-HN7700SR</label>
+                </value>
+                <value>
+                    <fullName>EVDO-30M-HN7700SR</fullName>
+                    <default>false</default>
+                    <label>EVDO-30M-HN7700SR</label>
+                </value>
+                <value>
+                    <fullName>EVDO JPOLE ANT KIT</fullName>
+                    <default>false</default>
+                    <label>EVDO JPOLE ANT KIT</label>
+                </value>
+                <value>
+                    <fullName>EVDO-RGR100-7700SR</fullName>
+                    <default>false</default>
+                    <label>EVDO-RGR100-7700SR</label>
+                </value>
+                <value>
+                    <fullName>EVDO-UNL-C891W</fullName>
+                    <default>false</default>
+                    <label>EVDO-UNL-C891W</label>
+                </value>
+                <value>
+                    <fullName>EVDO-UNL-FORTI80CM</fullName>
+                    <default>false</default>
+                    <label>EVDO-UNL-FORTI80CM</label>
+                </value>
+                <value>
+                    <fullName>EVDO-UNL-HN7700SR</fullName>
+                    <default>false</default>
+                    <label>EVDO-UNL-HN7700SR</label>
+                </value>
+                <value>
+                    <fullName>FORT60CM-WIFI-DSL</fullName>
+                    <default>false</default>
+                    <label>FORT60CM-WIFI-DSL</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE 60C</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE 60C</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE 60C-CABL</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE 60C-CABL</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE 60C-DSL</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE 60C-DSL</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE 60C WIFI</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE 60C WIFI</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE 80CM-DSL</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE 80CM-DSL</label>
+                </value>
+                <value>
+                    <fullName>FORTIGATE-DSL</fullName>
+                    <default>false</default>
+                    <label>FORTIGATE-DSL</label>
+                </value>
+                <value>
+                    <fullName>HN7000-098</fullName>
+                    <default>false</default>
+                    <label>HN7000-098</label>
+                </value>
+                <value>
+                    <fullName>HN7700-098</fullName>
+                    <default>false</default>
+                    <label>HN7700-098</label>
+                </value>
+                <value>
+                    <fullName>HN7700-098A</fullName>
+                    <default>false</default>
+                    <label>HN7700-098A</label>
+                </value>
+                <value>
+                    <fullName>HN7700-120</fullName>
+                    <default>false</default>
+                    <label>HN7700-120</label>
+                </value>
+                <value>
+                    <fullName>HN7700-120A</fullName>
+                    <default>false</default>
+                    <label>HN7700-120A</label>
+                </value>
+                <value>
+                    <fullName>HN7700-180</fullName>
+                    <default>false</default>
+                    <label>HN7700-180</label>
+                </value>
+                <value>
+                    <fullName>HN7700C-098</fullName>
+                    <default>false</default>
+                    <label>HN7700C-098</label>
+                </value>
+                <value>
+                    <fullName>HN7700C-120</fullName>
+                    <default>false</default>
+                    <label>HN7700C-120</label>
+                </value>
+                <value>
+                    <fullName>HN7700CD-098A</fullName>
+                    <default>false</default>
+                    <label>HN7700CD-098A</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR</fullName>
+                    <default>false</default>
+                    <label>HN7700SR</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR CABLE</fullName>
+                    <default>false</default>
+                    <label>HN7700SR CABLE</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR-CUSTTRANS</fullName>
+                    <default>false</default>
+                    <label>HN7700SR-CUSTTRANS</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR-DSL</fullName>
+                    <default>false</default>
+                    <label>HN7700SR-DSL</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR-NAP-MODEM</fullName>
+                    <default>false</default>
+                    <label>HN7700SR-NAP-MODEM</label>
+                </value>
+                <value>
+                    <fullName>HN7700SR-T1</fullName>
+                    <default>false</default>
+                    <label>HN7700SR-T1</label>
+                </value>
+                <value>
+                    <fullName>HN9500-098-2W</fullName>
+                    <default>false</default>
+                    <label>HN9500-098-2W</label>
+                </value>
+                <value>
+                    <fullName>HN9500-180-2W</fullName>
+                    <default>false</default>
+                    <label>HN9500-180-2W</label>
+                </value>
+                <value>
+                    <fullName>HN9500-180-4W</fullName>
+                    <default>false</default>
+                    <label>HN9500-180-4W</label>
+                </value>
+                <value>
+                    <fullName>HN9500-74-2W-24MO</fullName>
+                    <default>false</default>
+                    <label>HN9500-74-2W-24MO</label>
+                </value>
+                <value>
+                    <fullName>HX200-120</fullName>
+                    <default>false</default>
+                    <label>HX200-120</label>
+                </value>
+                <value>
+                    <fullName>HX50-120</fullName>
+                    <default>false</default>
+                    <label>HX50-120</label>
+                </value>
+                <value>
+                    <fullName>IDU-7700SR</fullName>
+                    <default>false</default>
+                    <label>IDU-7700SR</label>
+                </value>
+                <value>
+                    <fullName>INSTALL</fullName>
+                    <default>false</default>
+                    <label>INSTALL</label>
+                </value>
+                <value>
+                    <fullName>KSS TV</fullName>
+                    <default>false</default>
+                    <label>KSS TV</label>
+                </value>
+                <value>
+                    <fullName>NB5-EQUIP RECOVERY</fullName>
+                    <default>false</default>
+                    <label>NB5-EQUIP RECOVERY</label>
+                </value>
+                <value>
+                    <fullName>POTS LINE</fullName>
+                    <default>false</default>
+                    <label>POTS LINE</label>
+                </value>
+                <value>
+                    <fullName>SPR-USG ONLY-HN77</fullName>
+                    <default>false</default>
+                    <label>SPR-USG ONLY-HN77</label>
+                </value>
+                <value>
+                    <fullName>SSA INSTALL</fullName>
+                    <default>false</default>
+                    <label>SSA INSTALL</label>
+                </value>
+                <value>
+                    <fullName>SWITCH</fullName>
+                    <default>false</default>
+                    <label>SWITCH</label>
+                </value>
+                <value>
+                    <fullName>T1 ROUTER</fullName>
+                    <default>false</default>
+                    <label>T1 ROUTER</label>
+                </value>
+                <value>
+                    <fullName>TTW MEDIA 4</fullName>
+                    <default>false</default>
+                    <label>TTW MEDIA 4</label>
+                </value>
+                <value>
+                    <fullName>TTW MEDIA 5</fullName>
+                    <default>false</default>
+                    <label>TTW MEDIA 5</label>
+                </value>
+                <value>
+                    <fullName>VZN CRPT-C1811</fullName>
+                    <default>false</default>
+                    <label>VZN CRPT-C1811</label>
+                </value>
+                <value>
+                    <fullName>VZN CRPT-C891</fullName>
+                    <default>false</default>
+                    <label>VZN CRPT-C891</label>
+                </value>
+                <value>
+                    <fullName>VZN CRPT-FORTI80C</fullName>
+                    <default>false</default>
+                    <label>VZN CRPT-FORTI80C</label>
+                </value>
+                <value>
+                    <fullName>VZN CRPT-HN7700SR</fullName>
+                    <default>false</default>
+                    <label>VZN CRPT-HN7700SR</label>
+                </value>
+                <value>
+                    <fullName>WIFI-1AP</fullName>
+                    <default>false</default>
+                    <label>WIFI-1AP</label>
+                </value>
+                <value>
+                    <fullName>WIFI-AP</fullName>
+                    <default>false</default>
+                    <label>WIFI-AP</label>
+                </value>
+                <value>
+                    <fullName>WIFI-ARUBA</fullName>
+                    <default>false</default>
+                    <label>WIFI-ARUBA</label>
+                </value>
+                <value>
+                    <fullName>S5930</fullName>
+                    <default>false</default>
+                    <label>S5930</label>
+                </value>
+                <value>
+                    <fullName>HR4700</fullName>
+                    <default>false</default>
+                    <label>HR4700</label>
+                </value>
+                <value>
+                    <fullName>HR4700-MODEM</fullName>
+                    <default>false</default>
+                    <label>HR4700-MODEM</label>
+                </value>
+                <value>
+                    <fullName>HR4700-T1</fullName>
+                    <default>false</default>
+                    <label>HR4700-T1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hardware_Product_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>HW Product ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAN__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SAN</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Backup</fullName>
+                    <default>false</default>
+                    <label>Backup</label>
+                </value>
+                <value>
+                    <fullName>Temp</fullName>
+                    <default>false</default>
+                    <label>Temp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Site_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Existing Site Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active Bonding</fullName>
+                    <default>false</default>
+                    <label>Active Bonding</label>
+                </value>
+                <value>
+                    <fullName>Appliance</fullName>
+                    <default>false</default>
+                    <label>Appliance</label>
+                </value>
+                <value>
+                    <fullName>Back Office Server</fullName>
+                    <default>false</default>
+                    <label>Back Office Server</label>
+                </value>
+                <value>
+                    <fullName>Broadband Remote</fullName>
+                    <default>false</default>
+                    <label>Broadband Remote</label>
+                </value>
+                <value>
+                    <fullName>Cable L3</fullName>
+                    <default>false</default>
+                    <label>Cable L3</label>
+                </value>
+                <value>
+                    <fullName>Cable L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>Cable L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>Customer Provided Transport</fullName>
+                    <default>false</default>
+                    <label>Customer Provided Transport</label>
+                </value>
+                <value>
+                    <fullName>Cust Prov Transport w/ POTS VABD</fullName>
+                    <default>false</default>
+                    <label>Cust Prov Transport w/ POTS VABD</label>
+                </value>
+                <value>
+                    <fullName>DED Fiber L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>DED Fiber L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L2</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L2 w POTS VADB</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L2 w POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L3 w POTS VADB</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L3 w POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>Dedicated Fiber L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated Fiber L3</label>
+                </value>
+                <value>
+                    <fullName>Dedicated Fiber L3 w/ POTS</fullName>
+                    <default>false</default>
+                    <label>Dedicated Fiber L3 w/ POTS</label>
+                </value>
+                <value>
+                    <fullName>Dedicated IDSL L2</fullName>
+                    <default>false</default>
+                    <label>Dedicated IDSL L2</label>
+                </value>
+                <value>
+                    <fullName>Dedicated IDSL L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated IDSL L3</label>
+                </value>
+                <value>
+                    <fullName>Dedicated SDSL L2</fullName>
+                    <default>false</default>
+                    <label>Dedicated SDSL L2</label>
+                </value>
+                <value>
+                    <fullName>Dedicated SDSL L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated SDSL L3</label>
+                </value>
+                <value>
+                    <fullName>Dedicated T1 L2</fullName>
+                    <default>false</default>
+                    <label>Dedicated T1 L2</label>
+                </value>
+                <value>
+                    <fullName>Dedicated T1 L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated T1 L3</label>
+                </value>
+                <value>
+                    <fullName>Digital Media</fullName>
+                    <default>false</default>
+                    <label>Digital Media</label>
+                </value>
+                <value>
+                    <fullName>Elearning</fullName>
+                    <default>false</default>
+                    <label>Elearning</label>
+                </value>
+                <value>
+                    <fullName>HN Cable L3</fullName>
+                    <default>false</default>
+                    <label>HN Cable L3</label>
+                </value>
+                <value>
+                    <fullName>HN Cable L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>HN Cable L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>HN Customer Provided Transport</fullName>
+                    <default>false</default>
+                    <label>HN Customer Provided Transport</label>
+                </value>
+                <value>
+                    <fullName>HN Cust Prov Transport w/ POTS VABD</fullName>
+                    <default>false</default>
+                    <label>HN Cust Prov Transport w/ POTS VABD</label>
+                </value>
+                <value>
+                    <fullName>HN DED Fiber L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>HN DED Fiber L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated ADSL L2</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated ADSL L2 POTS/VADB</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated ADSL L2 POTS/VADB</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated ADSL L3</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated ADSL L3 POTS/VADB</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated ADSL L3 POTS/VADB</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated Fiber L3</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated Fiber L3</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated Fiber L3 w POTS</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated Fiber L3 w POTS</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated IDSL L2</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated IDSL L2</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated IDSL L3</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated IDSL L3</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated SDSL L2</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated SDSL L2</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated SDSL L3</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated SDSL L3</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated T1 L2</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated T1 L2</label>
+                </value>
+                <value>
+                    <fullName>HN Dedicated T1 L3</fullName>
+                    <default>false</default>
+                    <label>HN Dedicated T1 L3</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L2</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L2 w/ NAP POTS</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L2 w/ NAP POTS</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L2 w/POTS</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L2 w/POTS</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L3</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L3 w/ NAP POTS</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L3 w/ NAP POTS</label>
+                </value>
+                <value>
+                    <fullName>HN Shared ADSL L3 w/POTS</fullName>
+                    <default>false</default>
+                    <label>HN Shared ADSL L3 w/POTS</label>
+                </value>
+                <value>
+                    <fullName>HN Shared Fiber L3</fullName>
+                    <default>false</default>
+                    <label>HN Shared Fiber L3</label>
+                </value>
+                <value>
+                    <fullName>HN Shared Fiber L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>HN Shared Fiber L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>HN Shared Fiber L3 w POTS</fullName>
+                    <default>false</default>
+                    <label>HN Shared Fiber L3 w POTS</label>
+                </value>
+                <value>
+                    <fullName>HN WI-MAX</fullName>
+                    <default>false</default>
+                    <label>HN WI-MAX</label>
+                </value>
+                <value>
+                    <fullName>HN Wireless 3G L3</fullName>
+                    <default>false</default>
+                    <label>HN Wireless 3G L3</label>
+                </value>
+                <value>
+                    <fullName>HN Wireless 3G w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>HN Wireless 3G w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>HX NOC</fullName>
+                    <default>false</default>
+                    <label>HX NOC</label>
+                </value>
+                <value>
+                    <fullName>HX Remote</fullName>
+                    <default>false</default>
+                    <label>HX Remote</label>
+                </value>
+                <value>
+                    <fullName>Jupiter</fullName>
+                    <default>false</default>
+                    <label>Jupiter</label>
+                </value>
+                <value>
+                    <fullName>POTS</fullName>
+                    <default>false</default>
+                    <label>POTS</label>
+                </value>
+                <value>
+                    <fullName>POTS with VADB</fullName>
+                    <default>false</default>
+                    <label>POTS with VADB</label>
+                </value>
+                <value>
+                    <fullName>Production - Dedicated</fullName>
+                    <default>false</default>
+                    <label>Production - Dedicated</label>
+                </value>
+                <value>
+                    <fullName>Production - Offshore</fullName>
+                    <default>false</default>
+                    <label>Production - Offshore</label>
+                </value>
+                <value>
+                    <fullName>Production - RTS</fullName>
+                    <default>false</default>
+                    <label>Production - RTS</label>
+                </value>
+                <value>
+                    <fullName>Production - Shared</fullName>
+                    <default>false</default>
+                    <label>Production - Shared</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L2</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L2 w/ NAP POTS</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L2 w/ NAP POTS</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L2 w/ POTS</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L2 w/ POTS</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L3</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L3 w/ NAP POTS</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L3 w/ NAP POTS</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L3 w/ POTS</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L3 w/ POTS</label>
+                </value>
+                <value>
+                    <fullName>Shared Fiber L3</fullName>
+                    <default>false</default>
+                    <label>Shared Fiber L3</label>
+                </value>
+                <value>
+                    <fullName>Shared Fiber L3 w/ POTS</fullName>
+                    <default>false</default>
+                    <label>Shared Fiber L3 w/ POTS</label>
+                </value>
+                <value>
+                    <fullName>Shared Fiber L3 w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>Shared Fiber L3 w/ POTS VADB</label>
+                </value>
+                <value>
+                    <fullName>Spaceway</fullName>
+                    <default>false</default>
+                    <label>Spaceway</label>
+                </value>
+                <value>
+                    <fullName>Third Party Broadband Provider</fullName>
+                    <default>false</default>
+                    <label>Third Party Broadband Provider</label>
+                </value>
+                <value>
+                    <fullName>Virtual Modem</fullName>
+                    <default>false</default>
+                    <label>Virtual Modem</label>
+                </value>
+                <value>
+                    <fullName>VOIP</fullName>
+                    <default>false</default>
+                    <label>VOIP</label>
+                </value>
+                <value>
+                    <fullName>WIFI</fullName>
+                    <default>false</default>
+                    <label>WIFI</label>
+                </value>
+                <value>
+                    <fullName>WI-MAX</fullName>
+                    <default>false</default>
+                    <label>WI-MAX</label>
+                </value>
+                <value>
+                    <fullName>Wireless 3G/4G</fullName>
+                    <default>false</default>
+                    <label>Wireless 3G/4G</label>
+                </value>
+                <value>
+                    <fullName>Wireless 3G L3</fullName>
+                    <default>false</default>
+                    <label>Wireless 3G L3</label>
+                </value>
+                <value>
+                    <fullName>Wireless 3G w/ POTS VADB</fullName>
+                    <default>false</default>
+                    <label>Wireless 3G w/ POTS VADB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Upsert_Msg__c</fullName>
+        <externalId>false</externalId>
+        <label>Upsert Msg</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Device</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>SAN__c</columns>
+        <columns>Customer_Device_ID__c</columns>
+        <columns>HWProduct_ID__c</columns>
+        <columns>Service_Level__c</columns>
+        <columns>Site_Type__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>HWProduct_ID__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>DVC-{00000000}</displayFormat>
+        <label>Device Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Devices</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Site_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SAN__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>SAN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customer_Device_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Site_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HWProduct_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>HSvc_State_CodeSearchInput</fullName>
+        <description>HSvc_State_CodeSearchInput</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>State_Code_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Effective_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Expiry_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>HSvc_State_CodeSearchInput</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>HSvc_State_CodeSearchOutput</fullName>
+        <description>HSvc_State_CodeSearchOutput</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>State_Code_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>is_Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Effective_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Expiry_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>HSvc_State_CodeSearchOutput</label>
+    </fieldSets>
+    <fields>
+        <fullName>Effective_Date__c</fullName>
+        <description>Date when the state code is valid. Same as Effective Date field on Resolution Code Data Admin object</description>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Expiry_Date__c</fullName>
+        <description>Date when the state code is invalid. Same as Expiry Date field on Resolution Code Data Admin object</description>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+	<fields>
+        <fullName>Hsvc_StateCodeDescriptionArgentina__c</fullName>
+        <externalId>false</externalId>
+        <label>State Code Description(Argentina)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_StateCodeDescriptionChile__c</fullName>
+        <externalId>false</externalId>
+        <label>State Code Description(Chile)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_StateCodeDescriptionEcuador__c</fullName>
+        <externalId>false</externalId>
+        <label>State Code Description(Ecuador)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_StateCodeDescriptionPanama__c</fullName>
+        <externalId>false</externalId>
+        <label>State Code Description(Panama)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_StateCodeDescriptionPeru__c</fullName>
+        <externalId>false</externalId>
+        <label>State Code Description(Peru)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Look up to Product Code field on HNS Product object filtered by Product Type ‘Service’</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Only Products of Type Service can be selected</errorMessage>
+            <filterItems>
+                <field>HNS_Products__c.Product_Type__c</field>
+                <operation>equals</operation>
+                <value>Service</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>HNS_Products__c</referenceTo>
+        <relationshipLabel>State Codes</relationshipLabel>
+        <relationshipName>Product_Codes</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>State_Code_Description_ENUS__c</fullName>
+        <description>Description of State Code.
+Ex: Fully Operational, MAC Address Invalid</description>
+        <externalId>false</externalId>
+        <label>State Code Description(English)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State_Code_Description_ESCO__c</fullName>
+        <description>This is state code description field for Spanish Language.</description>
+        <externalId>false</externalId>
+        <label>State Code Description(Colombia)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State_Code_Description__c</fullName>
+        <description>This is the formula field for multiple language which will be referenced in Classes and will be displayed to user.</description>
+        <externalId>false</externalId>
+        <formula>CASE($Label.Current_Language_Key,&apos;es_CO&apos;, IF(ISBLANK(State_Code_Description_ESCO__c), State_Code_Description_ENUS__c,State_Code_Description_ESCO__c), &apos;es_PA&apos;, IF(ISBLANK(Hsvc_StateCodeDescriptionPanama__c), State_Code_Description_ENUS__c,Hsvc_StateCodeDescriptionPanama__c),&apos;es_PE&apos;, IF(ISBLANK(Hsvc_StateCodeDescriptionPeru__c), State_Code_Description_ENUS__c,Hsvc_StateCodeDescriptionPeru__c),&apos;es_EC&apos;, IF(ISBLANK(Hsvc_StateCodeDescriptionEcuador__c), State_Code_Description_ENUS__c,Hsvc_StateCodeDescriptionEcuador__c),&apos;es_CL&apos;, IF(ISBLANK(Hsvc_StateCodeDescriptionChile__c), State_Code_Description_ENUS__c,Hsvc_StateCodeDescriptionChile__c),&apos;es_AR&apos;, IF(ISBLANK(Hsvc_StateCodeDescriptionArgentina__c), State_Code_Description_ENUS__c,Hsvc_StateCodeDescriptionArgentina__c), State_Code_Description_ENUS__c)</formula>
+        <label>State Code Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>is_Active__c</fullName>
+        <description>To find out whether or not a State Code is Active</description>
+        <externalId>false</externalId>
+        <formula>IF( AND( Effective_Date__c &lt;= TODAY() , Expiry_Date__c &gt; TODAY()),True, False)</formula>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>State Code</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>State_Code_Description__c</columns>
+        <columns>Product_Code__c</columns>
+        <columns>is_Active__c</columns>
+        <columns>Effective_Date__c</columns>
+        <columns>Expiry_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>State Code</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>State Codes</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>State_Code_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Code__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the expiry date is set in future and is greater that the effective date</description>
+        <errorConditionFormula>OR(Expiry_Date__c &lt; TODAY(),Expiry_Date__c &lt; Effective_Date__c)</errorConditionFormula>
+        <errorDisplayField>Expiry_Date__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>StateCodeDescriptionNotBlank</fullName>
+        <active>true</active>
+        <description>This validation checks that atleast any one of the description field should not be empty.</description>
+        <errorConditionFormula>((State_Code_Description_ESCO__c ==Null || State_Code_Description_ESCO__c ==&apos;&apos;) &amp;&amp;( State_Code_Description_ENUS__c ==NULL || State_Code_Description_ENUS__c ==&apos;&apos;))</errorConditionFormula>
+        <errorMessage>Please enter value in atleast One description field.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

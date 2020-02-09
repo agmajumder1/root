@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- HnsRmaOdataViews --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- HnsRmaOdataViews --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>ACCOUNTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BO_ID_SITE --></label>
+        <name>BO_ID_SITE__c</name>
+    </fields>
+    <fields>
+        <label><!-- BO_ID --></label>
+        <name>BO_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BUSINESS_UNIT --></label>
+        <name>BUSINESS_UNIT__c</name>
+    </fields>
+    <fields>
+        <label>Id. del Caso</label>
+        <name>CASE_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Central DB ID --></label>
+        <name>CENTRAL_DB_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Date (EST) --></label>
+        <name>EST_RETURN_DT__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAN --></label>
+        <name>HNS_SITE_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA ID --></label>
+        <name>RMA_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Return Type --></label>
+        <name>RMA_RET_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Row Added DateTime --></label>
+        <name>ROW_ADDED_DTTM__c</name>
+    </fields>
+    <fields>
+        <label><!-- SETID --></label>
+        <name>SETID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Site ID --></label>
+        <name>SITE_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Number --></label>
+        <name>ZERPRMANBR__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Issue Date --></label>
+        <name>ZRMAISSUEDT__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Status --></label>
+        <name>ZRMASTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expedite RMA --></label>
+        <name>ZSF_EXP_RMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waive Dispatch Fee --></label>
+        <name>ZSF_WAIVE_SHP_FEE__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

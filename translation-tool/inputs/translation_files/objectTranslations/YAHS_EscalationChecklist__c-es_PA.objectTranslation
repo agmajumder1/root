@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lista de Verificación del Escalamiento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Escalation Checklist</value>
+    </caseValues>
+    <fields>
+        <label>Descripción en español</label>
+        <name>Description_in_Spanish__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description in Portuguese --></label>
+        <name>YAHS_Description_In_Portuguese__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>YAHS_Description__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>YAHS_EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>YAHS_ExpiryDate__c</name>
+    </fields>
+    <fields>
+        <label>Mapeo Prioridad RIA</label>
+        <name>YAHS_RIAPriorityMapping__c</name>
+        <relationshipLabel>Lista de Verificación del Escalamiento</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Escalation Checklist Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre Lista de Verificación del Escalam</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Description in any one language is required --></errorMessage>
+        <name>AnyOneLanguageIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede establecer una fecha de vencimiento anterior y no puede ser menor a la fecha efectiva.</errorMessage>
+        <name>ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+</CustomObjectTranslation>

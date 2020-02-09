@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>HD_Disabled_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>HD Disabled Template</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HD_Permanent_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>HD Permanent Template</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HD_Temporary_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>HD Temporary Template</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Snooze_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Snooze Hours</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Common VideoOpt Configurations</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Límite de Configuración</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Límite de Configuración</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- HSVC_Limit_ConfigSearchInput --></label>
+        <name>HSVC_Limit_ConfigSearchInput</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HSVC_Limit_ConfigSearchOutput --></label>
+        <name>HSVC_Limit_ConfigSearchOutput</name>
+    </fieldSets>
+    <fields>
+        <label>Calcular desde</label>
+        <name>Calculate_From__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation>Fecha de creación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Fiscal Quarter</masterLabel>
+            <translation>Inicio de trimestre fiscal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Month</masterLabel>
+            <translation>Inicio de mes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Quarter</masterLabel>
+            <translation>Inicio de trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Year</masterLabel>
+            <translation>Inicio de año</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de días/meses</label>
+        <name>Number_Of_Days_Months__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation><!-- 31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de Ocurrencias</label>
+        <name>Number_Of_Occurrences__c</name>
+    </fields>
+    <fields>
+        <label>Número de días/meses</label>
+        <name>Number_of_Months__c</name>
+    </fields>
+    <fields>
+        <label>Periodo</label>
+        <name>Period__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation>Días</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation>Meses</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Due Date Change</masterLabel>
+            <translation>Cambio de la fecha de vencimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exemption Expiry</masterLabel>
+            <translation>Vencimiento de la exención</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fap Purchase</masterLabel>
+            <translation>Comprar datos adicionales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lock Transaction</masterLabel>
+            <translation>Suspensión temporal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivate Transaction</masterLabel>
+            <translation>Reactivar transacción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reissue Invoice</masterLabel>
+            <translation>Nueva Emisión de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Upgrade</masterLabel>
+            <translation>Cambio de servicio</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Limit Config Layout</layout>
+        <sections>
+            <label>Vínculos Personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre</nameFieldLabel>
+    <webLinks>
+        <label>Administración de Datos</label>
+        <name>Hsvc_Data_Admin</name>
+    </webLinks>
+</CustomObjectTranslation>

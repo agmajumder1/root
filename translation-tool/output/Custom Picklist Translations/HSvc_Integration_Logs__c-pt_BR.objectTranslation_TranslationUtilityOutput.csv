@@ -1,0 +1,74 @@
+Translation File,API Name,Error
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Invoke Purge API,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Create Installation & Provisioning task,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Invoke CLO API of DSS,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Service Prequal Callout,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Credit Check Callout,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Address Validation,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Account Info,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Invoke Billing API,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Invoke Billing Spec API,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Activate Vouchers,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Add Bandwidth,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,BRM WS Service,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Create Existing Customer Location Order,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Download Vouchers,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,FAP,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Account/Contact Information,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Account Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Current Usage,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Historical Usage,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch SP Voucher Balance,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Subscriber Details,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Voucher Batch Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Fetch Voucher Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Generate Voucher Batch,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,GetbandwidthInfo,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Bandwidth Info,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get FAP Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get SP Account Balance,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get SP Voucher Account Balance,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Usage,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Getusage API,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Voucher Batch Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Voucher Information File,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Voucher Status List,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Manage FAP Token,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Manage Free FAP Token,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Notify Voucher Batch Print,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Provision Data Allowance,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Redeem Voucher,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Remove Existing CustomerLocation Order,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Reverse Voucher,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,SLVT Op,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Terminate Service,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Transport Feasibility,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Unprovision Data Allowance,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Update Migrated to Captive Portal Status,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Validate SAN/ESN,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Validate Voucher List,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,viewAccountInfo,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,View Account Info,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Void Individual Voucher,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Void Voucher Range,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,FetchCreditReportCheck,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,FetchFAPOffers,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Forgot Password,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Forgot Username,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Geocoding,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Tax,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Get Terminate Info,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,GetOffers,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,InitiateCreditCheck,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,PostFapPurchase,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,PreFAPPurchase,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,UpdateProfile,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,selfregister,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Download Contract,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Success,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Failure,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Success,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Failure,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Request,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Response,API name not found in translation file.
+HSvc_Integration_Logs__c-pt_BR.objectTranslation,Request & Response,API name not found in translation file.

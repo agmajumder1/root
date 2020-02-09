@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom setting that contains a list of page names along with profiles and the custom permission to access. If the page+profile is not in the custom setting, it will be considered open to that profile.
+
+Note: This only limits access for non internal profiles aka profiles that are not of &quot;Standard&quot; license type.
+
+Example
+page1 profile1 permission1 - users with profile1 can access page1 only if they have permission1. 
+page1 profile1 N/A - Only users with profile1 can access page1
+N/A - all users can access page since it&apos;s not in custom setting.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CustomPermission__c</fullName>
+        <externalId>false</externalId>
+        <label>CustomPermission</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PageName__c</fullName>
+        <externalId>false</externalId>
+        <label>PageName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile_Overflow__c</fullName>
+        <externalId>false</externalId>
+        <label>Profile Overflow</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile__c</fullName>
+        <externalId>false</externalId>
+        <label>Profile</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PageAccessPermissions</label>
+    <visibility>Public</visibility>
+</CustomObject>

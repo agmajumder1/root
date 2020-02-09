@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Billing Identity --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Billing Identity --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>HSvc_Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chilean Identity Card (RUN)</masterLabel>
+            <translation>Cédula de identidad (RUN)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chilean Tax Identification Number (RUT)</masterLabel>
+            <translation>Rol Único Tributario (RUT)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citizenship Card</masterLabel>
+            <translation>Cédula de Ciudadania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver License</masterLabel>
+            <translation><!-- Driver License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Citizenship Card</masterLabel>
+            <translation>Cédula de Ciudadania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Foreigner Id</masterLabel>
+            <translation>Cédula de identidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Tax Identification Number (RUC) Legal Person</masterLabel>
+            <translation>RUC Persona Juridica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Tax Identification Number (RUC) Natural Person</masterLabel>
+            <translation><!-- Ecuador Tax Identification Number (RUC) Natural Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreigner ID</masterLabel>
+            <translation>Cédula de Extranjería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation><!-- Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru Foreigner ID (CE)</masterLabel>
+            <translation>Carnet de Extranjería (CE)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru National Identity Document (DNI)</masterLabel>
+            <translation>Documento Nacional de Identidad (DNI)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru Tax Identification Number (RUC)</masterLabel>
+            <translation>Registro Unico de Contribuyentes (RUC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Identification Number (NIT)</masterLabel>
+            <translation>NIT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voting Card</masterLabel>
+            <translation><!-- Voting Card --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Billing Identity --></nameFieldLabel>
+</CustomObjectTranslation>

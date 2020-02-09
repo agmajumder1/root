@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteBannerPhotoAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditUserAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FreezeUserAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LinkToSetupUserDetailAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ManagePermSetsAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PasswordUnlockAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResetPasswordAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UpdateBannerPhotoAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UserActivationAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Read</externalSharingModel>
+    <fieldSets>
+        <fullName>Yahs_CP_UserInformation</fullName>
+        <description>To populate logged in user details on case</description>
+        <displayedFields>
+            <field>LastName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Phone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Yahs_CP_UserInformation</label>
+    </fieldSets>
+    <fields>
+        <fullName>CMS_Role__c</fullName>
+        <externalId>false</externalId>
+        <label>CMS Role</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CP_Is_Email_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Email Sent</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Country_of_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Country of Business</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Agent_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Agent Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Enterprise</fullName>
+                    <default>false</default>
+                    <label>Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Universal</fullName>
+                    <default>false</default>
+                    <label>Universal</label>
+                </value>
+                <value>
+                    <fullName>Not applicable</fullName>
+                    <default>false</default>
+                    <label>Not applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_DSS_User_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>DSS User Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Federation_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>PS/Federation ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_NMP_User_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>NMP User Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_PS_User_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>PS User Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_Default_Queue__c</fullName>
+        <externalId>false</externalId>
+        <label>Default Queue</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>HSvc_Agent_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TP Monterrey Universal</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey Universal</label>
+                </value>
+                <value>
+                    <fullName>TP Monterrey MOD</fullName>
+                    <default>false</default>
+                    <label>TP Monterrey MOD</label>
+                </value>
+                <value>
+                    <fullName>South America Control Center</fullName>
+                    <default>false</default>
+                    <label>South America Control Center</label>
+                </value>
+                <value>
+                    <fullName>Hughes Distributor</fullName>
+                    <default>false</default>
+                    <label>Hughes Distributor</label>
+                </value>
+                <value>
+                    <fullName>SDG</fullName>
+                    <default>false</default>
+                    <label>SDG</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Colombia</fullName>
+                    <default>false</default>
+                    <label>Hughes de Colombia</label>
+                </value>
+                <value>
+                    <fullName>General Ops</fullName>
+                    <default>false</default>
+                    <label>General Ops</label>
+                </value>
+                <value>
+                    <fullName>MOD</fullName>
+                    <default>false</default>
+                    <label>MOD</label>
+                </value>
+                <value>
+                    <fullName>Universal</fullName>
+                    <default>false</default>
+                    <label>Universal</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Panama</fullName>
+                    <default>false</default>
+                    <label>Hughes de Panama</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Peru</fullName>
+                    <default>false</default>
+                    <label>Hughes de Peru</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Ecuador</fullName>
+                    <default>false</default>
+                    <label>Hughes de Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Chile</fullName>
+                    <default>false</default>
+                    <label>Hughes de Chile</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Corporate (HQ)</fullName>
+                    <default>false</default>
+                    <label>Hughes de Corporate (HQ)</label>
+                </value>
+                <value>
+                    <fullName>Hughes de Argentina</fullName>
+                    <default>false</default>
+                    <label>Hughes de Argentina</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Frontline</fullName>
+                    <default>false</default>
+                    <label>Ent SA Frontline</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Field Support</fullName>
+                    <default>false</default>
+                    <label>Ent SA Field Support</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Control Desk</fullName>
+                    <default>false</default>
+                    <label>Ent SA Control Desk</label>
+                </value>
+                <value>
+                    <fullName>Ent SA Business Analyst</fullName>
+                    <default>false</default>
+                    <label>Ent SA Business Analyst</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>TP Monterrey Universal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>TP Monterrey MOD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>South America Control Center</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>Hughes Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>SDG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>Hughes de Colombia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>General Ops</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <controllingFieldValue>Universal</controllingFieldValue>
+                <valueName>MOD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <valueName>Hughes de Panama</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <valueName>Hughes de Peru</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <valueName>Hughes de Ecuador</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <valueName>Hughes de Chile</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <valueName>Hughes de Corporate (HQ)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <valueName>Ent SA Frontline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <valueName>Ent SA Field Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <valueName>Ent SA Control Desk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer</controllingFieldValue>
+                <controllingFieldValue>Enterprise</controllingFieldValue>
+                <valueName>Ent SA Business Analyst</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ManagerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <listViews>
+        <fullName>ActiveUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Users</label>
+    </listViews>
+    <listViews>
+        <fullName>AdminUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>System Administrator</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Admin Users</label>
+    </listViews>
+    <listViews>
+        <fullName>AllUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Users</label>
+        <language>en_US</language>
+    </listViews>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USER_ROLE.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USER_ROLE.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.EXTENSION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.CELL</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.EMAIL</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <webLinks>
+        <fullName>Setup_FAP_External_System_Creds</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Setup FAP &amp; External System Creds</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/HSvc_UserFapandCredsConfiguration?UserID={!User.Id}</url>
+    </webLinks>
+</CustomObject>

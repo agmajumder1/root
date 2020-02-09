@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom Product Object for Hughes.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>HSvc_Productsearch</fullName>
+        <description>Field set been used in the SaerchUI</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Family__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product_Grouping_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>HSvc_Productsearch</label>
+    </fieldSets>
+    <fields>
+        <fullName>Adapter_Mode__c</fullName>
+        <description>Adapter Model</description>
+        <externalId>false</externalId>
+        <label>Adapter Model</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Association__c</fullName>
+        <externalId>false</externalId>
+        <label>Association</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hosted By</fullName>
+                    <default>false</default>
+                    <label>Hosted By</label>
+                </value>
+                <value>
+                    <fullName>Managed By</fullName>
+                    <default>false</default>
+                    <label>Managed By</label>
+                </value>
+                <value>
+                    <fullName>Connected To</fullName>
+                    <default>false</default>
+                    <label>Connected To</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Billing_Category__c</fullName>
+        <description>Billing Category is Similar to Product Grouping but needed by Billing</description>
+        <externalId>false</externalId>
+        <label>Billing Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wireline</fullName>
+                    <default>false</default>
+                    <label>Wireline</label>
+                </value>
+                <value>
+                    <fullName>VADB</fullName>
+                    <default>false</default>
+                    <label>VADB</label>
+                </value>
+                <value>
+                    <fullName>Active Bonding</fullName>
+                    <default>false</default>
+                    <label>Active Bonding</label>
+                </value>
+                <value>
+                    <fullName>Wireless</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+                <value>
+                    <fullName>Satellite</fullName>
+                    <default>false</default>
+                    <label>Satellite</label>
+                </value>
+                <value>
+                    <fullName>WiFi</fullName>
+                    <default>false</default>
+                    <label>WiFi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Billing_Service_Category__c</fullName>
+        <description>Billing Service Category is Similar to Product Grouping but needed by Billing</description>
+        <externalId>false</externalId>
+        <label>Billing Service Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wireline</fullName>
+                    <default>false</default>
+                    <label>Wireline</label>
+                </value>
+                <value>
+                    <fullName>VADB</fullName>
+                    <default>false</default>
+                    <label>VADB</label>
+                </value>
+                <value>
+                    <fullName>Active Bonding</fullName>
+                    <default>false</default>
+                    <label>Active Bonding</label>
+                </value>
+                <value>
+                    <fullName>Wireless</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+                <value>
+                    <fullName>Satellite</fullName>
+                    <default>false</default>
+                    <label>Satellite</label>
+                </value>
+                <value>
+                    <fullName>WiFi</fullName>
+                    <default>false</default>
+                    <label>WiFi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_Segment__c</fullName>
+        <description>Indicates launch of a product for 1 or more business segments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates launch of a product for 1 or more business segments</inlineHelpText>
+        <label>Business Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>SMEBI</fullName>
+                    <default>false</default>
+                    <label>SMEBI</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>VAR</fullName>
+                    <default>false</default>
+                    <label>VAR</label>
+                </value>
+                <value>
+                    <fullName>Franchise</fullName>
+                    <default>false</default>
+                    <label>Franchise</label>
+                </value>
+                <value>
+                    <fullName>Large Enterprise</fullName>
+                    <default>false</default>
+                    <label>Large Enterprise</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Device_ID_Suffix__c</fullName>
+        <description>Device ID Suffix</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In case Device ID is needed, then Suffix for the Device ID. E.g. Modem with M, Router ending with R, Service ending with S
+
+Device ID suffix to be kept same for VSAT hardware and service products.</inlineHelpText>
+        <label>Device ID Suffix</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Install__c</fullName>
+        <description>Indicates End of Life of a given product for Installation purposes</description>
+        <externalId>false</externalId>
+        <label>End of Life for Install</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Sale__c</fullName>
+        <description>Indicates End of Life of a given product for Sales purposes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates End of Life of a given product for Sales purposes</inlineHelpText>
+        <label>End of Life for Sale</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_of_Life_for_Support__c</fullName>
+        <description>Indicates End of Life of a given product for customer service purposes</description>
+        <externalId>false</externalId>
+        <label>End of Life for Support</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Installed_or_Provisioned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is Installed or Provisioned?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether a given Product is to be Installed / Provisioned or not</inlineHelpText>
+        <label>Is Installed or Provisioned</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Quantity_Applicable__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Product_Type__c) = &apos;Service&apos;  &amp;&amp;   (Product_Grouping__r.Name = &apos;Wi-Fi&apos;  || Product_Grouping__r.Name = &apos;Digital Media&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Quantity Applicable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Launch_Status__c</fullName>
+        <description>Indicates launched status of a Product</description>
+        <externalId>false</externalId>
+        <label>Launch Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Marketing Pilot</fullName>
+                    <default>false</default>
+                    <label>Marketing Pilot</label>
+                </value>
+                <value>
+                    <fullName>Field Pilot</fullName>
+                    <default>false</default>
+                    <label>Field Pilot</label>
+                </value>
+                <value>
+                    <fullName>Feature Restricted</fullName>
+                    <default>false</default>
+                    <label>Feature Restricted</label>
+                </value>
+                <value>
+                    <fullName>Volume Restricted</fullName>
+                    <default>false</default>
+                    <label>Volume Restricted</label>
+                </value>
+                <value>
+                    <fullName>Customer Specific</fullName>
+                    <default>false</default>
+                    <label>Customer Specific</label>
+                </value>
+                <value>
+                    <fullName>Unrestricted</fullName>
+                    <default>true</default>
+                    <label>Unrestricted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NEP_Product__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>NEP Product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NEP Product</inlineHelpText>
+        <label>NEP Product</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Needs_Device_ID__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Needs Device ID?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether to generate a Device ID or not using Device ID generator</inlineHelpText>
+        <label>Needs Device ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_Site_Type__c</fullName>
+        <description>New Site Types</description>
+        <externalId>false</externalId>
+        <inlineHelpText>New Site Types</inlineHelpText>
+        <label>New Site Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Broadband Remote</fullName>
+                    <default>false</default>
+                    <label>Broadband Remote</label>
+                </value>
+                <value>
+                    <fullName>Spaceway</fullName>
+                    <default>false</default>
+                    <label>Spaceway</label>
+                </value>
+                <value>
+                    <fullName>Jupiter</fullName>
+                    <default>false</default>
+                    <label>Jupiter</label>
+                </value>
+                <value>
+                    <fullName>Waiting on BG to Provide</fullName>
+                    <default>false</default>
+                    <label>Waiting on BG to Provide</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active Bonding</fullName>
+                    <default>false</default>
+                    <label>Active Bonding</label>
+                </value>
+                <value>
+                    <fullName>Broadband Remote</fullName>
+                    <default>false</default>
+                    <label>Broadband Remote</label>
+                </value>
+                <value>
+                    <fullName>BYOB</fullName>
+                    <default>false</default>
+                    <label>BYOB</label>
+                </value>
+                <value>
+                    <fullName>Cable</fullName>
+                    <default>false</default>
+                    <label>Cable</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L2</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>Dedicated ADSL L3</fullName>
+                    <default>false</default>
+                    <label>Dedicated ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>Digital Media</fullName>
+                    <default>false</default>
+                    <label>Digital Media</label>
+                </value>
+                <value>
+                    <fullName>DSL POTS</fullName>
+                    <default>false</default>
+                    <label>DSL POTS</label>
+                </value>
+                <value>
+                    <fullName>Elearning</fullName>
+                    <default>false</default>
+                    <label>Elearning</label>
+                </value>
+                <value>
+                    <fullName>Guest WiFi</fullName>
+                    <default>false</default>
+                    <label>Guest WiFi</label>
+                </value>
+                <value>
+                    <fullName>Hx VSAT</fullName>
+                    <default>false</default>
+                    <label>Hx VSAT</label>
+                </value>
+                <value>
+                    <fullName>Jupiter</fullName>
+                    <default>false</default>
+                    <label>Jupiter</label>
+                </value>
+                <value>
+                    <fullName>Standard Wireless</fullName>
+                    <default>false</default>
+                    <label>Standard Wireless</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L2</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L2</label>
+                </value>
+                <value>
+                    <fullName>Shared ADSL L3</fullName>
+                    <default>false</default>
+                    <label>Shared ADSL L3</label>
+                </value>
+                <value>
+                    <fullName>Spaceway</fullName>
+                    <default>false</default>
+                    <label>Spaceway</label>
+                </value>
+                <value>
+                    <fullName>T1</fullName>
+                    <default>false</default>
+                    <label>T1</label>
+                </value>
+                <value>
+                    <fullName>VADB</fullName>
+                    <default>false</default>
+                    <label>VADB</label>
+                </value>
+                <value>
+                    <fullName>VADB POTS</fullName>
+                    <default>false</default>
+                    <label>VADB POTS</label>
+                </value>
+                <value>
+                    <fullName>VOIP</fullName>
+                    <default>false</default>
+                    <label>VOIP</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR STD EXISTING CUST WITH COMMIT</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR STD EXISTING CUST WITH COMMIT</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR STD NEW CUST</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR STD NEW CUST</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR STD EXISTING CUST NO COMMIT</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR STD EXISTING CUST NO COMMIT</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR PLUS NEW CUST</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR PLUS NEW CUST</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR PLUS EXISTING CUST NO COMMIT</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR PLUS EXISTING CUST NO COMMIT</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR PLUS EXISTING CUST WITH COMMI</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR PLUS EXISTING CUST WITH COMMI</label>
+                </value>
+                <value>
+                    <fullName>SRVC ASSUR PLUS NEW CUST BUY UP</fullName>
+                    <default>false</default>
+                    <label>SRVC ASSUR PLUS NEW CUST BUY UP</label>
+                </value>
+                <value>
+                    <fullName>TIME AND MATERIAL</fullName>
+                    <default>false</default>
+                    <label>TIME AND MATERIAL</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME W/O COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME W/O COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME WITH COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME WITH COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS W/O COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS W/O COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS WITH COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS WITH COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME W/O COMMITMENT</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME W/O COMMITMENT</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR HOME WITH COMMITMENT</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR HOME WITH COMMITMENT</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS W/O COMMITMENT</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS W/O COMMITMENT</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BUSINESS WITH COMMITMENT</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BUSINESS WITH COMMITMENT</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BASIC WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BASIC WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BASIC W/O COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BASIC W/O COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>EXPRESS REPAIR BASIC WITH COMMITMENT WITH TERM</fullName>
+                    <default>false</default>
+                    <label>EXPRESS REPAIR BASIC WITH COMMITMENT WITH TERM</label>
+                </value>
+                <value>
+                    <fullName>2ND BUSINESS DAY ARRIVAL</fullName>
+                    <default>false</default>
+                    <label>2ND BUSINESS DAY ARRIVAL</label>
+                </value>
+                <value>
+                    <fullName>CONTINUOUS COVERAGE</fullName>
+                    <default>false</default>
+                    <label>CONTINUOUS COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>EXTENDED 18 X 7 COVERAGE</fullName>
+                    <default>false</default>
+                    <label>EXTENDED 18 X 7 COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>EXTENDED COVERAGE</fullName>
+                    <default>false</default>
+                    <label>EXTENDED COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>EXTENDED PLUS COVERAGE</fullName>
+                    <default>false</default>
+                    <label>EXTENDED PLUS COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>NEXT BUSINESS DAY - FLAT FEE</fullName>
+                    <default>false</default>
+                    <label>NEXT BUSINESS DAY - FLAT FEE</label>
+                </value>
+                <value>
+                    <fullName>NEXT BUSINESS DAY COVERAGE</fullName>
+                    <default>false</default>
+                    <label>NEXT BUSINESS DAY COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>NEXT DAY COVERAGE</fullName>
+                    <default>false</default>
+                    <label>NEXT DAY COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>SAME BUSINESS DAY COVERAGE</fullName>
+                    <default>false</default>
+                    <label>SAME BUSINESS DAY COVERAGE</label>
+                </value>
+                <value>
+                    <fullName>Wireline</fullName>
+                    <default>false</default>
+                    <label>Wireline</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Sports</fullName>
+                    <default>false</default>
+                    <label>Sports</label>
+                </value>
+                <value>
+                    <fullName>Radio</fullName>
+                    <default>false</default>
+                    <label>Radio</label>
+                </value>
+                <value>
+                    <fullName>Learning</fullName>
+                    <default>false</default>
+                    <label>Learning</label>
+                </value>
+                <value>
+                    <fullName>Variety</fullName>
+                    <default>false</default>
+                    <label>Variety</label>
+                </value>
+                <value>
+                    <fullName>Games</fullName>
+                    <default>false</default>
+                    <label>Games</label>
+                </value>
+                <value>
+                    <fullName>Music</fullName>
+                    <default>false</default>
+                    <label>Music</label>
+                </value>
+                <value>
+                    <fullName>Music Premium</fullName>
+                    <default>false</default>
+                    <label>Music Premium</label>
+                </value>
+                <value>
+                    <fullName>Dual CPE HAN</fullName>
+                    <default>false</default>
+                    <label>Dual CPE HAN</label>
+                </value>
+                <value>
+                    <fullName>Single HAN CPE</fullName>
+                    <default>false</default>
+                    <label>Single HAN CPE</label>
+                </value>
+                <value>
+                    <fullName>Single Transport LAN</fullName>
+                    <default>false</default>
+                    <label>Single Transport LAN</label>
+                </value>
+                <value>
+                    <fullName>Shared Fiber</fullName>
+                    <default>false</default>
+                    <label>Shared Fiber</label>
+                </value>
+                <value>
+                    <fullName>Dedicated Fiber</fullName>
+                    <default>false</default>
+                    <label>Dedicated Fiber</label>
+                </value>
+                <value>
+                    <fullName>Zone Alarm Internet Security Suite</fullName>
+                    <default>false</default>
+                    <label>Zone Alarm Internet Security Suite</label>
+                </value>
+                <value>
+                    <fullName>PC System Essentials</fullName>
+                    <default>false</default>
+                    <label>PC System Essentials</label>
+                </value>
+                <value>
+                    <fullName>HughesNet Voice</fullName>
+                    <default>false</default>
+                    <label>HughesNet Voice</label>
+                </value>
+                <value>
+                    <fullName>UNKNOWN</fullName>
+                    <default>false</default>
+                    <label>UNKNOWN</label>
+                </value>
+                <value>
+                    <fullName>Acceleration Appliance</fullName>
+                    <default>false</default>
+                    <label>Acceleration Appliance</label>
+                </value>
+                <value>
+                    <fullName>Enterprise VOIP</fullName>
+                    <default>false</default>
+                    <label>Enterprise VOIP</label>
+                </value>
+                <value>
+                    <fullName>Enterprise WiFI</fullName>
+                    <default>false</default>
+                    <label>Enterprise WiFI</label>
+                </value>
+                <value>
+                    <fullName>Ethernet Asymmetric AsyE</fullName>
+                    <default>false</default>
+                    <label>Ethernet Asymmetric AsyE</label>
+                </value>
+                <value>
+                    <fullName>Ethernet Copper EoC</fullName>
+                    <default>false</default>
+                    <label>Ethernet Copper EoC</label>
+                </value>
+                <value>
+                    <fullName>Guest WiFi Helpdesk</fullName>
+                    <default>false</default>
+                    <label>Guest WiFi Helpdesk</label>
+                </value>
+                <value>
+                    <fullName>Next Business Day</fullName>
+                    <default>false</default>
+                    <label>Next Business Day</label>
+                </value>
+                <value>
+                    <fullName>Next Calendar Day</fullName>
+                    <default>false</default>
+                    <label>Next Calendar Day</label>
+                </value>
+                <value>
+                    <fullName>Platinum Helpdesk</fullName>
+                    <default>false</default>
+                    <label>Platinum Helpdesk</label>
+                </value>
+                <value>
+                    <fullName>Premium Helpdesk</fullName>
+                    <default>false</default>
+                    <label>Premium Helpdesk</label>
+                </value>
+                <value>
+                    <fullName>Premium Security Service</fullName>
+                    <default>false</default>
+                    <label>Premium Security Service</label>
+                </value>
+                <value>
+                    <fullName>Professional Install</fullName>
+                    <default>false</default>
+                    <label>Professional Install</label>
+                </value>
+                <value>
+                    <fullName>Rogue WiFi</fullName>
+                    <default>false</default>
+                    <label>Rogue WiFi</label>
+                </value>
+                <value>
+                    <fullName>Router</fullName>
+                    <default>false</default>
+                    <label>Router</label>
+                </value>
+                <value>
+                    <fullName>Temp Wireless</fullName>
+                    <default>false</default>
+                    <label>Temp Wireless</label>
+                </value>
+                <value>
+                    <fullName>Tier 1 Helpdesk</fullName>
+                    <default>false</default>
+                    <label>Tier 1 Helpdesk</label>
+                </value>
+                <value>
+                    <fullName>Tier 3 Helpdesk</fullName>
+                    <default>false</default>
+                    <label>Tier 3 Helpdesk</label>
+                </value>
+                <value>
+                    <fullName>VDOM</fullName>
+                    <default>false</default>
+                    <label>VDOM</label>
+                </value>
+                <value>
+                    <fullName>VOIP ATA</fullName>
+                    <default>false</default>
+                    <label>VOIP ATA</label>
+                </value>
+                <value>
+                    <fullName>Wi-Fi AP</fullName>
+                    <default>false</default>
+                    <label>Wi-Fi AP</label>
+                </value>
+                <value>
+                    <fullName>Wi-Fi Controller</fullName>
+                    <default>false</default>
+                    <label>Wi-Fi Controller</label>
+                </value>
+                <value>
+                    <fullName>Wi-Fi Virtual Controller</fullName>
+                    <default>false</default>
+                    <label>Wi-Fi Virtual Controller</label>
+                </value>
+                <value>
+                    <fullName>Wireless Modem</fullName>
+                    <default>false</default>
+                    <label>Wireless Modem</label>
+                </value>
+                <value>
+                    <fullName>Wireline Modem</fullName>
+                    <default>false</default>
+                    <label>Wireline Modem</label>
+                </value>
+                <value>
+                    <fullName>Wireline Modem - AB</fullName>
+                    <default>false</default>
+                    <label>Wireline Modem - AB</label>
+                </value>
+                <value>
+                    <fullName>Wireline Modem - ABV</fullName>
+                    <default>false</default>
+                    <label>Wireline Modem - ABV</label>
+                </value>
+                <value>
+                    <fullName>Satellite Modem</fullName>
+                    <default>false</default>
+                    <label>Satellite Modem</label>
+                </value>
+                <value>
+                    <fullName>Switch</fullName>
+                    <default>false</default>
+                    <label>Switch</label>
+                </value>
+                <value>
+                    <fullName>Modem</fullName>
+                    <default>false</default>
+                    <label>Modem</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>&quot;Services - Same as Site types
+Hardware  - Same as SAP Part Number.
+
+&quot;&quot;Hardware Product&quot;&quot; created from SAP to Installation Portal to Salesforce.
+
+&quot;&quot;Service Products&quot;&quot; created in Salesforce directly.&quot;</description>
+        <externalId>true</externalId>
+        <inlineHelpText>&quot;Services - Same as Site types
+Hardware  - Same as SAP Part Number.
+
+&quot;&quot;Hardware Product&quot;&quot; created from SAP to Installation Portal to Salesforce.
+
+&quot;&quot;Service Products&quot;&quot; created in Salesforce directly.&quot;</inlineHelpText>
+        <label>Product Code</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Description__c</fullName>
+        <description>Product Description</description>
+        <externalId>false</externalId>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <description>Products are classified in to 4 families i.e. Internet Access, Secure WAN, Premium Services and Support.</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Internet Access Service</fullName>
+                    <default>false</default>
+                    <label>Internet Access Service</label>
+                </value>
+                <value>
+                    <fullName>Premium / Value Added Services</fullName>
+                    <default>false</default>
+                    <label>Premium / Value Added Services</label>
+                </value>
+                <value>
+                    <fullName>Field Maintenance</fullName>
+                    <default>false</default>
+                    <label>Field Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Help Desk Support</fullName>
+                    <default>false</default>
+                    <label>Help Desk Support</label>
+                </value>
+                <value>
+                    <fullName>Install Support</fullName>
+                    <default>false</default>
+                    <label>Install Support</label>
+                </value>
+                <value>
+                    <fullName>Local Network Infrastructure</fullName>
+                    <default>false</default>
+                    <label>Local Network Infrastructure</label>
+                </value>
+                <value>
+                    <fullName>Voice</fullName>
+                    <default>false</default>
+                    <label>Voice</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>BOM</fullName>
+                    <default>false</default>
+                    <label>BOM</label>
+                </value>
+                <value>
+                    <fullName>Secure LAN</fullName>
+                    <default>false</default>
+                    <label>Secure LAN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Grouping_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Grouping__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Grouping Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Grouping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Link to Product Group</description>
+        <externalId>false</externalId>
+        <label>Product Grouping</label>
+        <referenceTo>Product_Grouping__c</referenceTo>
+        <relationshipLabel>HNS Products</relationshipLabel>
+        <relationshipName>HNS_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_SubFamily__c</fullName>
+        <description>Products are further classified in to Service, Hardware, Device, Field Maintenance, Help Desk Support or Install Support.</description>
+        <externalId>false</externalId>
+        <label>Product SubFamily</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Device</fullName>
+                    <default>false</default>
+                    <label>Device</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <description>Products are further classified in to Service, Hardware, Device, Field Maintenance, Help Desk Support or Install Support.</description>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Device</fullName>
+                    <default>false</default>
+                    <label>Device</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>BOM</fullName>
+                    <default>false</default>
+                    <label>BOM</label>
+                </value>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>false</default>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Complex Promotion</fullName>
+                    <default>false</default>
+                    <label>Complex Promotion</label>
+                </value>
+                <value>
+                    <fullName>Commitment</fullName>
+                    <default>false</default>
+                    <label>Commitment</label>
+                </value>
+                <value>
+                    <fullName>Additional Charge</fullName>
+                    <default>false</default>
+                    <label>Additional Charge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sent_to_WWTS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>A Flag to Indicate the Product may send to WWTS</description>
+        <externalId>false</externalId>
+        <label>Sent to WWTS</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Visible_for_Customer_Service__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Visible for Customer Service?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This flag is used to decide if an asset referencing this Product is to be shown on Customer Service Asset Hierarchy UI</inlineHelpText>
+        <label>Visible for Customer Service</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>HNS Product</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>Product_Description__c</columns>
+        <columns>Product_Category__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Product_Code__c</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>HT20</value>
+        </filters>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>HNS Product Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>HNS Products</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Product_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Family__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Grouping__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Code__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Family__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Grouping__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>Product_Code__c</lookupFilterFields>
+        <lookupFilterFields>Product_Family__c</lookupFilterFields>
+        <lookupFilterFields>Product_Type__c</lookupFilterFields>
+        <lookupFilterFields>Product_Category__c</lookupFilterFields>
+        <lookupFilterFields>Product_Grouping__c</lookupFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Product_Code__c</searchFilterFields>
+        <searchResultsAdditionalFields>Product_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Family__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Grouping__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Launch_Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Device_ID_Suffix_Value_Validation</fullName>
+        <active>true</active>
+        <description>This Validation used to validate the Value of Device ID NOT to have NA, N/A, and NONE</description>
+        <errorConditionFormula>IF( NOT ISNULL( Device_ID_Suffix__c ) &amp;&amp; ( UPPER(Device_ID_Suffix__c) =&apos;NA&apos;  || UPPER(Device_ID_Suffix__c) =&apos;N/A&apos; || UPPER(Device_ID_Suffix__c) =&apos;NONE&apos;), TRUE  , FALSE)</errorConditionFormula>
+        <errorMessage>Device ID Suffix Should NOT be N/A or NA or NONE</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Product_Code_Not_Editing_Once_Created</fullName>
+        <active>true</active>
+        <description>This Validation Rule is Used to Stop Editing the Product Code once it is Created</description>
+        <errorConditionFormula>ISCHANGED( Product_Code__c )</errorConditionFormula>
+        <errorDisplayField>Product_Code__c</errorDisplayField>
+        <errorMessage>Product Code Cannot be Edited after it is created.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Product_Code_and_Product_category_same</fullName>
+        <active>false</active>
+        <description>Validation rule to ensure that “Product Code” and “Product Category” having same value for Product type = Service or Support</description>
+        <errorConditionFormula>IF( TEXT(Product_Type__c) = &apos;Service&apos; || TEXT(Product_Type__c) = &apos;Support&apos;, 
+Product_Code__c  &lt;&gt;  TEXT(Product_Category__c), 
+Product_Code__c  =  TEXT(Product_Category__c))</errorConditionFormula>
+        <errorMessage>Product Code and Product Category should be the same value for Product type = Service or Support</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

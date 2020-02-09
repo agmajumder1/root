@@ -1,0 +1,738 @@
+Translation File,API Name,Error
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Accept Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Ack customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Acknowledge customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Added,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Address bandwidth,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Adjust appointment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Adjust browser settings,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Adjust due date,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Adjust service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Advise PC clean up,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Application restart,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply adjustment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply adjustments,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply credits,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply extension,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply Token(s) from bank,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply tokens,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Begin prov new service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel account,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancelled,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Communicate to customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,communicate to PM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Complete,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Complete investigate,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Complete report,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Complete research,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Considering,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contact customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contact customer address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contacted,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Corrected Configuration,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Corrected Connections,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Correct Routes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Could not complete,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Create Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Create RMA request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Clear Obstruction,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Ed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer to replace cables,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Will Configure,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Will Correct,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Dispatch,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Dispatch Tech,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Email customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Escalate,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Escalated,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Escalate to NMC,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Explain charges,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Explained,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fixed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in CRM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in DSS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in EMS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in NMP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Follow on action,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Follow-up and Monitor,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Give Courtesy Token(s),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform Field services team,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform Hughes CS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform Installation team,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform PM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Issue Adjustment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Issue Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Left Message,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Load sheet,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Monitoring,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Monitor Outage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Move Dish,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Answer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Processed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other (Explain in Notes),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pending,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pending Account holder,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pending Cancel,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pending Not Account holder,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Approval,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Cancellation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process decommission,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Processed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Full Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process or send email,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Partial Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process prequal,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provide customer correct information,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provided Information,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provide information details,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Purchase Token(s),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Readjust appointment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Receive manually,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reconcile,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reconnect,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer back to customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Referred to 3rd Party,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to 3rd Party,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to application provider,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to Billing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to HNS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to Installation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to NMC,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to PIP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to provider,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to Retention,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reject,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reject request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reload configuration,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove 3rd Party Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove lock,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace Cable,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace hardware,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace power,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repoint,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report Issue to Control Desk/NMC,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report to Hughes PM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report to Installation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report to NE,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report to requestor,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Resolve,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Resolved,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Respond to customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Restore service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retain Customer No Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retain Customer with Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Review service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Saved,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Send for approval,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Send info to requestor,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Send PO,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Send results,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Send to Retention,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Sent tech,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Set up Account,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Suspend PAM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Take payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Updated,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update firmware,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upload site record,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upload spreadsheet,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upload Static IP change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Use a Different Application,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Verify upload spreadsheet,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wait for Commercial Power,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wait for New Allowance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wait for outage to Clear,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wait for Weather to Clear,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Working with the NAP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,None,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,3rd Party Application,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,3rd Party Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,3rd party Device Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,3rd Party Equip,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Ability to Solve Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Accessibility/Wait times,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Account not Set-up,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Account Past Due,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Activation Failure,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add Authorized User,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add Core Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add New Core Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add New Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add professional Voice Install,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add Voice Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add Wireless Router,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Adjust service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Administrator login,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Advertising/Marketing Accuracy,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Agent Courtesy,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Agent Courtesy/Professionalism,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Agent Understandability,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,AP Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Application,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Application Issue - Customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Application Issue - Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Apply Static IP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Appointment Confirmation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Available Appointments,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Bad Cables/Wiring,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Bent Pole,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Bill Date change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Broken,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Business System Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel Porting,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Capture Business Info,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Appointment Time,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Core Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Changed Mind,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Configuration,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Configuration Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmation Email,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmed/Known Issue - Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmed Issue - Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmed Issue - Partner,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmed Outage - Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Confirmed Outage - Partner,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Construction,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contact Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contract not matching service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Convert Hardware Program,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cost,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Create Email,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Create notification email,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Create upload spreadsheet,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Account Past Due,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Ed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Routing Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Defective Power Supply,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Delivered to incorrect address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Did not leave/install equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Did not Meet Expectations,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Did not receive lease return kit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Disconnected In Error -Customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Disconnected In Error - Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Disconnected In Error -NAP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,DOA,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Does Not Meet Needs,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Downgrade Core Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Downgrade Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Downgrade Voice Plan,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Due Date Extention/Payment Arrangement,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Duplicate Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Early Termination Fees,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Enable move flag,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Engineering issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Engineering System Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Enroll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Equipment damage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Equipment damaged,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Equipment Failure,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Escalate,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Exceeded Bandwidth Allowance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Exceeding Bandwidth Allowance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Expired password,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Exposed wires,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Firmware Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in CRM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in DSS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in EMS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Fix in NMP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Forgot password,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Gateway issues,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes Account Past Due,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes Routing Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Improperly Configured,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Improperly Connected,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incompatibility Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect Config,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect connection,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect GUI,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect IP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect IP address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrectly Labeled/Wrong Port,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inform customer,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inquire,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation Quality,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation Related,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installed wrong equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Interference,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Investigate issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,IP issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,IPS issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Latency,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Line Errors,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Line of Sight,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Line Of Site,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Location/Edge of Beam,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Location Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Locked - Policy Violation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Lost,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Low/Intermittent Signal,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Make Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Manual Sign Off,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Military Deployment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missed Appointment/Reschedule,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing Adjustment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing IP address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing Payment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing Promo,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Moving,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Multiple Outages,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NAP Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Account holder,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New function role,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New user login,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No connectivity,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NOC System Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Noise,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Issue Found - Customer Ed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No LEDs,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Non Returned Equipment Fees,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Power,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Signal,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Delivered,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Enabled,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Installed,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Price Quoted,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not Services Quoted,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Not-Using,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other (Explain in Notes),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Outdoor equipment damaged,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Overheating,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Partner Ordering Website,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Password Reset,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Password Reset/Change request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Payment Failure,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Poor MOS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Portal Authentication Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Porting Failure,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Porting Status,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Power Issues,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Price,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process a PO,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Cancellation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process conversion,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process decom,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process prequal,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process quote,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Process Upgrade order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Property damage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provide customer correct information,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provide information details,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provision IP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Punctuality,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Quality,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Quality of Work,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reactivate Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Refer to Retention,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reliability,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Relocation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove Authorized user,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove user,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove Voice,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Remove Voice Plan,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Cost,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Quality,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reprovision circuit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Request for a new order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Request for RMA,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reset Pin,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retain Customer No Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retain Customer with Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Routing Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Run a report,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Salesperson Accuracy,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Salesperson Courtesy,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Sales practices,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Security issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service charge,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Expectations,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Performance/Quality,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Reliability,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Services Purchased,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Set up Account,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipped all equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipped ATA,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipped IDU,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipped radio,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipping,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Did not Recover,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Incompatible,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site infeasible need alternate transport,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Intermittent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site long down,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Not Created,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Survey,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,SLAM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,SLA not met,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow connectivity,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Smoke,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Speeds,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Stolen,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Suspected Outage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Suspend Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Swap,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switching Providers - Cable/Fiber,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switching Providers - DSL,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switching Providers - Other,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switching Providers - Satellite,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switching Providers - Wireless,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,System Info Incorrect,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,T&M,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,T&M Charges,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Tech Brought Wrong Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Tech Courtesy/Professionalism,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Technician,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Technician Error,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Testing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Transponder Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Install - Access,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Install - LOS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Reach,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unenroll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Contact Info,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Email Address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Marketing Preferences,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Name,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Payment Info,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Phone Number,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upgrade,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upgrade Core Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upgrade Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upgrade Voice Plan,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Validate IP,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Validate outage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wait Times,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Weather,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wiring,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wrong Equipment Delivered,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wrong Site Id,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wron Install Spec,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Primary Transport Down,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Recover EB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Billing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Collections,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Enterprise Billing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Advanced Billing Agent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Billing Level 1,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Chronic Site Team,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Control Desk,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Corporate CSM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Field Support Agent Terrestrial,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Field Support VSAT,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Level 1 Agent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Level 2 Agent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Level 3 Agent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Network Associates Team,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Onsite Management,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Post Install Provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Program Management Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,ESC Sales Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Level 3 Field Service Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Order Administration,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pre-qualification,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retail Billing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Tech Queue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,B2B General Case,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,B2C General Case,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Work Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Install Work Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,RMA,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Office Only,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Account Maintenance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Approvals,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Billing Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel Core Service (Retention),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Complaint,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Communication,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Complaint,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer follow-up,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Discovery Error,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,DVR request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Equipment issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Express Backup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Gateway Provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,General Questions,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes Truck Roll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Install Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Internet Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Key FOB provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Leased equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,myHughesNet Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NAP Truck Roll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NE Esc,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Circuit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Site Monitoring,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NMC Esc,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Offers/Programs,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Order Modification,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Outbound Program,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Out of scope Install,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Out of scope Repair,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,PMO Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Portal Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Premium Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Proactive Maintenance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Purchased equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Regular Process,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Restore Token Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Self-Service Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Out/Intermittent,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Performance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Restoration,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Shipment Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Status Meter Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Support Center Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Survey Follow-up,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Tool Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Vendor Meet Hughes SP Truck Roll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Vendor Meet NAP Truck Roll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Voice Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wireless Router,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Advanced Warranty Replacement,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Chronic,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,NE Action,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Non-Technical,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,PM Action,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pre-install,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Project,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,PSR,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Field,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair Remote,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replacement with No Return,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Retail Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Return for Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Return of Lease,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Return of Lease Collect,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,RMA,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Changes,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Technical,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Technician Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Account past Due,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add/Remove Services,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add/Upgrade Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Add new role,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Automated Call,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Billing Issues,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Bill Inquiry/Dispute,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Callback,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Call Center Esc,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't make calls,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't receive calls,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't Receive Mail - Any,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't Receive Mail - Specific Domain(s),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't Send Mail - Any,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Can't Send Mail - Specific Domain(s),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel Transport,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel Voice,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cancel VSAT,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Cannot Locate,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Change Services,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Chronic site,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Chronic Sites - Non Contract,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Circuit not Performing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Circuit provisioning,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Client Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Code Upgrade Cleanup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Community Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Content Not Updating/Incorrect,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Contract issues,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Conversion,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Conversion support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Convert Hardware Program,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Credit adjustments,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Crosstalk,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Damaged,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Damage during install,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Damage during repair,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Decommission Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,DeInstall EB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Discovery Errors,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Downgrade Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Downlink Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Download Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Echo,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Email notifications,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Enterprise Expedited,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Enterprise Priority,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Expired Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Explanation of Charges,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Express backup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Express Repair,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hughes Communication,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inactivate user,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Incorrect IP address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Inquiry,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Installation change,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Install EB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Install Upload,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Intermittent site,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Internet Access/Connectivity,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Internet Connectivity,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Letter,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Lock-Up/Hangs,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Login/Access,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Login Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Lost Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Maintenance Cleanup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Malfunction Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Marketing Campaign,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing Equipment,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Missing IP address,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New IP address req,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Site Monitoring,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New Site Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,New  transport,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Dial Tone,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Email Access,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Internet Access/Connectivity,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Non-Hughes Communication,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Signal At All,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Sound,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Synch,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Notification Req,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,No Video,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,One-Way Audio,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,OOSB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Order,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other Internet Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Other Phone Feature,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Outage Cleanup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Outage issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Password reset,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Patch Cleanup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Payment Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Performance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Performance Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Pixelation/Freezing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Policy/Terms of Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Prequal Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Proactive Truckroll,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Purchase Approvals,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Quote Conv,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reach Hughes personnel,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Reactivate service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Relocation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Repair,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Replace Hardware,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Report Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Request Balance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Request Bill Copy,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Research Request,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Restore Hardware,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Restore Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,RMA Approvals,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Safety Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Sales,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Feature Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Service Questions,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Signal Strength/Coverage,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Sign-Off,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Site Move,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow Downloads,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow Response - Other 3rd party App,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow Uploads,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow Web Browsing,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Slow Web Response,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Static,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Static IP transition,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Survey,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Suspend Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Synch - No Surf,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,System setup,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,TUMS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Access,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Access/Login,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Browse-All Sites,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Browse-Specific Sites,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to complete Install,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to complete Repair,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to connect,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Launch,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Pass Credit,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unable to Place Order(s),API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Unknown,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Update Account Info,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Upgrade Req,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Uplink Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Video Application Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Voice Activation,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Voicemail Issue,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Voice Porting,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Will not Activate,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Will not Register,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Winback,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wrong Site Id,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Sample,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,TNF – Cancelled Service,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,TNF – Customer Accepted,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Active QoS,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Appliance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,BOM,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,BYOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Gateway,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Customer Tools,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Digital Media,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,DVR,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,EMAIL,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Field Maintenance,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,General,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Guest Services,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Hardware,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Helpdesk Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Install Support,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Key FOB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Modem,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Premium Services,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Router,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Satellite Broadband,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Satellite Narrowband,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Secure LAN,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Security,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Switch,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Terrestrial Wireless,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Terrestrial Wireline,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,VADB,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Voice,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wi-Fi,API name not found in translation file.
+HSvc_CaseCreationRules__c-es_AR.objectTranslation,Wireless,API name not found in translation file.

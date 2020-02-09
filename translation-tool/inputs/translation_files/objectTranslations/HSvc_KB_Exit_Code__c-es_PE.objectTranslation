@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Código Salida KB</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Código Salida KB</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- HSvc_KB_Exit_CodeSearchInput --></label>
+        <name>HSvc_KB_Exit_CodeSearchInput</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HSvc_KB_Exit_CodeSearchOutput --></label>
+        <name>HSvc_KB_Exit_CodeSearchOutput</name>
+    </fieldSets>
+    <fields>
+        <label>Tipo de Registro del Caso</label>
+        <name>Case_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>B2B General Case</masterLabel>
+            <translation><!-- B2B General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C General Case</masterLabel>
+            <translation><!-- B2C General Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Work Order</masterLabel>
+            <translation>Orden de Trabajo Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Only</masterLabel>
+            <translation>Solo Oficina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation>Autorización de Retorno de Mercancía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Work Order</masterLabel>
+            <translation><!-- Repair Work Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- KB Exit Code Description(Panama) --></label>
+        <name>Hsvc_KBExitCodeDescriptionPanama__c</name>
+    </fields>
+    <fields>
+        <label>Descripción Código Salida KB</label>
+        <name>KB_Exit_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label>Descripción_ENUS Código Salida KB</label>
+        <name>KB_Exit_Code_Description_enUS__c</name>
+    </fields>
+    <fields>
+        <label>Descripción_ESCO Código Salida</label>
+        <name>KB_Exit_Code_Description_esCO__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>is_Active__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>KB Exit Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- KB Exit Code --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Please enter value in atleast One description field. --></errorMessage>
+        <name>ExitCodeDescriptionNotBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expiry Date cannot be set in past and cannot be less than the effective date. --></errorMessage>
+        <name>ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+</CustomObjectTranslation>

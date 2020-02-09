@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Case_Record_Type_Label__c</fullName>
+        <description>Case Record Type Name</description>
+        <externalId>false</externalId>
+        <label>Case Record Type Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_AccountType__c</fullName>
+        <externalId>false</externalId>
+        <label>Available for Account Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_AvailableforAccountRecordType__c</fullName>
+        <description>The Account Record Type for which values are applicable</description>
+        <externalId>false</externalId>
+        <label>Available for Account Record Type</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_CompOrLocAcc__c</fullName>
+        <externalId>false</externalId>
+        <label>Company / Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_RecordTypeName__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Record Type Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_RedirectURLEdit__c</fullName>
+        <externalId>false</externalId>
+        <label>Redirection URL - Edit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_RedirectURLNew__c</fullName>
+        <externalId>false</externalId>
+        <label>Redirection URL - New</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_displayOnUI__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DisplayOnNewCaseUI</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hsvc_QuickCaseTemplateForCommunity__c</fullName>
+        <description>Template name configured in this field is used to assign to case creation flow in community</description>
+        <externalId>false</externalId>
+        <label>Hsvc_QuickCaseTemplateForCommunity</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_Redirection_URL_Community__c</fullName>
+        <description>This field is used to store the redirection url for case create in communities.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to store the redirection url for case create in communities.</inlineHelpText>
+        <label>Redirection URL - Community New</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Valid_for_B2B_Template__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Depending on this check-box templates will be populated for Quick case Create on account.</description>
+        <externalId>false</externalId>
+        <label>Is Valid for B2B Template</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Valid_for_B2C_Template__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Depending on this check-box templates will be populated for Quick case Create on account.</description>
+        <externalId>false</externalId>
+        <label>Is Valid for B2C Template</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Profile_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Profile Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>HSvc_RecordTypeRedirection</label>
+    <visibility>Public</visibility>
+</CustomObject>

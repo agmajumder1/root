@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores all service offerings</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Billing_Deal_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Deal Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Deal_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Deal Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Type__c</fullName>
+        <description>What is the charge cycle for the Contracted Price?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the charge cycle for the Contracted Price?</inlineHelpText>
+        <label>Billing Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Onetime</fullName>
+                    <default>false</default>
+                    <label>Onetime</label>
+                </value>
+                <value>
+                    <fullName>Recurring</fullName>
+                    <default>false</default>
+                    <label>Recurring</label>
+                </value>
+                <value>
+                    <fullName>Installment</fullName>
+                    <default>false</default>
+                    <label>Installment</label>
+                </value>
+                <value>
+                    <fullName>Usage-Based</fullName>
+                    <default>false</default>
+                    <label>Usage-Based</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Circuit_Transport__c</fullName>
+        <description>What is the transport for this Hughes service?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the transport for this Hughes service?</inlineHelpText>
+        <label>Circuit Transport</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BYOB</fullName>
+                    <default>false</default>
+                    <label>BYOB</label>
+                </value>
+                <value>
+                    <fullName>Cable</fullName>
+                    <default>false</default>
+                    <label>Cable</label>
+                </value>
+                <value>
+                    <fullName>Dedicated DSL</fullName>
+                    <default>false</default>
+                    <label>Dedicated DSL</label>
+                </value>
+                <value>
+                    <fullName>Dial-Up</fullName>
+                    <default>false</default>
+                    <label>Dial-Up</label>
+                </value>
+                <value>
+                    <fullName>Fiber</fullName>
+                    <default>false</default>
+                    <label>Fiber</label>
+                </value>
+                <value>
+                    <fullName>Shared DSL</fullName>
+                    <default>false</default>
+                    <label>Shared DSL</label>
+                </value>
+                <value>
+                    <fullName>Uverse</fullName>
+                    <default>false</default>
+                    <label>Uverse</label>
+                </value>
+                <value>
+                    <fullName>VSAT</fullName>
+                    <default>false</default>
+                    <label>VSAT</label>
+                </value>
+                <value>
+                    <fullName>Wireless</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Circuit_Type__c</fullName>
+        <description>Primary circuit or backup circuit.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Primary circuit or backup circuit.</inlineHelpText>
+        <label>Circuit Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Primary</fullName>
+                    <default>false</default>
+                    <label>Primary</label>
+                </value>
+                <value>
+                    <fullName>Backup</fullName>
+                    <default>false</default>
+                    <label>Backup</label>
+                </value>
+                <value>
+                    <fullName>Temporary</fullName>
+                    <default>false</default>
+                    <label>Temporary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contracted_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Contracted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Embedded_Billing_Deal_Name__c</fullName>
+        <description>Allows users to enter any combination of letters, numbers, or symbols. You can set a maximum length, up to 255 characters.</description>
+        <externalId>false</externalId>
+        <label>Embedded Billing Deal Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Description__c</fullName>
+        <description>(Optional) Customer-friendly description of equipment included in service offering.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer-friendly description of equipment included in service offering.</inlineHelpText>
+        <label>Equipment Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installment_Fee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is this service offering categorized by DSS as an installment?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this service offering categorized by DSS as an installment?</inlineHelpText>
+        <label>Installment Fee</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is this service offering active or inactive?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this service offering active or inactive?</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Bundle_Key__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is this service offering used as the key to a product (services) bundle?  There can only be one key service offering per bundle.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this service offering used as the key to a product (services) bundle?</inlineHelpText>
+        <label>Is Bundle Key</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is this service offering the default offering for this plan (usually none when the plan is optional)?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this service offering the default offering for this plan (usually none when the plan is optional)?</inlineHelpText>
+        <label>Is Default</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Service_Offering__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If False, then there is no service offering (just a placeholder).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If False, then there is no service offering (just a placeholder).</inlineHelpText>
+        <label>Is Service Offering</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Multiple_Billing_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Multiple Billing Products</label>
+        <length>254</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onetime_Charge__c</fullName>
+        <description>If available, what is the onetime charge (price) for this service offering?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If available, what is the onetime charge (price) for this service offering?</inlineHelpText>
+        <label>Onetime Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Path_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Path ID</label>
+        <length>254</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Path__c</fullName>
+        <description>Product catalog path to this service offering.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product catalog path to this service offering.</inlineHelpText>
+        <label>Path</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Type__c</fullName>
+        <description>Is this service offering part of a lease or purchase?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this service offering part of a lease or purchase?</inlineHelpText>
+        <label>Payment Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lease</fullName>
+                    <default>false</default>
+                    <label>Lease</label>
+                </value>
+                <value>
+                    <fullName>Purchase</fullName>
+                    <default>false</default>
+                    <label>Purchase</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Program_Code__c</fullName>
+        <description>The program code belonging to the customer campaign parent of this service offering.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The program code belonging to the customer campaign parent of this service offering.</inlineHelpText>
+        <label>Program Code</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CHBPGM02</fullName>
+                    <default>false</default>
+                    <label>CHBPGM02</label>
+                </value>
+                <value>
+                    <fullName>DNYFRPC</fullName>
+                    <default>false</default>
+                    <label>DNYFRPC</label>
+                </value>
+                <value>
+                    <fullName>KFCFPGM01</fullName>
+                    <default>false</default>
+                    <label>KFCFPGM01</label>
+                </value>
+                <value>
+                    <fullName>LJSFPGM01</fullName>
+                    <default>false</default>
+                    <label>LJSFPGM01</label>
+                </value>
+                <value>
+                    <fullName>MOBFPGM01</fullName>
+                    <default>false</default>
+                    <label>MOBFPGM01</label>
+                </value>
+                <value>
+                    <fullName>PILPGM02</fullName>
+                    <default>false</default>
+                    <label>PILPGM02</label>
+                </value>
+                <value>
+                    <fullName>YUMPFPGM01</fullName>
+                    <default>false</default>
+                    <label>YUMPFPGM01</label>
+                </value>
+                <value>
+                    <fullName>YUMTFPGM01</fullName>
+                    <default>false</default>
+                    <label>YUMTFPGM01</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recurring_Charge__c</fullName>
+        <description>If available, what is the recurring monthly charge (price) for this service offering?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If available, what is the recurring monthly charge (price) for this service offering?</inlineHelpText>
+        <label>Recurring Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_ID__c</fullName>
+        <description>Salesforce autonumber for service offering (product).</description>
+        <displayFormat>SO-{0000000000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce autonumber for service offering (product).</inlineHelpText>
+        <label>SO ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_Description__c</fullName>
+        <description>(Optional) Customer-friendly description of service offering.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer-friendly description of service offering.</inlineHelpText>
+        <label>Service Offering Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Offering_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <label>Service Offering ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <description>Term of service (in months).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Term of service (in months).</inlineHelpText>
+        <label>Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Service Offerings</label>
+    <nameField>
+        <label>Service Offering Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Service Offerings</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FOSS</fullName>
+        <active>true</active>
+        <description>Controls picklist values, page layouts, and determines which User Profiles can view this category of records.</description>
+        <label>FOSS</label>
+        <picklistValues>
+            <picklist>Billing_Type__c</picklist>
+            <values>
+                <fullName>Installment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onetime</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recurring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usage-Based</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Circuit_Transport__c</picklist>
+            <values>
+                <fullName>BYOB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dedicated DSL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dial-Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fiber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shared DSL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uverse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VSAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wireless</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Circuit_Type__c</picklist>
+            <values>
+                <fullName>Backup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Type__c</picklist>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchase</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Program_Code__c</picklist>
+            <values>
+                <fullName>CHBPGM02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DNYFRPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KFCFPGM01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LJSFPGM01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOBFPGM01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PILPGM02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YUMPFPGM01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YUMTFPGM01</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Embedded_Billing_Deal_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Billing_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Recurring_Charge__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Onetime_Charge__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contracted_Price__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Program_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Installment_Fee__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>IOES_Onetime_charge_validation_check</fullName>
+        <active>true</active>
+        <description>To verify onetime charge is not provided if Billing type is not One time charge</description>
+        <errorConditionFormula>AND(OR(ISPICKVAL(Billing_Type__c,&apos;Recurring&apos;),ISPICKVAL(Billing_Type__c,&apos;Installment&apos;),ISPICKVAL(Billing_Type__c,&apos;Usage-Based&apos;)),
+OR( Onetime_Charge__c  &lt;&gt; 0,NOT(ISNULL(Onetime_Charge__c))))</errorConditionFormula>
+        <errorDisplayField>Onetime_Charge__c</errorDisplayField>
+        <errorMessage>One time charge data is not valid</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IOES_RecurringCharge_Null_Check</fullName>
+        <active>true</active>
+        <description>To verify RecurringCharge is not provided if Billing type is not One time charge</description>
+        <errorConditionFormula>AND(ISPICKVAL(Billing_Type__c,&apos;Onetime&apos;),
+OR( Recurring_Charge__c  &lt;&gt; 0,NOT(ISNULL(Recurring_Charge__c))))</errorConditionFormula>
+        <errorDisplayField>Recurring_Charge__c</errorDisplayField>
+        <errorMessage>Recurring charge data is not valid</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IOES_Recurring_Charge_validation_check</fullName>
+        <active>false</active>
+        <description>To verify Recurring charge is provided for all SO&apos;s if billing type is recurring</description>
+        <errorConditionFormula>AND(OR(ISPICKVAL(Billing_Type__c,&apos;Recurring&apos;),ISPICKVAL(Billing_Type__c,&apos;Installment&apos;),ISPICKVAL(Billing_Type__c,&apos;Usage-Based&apos;)),
+ISNULL(Recurring_Charge__c) )</errorConditionFormula>
+        <errorDisplayField>Recurring_Charge__c</errorDisplayField>
+        <errorMessage>Recurring Charge is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IOES_Term_validation_check</fullName>
+        <active>false</active>
+        <description>To verify term is provided for all SO&apos;s</description>
+        <errorConditionFormula>AND(Is_Active__c= TRUE ,OR(ISPICKVAL(Billing_Type__c,&apos;Recurring&apos;),
+ISPICKVAL(Billing_Type__c,&apos;Installment&apos;),ISPICKVAL(Billing_Type__c,&apos;Usage-Based&apos;)),
+Recurring_Charge__c    &lt;&gt;   0,
+OR(Term__c=0,ISNULL(Term__c)))</errorConditionFormula>
+        <errorDisplayField>Term__c</errorDisplayField>
+        <errorMessage>Term is required</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

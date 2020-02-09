@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Purchased</fullName>
+        <default>false</default>
+        <label>Purchased</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipped</fullName>
+        <default>false</default>
+        <label>Shipped</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Installed</fullName>
+        <default>false</default>
+        <label>Installed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Obsolete</fullName>
+        <default>false</default>
+        <label>Obsolete</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Yet Commissioned</fullName>
+        <default>false</default>
+        <label>Not Yet Commissioned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Terminal Activated</fullName>
+        <default>false</default>
+        <label>Terminal Activated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>De-registered</fullName>
+        <default>false</default>
+        <label>De-registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Active</fullName>
+        <default>false</default>
+        <label>Active</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Locked</fullName>
+        <default>false</default>
+        <label>Locked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive</fullName>
+        <default>false</default>
+        <label>Inactive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Recovery</fullName>
+        <default>false</default>
+        <label>Pending Recovery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recovered</fullName>
+        <default>false</default>
+        <label>Recovered</label>
+    </standardValue>
+</StandardValueSet>

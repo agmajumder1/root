@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom settings stores the possible time slots for the Dispatch Scheduler calendar</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>NameOfSlot__c</fullName>
+        <description>Enter name of the slot to be displayed on UI. Leave blank if no slot name needs to be displayed.</description>
+        <externalId>false</externalId>
+        <label>NameOfSlot</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SlotCode__c</fullName>
+        <description>Code used by external system to identify the slot</description>
+        <externalId>false</externalId>
+        <label>Slot Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeSlot__c</fullName>
+        <description>Stores the time slot</description>
+        <externalId>false</externalId>
+        <label>TimeSlot</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TimeSlotsForDispatchSchedular</label>
+    <visibility>Public</visibility>
+</CustomObject>

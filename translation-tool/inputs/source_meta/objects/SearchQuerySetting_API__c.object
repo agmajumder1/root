@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This will be used in fetchCase method of CaseAManagmentAPIRestWrapper Class.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Api_Name_in_SFDC__c</fullName>
+        <description>This field will store the API name of the parameter passed in URL by Source System.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will store the API name of the parameter passed in URL by Source System.</inlineHelpText>
+        <label>Api Name in SFDC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_type_in_SFDC__c</fullName>
+        <description>mention the data type of Parameter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>mention the data type of Parameter</inlineHelpText>
+        <label>Data type in SFDC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Object__c</fullName>
+        <description>Object name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Object name</inlineHelpText>
+        <label>Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParameterName__c</fullName>
+        <description>This field will have the name of the parameter which will be passed in URL by Source System.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will have the name of the parameter which will be passed in URL by Source System.</inlineHelpText>
+        <label>Parameter Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_System__c</fullName>
+        <description>This field will have the Source System Name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will have the Source System Name.</inlineHelpText>
+        <label>Source System</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>SearchQuerySetting_API</label>
+    <visibility>Public</visibility>
+</CustomObject>

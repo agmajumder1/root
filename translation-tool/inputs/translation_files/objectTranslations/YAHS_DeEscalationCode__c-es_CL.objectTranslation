@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Código de Desescalamiento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Código de Desescalamiento</value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the de escalation code --></help>
+        <label>Código de Desescalamiento</label>
+        <name>De_Escalation_Code__c</name>
+    </fields>
+    <fields>
+        <label>Descripción del Desescalamiento</label>
+        <name>De_escalation_Description_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Descripción del Desescalamiento español</label>
+        <name>De_escalation_Description_Portuguese__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-escalation Description (Chile) --></label>
+        <name>De_escalation_Description_esCL__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-escalation Description (Columbia) --></label>
+        <name>De_escalation_Description_esCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-escalation Description (Ecuador) --></label>
+        <name>De_escalation_Description_esEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-escalation Description (Panama) --></label>
+        <name>De_escalation_Description_esPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-escalation Description (Peru) --></label>
+        <name>De_escalation_Description_esPE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the description --></help>
+        <label>Descripción del Desescalamiento</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Registro</label>
+        <name>Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>B2B General Case</masterLabel>
+            <translation>B2B General Case</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C General Case</masterLabel>
+            <translation>B2C General Case</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Support Case</masterLabel>
+            <translation>Caso de Soporte de Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Work Order</masterLabel>
+            <translation>Orden de Trabajo Instalación</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>De-Escalation Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Description in any one language is required --></errorMessage>
+        <name>AnyOneLanguageIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

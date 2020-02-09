@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This will include the settings for the sections present in Account detail page including related lists.</description>
+	<fields>
+        <fullName>Business_Model__c</fullName>
+        <description>Account&apos;s Business Model</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Account&apos;s Business Model</inlineHelpText>
+        <label>Business Model</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Set_Name__c</fullName>
+        <description>This field will include the field set name which will be displayed in this section.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the field set name whose fields will be displayed in this section.</inlineHelpText>
+        <label>Field Set Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Foreign_Key__c</fullName>
+        <description>This field is required for related lists.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the api name of the field to be referenced for the related list in the parent object.</inlineHelpText>
+        <label>Foreign Key</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hyperlink_Field_Name__c</fullName>
+        <description>This field will have the value of the field name(API Name) of the field on which you want to show a hyperlink in the related list.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the  field name(API Name) in the related object of the field on which you want to show a hyperlink in the related list.</inlineHelpText>
+        <label>Hyperlink Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Instance__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Instance</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Related_List__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will tell if this section is for related list or not.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please check if this section is for related list.</inlineHelpText>
+        <label>Is Related List</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lazy_Loading__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will tell weather related list should implement lazy loading or not.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please check this checkbox, if you need to load this related list after page load.</inlineHelpText>
+        <label>Lazy Loading</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Operation__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Operation</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_By__c</fullName>
+        <description>This field will store the order by field name for related list.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the order by field name for related list.</inlineHelpText>
+        <label>Order By</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile_Names__c</fullName>
+        <description>Contains all the profile name to which this section will be visible.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the profile names for which this button will be visible. You can enter multiple profiles(Comma seperated values and it should be in the pattern: {profile name 1},{profile name 2}).</inlineHelpText>
+        <label>Profile Names</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_Type_Name__c</fullName>
+        <description>This field will include the record type name for which this section will be visible.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the record type name.</inlineHelpText>
+        <label>Record Type Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_Field_Name__c</fullName>
+        <description>This field will have the value of reference field name in the related object.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the reference field name(API Name) in the related object.</inlineHelpText>
+        <label>Reference Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Detail_Page_Name__c</fullName>
+        <description>This field will have the value of page name of the detail page(related object).</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter page name of the detail page(related object).</inlineHelpText>
+        <label>Related Detail Page Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Object_Name__c</fullName>
+        <description>This field will have the name of the related objects whose list needs to be displayed.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the related object(API Name) for this section. Required when &quot;Is Required&quot; is checked.</inlineHelpText>
+        <label>Related Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SObject__c</fullName>
+        <description>This field will have the name of the object for which this section is.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the name of the SObject Name(API Name).</inlineHelpText>
+        <label>SObject</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Section_Title__c</fullName>
+        <description>This will include the title of the section</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the title of the section</inlineHelpText>
+        <label>Section Title</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Serial_Number__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>This will include the serial number of the section. Depending this section will be ordered.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please enter the number in the order you want to display the sections</inlineHelpText>
+        <label>Serial Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>YAHS Detail Page Setting</label>
+    <pluralLabel>YAHS Detail Page Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

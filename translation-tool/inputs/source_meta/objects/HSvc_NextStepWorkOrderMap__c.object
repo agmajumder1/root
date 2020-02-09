@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting defines mapping between Technical Case Next Step and Work Order</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Clone_from_Parent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Clone from Parent</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_OpenNewTab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field suggests if New Tab should be opened for the Recommended Next Step value selected</description>
+        <externalId>false</externalId>
+        <label>Open New Tab?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_RecordTypeName__c</fullName>
+        <description>The Record Type API Name of resulting Case</description>
+        <externalId>false</externalId>
+        <label>Record Type Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_AssignedtoUser__c</fullName>
+        <externalId>false</externalId>
+        <label>Assigned to User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_CaseReassign__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Reassign</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Template_Name__c</fullName>
+        <description>Used to store RMA Template Name</description>
+        <externalId>false</externalId>
+        <label>Template Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>Type can be &apos;RMA&apos; or &apos;Workorder&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type can be &apos;RMA&apos; or &apos;Workorder&apos;</inlineHelpText>
+        <label>Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <description>Work Order type for corresponding next step Value</description>
+        <externalId>false</externalId>
+        <label>Case Subtype</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Recommended Next Step Mapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

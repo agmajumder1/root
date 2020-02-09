@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Associate</fullName>
+        <default>false</default>
+        <label>Associate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting SPR Code Release</fullName>
+        <default>false</default>
+        <label>Awaiting SPR Code Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Build Out Released</fullName>
+        <default>false</default>
+        <label>Build Out Released</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled or Duplicate</fullName>
+        <default>false</default>
+        <label>Cancelled or Duplicate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete</fullName>
+        <default>false</default>
+        <label>Complete</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete—Impact</fullName>
+        <default>false</default>
+        <label>Complete—Impact</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete—No issues</fullName>
+        <default>false</default>
+        <label>Complete—No issues</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete—Pending Quality Assurance</fullName>
+        <default>false</default>
+        <label>Complete—Pending Quality Assurance</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Director Approved and Scheduled</fullName>
+        <default>false</default>
+        <label>Director Approved and Scheduled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>EMRB Approved</fullName>
+        <default>false</default>
+        <label>EMRB Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ENG - SPR Active</fullName>
+        <default>false</default>
+        <label>ENG - SPR Active</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to SIC</fullName>
+        <default>false</default>
+        <label>Escalated to Regulator</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Failed QA</fullName>
+        <default>false</default>
+        <label>Failed QA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hold</fullName>
+        <default>false</default>
+        <label>Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hold-Awaiting Hardware</fullName>
+        <default>false</default>
+        <label>Hold-Awaiting Hardware</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hold—Awaiting Information</fullName>
+        <default>false</default>
+        <label>Hold—Awaiting Information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementation Phase</fullName>
+        <default>false</default>
+        <label>Implementation Phase</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Installed</fullName>
+        <default>false</default>
+        <label>Installed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Investigation Closed</fullName>
+        <default>false</default>
+        <label>Investigation Closed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Investigation Open</fullName>
+        <default>false</default>
+        <label>Investigation Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>MRB Approved</fullName>
+        <default>false</default>
+        <label>MRB Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Problem Found</fullName>
+        <default>false</default>
+        <label>No Problem Found</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Acknowledge</fullName>
+        <default>false</default>
+        <label>Open - Acknowledge</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - De-escalate</fullName>
+        <default>false</default>
+        <label>Open - De-escalate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Dispatch</fullName>
+        <default>false</default>
+        <label>Open - Dispatch</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalate</fullName>
+        <default>false</default>
+        <label>Open - Escalate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open Escalated</fullName>
+        <default>false</default>
+        <label>Open Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated</fullName>
+        <default>false</default>
+        <label>Open - Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated Field Terr Supp</fullName>
+        <default>false</default>
+        <label>Open - Escalated Field Terr Supp</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated to Call Center</fullName>
+        <default>false</default>
+        <label>Open - Escalated to Call Center</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated to NAP Provisioning</fullName>
+        <default>false</default>
+        <label>Open - Escalated to NAP Provisioning</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated to NOC</fullName>
+        <default>false</default>
+        <label>Open - Escalated to NOC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Escalated to PM</fullName>
+        <default>false</default>
+        <label>Open - Escalated to PM</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Esc NE review</fullName>
+        <default>false</default>
+        <label>Open - Esc NE review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Holding for Parts</fullName>
+        <default>false</default>
+        <label>Open - Holding for Parts</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - In Progress</fullName>
+        <default>false</default>
+        <label>Open - In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Investigating</fullName>
+        <default>false</default>
+        <label>Open - Investigating</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - On Site</fullName>
+        <default>false</default>
+        <label>Open - On Site</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - PAM Case</fullName>
+        <default>false</default>
+        <label>Open - PAM Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Pending NE</fullName>
+        <default>false</default>
+        <label>Open - Pending NE</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Pending Release</fullName>
+        <default>false</default>
+        <label>Open - Pending Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Pending Tech Review</fullName>
+        <default>false</default>
+        <label>Open - Pending Tech Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Provisioning Processing</fullName>
+        <default>false</default>
+        <label>Open - Provisioning Processing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open PSR</fullName>
+        <default>false</default>
+        <label>Open PSR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Reassigned</fullName>
+        <default>false</default>
+        <label>Open - Reassigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Repair</fullName>
+        <default>false</default>
+        <label>Open - Repair</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Special Escalation</fullName>
+        <default>false</default>
+        <label>Open - Special Escalation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Suspension</fullName>
+        <default>false</default>
+        <label>Open - Suspension</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Troubleshooting</fullName>
+        <default>false</default>
+        <label>Open - Troubleshooting</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open Unassigned</fullName>
+        <default>true</default>
+        <label>Open Unassigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Upgrade</fullName>
+        <default>false</default>
+        <label>Open - Upgrade</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Web</fullName>
+        <default>false</default>
+        <label>Open - Web</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Web Case</fullName>
+        <default>false</default>
+        <label>Open - Web Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open Work in Progress</fullName>
+        <default>false</default>
+        <label>Open Work in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Operator Analysis</fullName>
+        <default>false</default>
+        <label>Operator Analysis</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Operator Analysis - Escalated</fullName>
+        <default>false</default>
+        <label>Operator Analysis - Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Acceptance</fullName>
+        <default>false</default>
+        <label>Pending Acceptance</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Approval</fullName>
+        <default>false</default>
+        <label>Pending Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Callback</fullName>
+        <default>false</default>
+        <label>Pending - Callback</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Cancel</fullName>
+        <default>false</default>
+        <label>Pending - Cancel</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Confirmation</fullName>
+        <default>false</default>
+        <label>Pending Confirmation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Construction</fullName>
+        <default>false</default>
+        <label>Pending - Construction</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Customer Confirmation</fullName>
+        <default>false</default>
+        <label>Pending Customer Confirmation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Customer Contact</fullName>
+        <default>false</default>
+        <label>Pending - Customer Contact</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Customer Input</fullName>
+        <default>false</default>
+        <label>Pending Customer Input</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Customer Input</fullName>
+        <default>false</default>
+        <label>Pending - Customer Input</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Engineering Action</fullName>
+        <default>false</default>
+        <label>Pending - Engineering Action</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Follow On Case</fullName>
+        <default>false</default>
+        <label>Pending Follow On Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Hughes Closure</fullName>
+        <default>false</default>
+        <label>Pending - Hughes Closure</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Install</fullName>
+        <default>false</default>
+        <label>Pending - Install</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - MOD</fullName>
+        <default>false</default>
+        <label>Pending - MOD</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Monitoring</fullName>
+        <default>false</default>
+        <label>Pending - Monitoring</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - NAP</fullName>
+        <default>false</default>
+        <label>Pending - NAP</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending- OA</fullName>
+        <default>false</default>
+        <label>Pending- OA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Post Install Provisioning</fullName>
+        <default>false</default>
+        <label>Pending Post Install Provisioning</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Provisioning Group</fullName>
+        <default>false</default>
+        <label>Pending - Provisioning Group</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Re-Activation</fullName>
+        <default>false</default>
+        <label>Pending Re-Activation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Resolution</fullName>
+        <default>false</default>
+        <label>Pending Resolution</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Service Provider Closure</fullName>
+        <default>false</default>
+        <label>Pending - Service Provider Closure</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Site Access</fullName>
+        <default>false</default>
+        <label>Pending - Site Access</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Vendor Meet</fullName>
+        <default>false</default>
+        <label>Pending - Vendor Meet</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Weather</fullName>
+        <default>false</default>
+        <label>Pending - Weather</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pend- NE Trblshoot</fullName>
+        <default>false</default>
+        <label>Pend- NE Trblshoot</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Project Plan</fullName>
+        <default>false</default>
+        <label>Project Plan</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <label>Qualified</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Redirected to Third Party</fullName>
+        <default>false</default>
+        <label>Redirected to Third Party</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved or Completed</fullName>
+        <default>false</default>
+        <label>Resolved or Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>false</default>
+        <label>Scheduled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SPF Released</fullName>
+        <default>false</default>
+        <label>SPF Released</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SPR Opened</fullName>
+        <default>false</default>
+        <label>SPR Opened</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Testing</fullName>
+        <default>false</default>
+        <label>Testing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Troubleshooting</fullName>
+        <default>false</default>
+        <label>Troubleshooting</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade Complete</fullName>
+        <default>false</default>
+        <label>Upgrade Complete</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

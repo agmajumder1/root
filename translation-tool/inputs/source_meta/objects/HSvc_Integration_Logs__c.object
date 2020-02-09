@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is used to track request and response messages for integrations</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Apex_Job_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Apex job ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DataAllowanceTransaction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Data Allowance Transaction</label>
+        <referenceTo>Data_Allowance_transaction__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Error_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Error Description</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Initiated_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Initiated By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Operation__c</fullName>
+        <externalId>false</externalId>
+        <label>Operation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Invoke Purge API</fullName>
+                    <default>false</default>
+                    <label>Invoke Purge API</label>
+                </value>
+                <value>
+                    <fullName>Create Installation &amp; Provisioning task</fullName>
+                    <default>false</default>
+                    <label>Create Installation &amp; Provisioning task</label>
+                </value>
+                <value>
+                    <fullName>Invoke CLO API of DSS</fullName>
+                    <default>false</default>
+                    <label>Invoke CLO API of DSS</label>
+                </value>
+                <value>
+                    <fullName>Service Prequal Callout</fullName>
+                    <default>false</default>
+                    <label>Service Prequal Callout</label>
+                </value>
+                <value>
+                    <fullName>Credit Check Callout</fullName>
+                    <default>false</default>
+                    <label>Credit Check Callout</label>
+                </value>
+                <value>
+                    <fullName>Address Validation</fullName>
+                    <default>false</default>
+                    <label>Address Validation</label>
+                </value>
+                <value>
+                    <fullName>Get Account Info</fullName>
+                    <default>false</default>
+                    <label>Get Account Info</label>
+                </value>
+                <value>
+                    <fullName>Invoke Billing API</fullName>
+                    <default>false</default>
+                    <label>Invoke Billing API</label>
+                </value>
+                <value>
+                    <fullName>Invoke Billing Spec API</fullName>
+                    <default>false</default>
+                    <label>Invoke Billing Spec API</label>
+                </value>
+                <value>
+                    <fullName>Activate Vouchers</fullName>
+                    <default>false</default>
+                    <label>Activate Vouchers</label>
+                </value>
+                <value>
+                    <fullName>Add Bandwidth</fullName>
+                    <default>false</default>
+                    <label>Add Bandwidth</label>
+                </value>
+                <value>
+                    <fullName>BRM WS Service</fullName>
+                    <default>false</default>
+                    <label>BRM WS Service</label>
+                </value>
+                <value>
+                    <fullName>Create Existing Customer Location Order</fullName>
+                    <default>false</default>
+                    <label>Create Existing Customer Location Order</label>
+                </value>
+                <value>
+                    <fullName>Download Vouchers</fullName>
+                    <default>false</default>
+                    <label>Download Vouchers</label>
+                </value>
+                <value>
+                    <fullName>FAP</fullName>
+                    <default>false</default>
+                    <label>FAP</label>
+                </value>
+                <value>
+                    <fullName>Fetch Account/Contact Information</fullName>
+                    <default>false</default>
+                    <label>Fetch Account/Contact Information</label>
+                </value>
+                <value>
+                    <fullName>Fetch Account Status</fullName>
+                    <default>false</default>
+                    <label>Fetch Account Status</label>
+                </value>
+                <value>
+                    <fullName>Fetch Current Usage</fullName>
+                    <default>false</default>
+                    <label>Fetch Current Usage</label>
+                </value>
+                <value>
+                    <fullName>Fetch Historical Usage</fullName>
+                    <default>false</default>
+                    <label>Fetch Historical Usage</label>
+                </value>
+                <value>
+                    <fullName>Fetch SP Voucher Balance</fullName>
+                    <default>false</default>
+                    <label>Fetch SP Voucher Balance</label>
+                </value>
+                <value>
+                    <fullName>Fetch Subscriber Details</fullName>
+                    <default>false</default>
+                    <label>Fetch Subscriber Details</label>
+                </value>
+                <value>
+                    <fullName>Fetch Voucher Batch Status</fullName>
+                    <default>false</default>
+                    <label>Fetch Voucher Batch Status</label>
+                </value>
+                <value>
+                    <fullName>Fetch Voucher Status</fullName>
+                    <default>false</default>
+                    <label>Fetch Voucher Status</label>
+                </value>
+                <value>
+                    <fullName>Generate Voucher Batch</fullName>
+                    <default>false</default>
+                    <label>Generate Voucher Batch</label>
+                </value>
+                <value>
+                    <fullName>GetbandwidthInfo</fullName>
+                    <default>false</default>
+                    <label>GetbandwidthInfo</label>
+                </value>
+                <value>
+                    <fullName>Get Bandwidth Info</fullName>
+                    <default>false</default>
+                    <label>Get Bandwidth Info</label>
+                </value>
+                <value>
+                    <fullName>Get FAP Status</fullName>
+                    <default>false</default>
+                    <label>Get FAP Status</label>
+                </value>
+                <value>
+                    <fullName>Get SP Account Balance</fullName>
+                    <default>false</default>
+                    <label>Get SP Account Balance</label>
+                </value>
+                <value>
+                    <fullName>Get SP Voucher Account Balance</fullName>
+                    <default>false</default>
+                    <label>Get SP Voucher Account Balance</label>
+                </value>
+                <value>
+                    <fullName>Get Usage</fullName>
+                    <default>false</default>
+                    <label>Get Usage</label>
+                </value>
+                <value>
+                    <fullName>Getusage API</fullName>
+                    <default>false</default>
+                    <label>Getusage API</label>
+                </value>
+                <value>
+                    <fullName>Get Voucher Batch Status</fullName>
+                    <default>false</default>
+                    <label>Get Voucher Batch Status</label>
+                </value>
+                <value>
+                    <fullName>Get Voucher Information File</fullName>
+                    <default>false</default>
+                    <label>Get Voucher Information File</label>
+                </value>
+                <value>
+                    <fullName>Get Voucher Status List</fullName>
+                    <default>false</default>
+                    <label>Get Voucher Status List</label>
+                </value>
+                <value>
+                    <fullName>Manage FAP Token</fullName>
+                    <default>false</default>
+                    <label>Manage FAP Token</label>
+                </value>
+                <value>
+                    <fullName>Manage Free FAP Token</fullName>
+                    <default>false</default>
+                    <label>Manage Free FAP Token</label>
+                </value>
+                <value>
+                    <fullName>Notify Voucher Batch Print</fullName>
+                    <default>false</default>
+                    <label>Notify Voucher Batch Print</label>
+                </value>
+                <value>
+                    <fullName>Provision Data Allowance</fullName>
+                    <default>false</default>
+                    <label>Provision Data Allowance</label>
+                </value>
+                <value>
+                    <fullName>Redeem Voucher</fullName>
+                    <default>false</default>
+                    <label>Redeem Voucher</label>
+                </value>
+                <value>
+                    <fullName>Remove Existing CustomerLocation Order</fullName>
+                    <default>false</default>
+                    <label>Remove Existing CustomerLocation Order</label>
+                </value>
+                <value>
+                    <fullName>Reverse Voucher</fullName>
+                    <default>false</default>
+                    <label>Reverse Voucher</label>
+                </value>
+                <value>
+                    <fullName>SLVT Op</fullName>
+                    <default>false</default>
+                    <label>SLVT Op</label>
+                </value>
+                <value>
+                    <fullName>Terminate Service</fullName>
+                    <default>false</default>
+                    <label>Terminate Service</label>
+                </value>
+                <value>
+                    <fullName>Transport Feasibility</fullName>
+                    <default>false</default>
+                    <label>Transport Feasibility</label>
+                </value>
+                <value>
+                    <fullName>Unprovision Data Allowance</fullName>
+                    <default>false</default>
+                    <label>Unprovision Data Allowance</label>
+                </value>
+                <value>
+                    <fullName>Update Migrated to Captive Portal Status</fullName>
+                    <default>false</default>
+                    <label>Update Migrated to Captive Portal Status</label>
+                </value>
+                <value>
+                    <fullName>Validate SAN/ESN</fullName>
+                    <default>false</default>
+                    <label>Validate SAN/ESN</label>
+                </value>
+                <value>
+                    <fullName>Validate Voucher List</fullName>
+                    <default>false</default>
+                    <label>Validate Voucher List</label>
+                </value>
+                <value>
+                    <fullName>viewAccountInfo</fullName>
+                    <default>false</default>
+                    <label>viewAccountInfo</label>
+                </value>
+                <value>
+                    <fullName>View Account Info</fullName>
+                    <default>false</default>
+                    <label>View Account Info</label>
+                </value>
+                <value>
+                    <fullName>Void Individual Voucher</fullName>
+                    <default>false</default>
+                    <label>Void Individual Voucher</label>
+                </value>
+                <value>
+                    <fullName>Void Voucher Range</fullName>
+                    <default>false</default>
+                    <label>Void Voucher Range</label>
+                </value>
+                <value>
+                    <fullName>FetchCreditReportCheck</fullName>
+                    <default>false</default>
+                    <label>FetchCreditReportCheck</label>
+                </value>
+                <value>
+                    <fullName>FetchFAPOffers</fullName>
+                    <default>false</default>
+                    <label>FetchFAPOffers</label>
+                </value>
+                <value>
+                    <fullName>Forgot Password</fullName>
+                    <default>false</default>
+                    <label>Forgot Password</label>
+                </value>
+                <value>
+                    <fullName>Forgot Username</fullName>
+                    <default>false</default>
+                    <label>Forgot Username</label>
+                </value>
+                <value>
+                    <fullName>Geocoding</fullName>
+                    <default>false</default>
+                    <label>Geocoding</label>
+                </value>
+                <value>
+                    <fullName>Get Tax</fullName>
+                    <default>false</default>
+                    <label>Get Tax</label>
+                </value>
+                <value>
+                    <fullName>Get Terminate Info</fullName>
+                    <default>false</default>
+                    <label>Get Terminate Info</label>
+                </value>
+                <value>
+                    <fullName>GetOffers</fullName>
+                    <default>false</default>
+                    <label>GetOffers</label>
+                </value>
+                <value>
+                    <fullName>InitiateCreditCheck</fullName>
+                    <default>false</default>
+                    <label>InitiateCreditCheck</label>
+                </value>
+                <value>
+                    <fullName>PostFapPurchase</fullName>
+                    <default>false</default>
+                    <label>PostFapPurchase</label>
+                </value>
+                <value>
+                    <fullName>PreFAPPurchase</fullName>
+                    <default>false</default>
+                    <label>PreFAPPurchase</label>
+                </value>
+                <value>
+                    <fullName>UpdateProfile</fullName>
+                    <default>false</default>
+                    <label>UpdateProfile</label>
+                </value>
+                <value>
+                    <fullName>selfregister</fullName>
+                    <default>false</default>
+                    <label>selfregister</label>
+                </value>
+                <value>
+                    <fullName>Download Contract</fullName>
+                    <default>false</default>
+                    <label>Download Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_Related_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Related to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HSvc_Request_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Message</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Request_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Success</fullName>
+                    <default>false</default>
+                    <label>Success</label>
+                </value>
+                <value>
+                    <fullName>Failure</fullName>
+                    <default>false</default>
+                    <label>Failure</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_Response_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Message</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Response_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Success</fullName>
+                    <default>false</default>
+                    <label>Success</label>
+                </value>
+                <value>
+                    <fullName>Failure</fullName>
+                    <default>false</default>
+                    <label>Failure</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HSvc_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HSvc_Target_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Target URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Target__c</fullName>
+        <description>Class Name</description>
+        <externalId>false</externalId>
+        <label>Target</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Request</fullName>
+                    <default>false</default>
+                    <label>Request</label>
+                </value>
+                <value>
+                    <fullName>Response</fullName>
+                    <default>false</default>
+                    <label>Response</label>
+                </value>
+                <value>
+                    <fullName>Request &amp; Response</fullName>
+                    <default>false</default>
+                    <label>Request &amp; Response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Location_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Location Order Name</label>
+        <referenceTo>Location_Order__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request_Timestamp__c</fullName>
+        <description>Created as per Data Model Sync Up D-00865 By Varsha</description>
+        <externalId>false</externalId>
+        <label>Request Timestamp</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Timestamp__c</fullName>
+        <description>Created as per Data Model Sync Up D-00865 By Varsha</description>
+        <externalId>false</externalId>
+        <label>Response Timestamp</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Integration Log</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>HSvc_Operation__c</columns>
+        <columns>Location_Order__c</columns>
+        <columns>HSvc_Target_URL__c</columns>
+        <columns>HSvc_Request_Message__c</columns>
+        <columns>HSvc_Response_Message__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>AllSSView</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Location_Order__c</columns>
+        <columns>HSvc_Operation__c</columns>
+        <columns>HSvc_Source__c</columns>
+        <columns>HSvc_Response_Message__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All-SSView</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Send_SMS</fullName>
+        <columns>NAME</columns>
+        <columns>HSvc_Request_Message__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>HSvc_Response_Status__c</columns>
+        <columns>HSvc_Operation__c</columns>
+        <columns>HSvc_Related_to__c</columns>
+        <columns>HSvc_Target__c</columns>
+        <columns>HSvc_Target_URL__c</columns>
+        <columns>HSvc_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>HSvc_Operation__c</field>
+            <operation>equals</operation>
+            <value>Send SMS</value>
+        </filters>
+        <label>Send SMS</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>IL-{000000000}</displayFormat>
+        <label>Integration Log Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Integration Logs</pluralLabel>
+    <searchLayouts>
+        <searchFilterFields>HSvc_Operation__c</searchFilterFields>
+        <searchFilterFields>HSvc_Target_URL__c</searchFilterFields>
+        <searchResultsAdditionalFields>HSvc_Initiated_By__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Request_Message__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Response_Message__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Response_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Source__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Target__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HSvc_Target_URL__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

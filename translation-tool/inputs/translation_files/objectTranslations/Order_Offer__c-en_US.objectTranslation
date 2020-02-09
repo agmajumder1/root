@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order Offer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Order Offers</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Order Offer Detail --></label>
+        <name>Order_Offer_Detail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modify</masterLabel>
+            <translation><!-- Modify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Suspension</masterLabel>
+            <translation><!-- Seasonal Suspension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminate</masterLabel>
+            <translation><!-- Terminate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation><!-- Upgrade --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Add On Upfront Fee --></label>
+        <name>Add_On_Upfront_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antenna Size --></label>
+        <name>Antenna_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability --></label>
+        <name>Availibility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Band --></label>
+        <name>Band__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beam ID --></label>
+        <name>Beam_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonus Bytes (2am - 8am) (GB/Month) --></label>
+        <name>Bonus_Bytes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Model --></label>
+        <name>Business_Model__c</name>
+        <picklistValues>
+            <masterLabel>ConsumerVAR</masterLabel>
+            <translation><!-- ConsumerVAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME</masterLabel>
+            <translation><!-- SME --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>CBC_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Notes --></label>
+        <name>Cancel_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Reason Code --></label>
+        <name>Cancel_Reason_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Reason Description --></label>
+        <name>Cancel_Reason_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Order Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Order Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Req Install/Repair Date --></label>
+        <name>CustReq_InstRep_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Company Account --></label>
+        <name>Customer_Company_Account__c</name>
+        <relationshipLabel><!-- Order Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Order ID --></label>
+        <name>Customer_Order_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSS Order ID --></label>
+        <name>DSS_Order_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSS Program Code --></label>
+        <name>DSS_Program_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Allowance Manager --></label>
+        <name>Data_Allowance_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Price With Tax --></label>
+        <name>Display_Price_With_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Price --></label>
+        <name>Display_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor Partner Id --></label>
+        <name>DistributorPartnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Download Speed (Mbps) --></label>
+        <name>Download_Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSO Details --></label>
+        <name>FSO_Details__c</name>
+        <relationshipLabel><!-- Order Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FSO ID --></label>
+        <name>FSO_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- GL Segment --></label>
+        <name>GL_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- HNS Location ID --></label>
+        <name>HNS_Location_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has FSO Id --></label>
+        <name>Has_FSO_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Postal Mail Required for Invoice --></label>
+        <name>Is_Postal_Mail_Required_for_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Account --></label>
+        <name>Location_Account__c</name>
+        <relationshipLabel><!-- Order Offers (Location Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ODU Power --></label>
+        <name>ODU_Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Description --></label>
+        <name>Offer_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Name --></label>
+        <name>Offer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer --></label>
+        <name>Offer__c</name>
+        <relationshipLabel><!-- Order Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OrderStatus --></label>
+        <name>OrderStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Received Date --></label>
+        <name>Order_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PIN --></label>
+        <name>PIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pannel9849 --></label>
+        <name>Pannel9849__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Hour Data Allowance (GB/Month) --></label>
+        <name>Peak_Hour_Data_Allowance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Contract Number --></label>
+        <name>Physical_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Polarization --></label>
+        <name>Polarization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protocol ID --></label>
+        <name>Protocol_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAN --></label>
+        <name>SAN__c</name>
+    </fields>
+    <fields>
+        <label><!-- SP Partner Id --></label>
+        <name>SP_Partner_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Satellite ID --></label>
+        <name>Satellite_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Customer ID --></label>
+        <name>Source_Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Data Allowance (GB/Month) --></label>
+        <name>Total_Data_Allowance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transport Name --></label>
+        <name>Transport_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upload Speed (Mbps) --></label>
+        <name>Upload_Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- WORK_FLOW_FOR_123__c --></label>
+        <name>WORK_FLOW_FOR_123_c__c</name>
+    </fields>
+    <layouts>
+        <layout>Brazil Location Order Offer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Service Offer Details --></label>
+            <section>Service Offer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Terminal Details --></label>
+            <section>Terminal Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Offer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

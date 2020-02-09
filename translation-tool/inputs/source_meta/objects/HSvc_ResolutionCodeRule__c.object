@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether Resolution Code is Active or not</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AllowCaseClosure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked, and if selected by CSR then Case should be auto-closed</description>
+        <externalId>false</externalId>
+        <label>Close Case on Save</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseRecordType__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Record Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>B2B General Case</fullName>
+                    <default>false</default>
+                    <label>B2B General Case</label>
+                </value>
+                <value>
+                    <fullName>B2C General Case</fullName>
+                    <default>false</default>
+                    <label>B2C General Case</label>
+                </value>
+                <value>
+                    <fullName>Repair Work Order</fullName>
+                    <default>false</default>
+                    <label>Repair Work Order</label>
+                </value>
+                <value>
+                    <fullName>Install Work Order</fullName>
+                    <default>false</default>
+                    <label>Install Work Order</label>
+                </value>
+                <value>
+                    <fullName>RMA</fullName>
+                    <default>false</default>
+                    <label>RMA</label>
+                </value>
+                <value>
+                    <fullName>Business Support Case</fullName>
+                    <default>false</default>
+                    <label>Business Support Case</label>
+                </value>
+                <value>
+                    <fullName>Office Only</fullName>
+                    <default>false</default>
+                    <label>Office Only</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description_Spanish__c</fullName>
+        <externalId>false</externalId>
+        <label>Description (Spanish)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Capture description of the Resolution Code Rule</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EffectiveDate__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExpiryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ExpiryDate__c &lt;  TODAY() , False, True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HSvc_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Country</valueSetName>
+        </valueSet>
+    </fields>
+	<fields>
+        <fullName>Hsvc_DescriptionArgentina__c</fullName>
+        <externalId>false</externalId>
+        <label>Description(Argentina)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_DescriptionChile__c</fullName>
+        <externalId>false</externalId>
+        <label>Description(Chile)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_DescriptionEcuador__c</fullName>
+        <externalId>false</externalId>
+        <label>Description(Ecuador)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hsvc_DescriptionPanama__c</fullName>
+        <externalId>false</externalId>
+        <label>Description(Panama)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Hsvc_DescriptionPeru__c</fullName>
+        <externalId>false</externalId>
+        <label>Description(Peru)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsEffective__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(EffectiveDate__c  &lt;= TODAY() ,  ExpiryDate__c &gt;= TODAY() ), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Effective</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionCodeDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution Code Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionCodeValue__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Resolution Code</label>
+        <referenceTo>HSvc_ListOfValues__c</referenceTo>
+        <relationshipLabel>Resolution Code Rules</relationshipLabel>
+        <relationshipName>Resolution_Code_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sample</fullName>
+                    <default>false</default>
+                    <label>Sample</label>
+                </value>
+                <value>
+                    <fullName>TNF – Cancelled Service</fullName>
+                    <default>false</default>
+                    <label>TNF – Cancelled Service</label>
+                </value>
+                <value>
+                    <fullName>TNF – Customer Accepted</fullName>
+                    <default>false</default>
+                    <label>TNF – Customer Accepted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resolution_Description_Formula__c</fullName>
+        <description>Description based on language</description>
+        <externalId>false</externalId>
+        <formula>CASE($Label.Current_Language_Key,&apos;es_CO&apos;, IF(ISBLANK( Description_Spanish__c ), Description__c ,Description_Spanish__c) ,&apos;es_PA&apos;, IF(ISBLANK( Hsvc_DescriptionPanama__c ), Description__c ,Hsvc_DescriptionPanama__c) ,&apos;es_PE&apos;, IF(ISBLANK( Hsvc_DescriptionPeru__c ), Description__c ,Hsvc_DescriptionPeru__c) ,&apos;es_EC&apos;, IF(ISBLANK( Hsvc_DescriptionEcuador__c ), Description__c ,Hsvc_DescriptionEcuador__c) ,&apos;es_CL&apos;, IF(ISBLANK( Hsvc_DescriptionChile__c ), Description__c ,Hsvc_DescriptionChile__c) ,&apos;es_AR&apos;, IF(ISBLANK( Hsvc_DescriptionArgentina__c ), Description__c ,Hsvc_DescriptionArgentina__c) , Description__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YAHS_DefaultforRecordType__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Default for Record Type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ZeroOutageFlag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked, this resolution code, if selected by CSR on a case will NOT count towards calculating Outage time</description>
+        <externalId>false</externalId>
+        <label>Zero Outage Flag</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Resolution Code Rule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CaseRecordType__c</columns>
+        <columns>Description__c</columns>
+        <columns>Description_Spanish__c</columns>
+        <columns>Active__c</columns>
+        <columns>AllowCaseClosure__c</columns>
+        <columns>ZeroOutageFlag__c</columns>
+        <columns>EffectiveDate__c</columns>
+        <columns>ExpiryDate__c</columns>
+        <columns>HSvc_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Resolution Code Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Resolution Code Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CaseRecordType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AllowCaseClosure__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ZeroOutageFlag__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExpiryDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HSvc_Active__c</customTabListAdditionalFields>
+        <listViewButtons>Hsvc_Data_Admin</listViewButtons>
+        <lookupDialogsAdditionalFields>CaseRecordType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Resolution_Description_Formula__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HSvc_Country__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Description__c</lookupFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Description__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ExpiryDateCannotBeSetUpInPast</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the expiry date is set in future and is greater that the effective date</description>
+        <errorConditionFormula>OR(ExpiryDate__c &lt; TODAY(),ExpiryDate__c &lt; EffectiveDate__c)</errorConditionFormula>
+        <errorDisplayField>ExpiryDate__c</errorDisplayField>
+        <errorMessage>Expiry Date cannot be set in past and cannot be less than the effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Hsvc_Data_Admin</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Data Admin</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/support/console/31.0/integration.js&quot;)} 
+sforce.console.refreshNavigationTab();</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>API_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Org_Name__c</fullName>
+        <description>The name of the program where this is being used</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The name of the program where this is being used</inlineHelpText>
+        <label>Org Name</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NAD</fullName>
+                    <default>true</default>
+                    <label>NAD</label>
+                </value>
+                <value>
+                    <fullName>YAH</fullName>
+                    <default>false</default>
+                    <label>YAH</label>
+                </value>
+                <value>
+                    <fullName>HON</fullName>
+                    <default>false</default>
+                    <label>HON</label>
+                </value>
+                <value>
+                    <fullName>SA</fullName>
+                    <default>false</default>
+                    <label>SA</label>
+                </value>
+                <value>
+                    <fullName>BRA</fullName>
+                    <default>false</default>
+                    <label>BRA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Transaction_Code__c</fullName>
+        <description>The Transaction Code for which you wish to configure editable fields</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Transaction Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transaction_Reason__c</fullName>
+        <description>The combination of Transaction Code and Reason allows us to configure the editable fields on the account transaction history UI</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Select the reason for the Account transaction code. For the combination of Code + Reason, we have the &quot;API name&quot; field editable</inlineHelpText>
+        <label>Transaction Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Updateable Fields On Account Transaction</label>
+    <pluralLabel>Updateable Fields On Account Transaction</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

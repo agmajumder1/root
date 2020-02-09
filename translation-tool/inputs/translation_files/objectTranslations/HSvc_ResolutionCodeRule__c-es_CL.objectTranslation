@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regla del Código de Resolución</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regla del Código de Resolución</value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label>Cerrar Caso al Guardar</label>
+        <name>AllowCaseClosure__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Registro del Caso</label>
+        <name>CaseRecordType__c</name>
+        <picklistValues>
+            <masterLabel>B2B General Case</masterLabel>
+            <translation>B2B General Case</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C General Case</masterLabel>
+            <translation>B2C General Case</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Support Case</masterLabel>
+            <translation>Caso de Soporte de Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Work Order</masterLabel>
+            <translation>Orden de Trabajo Instalación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Only</masterLabel>
+            <translation>Solo Oficina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation>Autorización de Retorno de Mercancía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Work Order</masterLabel>
+            <translation>Repair Work Order</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción (Español)</label>
+        <name>Description_Spanish__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>Fecha Efectiva</label>
+        <name>EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de Vencimiento</label>
+        <name>ExpiryDate__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>HSvc_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>HSvc_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description(Chile) --></label>
+        <name>Hsvc_DescriptionChile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description(Ecuador) --></label>
+        <name>Hsvc_DescriptionEcuador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description(Panama) --></label>
+        <name>Hsvc_DescriptionPanama__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description(Peru) --></label>
+        <name>Hsvc_DescriptionPeru__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Effective --></label>
+        <name>IsEffective__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code Description --></label>
+        <name>ResolutionCodeDescription__c</name>
+    </fields>
+    <fields>
+        <label>Código de Resolución</label>
+        <name>ResolutionCodeValue__c</name>
+        <relationshipLabel><!-- Resolution Code Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Código de Resolución</label>
+        <name>ResolutionCode__c</name>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNF – Cancelled Service</masterLabel>
+            <translation><!-- TNF – Cancelled Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNF – Customer Accepted</masterLabel>
+            <translation><!-- TNF – Customer Accepted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>Resolution_Description_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default for Record Type --></label>
+        <name>YAHS_DefaultforRecordType__c</name>
+    </fields>
+    <fields>
+        <label>Indicador de Cero Interrupción</label>
+        <name>ZeroOutageFlag__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>HSvc_ResolutionCodeRule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Código de Resolución - Nombre</nameFieldLabel>
+    <validationRules>
+        <errorMessage>No se puede establecer una fecha de vencimiento anterior y no puede ser menor a la fecha efectiva.</errorMessage>
+        <name>ExpiryDateCannotBeSetUpInPast</name>
+    </validationRules>
+    <webLinks>
+        <label>Administración de Datos</label>
+        <name>Hsvc_Data_Admin</name>
+    </webLinks>
+</CustomObjectTranslation>

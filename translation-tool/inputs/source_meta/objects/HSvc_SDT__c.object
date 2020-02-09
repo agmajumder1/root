@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ActivationDate__c</fullName>
+        <description>Terminal Activation date</description>
+        <externalId>false</externalId>
+        <label>Activation Date</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AdapterType__c</fullName>
+        <description>HW type of the terminal</description>
+        <externalId>false</externalId>
+        <label>Adapter Type</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AntennaSize__c</fullName>
+        <description>Specifies the antenna size of the terminal (Eg: 0.74)</description>
+        <externalId>false</externalId>
+        <label>Antenna Size</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>SDT</relationshipLabel>
+        <relationshipName>SDT</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BeamID__c</fullName>
+        <description>Specifies the beam number associated with the terminal</description>
+        <externalId>false</externalId>
+        <label>BeamID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CDLDev__c</fullName>
+        <description>Current – DL deviation</description>
+        <externalId>false</externalId>
+        <label>C DL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CDLEsNo__c</fullName>
+        <description>Current – DL EsNo</description>
+        <externalId>false</externalId>
+        <label>C DL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CFECSymbolrt__c</fullName>
+        <description>Current – FEC Symbol rate</description>
+        <externalId>false</externalId>
+        <label>C FEC Symbol rt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CMODCOD__c</fullName>
+        <description>Current – MODCOD</description>
+        <externalId>false</externalId>
+        <label>C MODCOD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>COperatingULEsno__c</fullName>
+        <description>Current – operating UL EsNo</description>
+        <externalId>false</externalId>
+        <label>C Operating ULEsno</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPktLosspct__c</fullName>
+        <description>Current – packet loss percentage</description>
+        <externalId>false</externalId>
+        <label>C Pkt Loss pct</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CROStatus__c</fullName>
+        <description>CRO status(Ok/Unknown/Degraded/Name of CRO in red)</description>
+        <externalId>false</externalId>
+        <label>CRO Status</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CTimestamp__c</fullName>
+        <description>Timestamp associated with the current values available for the terminal</description>
+        <externalId>false</externalId>
+        <label>C Timestamp</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CULDev__c</fullName>
+        <description>Current – UL deviation</description>
+        <externalId>false</externalId>
+        <label>C UL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CULEsNoAvail__c</fullName>
+        <description>Current – UL Available EsNo</description>
+        <externalId>false</externalId>
+        <label>C ULEsNo Avail</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CULMargin__c</fullName>
+        <description>Current – UL Margin</description>
+        <externalId>false</externalId>
+        <label>C UL Margin</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Activity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case Activity</label>
+        <referenceTo>Hsvc_CaseActivity__c</referenceTo>
+        <relationshipLabel>SDT</relationshipLabel>
+        <relationshipName>SDT</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Number</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>SDT</relationshipLabel>
+        <relationshipName>SDT</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>DDLDev__c</fullName>
+        <description>Difference between target and current DL deviation</description>
+        <externalId>false</externalId>
+        <label>D DL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DDLEsNo__c</fullName>
+        <description>Difference between target and current DL EsNo</description>
+        <externalId>false</externalId>
+        <label>D DL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DFECSymbolrt__c</fullName>
+        <description>Difference between target and current FEC Symbol rate</description>
+        <externalId>false</externalId>
+        <label>D FEC Symbol rt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DIAGNOSISIDX__c</fullName>
+        <description>Each diagnosis will be associated with a specific diagnosis index.E.g.: 2</description>
+        <externalId>false</externalId>
+        <label>DIAGNOSIS IDX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DLAttenOffset__c</fullName>
+        <description>DL attenuation offset</description>
+        <externalId>false</externalId>
+        <label>DL Atten Offset</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DLAtten__c</fullName>
+        <description>DL attenuation</description>
+        <externalId>false</externalId>
+        <label>DL Atten</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DMODCOD__c</fullName>
+        <description>Difference between target and current MODCOD</description>
+        <externalId>false</externalId>
+        <label>D MODCOD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DOperatingULEsno__c</fullName>
+        <description>Difference between target and current operating UL EsNo</description>
+        <externalId>false</externalId>
+        <label>D Operating ULEsno</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DPktLosspct__c</fullName>
+        <description>Difference between target and current packet loss percentage</description>
+        <externalId>false</externalId>
+        <label>D Pkt Loss pct</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DTimestamp__c</fullName>
+        <description>NULL</description>
+        <externalId>false</externalId>
+        <label>D Timestamp</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DULDev__c</fullName>
+        <description>Difference between target and current UL deviation</description>
+        <externalId>false</externalId>
+        <label>D UL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DULEsNoAvail__c</fullName>
+        <description>Difference between target and current UL Available EsNo</description>
+        <externalId>false</externalId>
+        <label>D ULEsNo Avail</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DULMargin__c</fullName>
+        <description>Difference between target and current UL Margin</description>
+        <externalId>false</externalId>
+        <label>D UL Margin</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DiagnosisMessage__c</fullName>
+        <description>Information on failures</description>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DiagnosisSuccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates if the calls were successful</description>
+        <externalId>false</externalId>
+        <label>Success</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Diagnosis__c</fullName>
+        <description>Current diagnosis of the terminal</description>
+        <externalId>false</externalId>
+        <label>Diagnosis</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ESN__c</fullName>
+        <description>Electronic serial number of the terminal</description>
+        <externalId>false</externalId>
+        <label>ESN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GWID__c</fullName>
+        <description>Specifies the Gateway ID associated with the terminal</description>
+        <externalId>false</externalId>
+        <label>GW ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HDLDev__c</fullName>
+        <description>History – DL deviation</description>
+        <externalId>false</externalId>
+        <label>H DL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HDLEsNo__c</fullName>
+        <description>History – DL EsNo</description>
+        <externalId>false</externalId>
+        <label>H DL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HFECSymbolrt__c</fullName>
+        <description>History – FEC Symbol rate</description>
+        <externalId>false</externalId>
+        <label>H FEC Symbol rt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HMODCOD__c</fullName>
+        <description>History – MODCOD</description>
+        <externalId>false</externalId>
+        <label>H MODCOD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HOperatingULEsno__c</fullName>
+        <description>NULL</description>
+        <externalId>false</externalId>
+        <label>H Operating ULEsno</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HPktLosspct__c</fullName>
+        <description>History – packet loss percentage</description>
+        <externalId>false</externalId>
+        <label>H Pkt Loss pct</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HTimestamp__c</fullName>
+        <description>Timestamp associated with the history values available for the terminal</description>
+        <externalId>false</externalId>
+        <label>H Timestamp</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HULDev__c</fullName>
+        <description>History – UL deviation</description>
+        <externalId>false</externalId>
+        <label>H UL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HULEsNoAvail__c</fullName>
+        <description>History – UL Available EsNo</description>
+        <externalId>false</externalId>
+        <label>H ULEsNo Avail</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HULMargin__c</fullName>
+        <description>NULL</description>
+        <externalId>false</externalId>
+        <label>H UL Margin</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IGMStatus__c</fullName>
+        <description>CRO status(Ok/Unknown/Degraded/Name of IGMs in red)</description>
+        <externalId>false</externalId>
+        <label>IGM Status</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IPGWStatus__c</fullName>
+        <description>IPGW status</description>
+        <externalId>false</externalId>
+        <label>IPGW Status</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ISTruckroll__c</fullName>
+        <description>Yes – A truck roll is required; No – No dispatch is required as per recommendations</description>
+        <externalId>false</externalId>
+        <label>IS Truckroll</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastProcessedDate__c</fullName>
+        <description>Latest terminal stats processed date</description>
+        <externalId>false</externalId>
+        <label>Last Processed Date</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastRebootDate__c</fullName>
+        <description>Last reboot time of the terminal</description>
+        <externalId>false</externalId>
+        <label>Last Reboot Date</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastRebootReason__c</fullName>
+        <description>Reason for last reboot of the modem</description>
+        <externalId>false</externalId>
+        <label>Last Reboot Reason</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lat__c</fullName>
+        <description>Specifies the Latitude of the terminal (different from the order latitude).</description>
+        <externalId>false</externalId>
+        <label>Lat</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lng__c</fullName>
+        <description>Specifies the Longitude of the terminal (different from the order Longitude).</description>
+        <externalId>false</externalId>
+        <label>Lng</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Message__c</fullName>
+        <description>Information on failures</description>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ModemTemp__c</fullName>
+        <description>Temperature of the modem</description>
+        <externalId>false</externalId>
+        <label>Modem Temp</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NormDLEsNo__c</fullName>
+        <description>Normalized DL Esno</description>
+        <externalId>false</externalId>
+        <label>Norm DL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NormULEsNo__c</fullName>
+        <description>Normalized UL Esno</description>
+        <externalId>false</externalId>
+        <label>Norm UL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ODUPwr__c</fullName>
+        <description>Specifies the ODU power</description>
+        <externalId>false</externalId>
+        <label>ODU Pwr</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ODUSN__c</fullName>
+        <description>Radio serial number</description>
+        <externalId>false</externalId>
+        <label>ODU SN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverallGWStatus__c</fullName>
+        <description>Gateway status(Ok/Unknown/Degraded)</description>
+        <externalId>false</externalId>
+        <label>Overall GW Status</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Polarization__c</fullName>
+        <description>Polarization Eg 2</description>
+        <externalId>false</externalId>
+        <label>Polarization</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RECOMMIDX__c</fullName>
+        <description>Each recommended action will be associated with a specific recommendation index.E.g.: 28</description>
+        <externalId>false</externalId>
+        <label>RECOMM IDX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RTDLEsNoOffset__c</fullName>
+        <description>Realtime DL Es/No offset</description>
+        <externalId>false</externalId>
+        <label>RT  DL EsNo Offset</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RTULEsNoOffset__c</fullName>
+        <description>Realtime UL Es/No offset</description>
+        <externalId>false</externalId>
+        <label>RT  UL EsNo Offset</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecommendedAction__c</fullName>
+        <description>Recommended action based on the current diagnosis</description>
+        <externalId>false</externalId>
+        <label>Recommended Action</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAN__c</fullName>
+        <description>The value of this field is the Device ID</description>
+        <externalId>false</externalId>
+        <label>SAN</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SWVersion__c</fullName>
+        <description>Software version of the terminal</description>
+        <externalId>false</externalId>
+        <label>SW Version</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ServiceProfile__c</fullName>
+        <description>Service Profile associated with the terminal.</description>
+        <externalId>false</externalId>
+        <label>Service Profile</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SiteTempF__c</fullName>
+        <description>Site temperature. Eg 71F</description>
+        <externalId>false</externalId>
+        <label>Site Temp F</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Siterainfalllasthr__c</fullName>
+        <description>Rainfall in the last hour Eg 1”</description>
+        <externalId>false</externalId>
+        <label>Site rainfall lasthr</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sitevisibility__c</fullName>
+        <description>Visibility in miles. Eg 10 Miles</description>
+        <externalId>false</externalId>
+        <label>Site visibility</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Siteweather__c</fullName>
+        <description>Site weather condition. Eg: Clear</description>
+        <externalId>false</externalId>
+        <label>Site weather</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StatusMessage__c</fullName>
+        <description>Displays status of terminal commands issued on the terminal</description>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Success__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates if the calls were successful</description>
+        <externalId>false</externalId>
+        <label>Success</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TDLDev__c</fullName>
+        <description>Target – DL deviation</description>
+        <externalId>false</externalId>
+        <label>T DL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TDLEsNo__c</fullName>
+        <description>Target – DL EsNo</description>
+        <externalId>false</externalId>
+        <label>T DL EsNo</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TFECSymbolrt__c</fullName>
+        <description>Target – FEC Symbol rate</description>
+        <externalId>false</externalId>
+        <label>T FEC Symbol rt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TMODCOD__c</fullName>
+        <description>Target – MODCOD</description>
+        <externalId>false</externalId>
+        <label>T MODCOD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TOperatingULEsno__c</fullName>
+        <description>Target – operating UL EsNo</description>
+        <externalId>false</externalId>
+        <label>T Operating ULEsno</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TPktLosspct__c</fullName>
+        <description>Target – packet loss percentage</description>
+        <externalId>false</externalId>
+        <label>T Pkt Loss pct</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TTimestamp__c</fullName>
+        <description>NULL</description>
+        <externalId>false</externalId>
+        <label>T Timestamp</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TULDev__c</fullName>
+        <description>Target – UL deviation</description>
+        <externalId>false</externalId>
+        <label>T UL Dev</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TULEsNoAvail__c</fullName>
+        <description>Target – UL Available EsNo</description>
+        <externalId>false</externalId>
+        <label>T ULEsNo Avail</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TULMargin__c</fullName>
+        <description>Target – UL Margin</description>
+        <externalId>false</externalId>
+        <label>T UL Margin</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TerminalStateCode__c</fullName>
+        <description>Terminal state code of the terminal</description>
+        <externalId>false</externalId>
+        <label>Terminal State Code</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ULAttenOffset__c</fullName>
+        <description>UL attenuation offset</description>
+        <externalId>false</externalId>
+        <label>UL Atten Offset</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ULAtten__c</fullName>
+        <description>UL attenuation</description>
+        <externalId>false</externalId>
+        <label>UL Atten</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ULDLGroup__c</fullName>
+        <description>Gives the associated IGM and outroute name of the terminal.Eg: SLC39HNSIGM05B1L/B39WB16</description>
+        <externalId>false</externalId>
+        <label>ULDL Group</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warning__c</fullName>
+        <description>Warning messages</description>
+        <externalId>false</externalId>
+        <label>Warning</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WeatherMessage__c</fullName>
+        <description>Information on failures</description>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WeatherSuccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates if the calls were successful</description>
+        <externalId>false</externalId>
+        <label>Success</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>gwTempF__c</fullName>
+        <description>Temperature at the gateway. Eg 71F</description>
+        <externalId>false</externalId>
+        <label>gw Temp F</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gwrainfalllasthr__c</fullName>
+        <description>Rainfall in the last hour at the gateway Eg 1”</description>
+        <externalId>false</externalId>
+        <label>gw rainfall lasthr</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gwvisibility__c</fullName>
+        <description>Visibility in miles at the gateway. Eg 10 Miles</description>
+        <externalId>false</externalId>
+        <label>gw visibility</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gwweather__c</fullName>
+        <description>Weather condition at the gateway. Eg: Clear</description>
+        <externalId>false</externalId>
+        <label>gw weather</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>SDT</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SDT-{0000}</displayFormat>
+        <label>SDT ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>SDT</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

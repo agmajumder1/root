@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Order_Offer_Detail</fullName>
+        <description>Order Management Pages</description>
+        <displayedFields>
+            <field>SAN__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Order_ID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.LastName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.FirstName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.Phone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.MobilePhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Contact__r.SMS_Enable_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.BillingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.BillingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.BillingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.BillingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.BillingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Billing_Neighborhood__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Billing_Complement__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Business_Model__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Document_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Document_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Document_Expiry_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Document_Issue_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Trade_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Municipal_Registry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.State_Registry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Activity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Company_Account__r.Payment_Method__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Location_Account__r.Complement__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Offer_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Total_Data_Allowance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Upload_Speed__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Bonus_Bytes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Offer__r.Anytime_Bytes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Peak_Hour_Data_Allowance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Display_Price__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Download_Speed__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Case__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Action__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Protocol_ID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Cancel_Reason_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Cancel_Reason_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Cancel_Notes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CBC_ID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Order Offer Detail</label>
+    </fieldSets>
+    <fields>
+        <fullName>Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Upgrade</fullName>
+                    <default>false</default>
+                    <label>Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+                <value>
+                    <fullName>Modify</fullName>
+                    <default>false</default>
+                    <label>Modify</label>
+                </value>
+                <value>
+                    <fullName>Terminate</fullName>
+                    <default>false</default>
+                    <label>Terminate</label>
+                </value>
+                <value>
+                    <fullName>Repair</fullName>
+                    <default>false</default>
+                    <label>Repair</label>
+                </value>
+                <value>
+                    <fullName>Seasonal Suspension</fullName>
+                    <default>false</default>
+                    <label>Seasonal Suspension</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Add_On_Upfront_Fee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Add On Upfront Fee</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Antenna_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Antenna Size</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Availibility__c</fullName>
+        <externalId>false</externalId>
+        <label>Availability</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Band__c</fullName>
+        <externalId>false</externalId>
+        <label>Band</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Beam_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Beam ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bonus_Bytes__c</fullName>
+        <externalId>false</externalId>
+        <label>Bonus Bytes (2am - 8am) (GB/Month)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Model</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ConsumerVAR</fullName>
+                    <default>false</default>
+                    <label>ConsumerVAR</label>
+                </value>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>true</default>
+                    <label>Residential</label>
+                </value>
+                <value>
+                    <fullName>SOHO</fullName>
+                    <default>false</default>
+                    <label>SME</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CBC_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancel_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancel Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancel_Reason_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancel Reason Code</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancel_Reason_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancel Reason Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Order Offers</relationshipLabel>
+        <relationshipName>Order_Offers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Order Offers</relationshipLabel>
+        <relationshipName>Order_Offers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustReq_InstRep_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Req Install/Repair Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Company_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Company Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Order Offers</relationshipLabel>
+        <relationshipName>Order_Offers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Order_ID__c</fullName>
+        <displayFormat>2{0000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Customer Order ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>DSS_Order_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>DSS Order ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSS_Program_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>DSS Program Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Allowance_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Allowance Manager</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Price_With_Tax__c</fullName>
+        <externalId>false</externalId>
+        <label>Display Price With Tax</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Display_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Display Price</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DistributorPartnerId__c</fullName>
+        <externalId>false</externalId>
+        <label>Distributor Partner Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Download_Speed__c</fullName>
+        <externalId>false</externalId>
+        <label>Download Speed (Mbps)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSO_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>FSO Details</label>
+        <length>10</length>
+        <referenceTo>HNSSERVICEORDERVIEW__x</referenceTo>
+        <relationshipLabel>Order Offers</relationshipLabel>
+        <relationshipName>Order_Offers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>ExternalLookup</type>
+    </fields>
+    <fields>
+        <fullName>FSO_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>FSO ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GL_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>GL Segment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HNS_Location_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>HNS Location ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Has_FSO_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(ISNULL(FSO_ID__c ),ISBLANK(FSO_ID__c )),&apos;false&apos;,&apos;true&apos;)</formula>
+        <label>Has FSO Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked, indicates if the Order Offer is the latest order offer for the SAN.</description>
+        <externalId>false</externalId>
+        <label>Is Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Postal_Mail_Required_for_Invoice__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Postal Mail Required for Invoice</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Location_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Location Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Order Offers (Location Account)</relationshipLabel>
+        <relationshipName>Order_Offers1</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ODU_Power__c</fullName>
+        <externalId>false</externalId>
+        <label>ODU Power</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Offer</label>
+        <referenceTo>Offers__c</referenceTo>
+        <relationshipLabel>Order Offers</relationshipLabel>
+        <relationshipName>Order_Offers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( 
+OR( 
+OR( ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Active&apos;), ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Delinquent&apos;)), 
+OR( ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Seasonal Suspended&apos;) , ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Locked&apos;))), 
+OR(ISPICKVAL(Action__c , &apos;Terminate&apos;), NOT(ISNULL( Location_Account__r.Termination_Effective_Date__c)))), 
+&apos;Termination Pending&apos;,
+IF(AND( 
+OR( ISPICKVAL(Location_Account__r.Location_Status__c, &apos;&apos;), ISPICKVAL(Location_Account__r.Location_Status__c, &apos;Pending&apos;)), 
+    ISPICKVAL(Action__c , &apos;Modify&apos;)), 
+  &apos;Pending&apos;, 
+IF(AND( 
+ ISPICKVAL(Location_Account__r.Location_Status__c, &apos;&apos;), 
+ ISPICKVAL(Action__c ,&apos;New&apos;)), 
+ &apos;Incomplete&apos;,
+IF(AND( 
+ ISPICKVAL(Location_Account__r.Location_Status__c, &apos;Pending&apos;), 
+ ISPICKVAL(Action__c ,&apos;New&apos;)), 
+ &apos;Pending&apos;,
+IF(AND 
+(OR( ISPICKVAL(Location_Account__r.Location_Status__c, &apos;&apos;), ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Pending&apos;)) , 
+(ISPICKVAL(Action__c ,&apos;Cancel&apos;) )) , 
+&apos;Cancel Pending&apos;, 
+IF( 
+(ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Canceled&apos;)), 
+&apos;Canceled&apos;,  
+IF( 
+( ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Inactive&apos;)), 
+&apos;Terminated&apos;, 
+IF( 
+AND( 
+(ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Active&apos;)), 
+OR(ISPICKVAL(Action__c ,&apos;Modify&apos;) ,ISPICKVAL(Action__c , &apos;Upgrade&apos;),ISPICKVAL(Action__c , &apos;New&apos;)) ), 
+&apos;Active&apos;, 
+IF( 
+AND(( ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Seasonal Suspended&apos;)), 
+OR(ISPICKVAL(Action__c ,&apos;Modify&apos;) , ISPICKVAL(Action__c ,&apos;Upgrade&apos;),ISPICKVAL(Action__c , &apos;New&apos;))), 
+&apos;Seasonal Suspended&apos;, 
+IF( 
+AND( 
+(ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Delinquent&apos;)), 
+OR(ISPICKVAL(Action__c , &apos;Modify&apos;) , 
+ISPICKVAL(Action__c ,&apos;Upgrade&apos;),ISPICKVAL(Action__c , &apos;New&apos;))), 
+&apos;Delinquent&apos;, 
+IF( 
+AND( 
+(ISPICKVAL(Location_Account__r.Location_Status__c,&apos;Locked&apos;)), 
+OR(ISPICKVAL(Action__c ,&apos;Modify&apos;), 
+ISPICKVAL(Action__c ,&apos;Upgrade&apos;),ISPICKVAL(Action__c , &apos;New&apos;))), 
+&apos;Locked&apos;,&apos;None&apos;)))))))))))</formula>
+        <label>OrderStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Received Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PIN__c</fullName>
+        <externalId>false</externalId>
+        <label>PIN</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pannel9849__c</fullName>
+        <description>##Conga created btn:00bS0000000NprF</description>
+        <externalId>false</externalId>
+        <formula>&quot;&amp;id=&quot; + Id +
+&quot;&amp;templateid=00PS0000001Po7l&quot; + 
+&quot;&amp;qmode=SendEmail&quot;</formula>
+        <label>Pannel9849</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Peak_Hour_Data_Allowance__c</fullName>
+        <externalId>false</externalId>
+        <label>Peak Hour Data Allowance (GB/Month)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physical_Contract_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Physical Contract Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Polarization__c</fullName>
+        <externalId>false</externalId>
+        <label>Polarization</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Protocol_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Protocol ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAN__c</fullName>
+        <externalId>false</externalId>
+        <formula>Location_Account__r.SAN__c</formula>
+        <label>SAN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SP_Partner_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>SP Partner Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Satellite_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Satellite ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Customer_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Customer ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Data_Allowance__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Data Allowance (GB/Month)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transport_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Transport Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upload_Speed__c</fullName>
+        <externalId>false</externalId>
+        <label>Upload Speed (Mbps)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WORK_FLOW_FOR_123_c__c</fullName>
+        <description>##Conga created btn:00bS0000000NprF</description>
+        <externalId>false</externalId>
+        <formula>null</formula>
+        <label>WORK_FLOW_FOR_123__c</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Order Offer</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Action__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Business_Model__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>ORDOFR - {0000000000}</displayFormat>
+        <label>Order Offer Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Order Offers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
