@@ -62,15 +62,15 @@ for fn in files:
 				transapinamelist = []
 				transvalnamelist = []
 
-				for transapi in root.findall("./{http://soap.sforce.com/2006/04/metadata}picklistValues"):
-						if transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel") is not None:	
-							if transapi.find("{http://soap.sforce.com/2006/04/metadata}translation") is not None:
-							#print(transapi.find("{http://soap.sforce.com/2006/04/metadata}name").text)
-								transapinamelist.append(transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel").text)
-								print(transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel").text)
-				#for val in root.findall("./{http://soap.sforce.com/2006/04/metadata}fields/{http://soap.sforce.com/2006/04/metadata}"):
-								transvalnamelist.append(transapi.find("{http://soap.sforce.com/2006/04/metadata}translation").text)
-								print(transapi.find("{http://soap.sforce.com/2006/04/metadata}translation").text)
+				for transapi in root.findall(".//{http://soap.sforce.com/2006/04/metadata}picklistValues"):
+					if transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel") is not None:	
+						if transapi.find("{http://soap.sforce.com/2006/04/metadata}translation") is not None:
+						#print(transapi.find("{http://soap.sforce.com/2006/04/metadata}name").text)
+							transapinamelist.append(transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel").text)
+							#print(transapi.find("{http://soap.sforce.com/2006/04/metadata}masterLabel").text)
+			#for val in root.findall("./{http://soap.sforce.com/2006/04/metadata}fields/{http://soap.sforce.com/2006/04/metadata}"):
+							transvalnamelist.append(transapi.find("{http://soap.sforce.com/2006/04/metadata}translation").text)
+							#print(transapi.find("{http://soap.sforce.com/2006/04/metadata}translation").text)
 
 				#for transapi in root.findall('.//{http://soap.sforce.com/2006/04/metadata}name'):
 				#	transapiname = transapi.text
