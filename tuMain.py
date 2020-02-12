@@ -4,7 +4,7 @@ print("=========================================================================
 print("===================  Welcome to Translation Utility Accelerator  ===================")
 print("====================================================================================")
 print("==                                                                                ==")
-print("== Tranlation Utility is a tool / accelerator that helps in comparing translable  ==")
+print("== Tranlation Utility is a tool / accelerator that helps in comparing translatable==")
 print("== Salesforce metadata and checking them against the respective translation files ==")
 print("== in the local repository. The outputs are in csv format files giving details of ==")
 print("== translation filename, the API name of the metadata and the Error which gives   ==")
