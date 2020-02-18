@@ -10,9 +10,12 @@ Branch storing the translation utility files
 
 Steps to use the translation tool
 1. Place metadata files in following order : 
-	a. Store the metadata files in the proper folder under inputs/source_meta folder
-	b. Store the translation metadata files in the proper folder under inputs/translation_files folder
-2. Start command prompt from the C:/BuildHughes/translation-tool/ folder
+	a. Delete existing dummy "files" in the inputs and output folder. Do not modify file structure or file names.
+	b. Store the metadata files in the proper folder under inputs/source_meta folder.
+	c. Store the translation metadata files in the proper folder under inputs/translation_files folder.
+2. Start command prompt from the C:/BuildHughes/translation-tool/ folder.
 3. Type -->python tuMain.py
-4. Follow the instructions on screen
-5. Desired output of translation comparison is stored in output folder in respective metadata folder 
+4. Follow the instructions on screen.
+5. Desired output of translation comparison is stored in output folder in respective metadata folder.
+
+For any queries please reach out to aguhamajumder@deloitte.com
