@@ -1,9 +1,13 @@
+# Created Date : 10/2/2020
+# Created By : Ashin Guha Majumder
+# Sub Module of Translation Utility tool to check translation for validation Error Messages.
+
 import os
 import csv
 import xml.etree.ElementTree as ET
 from codecs import open
 
-#READING CUSTOM LABELS FILE
+#READING SRC FILE
 path = 'C:\\BuildHughes\\translation-tool\\inputs\\source_meta\\objects'
 
 files = []
